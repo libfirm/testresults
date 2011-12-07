@@ -1,657 +1,657 @@
-backend/RegallocBug.c                    ok
-backend/alloca.c                         Test return code not zero but 1
-backend/am_explode.c                     ok
-backend/am_possibilities.c               ok
-backend/am_test.c                        ok
-backend/am_test2.c                       ok
-backend/am_test3.c                       ok
-backend/am_test4.c                       ok
-backend/am_test5.c                       ok
-backend/am_test_float.c                  ok
-backend/am_test_float2.c                 ok
-backend/arm_cconv.c                      ok
-backend/arm_immediate.c                  ok
-backend/builtin_clz.c                    ok
-backend/builtin_clzl.c                   ok
-backend/builtin_clzll.c                  ok
-backend/builtin_ctz.c                    ok
-backend/builtin_ctzl.c                   ok
-backend/builtin_ctzll.c                  ok
-backend/builtin_ffs.c                    ok
-backend/builtin_ffsl.c                   ok
-backend/builtin_ffsll.c                  ok
-backend/builtin_parity.c                 ok
-backend/builtin_parityl.c                ok
-backend/builtin_parityll.c               ok
-backend/builtin_popcount.c               ok
-backend/builtin_popcountl.c              ok
-backend/builtin_popcountll.c             ok
-backend/cmovs.c                          ok
-backend/extern_sret.c                    ok
-backend/fdiv.c                           ok
-backend/fehler_mux_am.c                  ok
-backend/flags.c                          ok
-backend/float_ret_sse.c                  ok
-backend/floatset.c                       ok
-backend/inconsistent_outs.c              ok
-backend/initializer_bug.c                ok
-backend/longfunc.c                       ok
-backend/longlongptr.c                    ok
-backend/lower_call.c                     ok
-backend/lower_call2.c                    ok
-backend/lower_call3.c                    ok
-backend/optest.c                         ok
-backend/optest_float.c                   ok
-backend/optest_longlong.c                ok
-backend/paramaddr.c                      ok
-backend/paramaddrsf.c                    ok
-backend/pic_const.c                      ok
-backend/prefetch.c                       ok
-backend/register_pressure.c              ok
-backend/shift64.c                        ok
-backend/sparc_bitopcc.c                  ok
-backend/sparc_immediates.c               ok
-backend/sparc_notconsts.c                ok
-backend/sparc_restorepeepholes.c         ok
-backend/srettaken.c                      ok
-backend/stackarray.c                     ok
-backend/taken64.c                        ok
-backend/tls_ptr.c                        ok
-backend/transform_loop.c                 ok
-opt/20001212-1.c                         ok
-opt/Args.c                               ok
-opt/Arrays.c                             ok
-opt/BinaryOpTest.c                       ok
-opt/BreakTest.c                          ok
-opt/Bucmp.c                              ok
-opt/ByteTest.c                           ok
-opt/CallingTest.c                        ok
-opt/CondExpr.c                           ok
-opt/ContinueTest.c                       ok
-opt/DeclTest.c                           ok
-opt/DivBug.c                             ok
-opt/Do.c                                 ok
-opt/Doit.c                               ok
-opt/Empty.c                              ok
-opt/EmptyFor.c                           ok
-opt/Field.c                              ok
-opt/Float.c                              ok
-opt/ForTest.c                            ok
-opt/GlobalCseTest.c                      ok
-opt/Hanoi.c                              ok
-opt/HeapSort.c                           ok
-opt/HelloWorld.c                         ok
-opt/IfExpr.c                             ok
-opt/Int.c                                ok
-opt/Label.c                              ok
-opt/Local.c                              ok
-opt/LuIs.c                               ok
-opt/MergeSort.c                          ok
-opt/Or.c                                 ok
-opt/Pdg.c                                ok
-opt/Queens.c                             ok
-opt/QuickSort.c                          ok
-opt/Return.c                             ok
-opt/Sieve.c                              ok
-opt/SieveBits.c                          ok
-opt/SimpleExpr.c                         ok
-opt/Strings.c                            ok
-opt/Swap.c                               ok
-opt/Switcher.c                           ok
-opt/Test.c                               ok
-opt/Thilo.c                              ok
-opt/While.c                              ok
-opt/XXEndless.c                          ok
-opt/abs.c                                ok
-opt/adam_putt.c                          ok
-opt/add64.c                              ok
-opt/addn.c                               ok
-opt/addr_test.c                          ok
-opt/alloca.c                             ok
-opt/andtest.c                            ok
-opt/arr_init.c                           ok
-opt/array_type.c                         ok
-opt/backendcallorder.c                   ok
-opt/backendcallorder2.c                  ok
-opt/bad.c                                ok
-opt/bf_constfold.c                       ok
-opt/biggest_prime.c                      ok
-opt/bitfield.c                           ok
-opt/bittest.c                            ok
-opt/bittest2.c                           ok
-opt/bitwise.c                            ok
-opt/blocks.c                             ok
-opt/boolopt.c                            ok
-opt/boolopts.c                           ok
-opt/boolsimplify.c                       ok
-opt/bttest.c                             ok
-opt/callref.c                            ok
-opt/calls.c                              ok
-opt/cfoptbug.c                           ok
-opt/cmp.c                                ok
-opt/cmp2.c                               ok
-opt/cmp_cse.c                            ok
-opt/combo2.c                             ok
+backend/RegallocBug.c                    OSError on execution
+backend/alloca.c                         OSError on execution
+backend/am_explode.c                     OSError on execution
+backend/am_possibilities.c               OSError on execution
+backend/am_test.c                        OSError on execution
+backend/am_test2.c                       OSError on execution
+backend/am_test3.c                       OSError on execution
+backend/am_test4.c                       OSError on execution
+backend/am_test5.c                       OSError on execution
+backend/am_test_float.c                  OSError on execution
+backend/am_test_float2.c                 OSError on execution
+backend/arm_cconv.c                      OSError on execution
+backend/arm_immediate.c                  OSError on execution
+backend/builtin_clz.c                    OSError on execution
+backend/builtin_clzl.c                   OSError on execution
+backend/builtin_clzll.c                  OSError on execution
+backend/builtin_ctz.c                    OSError on execution
+backend/builtin_ctzl.c                   OSError on execution
+backend/builtin_ctzll.c                  OSError on execution
+backend/builtin_ffs.c                    OSError on execution
+backend/builtin_ffsl.c                   OSError on execution
+backend/builtin_ffsll.c                  OSError on execution
+backend/builtin_parity.c                 OSError on execution
+backend/builtin_parityl.c                OSError on execution
+backend/builtin_parityll.c               OSError on execution
+backend/builtin_popcount.c               OSError on execution
+backend/builtin_popcountl.c              OSError on execution
+backend/builtin_popcountll.c             OSError on execution
+backend/cmovs.c                          OSError on execution
+backend/extern_sret.c                    OSError on execution
+backend/fdiv.c                           OSError on execution
+backend/fehler_mux_am.c                  OSError on execution
+backend/flags.c                          OSError on execution
+backend/float_ret_sse.c                  OSError on execution
+backend/floatset.c                       OSError on execution
+backend/inconsistent_outs.c              OSError on execution
+backend/initializer_bug.c                OSError on execution
+backend/longfunc.c                       OSError on execution
+backend/longlongptr.c                    OSError on execution
+backend/lower_call.c                     OSError on execution
+backend/lower_call2.c                    OSError on execution
+backend/lower_call3.c                    OSError on execution
+backend/optest.c                         OSError on execution
+backend/optest_float.c                   OSError on execution
+backend/optest_longlong.c                OSError on execution
+backend/paramaddr.c                      OSError on execution
+backend/paramaddrsf.c                    OSError on execution
+backend/pic_const.c                      OSError on execution
+backend/prefetch.c                       OSError on execution
+backend/register_pressure.c              OSError on execution
+backend/shift64.c                        OSError on execution
+backend/sparc_bitopcc.c                  OSError on execution
+backend/sparc_immediates.c               OSError on execution
+backend/sparc_notconsts.c                OSError on execution
+backend/sparc_restorepeepholes.c         OSError on execution
+backend/srettaken.c                      OSError on execution
+backend/stackarray.c                     OSError on execution
+backend/taken64.c                        OSError on execution
+backend/tls_ptr.c                        OSError on execution
+backend/transform_loop.c                 OSError on execution
+opt/20001212-1.c                         OSError on execution
+opt/Args.c                               OSError on execution
+opt/Arrays.c                             OSError on execution
+opt/BinaryOpTest.c                       OSError on execution
+opt/BreakTest.c                          OSError on execution
+opt/Bucmp.c                              OSError on execution
+opt/ByteTest.c                           OSError on execution
+opt/CallingTest.c                        OSError on execution
+opt/CondExpr.c                           OSError on execution
+opt/ContinueTest.c                       OSError on execution
+opt/DeclTest.c                           OSError on execution
+opt/DivBug.c                             OSError on execution
+opt/Do.c                                 OSError on execution
+opt/Doit.c                               OSError on execution
+opt/Empty.c                              OSError on execution
+opt/EmptyFor.c                           OSError on execution
+opt/Field.c                              OSError on execution
+opt/Float.c                              OSError on execution
+opt/ForTest.c                            OSError on execution
+opt/GlobalCseTest.c                      OSError on execution
+opt/Hanoi.c                              OSError on execution
+opt/HeapSort.c                           OSError on execution
+opt/HelloWorld.c                         OSError on execution
+opt/IfExpr.c                             OSError on execution
+opt/Int.c                                OSError on execution
+opt/Label.c                              OSError on execution
+opt/Local.c                              OSError on execution
+opt/LuIs.c                               OSError on execution
+opt/MergeSort.c                          OSError on execution
+opt/Or.c                                 OSError on execution
+opt/Pdg.c                                OSError on execution
+opt/Queens.c                             OSError on execution
+opt/QuickSort.c                          OSError on execution
+opt/Return.c                             OSError on execution
+opt/Sieve.c                              OSError on execution
+opt/SieveBits.c                          OSError on execution
+opt/SimpleExpr.c                         OSError on execution
+opt/Strings.c                            OSError on execution
+opt/Swap.c                               OSError on execution
+opt/Switcher.c                           OSError on execution
+opt/Test.c                               OSError on execution
+opt/Thilo.c                              OSError on execution
+opt/While.c                              OSError on execution
+opt/XXEndless.c                          OSError on execution
+opt/abs.c                                OSError on execution
+opt/adam_putt.c                          OSError on execution
+opt/add64.c                              OSError on execution
+opt/addn.c                               OSError on execution
+opt/addr_test.c                          OSError on execution
+opt/alloca.c                             OSError on execution
+opt/andtest.c                            OSError on execution
+opt/arr_init.c                           OSError on execution
+opt/array_type.c                         OSError on execution
+opt/backendcallorder.c                   OSError on execution
+opt/backendcallorder2.c                  OSError on execution
+opt/bad.c                                OSError on execution
+opt/bf_constfold.c                       OSError on execution
+opt/biggest_prime.c                      OSError on execution
+opt/bitfield.c                           OSError on execution
+opt/bittest.c                            OSError on execution
+opt/bittest2.c                           OSError on execution
+opt/bitwise.c                            OSError on execution
+opt/blocks.c                             OSError on execution
+opt/boolopt.c                            OSError on execution
+opt/boolopts.c                           OSError on execution
+opt/boolsimplify.c                       OSError on execution
+opt/bttest.c                             OSError on execution
+opt/callref.c                            OSError on execution
+opt/calls.c                              OSError on execution
+opt/cfoptbug.c                           OSError on execution
+opt/cmp.c                                OSError on execution
+opt/cmp2.c                               OSError on execution
+opt/cmp_cse.c                            OSError on execution
+opt/combo2.c                             OSError on execution
 opt/combo3.c                             compiler: SIGABRT
-opt/combo_comm.c                         ok
-opt/combo_paper.c                        ok
-opt/comboattrs.c                         ok
-opt/compilerhang2.c                      ok
-opt/compilerhang3.c                      Test return code not zero but 1
-opt/compilerhang4.c                      ok
-opt/compilerhang5.c                      ok
-opt/cond.c                               ok
-opt/confirm.c                            ok
-opt/const.c                              ok
-opt/const_load.c                         ok
-opt/conv.c                               ok
-opt/conv_orgie.c                         ok
-opt/convfloat.c                          ok
-opt/convtest.c                           ok
-opt/csetest.c                            ok
-opt/d.c                                  ok
-opt/dblstruct.c                          ok
-opt/deadstores.c                         ok
-opt/delayslot.c                          ok
-opt/distributive.c                       ok
-opt/divs.c                               ok
-opt/divtest.c                            ok
-opt/doms_segfault.c                      ok
-opt/dowhile.c                            ok
-opt/duffs.c                              ok
-opt/dwlower.c                            ok
-opt/endless_phi_cons.c                   ok
-opt/enum.c                               ok
-opt/fabs.c                               ok
-opt/fak.c                                ok
-opt/fastcall.c                           ok
-opt/fbench.c                             ok
-opt/fcall.c                              ok
-opt/fcmp.c                               ok
-opt/fe_bug.c                             ok
-opt/fehler001.c                          ok
-opt/fehler002.c                          ok
-opt/fehler003.c                          ok
-opt/fehler004.c                          ok
-opt/fehler005.c                          ok
-opt/fehler006.c                          ok
-opt/fehler007.c                          ok
-opt/fehler008.c                          ok
-opt/fehler009.c                          ok
-opt/fehler010.c                          ok
-opt/fehler011.c                          ok
-opt/fehler012.c                          ok
-opt/fehler013.c                          ok
-opt/fehler014.c                          ok
-opt/fehler015.c                          ok
-opt/fehler016.c                          ok
-opt/fehler017.c                          ok
-opt/fehler018.c                          ok
-opt/fehler019.c                          ok
-opt/fehler021.c                          ok
-opt/fehler022.c                          ok
-opt/fehler023.c                          ok
-opt/fehler024.c                          ok
-opt/fehler025.c                          ok
-opt/fehler026.c                          ok
-opt/fehler027.c                          ok
-opt/fehler028.c                          ok
-opt/fehler029.c                          ok
-opt/fehler030.c                          ok
-opt/fehler031.c                          ok
-opt/fehler032.c                          ok
-opt/fehler033.c                          ok
-opt/fehler034.c                          ok
-opt/fehler035.c                          ok
-opt/fehler036.c                          ok
-opt/fehler037.c                          ok
-opt/fehler038.c                          ok
-opt/fehler039.c                          ok
-opt/fehler040.c                          ok
-opt/fehler042.c                          ok
-opt/fehler045.c                          ok
-opt/fehler047.c                          ok
-opt/fehler048.c                          ok
-opt/fehler049.c                          ok
-opt/fehler050.c                          ok
-opt/fehler051.c                          ok
-opt/fehler052.c                          ok
-opt/fehler053.c                          ok
-opt/fehler054.c                          ok
-opt/fehler055.c                          ok
-opt/fehler056.c                          ok
-opt/fehler057.c                          ok
-opt/fehler058.c                          ok
-opt/fehler059.c                          Test return code not zero but 1
-opt/fehler060.c                          ok
-opt/fehler061.c                          ok
-opt/fehler062.c                          ok
-opt/fehler063.c                          ok
-opt/fehler064.c                          ok
-opt/fehler065.c                          ok
-opt/fehler066.c                          Test return code not zero but 255
-opt/fehler067.c                          ok
-opt/fehler068.c                          ok
-opt/fehler069.c                          ok
-opt/fehler070.c                          ok
-opt/fehler071.c                          ok
-opt/fehler072.c                          ok
-opt/fehler073.c                          ok
-opt/fehler074.c                          ok
-opt/fehler075.c                          ok
-opt/fehler076.c                          ok
-opt/fehler077.c                          ok
-opt/fehler078.c                          ok
-opt/fehler079.c                          ok
-opt/fehler080.c                          ok
-opt/fehler081.c                          ok
-opt/fehler082.c                          ok
-opt/fehler083.c                          ok
-opt/fehler084.c                          ok
-opt/fehler085.c                          ok
-opt/fehler086.c                          ok
-opt/fehler087.c                          ok
-opt/fehler088.c                          ok
-opt/fehler089.c                          ok
-opt/fehler090.c                          ok
-opt/fehler091.c                          ok
-opt/fehler092.c                          ok
-opt/fehler093.c                          ok
-opt/fehler094.c                          ok
-opt/fehler095.c                          Test return code not zero but 255
-opt/fehler096.c                          ok
-opt/fehler097.c                          ok
-opt/fehler098.c                          ok
-opt/fehler099.c                          ok
-opt/fehler100.c                          ok
-opt/fehler101.c                          execution: SIGSEGV
-opt/fehler102.c                          ok
-opt/fehler103.c                          ok
-opt/fehler105.c                          ok
-opt/fehler106.c                          ok
-opt/fehler107.c                          ok
-opt/fehler108.c                          ok
-opt/fehler109.c                          ok
-opt/fehler110.c                          ok
-opt/fehler112.c                          ok
-opt/fehler113.c                          ok
-opt/fehler114.c                          ok
-opt/fehler115.c                          ok
-opt/fehler116.c                          ok
-opt/fehler117.c                          ok
-opt/fehler118.c                          ok
-opt/fehler119.c                          ok
-opt/fehler120.c                          ok
-opt/fehler121.c                          ok
-opt/fehler122.c                          ok
-opt/fehler123.c                          ok
-opt/fehler124.c                          ok
-opt/fehler125.c                          ok
-opt/fehler126.c                          ok
-opt/fehler127.c                          ok
-opt/fehler128.c                          ok
-opt/fehler129.c                          ok
-opt/fehler130.c                          ok
-opt/fehler135.c                          ok
-opt/fehler136.c                          ok
-opt/fehler137.c                          execution: SIGSEGV
-opt/fehler138.c                          ok
-opt/fehler139.c                          ok
-opt/fehler140.c                          ok
-opt/fehler141.c                          ok
-opt/fehler142.c                          ok
-opt/fehler143.c                          Test return code not zero but 1
-opt/fehler144.c                          ok
-opt/fehler145.c                          ok
-opt/fehler146.c                          ok
-opt/fehler147.c                          ok
-opt/fehler148.c                          ok
-opt/fehler149.c                          ok
-opt/fehler150.c                          ok
-opt/fehler151.c                          Test return code not zero but 1
-opt/fehler152.c                          ok
-opt/fehler153.c                          ok
-opt/fehler154.c                          ok
-opt/fehler155.c                          ok
-opt/fehler157.c                          ok
-opt/fehler158.c                          ok
-opt/fehler159.c                          ok
-opt/fehler160.c                          ok
-opt/fehler161.c                          ok
-opt/fehler162.c                          ok
-opt/fehler163.c                          ok
-opt/fehler164.c                          ok
-opt/fehler165.c                          ok
-opt/fehler166.c                          ok
-opt/fehler167.c                          ok
-opt/fehler168.c                          ok
-opt/fehler169.c                          ok
-opt/fehler170.c                          ok
-opt/fehler171.c                          ok
-opt/fehler172.c                          ok
-opt/fehler173.c                          ok
-opt/fehler174.c                          ok
-opt/fehler175.c                          ok
-opt/fehler176.c                          ok
-opt/fehler177.c                          ok
-opt/fehler178.c                          ok
-opt/fehler179.c                          ok
-opt/fehler180.c                          ok
-opt/fehler181.c                          ok
-opt/fehler182.c                          ok
-opt/fehler183.c                          ok
-opt/fehler184.c                          ok
-opt/fehler186.c                          ok
-opt/fehler187.c                          ok
-opt/fehler188.c                          ok
-opt/fehler189.c                          ok
-opt/fehler190.c                          ok
-opt/fehler191.c                          ok
-opt/fehler192.c                          ok
-opt/fehler193.c                          ok
-opt/fehler194.c                          ok
-opt/fehler195.c                          ok
-opt/fehler196.c                          ok
-opt/fehler197.c                          ok
-opt/fehler198.c                          ok
-opt/fehler199.c                          Test return code not zero but 42
-opt/fehler200.c                          ok
-opt/fehler201.c                          ok
-opt/fehler202.c                          ok
-opt/fehler203.c                          ok
-opt/fehler204.c                          ok
-opt/fehler205.c                          ok
-opt/fehler206.c                          ok
-opt/fehler207.c                          ok
-opt/fehler_gt_0.c                        ok
-opt/fehler_no_equality_0.c               ok
-opt/fib.c                                ok
-opt/fib_iter.c                           ok
-opt/fisttp.c                             ok
-opt/float_if.c                           Test return code not zero but 1
-opt/func_arg.c                           ok
-opt/gap.c                                ok
-opt/gcd.c                                ok
-opt/gcd_bench.c                          ok
-opt/gcentities.c                         ok
-opt/gcse_no_end.c                        ok
-opt/git_error.c                          ok
-opt/global_null_test.c                   ok
-opt/globalrefs.c                         ok
-opt/gnu_def.c                            ok
-opt/gzip_error.c                         ok
-opt/iabs.c                               ok
-opt/if.c                                 ok
-opt/ifconv.c                             ok
-opt/implicit_call.c                      ok
-opt/init_unnamed_bitfield.c              ok
-opt/inline.c                             ok
-opt/inline2.c                            ok
-opt/inline_infinite_loop.c               ok
-opt/invsqrt.c                            ok
-opt/ioet.c                               ok
-opt/jumpthreading.c                      ok
-opt/jumpthreading2.c                     ok
-opt/jumpthreading3.c                     ok
-opt/jumpthreading4.c                     ok
+opt/combo_comm.c                         OSError on execution
+opt/combo_paper.c                        OSError on execution
+opt/comboattrs.c                         OSError on execution
+opt/compilerhang2.c                      OSError on execution
+opt/compilerhang3.c                      OSError on execution
+opt/compilerhang4.c                      OSError on execution
+opt/compilerhang5.c                      OSError on execution
+opt/cond.c                               OSError on execution
+opt/confirm.c                            OSError on execution
+opt/const.c                              OSError on execution
+opt/const_load.c                         OSError on execution
+opt/conv.c                               OSError on execution
+opt/conv_orgie.c                         OSError on execution
+opt/convfloat.c                          OSError on execution
+opt/convtest.c                           OSError on execution
+opt/csetest.c                            OSError on execution
+opt/d.c                                  OSError on execution
+opt/dblstruct.c                          OSError on execution
+opt/deadstores.c                         OSError on execution
+opt/delayslot.c                          OSError on execution
+opt/distributive.c                       OSError on execution
+opt/divs.c                               OSError on execution
+opt/divtest.c                            OSError on execution
+opt/doms_segfault.c                      OSError on execution
+opt/dowhile.c                            OSError on execution
+opt/duffs.c                              OSError on execution
+opt/dwlower.c                            OSError on execution
+opt/endless_phi_cons.c                   OSError on execution
+opt/enum.c                               OSError on execution
+opt/fabs.c                               OSError on execution
+opt/fak.c                                OSError on execution
+opt/fastcall.c                           OSError on execution
+opt/fbench.c                             OSError on execution
+opt/fcall.c                              OSError on execution
+opt/fcmp.c                               OSError on execution
+opt/fe_bug.c                             OSError on execution
+opt/fehler001.c                          OSError on execution
+opt/fehler002.c                          OSError on execution
+opt/fehler003.c                          OSError on execution
+opt/fehler004.c                          OSError on execution
+opt/fehler005.c                          OSError on execution
+opt/fehler006.c                          OSError on execution
+opt/fehler007.c                          OSError on execution
+opt/fehler008.c                          OSError on execution
+opt/fehler009.c                          OSError on execution
+opt/fehler010.c                          OSError on execution
+opt/fehler011.c                          OSError on execution
+opt/fehler012.c                          OSError on execution
+opt/fehler013.c                          OSError on execution
+opt/fehler014.c                          OSError on execution
+opt/fehler015.c                          OSError on execution
+opt/fehler016.c                          OSError on execution
+opt/fehler017.c                          OSError on execution
+opt/fehler018.c                          OSError on execution
+opt/fehler019.c                          OSError on execution
+opt/fehler021.c                          OSError on execution
+opt/fehler022.c                          OSError on execution
+opt/fehler023.c                          OSError on execution
+opt/fehler024.c                          OSError on execution
+opt/fehler025.c                          OSError on execution
+opt/fehler026.c                          OSError on execution
+opt/fehler027.c                          OSError on execution
+opt/fehler028.c                          OSError on execution
+opt/fehler029.c                          OSError on execution
+opt/fehler030.c                          OSError on execution
+opt/fehler031.c                          OSError on execution
+opt/fehler032.c                          OSError on execution
+opt/fehler033.c                          OSError on execution
+opt/fehler034.c                          OSError on execution
+opt/fehler035.c                          OSError on execution
+opt/fehler036.c                          OSError on execution
+opt/fehler037.c                          OSError on execution
+opt/fehler038.c                          OSError on execution
+opt/fehler039.c                          OSError on execution
+opt/fehler040.c                          OSError on execution
+opt/fehler042.c                          OSError on execution
+opt/fehler045.c                          OSError on execution
+opt/fehler047.c                          OSError on execution
+opt/fehler048.c                          OSError on execution
+opt/fehler049.c                          OSError on execution
+opt/fehler050.c                          OSError on execution
+opt/fehler051.c                          OSError on execution
+opt/fehler052.c                          OSError on execution
+opt/fehler053.c                          OSError on execution
+opt/fehler054.c                          OSError on execution
+opt/fehler055.c                          OSError on execution
+opt/fehler056.c                          OSError on execution
+opt/fehler057.c                          OSError on execution
+opt/fehler058.c                          OSError on execution
+opt/fehler059.c                          OSError on execution
+opt/fehler060.c                          OSError on execution
+opt/fehler061.c                          OSError on execution
+opt/fehler062.c                          OSError on execution
+opt/fehler063.c                          OSError on execution
+opt/fehler064.c                          OSError on execution
+opt/fehler065.c                          OSError on execution
+opt/fehler066.c                          OSError on execution
+opt/fehler067.c                          OSError on execution
+opt/fehler068.c                          OSError on execution
+opt/fehler069.c                          OSError on execution
+opt/fehler070.c                          OSError on execution
+opt/fehler071.c                          OSError on execution
+opt/fehler072.c                          OSError on execution
+opt/fehler073.c                          OSError on execution
+opt/fehler074.c                          OSError on execution
+opt/fehler075.c                          OSError on execution
+opt/fehler076.c                          OSError on execution
+opt/fehler077.c                          OSError on execution
+opt/fehler078.c                          OSError on execution
+opt/fehler079.c                          OSError on execution
+opt/fehler080.c                          OSError on execution
+opt/fehler081.c                          OSError on execution
+opt/fehler082.c                          OSError on execution
+opt/fehler083.c                          OSError on execution
+opt/fehler084.c                          OSError on execution
+opt/fehler085.c                          OSError on execution
+opt/fehler086.c                          OSError on execution
+opt/fehler087.c                          OSError on execution
+opt/fehler088.c                          OSError on execution
+opt/fehler089.c                          OSError on execution
+opt/fehler090.c                          OSError on execution
+opt/fehler091.c                          OSError on execution
+opt/fehler092.c                          OSError on execution
+opt/fehler093.c                          OSError on execution
+opt/fehler094.c                          OSError on execution
+opt/fehler095.c                          OSError on execution
+opt/fehler096.c                          OSError on execution
+opt/fehler097.c                          OSError on execution
+opt/fehler098.c                          OSError on execution
+opt/fehler099.c                          OSError on execution
+opt/fehler100.c                          OSError on execution
+opt/fehler101.c                          OSError on execution
+opt/fehler102.c                          OSError on execution
+opt/fehler103.c                          OSError on execution
+opt/fehler105.c                          OSError on execution
+opt/fehler106.c                          OSError on execution
+opt/fehler107.c                          OSError on execution
+opt/fehler108.c                          OSError on execution
+opt/fehler109.c                          OSError on execution
+opt/fehler110.c                          OSError on execution
+opt/fehler112.c                          OSError on execution
+opt/fehler113.c                          OSError on execution
+opt/fehler114.c                          OSError on execution
+opt/fehler115.c                          OSError on execution
+opt/fehler116.c                          OSError on execution
+opt/fehler117.c                          OSError on execution
+opt/fehler118.c                          OSError on execution
+opt/fehler119.c                          OSError on execution
+opt/fehler120.c                          OSError on execution
+opt/fehler121.c                          OSError on execution
+opt/fehler122.c                          OSError on execution
+opt/fehler123.c                          OSError on execution
+opt/fehler124.c                          OSError on execution
+opt/fehler125.c                          OSError on execution
+opt/fehler126.c                          OSError on execution
+opt/fehler127.c                          OSError on execution
+opt/fehler128.c                          OSError on execution
+opt/fehler129.c                          OSError on execution
+opt/fehler130.c                          OSError on execution
+opt/fehler135.c                          OSError on execution
+opt/fehler136.c                          OSError on execution
+opt/fehler137.c                          OSError on execution
+opt/fehler138.c                          OSError on execution
+opt/fehler139.c                          OSError on execution
+opt/fehler140.c                          OSError on execution
+opt/fehler141.c                          OSError on execution
+opt/fehler142.c                          OSError on execution
+opt/fehler143.c                          OSError on execution
+opt/fehler144.c                          OSError on execution
+opt/fehler145.c                          OSError on execution
+opt/fehler146.c                          OSError on execution
+opt/fehler147.c                          OSError on execution
+opt/fehler148.c                          OSError on execution
+opt/fehler149.c                          OSError on execution
+opt/fehler150.c                          OSError on execution
+opt/fehler151.c                          OSError on execution
+opt/fehler152.c                          OSError on execution
+opt/fehler153.c                          OSError on execution
+opt/fehler154.c                          OSError on execution
+opt/fehler155.c                          OSError on execution
+opt/fehler157.c                          OSError on execution
+opt/fehler158.c                          OSError on execution
+opt/fehler159.c                          OSError on execution
+opt/fehler160.c                          OSError on execution
+opt/fehler161.c                          OSError on execution
+opt/fehler162.c                          OSError on execution
+opt/fehler163.c                          OSError on execution
+opt/fehler164.c                          OSError on execution
+opt/fehler165.c                          OSError on execution
+opt/fehler166.c                          OSError on execution
+opt/fehler167.c                          OSError on execution
+opt/fehler168.c                          OSError on execution
+opt/fehler169.c                          OSError on execution
+opt/fehler170.c                          OSError on execution
+opt/fehler171.c                          OSError on execution
+opt/fehler172.c                          OSError on execution
+opt/fehler173.c                          OSError on execution
+opt/fehler174.c                          OSError on execution
+opt/fehler175.c                          OSError on execution
+opt/fehler176.c                          OSError on execution
+opt/fehler177.c                          OSError on execution
+opt/fehler178.c                          OSError on execution
+opt/fehler179.c                          OSError on execution
+opt/fehler180.c                          OSError on execution
+opt/fehler181.c                          OSError on execution
+opt/fehler182.c                          OSError on execution
+opt/fehler183.c                          OSError on execution
+opt/fehler184.c                          OSError on execution
+opt/fehler186.c                          OSError on execution
+opt/fehler187.c                          OSError on execution
+opt/fehler188.c                          OSError on execution
+opt/fehler189.c                          OSError on execution
+opt/fehler190.c                          OSError on execution
+opt/fehler191.c                          OSError on execution
+opt/fehler192.c                          OSError on execution
+opt/fehler193.c                          OSError on execution
+opt/fehler194.c                          OSError on execution
+opt/fehler195.c                          OSError on execution
+opt/fehler196.c                          OSError on execution
+opt/fehler197.c                          OSError on execution
+opt/fehler198.c                          OSError on execution
+opt/fehler199.c                          OSError on execution
+opt/fehler200.c                          OSError on execution
+opt/fehler201.c                          OSError on execution
+opt/fehler202.c                          OSError on execution
+opt/fehler203.c                          OSError on execution
+opt/fehler204.c                          OSError on execution
+opt/fehler205.c                          OSError on execution
+opt/fehler206.c                          OSError on execution
+opt/fehler207.c                          OSError on execution
+opt/fehler_gt_0.c                        OSError on execution
+opt/fehler_no_equality_0.c               OSError on execution
+opt/fib.c                                OSError on execution
+opt/fib_iter.c                           OSError on execution
+opt/fisttp.c                             OSError on execution
+opt/float_if.c                           OSError on execution
+opt/func_arg.c                           OSError on execution
+opt/gap.c                                OSError on execution
+opt/gcd.c                                OSError on execution
+opt/gcd_bench.c                          OSError on execution
+opt/gcentities.c                         OSError on execution
+opt/gcse_no_end.c                        OSError on execution
+opt/git_error.c                          OSError on execution
+opt/global_null_test.c                   OSError on execution
+opt/globalrefs.c                         OSError on execution
+opt/gnu_def.c                            OSError on execution
+opt/gzip_error.c                         OSError on execution
+opt/iabs.c                               OSError on execution
+opt/if.c                                 OSError on execution
+opt/ifconv.c                             OSError on execution
+opt/implicit_call.c                      OSError on execution
+opt/init_unnamed_bitfield.c              OSError on execution
+opt/inline.c                             OSError on execution
+opt/inline2.c                            OSError on execution
+opt/inline_infinite_loop.c               OSError on execution
+opt/invsqrt.c                            OSError on execution
+opt/ioet.c                               OSError on execution
+opt/jumpthreading.c                      OSError on execution
+opt/jumpthreading2.c                     OSError on execution
+opt/jumpthreading3.c                     OSError on execution
+opt/jumpthreading4.c                     OSError on execution
 opt/jumpthreading5.c                     compiler: SIGKILL
-opt/jumpthreading6.c                     ok
-opt/jumpthreading7.c                     ok
-opt/jumpthreading8.c                     ok
-opt/kahansum.c                           ok
-opt/labs.c                               ok
-opt/ldst.c                               ok
-opt/ll.c                                 ok
-opt/ll_call.c                            ok
-opt/load_memout_necessary.c              ok
-opt/localopts.c                          ok
-opt/localopts2.c                         ok
-opt/longlong.c                           ok
-opt/loop_without_phi.c                   ok
-opt/loopana.c                            ok
-opt/loopspilling.c                       ok
-opt/lrot.c                               ok
-opt/max.c                                ok
-opt/memperm_stress.c                     ok
-opt/mismatch.c                           ok
-opt/mod10.c                              ok
-opt/most_complex_conv.c                  ok
-opt/mul.c                                ok
-opt/mul2n.c                              ok
-opt/mul32x32.c                           ok
-opt/mulconst.c                           ok
-opt/multidim-array.c                     ok
-opt/mux.c                                ok
-opt/muxcmps.c                            ok
-opt/muxopts.c                            ok
-opt/nans.c                               ok
-opt/nested_loops.c                       ok
-opt/nested_loops2.c                      ok
-opt/ns.c                                 ok
-opt/nulladd.c                            ok
-opt/nullnode.c                           ok
-opt/pad_return.c                         ok
-opt/pbqpHeur.c                           ok
-opt/pbqpHeur2.c                          ok
-opt/pbqpHeur3.c                          ok
-opt/pbqp_RedN.c                          ok
-opt/phi_bad.c                            ok
-opt/place.c                              ok
-opt/postinc.c                            ok
-opt/pr37102.c                            ok
-opt/psi_test.c                           ok
-opt/ptr_to_int.c                         ok
-opt/queens-handoptimized.c               ok
-opt/reassoc-amok.c                       ok
-opt/reassoc.c                            ok
-opt/rotate.c                             ok
-opt/rtsopt.c                             ok
-opt/setjump.c                            ok
-opt/shiftamount.c                        ok
-opt/shiftconst.c                         ok
-opt/should_be_same.c                     ok
-opt/simd1-i.c                            execution: SIGSEGV
-opt/simd1.c                              ok
-opt/simd2.c                              ok
-opt/simple.c                             ok
-opt/slow_memperm.c                       ok
-opt/sparam.c                             ok
-opt/spills.c                             ok
-opt/sret.c                               ok
-opt/stmt_expr.c                          ok
-opt/store_bug.c                          ok
-opt/strenght_red.c                       ok
-opt/struct.c                             ok
-opt/structcall.c                         ok
-opt/structcopy.c                         Test return code not zero but 255
-opt/structtest.c                         ok
-opt/switch.c                             ok
-opt/switch_test.c                        ok
-opt/switch_test2.c                       ok
-opt/tailrec.c                            ok
-opt/tailrec2.c                           ok
-opt/test1.c                              ok
-opt/thread.c                             ok
-opt/trivial_add.c                        ok
-opt/trivial_div.c                        ok
-opt/trivial_empty.c                      ok
-opt/trivial_extern_add.c                 ok
-opt/trivial_max.c                        ok
-opt/trivial_sum_upto.c                   ok
-opt/trivial_two_times.c                  ok
-opt/truth.c                              ok
-opt/types.c                              ok
-opt/types2.c                             ok
-opt/unary.c                              ok
-opt/union_init.c                         ok
-opt/unknown_combo.c                      ok
-opt/unknown_combo2.c                     ok
-opt/unreachable_block.c                  ok
-opt/use_uninit_ptr.c                     ok
-opt/vadd_store.c                         ok
-opt/valist.c                             ok
-opt/valist2.c                            ok
-opt/vandrunen.c                          ok
-opt/vararray.c                           ok
-opt/variadic_longlong.c                  ok
-opt/vla.c                                ok
-opt/volatile.c                           ok
-opt/while-printf.c                       ok
-opt/wrong_cmp.c                          ok
-C/LongLong.c                             ok
-C/abi_null_mode_proj.c                   ok
-C/abstract_declarator.c                  ok
+opt/jumpthreading6.c                     OSError on execution
+opt/jumpthreading7.c                     OSError on execution
+opt/jumpthreading8.c                     OSError on execution
+opt/kahansum.c                           OSError on execution
+opt/labs.c                               OSError on execution
+opt/ldst.c                               OSError on execution
+opt/ll.c                                 OSError on execution
+opt/ll_call.c                            OSError on execution
+opt/load_memout_necessary.c              OSError on execution
+opt/localopts.c                          OSError on execution
+opt/localopts2.c                         OSError on execution
+opt/longlong.c                           OSError on execution
+opt/loop_without_phi.c                   OSError on execution
+opt/loopana.c                            OSError on execution
+opt/loopspilling.c                       OSError on execution
+opt/lrot.c                               OSError on execution
+opt/max.c                                OSError on execution
+opt/memperm_stress.c                     OSError on execution
+opt/mismatch.c                           OSError on execution
+opt/mod10.c                              OSError on execution
+opt/most_complex_conv.c                  OSError on execution
+opt/mul.c                                OSError on execution
+opt/mul2n.c                              OSError on execution
+opt/mul32x32.c                           OSError on execution
+opt/mulconst.c                           OSError on execution
+opt/multidim-array.c                     OSError on execution
+opt/mux.c                                OSError on execution
+opt/muxcmps.c                            OSError on execution
+opt/muxopts.c                            OSError on execution
+opt/nans.c                               OSError on execution
+opt/nested_loops.c                       OSError on execution
+opt/nested_loops2.c                      OSError on execution
+opt/ns.c                                 OSError on execution
+opt/nulladd.c                            OSError on execution
+opt/nullnode.c                           OSError on execution
+opt/pad_return.c                         OSError on execution
+opt/pbqpHeur.c                           OSError on execution
+opt/pbqpHeur2.c                          OSError on execution
+opt/pbqpHeur3.c                          OSError on execution
+opt/pbqp_RedN.c                          OSError on execution
+opt/phi_bad.c                            OSError on execution
+opt/place.c                              OSError on execution
+opt/postinc.c                            OSError on execution
+opt/pr37102.c                            OSError on execution
+opt/psi_test.c                           OSError on execution
+opt/ptr_to_int.c                         OSError on execution
+opt/queens-handoptimized.c               OSError on execution
+opt/reassoc-amok.c                       OSError on execution
+opt/reassoc.c                            OSError on execution
+opt/rotate.c                             OSError on execution
+opt/rtsopt.c                             OSError on execution
+opt/setjump.c                            OSError on execution
+opt/shiftamount.c                        OSError on execution
+opt/shiftconst.c                         OSError on execution
+opt/should_be_same.c                     OSError on execution
+opt/simd1-i.c                            OSError on execution
+opt/simd1.c                              OSError on execution
+opt/simd2.c                              OSError on execution
+opt/simple.c                             OSError on execution
+opt/slow_memperm.c                       OSError on execution
+opt/sparam.c                             OSError on execution
+opt/spills.c                             OSError on execution
+opt/sret.c                               OSError on execution
+opt/stmt_expr.c                          OSError on execution
+opt/store_bug.c                          OSError on execution
+opt/strenght_red.c                       OSError on execution
+opt/struct.c                             OSError on execution
+opt/structcall.c                         OSError on execution
+opt/structcopy.c                         OSError on execution
+opt/structtest.c                         OSError on execution
+opt/switch.c                             OSError on execution
+opt/switch_test.c                        OSError on execution
+opt/switch_test2.c                       OSError on execution
+opt/tailrec.c                            OSError on execution
+opt/tailrec2.c                           OSError on execution
+opt/test1.c                              OSError on execution
+opt/thread.c                             OSError on execution
+opt/trivial_add.c                        OSError on execution
+opt/trivial_div.c                        OSError on execution
+opt/trivial_empty.c                      OSError on execution
+opt/trivial_extern_add.c                 OSError on execution
+opt/trivial_max.c                        OSError on execution
+opt/trivial_sum_upto.c                   OSError on execution
+opt/trivial_two_times.c                  OSError on execution
+opt/truth.c                              OSError on execution
+opt/types.c                              OSError on execution
+opt/types2.c                             OSError on execution
+opt/unary.c                              OSError on execution
+opt/union_init.c                         OSError on execution
+opt/unknown_combo.c                      OSError on execution
+opt/unknown_combo2.c                     OSError on execution
+opt/unreachable_block.c                  OSError on execution
+opt/use_uninit_ptr.c                     OSError on execution
+opt/vadd_store.c                         OSError on execution
+opt/valist.c                             OSError on execution
+opt/valist2.c                            OSError on execution
+opt/vandrunen.c                          OSError on execution
+opt/vararray.c                           OSError on execution
+opt/variadic_longlong.c                  OSError on execution
+opt/vla.c                                OSError on execution
+opt/volatile.c                           OSError on execution
+opt/while-printf.c                       OSError on execution
+opt/wrong_cmp.c                          OSError on execution
+C/LongLong.c                             OSError on execution
+C/abi_null_mode_proj.c                   OSError on execution
+C/abstract_declarator.c                  OSError on execution
 C/anon_entity.c                          compiler: SIGABRT
-C/array.c                                ok
-C/bitfield.c                             ok
-C/bitfield2.c                            ok
-C/bitfield3.c                            ok
-C/bitfield4.c                            ok
-C/bitfield_conversion.c                  ok
-C/bool.c                                 ok
-C/bool2.c                                ok
-C/bool3.c                                ok
-C/bool4.c                                ok
-C/compoundlit.c                          ok
-C/compoundlit2.c                         ok
-C/compoundlit3.c                         ok
-C/constarraytd.c                         ok
-C/constexpr.c                            ok
-C/constexpr2.c                           ok
-C/constexpr3.c                           ok
-C/constexpr4.c                           ok
-C/constexpr5.c                           ok
-C/constexpr6.c                           ok
-C/cp_error001.c                          ok
-C/cp_error004.c                          ok
-C/cp_error005.c                          ok
-C/cp_error006.c                          ok
-C/cp_error007.c                          ok
-C/cp_error008.c                          ok
-C/cp_error009.c                          ok
-C/cp_error010.c                          ok
-C/cp_error011.c                          ok
-C/cp_error012.c                          ok
-C/cp_error014.c                          ok
-C/cp_error015.c                          ok
-C/cp_error016.c                          ok
-C/cp_error017.c                          ok
-C/cp_error018.c                          ok
-C/cp_error019.c                          ok
-C/cp_error020.c                          ok
-C/cp_error021.c                          ok
-C/cp_error023.c                          ok
-C/cp_error024.c                          ok
-C/cp_error026.c                          ok
-C/cp_error027.c                          ok
-C/cp_error028.c                          ok
-C/cp_error029.c                          ok
-C/cp_error031.c                          ok
-C/cp_error032.c                          ok
-C/cp_error033.c                          ok
-C/cp_error034.c                          ok
-C/cp_error035.c                          ok
-C/cp_error036.c                          ok
-C/cp_error037.c                          ok
-C/cp_error041.c                          ok
-C/cp_error042.c                          ok
-C/cp_error043.c                          ok
-C/cp_error044.c                          ok
-C/cp_error046.c                          ok
-C/cp_error047.c                          ok
-C/cp_error048.c                          ok
-C/cp_error049.c                          ok
-C/cp_error050.c                          ok
-C/cp_error051.c                          ok
-C/cp_error052.c                          ok
-C/cp_error053.c                          ok
-C/cp_error055.c                          ok
-C/cp_error056.c                          ok
-C/cp_error057.c                          ok
-C/cp_error058.c                          ok
-C/cp_error059.c                          ok
-C/cp_error060.c                          ok
-C/cp_error061.c                          ok
-C/cp_error062.c                          ok
-C/cp_error063.c                          ok
-C/cp_error064.c                          ok
-C/cp_error065.c                          ok
-C/cp_error066.c                          ok
-C/cp_error067.c                          ok
-C/cp_error068.c                          ok
-C/cp_error069.c                          ok
-C/cp_error070.c                          ok
-C/csmith1.c                              ok
-C/csmith2.c                              ok
-C/declarator_special.c                   ok
-C/designators.c                          ok
-C/designators2.c                         ok
-C/doublewide.c                           ok
-C/empty.c                                ok
-C/enum.c                                 ok
-C/flexarray.c                            ok
-C/floatcmp.c                             ok
-C/floatvals.c                            ok
-C/folderror.c                            ok
-C/funcname.c                             ok
-C/function.c                             ok
-C/function_declarator.c                  ok
-C/gigo_return.c                          ok
-C/hexfloat.c                             ok
-C/hugeval.c                              ok
-C/if.c                                   ok
-C/implicit.c                             ok
-C/implicit2.c                            ok
-C/incompleteextern.c                     ok
-C/init1.c                                ok
-C/init2.c                                ok
-C/init6.c                                ok
-C/init7.c                                ok
-C/init8.c                                ok
-C/initializers.c                         ok
-C/int_promote.c                          ok
-C/kr.c                                   ok
-C/kr2.c                                  ok
-C/kr4.c                                  ok
-C/kr6.c                                  ok
-C/kr8.c                                  ok
-C/ldst_opt_id.c                          ok
-C/localfuncdecl.c                        ok
-C/long_double_int_conv.c                 ok
+C/array.c                                OSError on execution
+C/bitfield.c                             OSError on execution
+C/bitfield2.c                            OSError on execution
+C/bitfield3.c                            OSError on execution
+C/bitfield4.c                            OSError on execution
+C/bitfield_conversion.c                  OSError on execution
+C/bool.c                                 OSError on execution
+C/bool2.c                                OSError on execution
+C/bool3.c                                OSError on execution
+C/bool4.c                                OSError on execution
+C/compoundlit.c                          OSError on execution
+C/compoundlit2.c                         OSError on execution
+C/compoundlit3.c                         OSError on execution
+C/constarraytd.c                         OSError on execution
+C/constexpr.c                            OSError on execution
+C/constexpr2.c                           OSError on execution
+C/constexpr3.c                           OSError on execution
+C/constexpr4.c                           OSError on execution
+C/constexpr5.c                           OSError on execution
+C/constexpr6.c                           OSError on execution
+C/cp_error001.c                          OSError on execution
+C/cp_error004.c                          OSError on execution
+C/cp_error005.c                          OSError on execution
+C/cp_error006.c                          OSError on execution
+C/cp_error007.c                          OSError on execution
+C/cp_error008.c                          OSError on execution
+C/cp_error009.c                          OSError on execution
+C/cp_error010.c                          OSError on execution
+C/cp_error011.c                          OSError on execution
+C/cp_error012.c                          OSError on execution
+C/cp_error014.c                          OSError on execution
+C/cp_error015.c                          OSError on execution
+C/cp_error016.c                          OSError on execution
+C/cp_error017.c                          OSError on execution
+C/cp_error018.c                          OSError on execution
+C/cp_error019.c                          OSError on execution
+C/cp_error020.c                          OSError on execution
+C/cp_error021.c                          OSError on execution
+C/cp_error023.c                          OSError on execution
+C/cp_error024.c                          OSError on execution
+C/cp_error026.c                          OSError on execution
+C/cp_error027.c                          OSError on execution
+C/cp_error028.c                          OSError on execution
+C/cp_error029.c                          OSError on execution
+C/cp_error031.c                          OSError on execution
+C/cp_error032.c                          OSError on execution
+C/cp_error033.c                          OSError on execution
+C/cp_error034.c                          OSError on execution
+C/cp_error035.c                          OSError on execution
+C/cp_error036.c                          OSError on execution
+C/cp_error037.c                          OSError on execution
+C/cp_error041.c                          OSError on execution
+C/cp_error042.c                          OSError on execution
+C/cp_error043.c                          OSError on execution
+C/cp_error044.c                          OSError on execution
+C/cp_error046.c                          OSError on execution
+C/cp_error047.c                          OSError on execution
+C/cp_error048.c                          OSError on execution
+C/cp_error049.c                          OSError on execution
+C/cp_error050.c                          OSError on execution
+C/cp_error051.c                          OSError on execution
+C/cp_error052.c                          OSError on execution
+C/cp_error053.c                          OSError on execution
+C/cp_error055.c                          OSError on execution
+C/cp_error056.c                          OSError on execution
+C/cp_error057.c                          OSError on execution
+C/cp_error058.c                          OSError on execution
+C/cp_error059.c                          OSError on execution
+C/cp_error060.c                          OSError on execution
+C/cp_error061.c                          OSError on execution
+C/cp_error062.c                          OSError on execution
+C/cp_error063.c                          OSError on execution
+C/cp_error064.c                          OSError on execution
+C/cp_error065.c                          OSError on execution
+C/cp_error066.c                          OSError on execution
+C/cp_error067.c                          OSError on execution
+C/cp_error068.c                          OSError on execution
+C/cp_error069.c                          OSError on execution
+C/cp_error070.c                          OSError on execution
+C/csmith1.c                              OSError on execution
+C/csmith2.c                              OSError on execution
+C/declarator_special.c                   OSError on execution
+C/designators.c                          OSError on execution
+C/designators2.c                         OSError on execution
+C/doublewide.c                           OSError on execution
+C/empty.c                                OSError on execution
+C/enum.c                                 OSError on execution
+C/flexarray.c                            OSError on execution
+C/floatcmp.c                             OSError on execution
+C/floatvals.c                            OSError on execution
+C/folderror.c                            OSError on execution
+C/funcname.c                             OSError on execution
+C/function.c                             OSError on execution
+C/function_declarator.c                  OSError on execution
+C/gigo_return.c                          OSError on execution
+C/hexfloat.c                             OSError on execution
+C/hugeval.c                              OSError on execution
+C/if.c                                   OSError on execution
+C/implicit.c                             OSError on execution
+C/implicit2.c                            OSError on execution
+C/incompleteextern.c                     OSError on execution
+C/init1.c                                OSError on execution
+C/init2.c                                OSError on execution
+C/init6.c                                OSError on execution
+C/init7.c                                OSError on execution
+C/init8.c                                OSError on execution
+C/initializers.c                         OSError on execution
+C/int_promote.c                          OSError on execution
+C/kr.c                                   OSError on execution
+C/kr2.c                                  OSError on execution
+C/kr4.c                                  OSError on execution
+C/kr6.c                                  OSError on execution
+C/kr8.c                                  OSError on execution
+C/ldst_opt_id.c                          OSError on execution
+C/localfuncdecl.c                        OSError on execution
+C/long_double_int_conv.c                 OSError on execution
 C/mini_complex.c                         compiler: SIGABRT
-C/mod.c                                  ok
-C/noconst.c                              ok
-C/number2.c                              ok
-C/number3.c                              ok
-C/offsetof.c                             ok
-C/precedence.c                           ok
-C/scanf.c                                ok
-C/segfault4.c                            ok
-C/segfault5.c                            ok
-C/segfault6.c                            ok
-C/segfault7.c                            ok
-C/sideeffects.c                          ok
-C/statics.c                              ok
-C/struct_init.c                          ok
-C/structns1.c                            ok
-C/structs.c                              ok
-C/structs2.c                             ok
-C/suffixes.c                             ok
-C/switch.c                               ok
-C/tarval_sign_error.c                    ok
-C/union_init.c                           ok
+C/mod.c                                  OSError on execution
+C/noconst.c                              OSError on execution
+C/number2.c                              OSError on execution
+C/number3.c                              OSError on execution
+C/offsetof.c                             OSError on execution
+C/precedence.c                           OSError on execution
+C/scanf.c                                OSError on execution
+C/segfault4.c                            OSError on execution
+C/segfault5.c                            OSError on execution
+C/segfault6.c                            OSError on execution
+C/segfault7.c                            OSError on execution
+C/sideeffects.c                          OSError on execution
+C/statics.c                              OSError on execution
+C/struct_init.c                          OSError on execution
+C/structns1.c                            OSError on execution
+C/structs.c                              OSError on execution
+C/structs2.c                             OSError on execution
+C/suffixes.c                             OSError on execution
+C/switch.c                               OSError on execution
+C/tarval_sign_error.c                    OSError on execution
+C/union_init.c                           OSError on execution
 C/universal_character.c                  21 compile errors
-C/unkept_loop.c                          ok
-C/utf8input.c                            ok
-C/varargs.c                              ok
-C/vla.c                                  ok
-C/whiles.c                               ok
-C/pragmatic/conditional.c                ok
-C/pragmatic/fewparams.c                  ok
-C/pragmatic/kr2.c                        ok
-C/pragmatic/kr3.c                        ok
-C/pragmatic/shift.c                      ok
-C/pragmatic/toomuchparams.c              ok
+C/unkept_loop.c                          OSError on execution
+C/utf8input.c                            OSError on execution
+C/varargs.c                              OSError on execution
+C/vla.c                                  OSError on execution
+C/whiles.c                               OSError on execution
+C/pragmatic/conditional.c                OSError on execution
+C/pragmatic/fewparams.c                  OSError on execution
+C/pragmatic/kr2.c                        OSError on execution
+C/pragmatic/kr3.c                        OSError on execution
+C/pragmatic/shift.c                      OSError on execution
+C/pragmatic/toomuchparams.c              OSError on execution
 C/should_fail/adr_reg.c                  ok
 C/should_fail/anonunion.c                compiler missed error
 C/should_fail/arr_idx_float.c            ok
@@ -840,114 +840,114 @@ C/nowarn/write_only14.c                  compiler produced invalid warning
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   2 compile errors
-C/gnu99/anonstruct.c                     ok
-C/gnu99/anonstruct2.c                    ok
-C/gnu99/anonstruct3.c                    ok
-C/gnu99/asmname.c                        ok
-C/gnu99/attribute_after_bitfield.c       ok
-C/gnu99/attribute_empty.c                ok
+C/gnu99/anonstruct.c                     OSError on execution
+C/gnu99/anonstruct2.c                    OSError on execution
+C/gnu99/anonstruct3.c                    OSError on execution
+C/gnu99/asmname.c                        OSError on execution
+C/gnu99/attribute_after_bitfield.c       OSError on execution
+C/gnu99/attribute_empty.c                OSError on execution
 C/gnu99/attribute_in_decl.c              2 compile errors
 C/gnu99/attributes.c                     linker error
-C/gnu99/attributes2.c                    ok
-C/gnu99/attributes3.c                    ok
-C/gnu99/attributes4.c                    Test return code not zero but 1
-C/gnu99/attributes5.c                    ok
+C/gnu99/attributes2.c                    OSError on execution
+C/gnu99/attributes3.c                    OSError on execution
+C/gnu99/attributes4.c                    OSError on execution
+C/gnu99/attributes5.c                    OSError on execution
 C/gnu99/basic_complex.c                  compiler: SIGABRT
-C/gnu99/builtin_expect.c                 ok
-C/gnu99/builtins_libc.c                  ok
-C/gnu99/cdecl.c                          ok
+C/gnu99/builtin_expect.c                 OSError on execution
+C/gnu99/builtins_libc.c                  OSError on execution
+C/gnu99/cdecl.c                          OSError on execution
 C/gnu99/combo_load_mode.c                compiler: SIGABRT
 C/gnu99/computed_goto.c                  compiler: SIGABRT
-C/gnu99/construct_destruct.c             ok
-C/gnu99/cp_error038.c                    ok
+C/gnu99/construct_destruct.c             OSError on execution
+C/gnu99/cp_error038.c                    OSError on execution
 C/gnu99/cp_error059.c                    compiler: SIGABRT
-C/gnu99/cp_error064.c                    ok
-C/gnu99/emptystruct.c                    ok
-C/gnu99/escape.c                         ok
-C/gnu99/extension_in_compound.c          ok
-C/gnu99/extension_in_for_init.c          ok
+C/gnu99/cp_error064.c                    OSError on execution
+C/gnu99/emptystruct.c                    OSError on execution
+C/gnu99/escape.c                         OSError on execution
+C/gnu99/extension_in_compound.c          OSError on execution
+C/gnu99/extension_in_for_init.c          OSError on execution
 C/gnu99/flex_array_init.c                compiler: SIGABRT
 C/gnu99/ijmp.c                           compiler: SIGABRT
-C/gnu99/incomplete_array.c               ok
-C/gnu99/incomplete_enum.c                ok
-C/gnu99/inlineextern.c                   ok
-C/gnu99/l1.c                             ok
-C/gnu99/local_label.c                    ok
-C/gnu99/longlong_bf.c                    ok
-C/gnu99/mode_attrib.c                    ok
-C/gnu99/multichar.c                      ok
-C/gnu99/nested_function.c                ok
+C/gnu99/incomplete_array.c               OSError on execution
+C/gnu99/incomplete_enum.c                OSError on execution
+C/gnu99/inlineextern.c                   OSError on execution
+C/gnu99/l1.c                             OSError on execution
+C/gnu99/local_label.c                    OSError on execution
+C/gnu99/longlong_bf.c                    OSError on execution
+C/gnu99/mode_attrib.c                    OSError on execution
+C/gnu99/multichar.c                      OSError on execution
+C/gnu99/nested_function.c                OSError on execution
 C/gnu99/nested_function_goto.c           compiler: SIGABRT
 C/gnu99/nullarray.c                      compiler: SIGABRT
-C/gnu99/omitted_cond.c                   ok
-C/gnu99/packed.c                         ok
-C/gnu99/packed_bf.c                      ok
-C/gnu99/pointerarith.c                   ok
-C/gnu99/pretty_function.c                ok
-C/gnu99/printfm.c                        ok
-C/gnu99/redirect.c                       ok
-C/gnu99/redirect_nowarn.c                ok
-C/gnu99/sizeof_function.c                ok
-C/gnu99/strangeattr.c                    ok
-C/gnu99/system_header_typedef.c          ok
+C/gnu99/omitted_cond.c                   OSError on execution
+C/gnu99/packed.c                         OSError on execution
+C/gnu99/packed_bf.c                      OSError on execution
+C/gnu99/pointerarith.c                   OSError on execution
+C/gnu99/pretty_function.c                OSError on execution
+C/gnu99/printfm.c                        OSError on execution
+C/gnu99/redirect.c                       OSError on execution
+C/gnu99/redirect_nowarn.c                OSError on execution
+C/gnu99/sizeof_function.c                OSError on execution
+C/gnu99/strangeattr.c                    OSError on execution
+C/gnu99/system_header_typedef.c          OSError on execution
 C/gnu99/tcctest.c                        1 compile errors
-C/gnu99/transparent_union.c              ok
-C/gnu99/transparent_union3.c             ok
-C/gnu99/typeof.c                         ok
-C/gnu99/typeprop_funcs.c                 ok
+C/gnu99/transparent_union.c              OSError on execution
+C/gnu99/transparent_union3.c             OSError on execution
+C/gnu99/typeof.c                         OSError on execution
+C/gnu99/typeprop_funcs.c                 OSError on execution
 C/gnu99/union_cast.c                     2 compile errors
-C/gnu99/unused_label.c                   ok
-C/gnu99/void_pointer_arithmetic.c        ok
+C/gnu99/unused_label.c                   OSError on execution
+C/gnu99/void_pointer_arithmetic.c        OSError on execution
 C++/should_fail/bad_retypedef.cc         ok
 C++/should_fail/bad_retypedef_sys.cc     ok
-ack/ack_conv.c                           ok
-ack/decl.c                               ok
-ack/init.c                               ok
-ack/ops.c                                ok
-ack/str.c                                ok
-ack/t7.c                                 ok
-ack/test.c                               ok
-ack/test1.c                              ok
-ack/test2.c                              ok
-langshootout/bintree.c                   ok
-langshootout/fannkuch.c                  ok
-langshootout/fasta.c                     ok
-langshootout/n-body.c                    execution: SIGKILL
-langshootout/nsieve-bits.c               execution: SIGSEGV
-langshootout/nsieve.c                    ok
-langshootout/partial-sums.c              execution: SIGKILL
-langshootout/recursive.c                 execution: SIGKILL
-langshootout/spectral-norm.c             execution: SIGSEGV
-llvm/2003-05-14-initialize-string.c      ok
-llvm/2003-05-21-BitfieldHandling.c       ok
-llvm/2003-05-21-UnionBitfields.c         ok
-llvm/2003-05-21-UnionTest.c              ok
-llvm/2003-05-22-LocalTypeTest.c          ok
-llvm/2003-05-22-VarSizeArray.c           ok
-llvm/2003-05-23-TransparentUnion.c       ok
-llvm/2003-06-16-InvalidInitializer.c     ok
-llvm/2003-06-16-VolatileError.c          ok
-llvm/2003-10-12-GlobalVarInitializers.c  ok
-llvm/2004-02-03-AggregateCopy.c          ok
-llvm/2004-08-12-InlinerAndAllocas.c      ok
-llvm/2005-05-06-LongLongSignedShift.c    ok
-llvm/ConstructorDestructorAttributes.c   ok
-llvm/DuffsDevice.c                       ok
-llvm/PR491.c                             ok
-llvm/PR640.c                             ok
-llvm/badidx.c                            ok
-llvm/bigstack.c                          ok
-llvm/callargs.c                          ok
-llvm/casts.c                             ok
-llvm/globalrefs.c                        ok
-llvm/matrixTranspose.c                   ok
-llvm/pointer_arithmetic.c                ok
-llvm/sumarray.c                          ok
-llvm/sumarray2d.c                        ok
-llvm/sumarraymalloc.c                    ok
-llvm/test_indvars.c                      ok
-llvm/testtrace.c                         ok
-sparccode/bf_init.c                      ok
-sparccode/bf_localinit.c                 ok
-sparccode/fehler104.c                    ok
-sparccode/structlayout.c                 ok
+ack/ack_conv.c                           OSError on execution
+ack/decl.c                               OSError on execution
+ack/init.c                               OSError on execution
+ack/ops.c                                OSError on execution
+ack/str.c                                OSError on execution
+ack/t7.c                                 OSError on execution
+ack/test.c                               OSError on execution
+ack/test1.c                              OSError on execution
+ack/test2.c                              OSError on execution
+langshootout/bintree.c                   OSError on execution
+langshootout/fannkuch.c                  OSError on execution
+langshootout/fasta.c                     OSError on execution
+langshootout/n-body.c                    OSError on execution
+langshootout/nsieve-bits.c               OSError on execution
+langshootout/nsieve.c                    OSError on execution
+langshootout/partial-sums.c              OSError on execution
+langshootout/recursive.c                 OSError on execution
+langshootout/spectral-norm.c             OSError on execution
+llvm/2003-05-14-initialize-string.c      OSError on execution
+llvm/2003-05-21-BitfieldHandling.c       OSError on execution
+llvm/2003-05-21-UnionBitfields.c         OSError on execution
+llvm/2003-05-21-UnionTest.c              OSError on execution
+llvm/2003-05-22-LocalTypeTest.c          OSError on execution
+llvm/2003-05-22-VarSizeArray.c           OSError on execution
+llvm/2003-05-23-TransparentUnion.c       OSError on execution
+llvm/2003-06-16-InvalidInitializer.c     OSError on execution
+llvm/2003-06-16-VolatileError.c          OSError on execution
+llvm/2003-10-12-GlobalVarInitializers.c  OSError on execution
+llvm/2004-02-03-AggregateCopy.c          OSError on execution
+llvm/2004-08-12-InlinerAndAllocas.c      OSError on execution
+llvm/2005-05-06-LongLongSignedShift.c    OSError on execution
+llvm/ConstructorDestructorAttributes.c   OSError on execution
+llvm/DuffsDevice.c                       OSError on execution
+llvm/PR491.c                             OSError on execution
+llvm/PR640.c                             OSError on execution
+llvm/badidx.c                            OSError on execution
+llvm/bigstack.c                          OSError on execution
+llvm/callargs.c                          OSError on execution
+llvm/casts.c                             OSError on execution
+llvm/globalrefs.c                        OSError on execution
+llvm/matrixTranspose.c                   OSError on execution
+llvm/pointer_arithmetic.c                OSError on execution
+llvm/sumarray.c                          OSError on execution
+llvm/sumarray2d.c                        OSError on execution
+llvm/sumarraymalloc.c                    OSError on execution
+llvm/test_indvars.c                      OSError on execution
+llvm/testtrace.c                         OSError on execution
+sparccode/bf_init.c                      OSError on execution
+sparccode/bf_localinit.c                 OSError on execution
+sparccode/fehler104.c                    OSError on execution
+sparccode/structlayout.c                 OSError on execution
