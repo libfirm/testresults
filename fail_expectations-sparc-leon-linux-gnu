@@ -230,7 +230,7 @@ opt/fehler062.c                          ok
 opt/fehler063.c                          ok
 opt/fehler064.c                          ok
 opt/fehler065.c                          ok
-opt/fehler066.c                          Test return code not zero but 255
+opt/fehler066.c                          ok
 opt/fehler067.c                          ok
 opt/fehler068.c                          ok
 opt/fehler069.c                          ok
@@ -259,13 +259,13 @@ opt/fehler091.c                          ok
 opt/fehler092.c                          ok
 opt/fehler093.c                          ok
 opt/fehler094.c                          ok
-opt/fehler095.c                          Test return code not zero but 255
+opt/fehler095.c                          ok
 opt/fehler096.c                          ok
 opt/fehler097.c                          ok
 opt/fehler098.c                          ok
 opt/fehler099.c                          ok
 opt/fehler100.c                          ok
-opt/fehler101.c                          execution: SIGSEGV
+opt/fehler101.c                          output mismatch
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
 opt/fehler105.c                          ok
@@ -451,7 +451,7 @@ opt/setjump.c                            ok
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
 opt/should_be_same.c                     ok
-opt/simd1-i.c                            execution: SIGSEGV
+opt/simd1-i.c                            ok
 opt/simd1.c                              ok
 opt/simd2.c                              ok
 opt/simple.c                             ok
@@ -464,7 +464,7 @@ opt/store_bug.c                          ok
 opt/strenght_red.c                       ok
 opt/struct.c                             ok
 opt/structcall.c                         ok
-opt/structcopy.c                         execution: SIGSEGV
+opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
 opt/switch_test.c                        ok
