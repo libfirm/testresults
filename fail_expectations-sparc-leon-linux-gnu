@@ -11,6 +11,8 @@ backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
+backend/builtin_bswap32.c                ok
+backend/builtin_bswap64.c                compiler: SIGSEGV
 backend/builtin_clz.c                    ok
 backend/builtin_clzl.c                   ok
 backend/builtin_clzll.c                  ok
@@ -139,7 +141,7 @@ opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      ok
-opt/compilerhang3.c                      Test return code not zero but 1
+opt/compilerhang3.c                      execution: SIGABRT
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
@@ -224,14 +226,14 @@ opt/fehler055.c                          ok
 opt/fehler056.c                          ok
 opt/fehler057.c                          ok
 opt/fehler058.c                          ok
-opt/fehler059.c                          Test return code not zero but 1
+opt/fehler059.c                          execution: SIGABRT
 opt/fehler060.c                          ok
 opt/fehler061.c                          ok
 opt/fehler062.c                          ok
 opt/fehler063.c                          ok
 opt/fehler064.c                          ok
 opt/fehler065.c                          ok
-opt/fehler066.c                          Test return code not zero but 255
+opt/fehler066.c                          ok
 opt/fehler067.c                          ok
 opt/fehler068.c                          ok
 opt/fehler069.c                          ok
@@ -260,13 +262,13 @@ opt/fehler091.c                          ok
 opt/fehler092.c                          ok
 opt/fehler093.c                          ok
 opt/fehler094.c                          ok
-opt/fehler095.c                          Test return code not zero but 255
+opt/fehler095.c                          ok
 opt/fehler096.c                          ok
 opt/fehler097.c                          ok
 opt/fehler098.c                          ok
 opt/fehler099.c                          ok
 opt/fehler100.c                          ok
-opt/fehler101.c                          execution: SIGSEGV
+opt/fehler101.c                          output mismatch
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
 opt/fehler105.c                          ok
@@ -302,7 +304,7 @@ opt/fehler139.c                          ok
 opt/fehler140.c                          ok
 opt/fehler141.c                          ok
 opt/fehler142.c                          ok
-opt/fehler143.c                          Test return code not zero but 1
+opt/fehler143.c                          ok
 opt/fehler144.c                          ok
 opt/fehler145.c                          ok
 opt/fehler146.c                          ok
@@ -310,7 +312,7 @@ opt/fehler147.c                          ok
 opt/fehler148.c                          ok
 opt/fehler149.c                          ok
 opt/fehler150.c                          ok
-opt/fehler151.c                          Test return code not zero but 1
+opt/fehler151.c                          ok
 opt/fehler152.c                          ok
 opt/fehler153.c                          ok
 opt/fehler154.c                          ok
@@ -452,7 +454,7 @@ opt/setjump.c                            ok
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
 opt/should_be_same.c                     ok
-opt/simd1-i.c                            execution: SIGSEGV
+opt/simd1-i.c                            ok
 opt/simd1.c                              ok
 opt/simd2.c                              ok
 opt/simple.c                             ok
@@ -465,7 +467,7 @@ opt/store_bug.c                          ok
 opt/strenght_red.c                       ok
 opt/struct.c                             ok
 opt/structcall.c                         ok
-opt/structcopy.c                         Test return code not zero but 255
+opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
 opt/switch_test.c                        ok
@@ -854,7 +856,7 @@ C/gnu99/attribute_in_decl.c              2 compile errors
 C/gnu99/attributes.c                     linker error
 C/gnu99/attributes2.c                    ok
 C/gnu99/attributes3.c                    ok
-C/gnu99/attributes4.c                    Test return code not zero but 1
+C/gnu99/attributes4.c                    execution: SIGABRT
 C/gnu99/attributes5.c                    ok
 C/gnu99/basic_complex.c                  compiler: SIGABRT
 C/gnu99/builtin_expect.c                 ok
@@ -917,7 +919,7 @@ langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
 langshootout/n-body.c                    execution: SIGKILL
-langshootout/nsieve-bits.c               execution: SIGSEGV
+langshootout/nsieve-bits.c               ok
 langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              execution: SIGKILL
 langshootout/recursive.c                 execution: SIGKILL
