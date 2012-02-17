@@ -11,8 +11,8 @@ backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
-backend/builtin_bswap32.c                linker error
-backend/builtin_bswap64.c                linker error
+backend/builtin_bswap32.c                ok
+backend/builtin_bswap64.c                ok
 backend/builtin_clz.c                    ok
 backend/builtin_clzl.c                   ok
 backend/builtin_clzll.c                  ok
