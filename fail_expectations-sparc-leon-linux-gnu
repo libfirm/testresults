@@ -1,295 +1,295 @@
-backend/RegallocBug.c                    ok
-backend/alloca.c                         Test return code not zero but 1
+backend/RegallocBug.c                    Test return code not zero but 152
+backend/alloca.c                         Test return code not zero but 169
 backend/am_explode.c                     ok
 backend/am_possibilities.c               ok
-backend/am_test.c                        ok
-backend/am_test2.c                       ok
-backend/am_test3.c                       ok
-backend/am_test4.c                       ok
+backend/am_test.c                        Test return code not zero but 152
+backend/am_test2.c                       Test return code not zero but 152
+backend/am_test3.c                       Test return code not zero but 152
+backend/am_test4.c                       Test return code not zero but 152
 backend/am_test5.c                       ok
-backend/am_test_float.c                  ok
-backend/am_test_float2.c                 ok
-backend/arm_cconv.c                      ok
-backend/arm_immediate.c                  ok
-backend/builtin_bswap32.c                ok
-backend/builtin_bswap64.c                compiler: SIGSEGV
-backend/builtin_clz.c                    ok
-backend/builtin_clzl.c                   ok
-backend/builtin_clzll.c                  ok
-backend/builtin_ctz.c                    ok
-backend/builtin_ctzl.c                   ok
-backend/builtin_ctzll.c                  ok
-backend/builtin_ffs.c                    ok
-backend/builtin_ffsl.c                   ok
-backend/builtin_ffsll.c                  ok
-backend/builtin_parity.c                 ok
-backend/builtin_parityl.c                ok
-backend/builtin_parityll.c               ok
-backend/builtin_popcount.c               ok
-backend/builtin_popcountl.c              ok
-backend/builtin_popcountll.c             ok
+backend/am_test_float.c                  Test return code not zero but 152
+backend/am_test_float2.c                 Test return code not zero but 152
+backend/arm_cconv.c                      Test return code not zero but 152
+backend/arm_immediate.c                  Test return code not zero but 152
+backend/builtin_bswap32.c                execution: SIGABRT
+backend/builtin_bswap64.c                execution: SIGABRT
+backend/builtin_clz.c                    execution: SIGABRT
+backend/builtin_clzl.c                   execution: SIGABRT
+backend/builtin_clzll.c                  execution: SIGABRT
+backend/builtin_ctz.c                    execution: SIGABRT
+backend/builtin_ctzl.c                   execution: SIGABRT
+backend/builtin_ctzll.c                  execution: SIGABRT
+backend/builtin_ffs.c                    execution: SIGABRT
+backend/builtin_ffsl.c                   execution: SIGABRT
+backend/builtin_ffsll.c                  execution: SIGABRT
+backend/builtin_parity.c                 execution: SIGABRT
+backend/builtin_parityl.c                execution: SIGABRT
+backend/builtin_parityll.c               execution: SIGABRT
+backend/builtin_popcount.c               execution: SIGABRT
+backend/builtin_popcountl.c              execution: SIGABRT
+backend/builtin_popcountll.c             execution: SIGABRT
 backend/cmovs.c                          ok
-backend/conv_float_unsigned.c            ok
-backend/extern_sret.c                    ok
+backend/conv_float_unsigned.c            Test return code not zero but 136
+backend/extern_sret.c                    Test return code not zero but 152
 backend/fdiv.c                           ok
-backend/fehler_mux_am.c                  ok
-backend/flags.c                          ok
-backend/float_ret_sse.c                  ok
-backend/floatset.c                       ok
+backend/fehler_mux_am.c                  Test return code not zero but 152
+backend/flags.c                          Test return code not zero but 168
+backend/float_ret_sse.c                  Test return code not zero but 152
+backend/floatset.c                       Test return code not zero but 152
 backend/inconsistent_outs.c              ok
-backend/initializer_bug.c                ok
-backend/longfunc.c                       ok
-backend/longlongptr.c                    ok
+backend/initializer_bug.c                Test return code not zero but 136
+backend/longfunc.c                       Test return code not zero but 152
+backend/longlongptr.c                    Test return code not zero but 152
 backend/lower_call.c                     ok
-backend/lower_call2.c                    ok
+backend/lower_call2.c                    Test return code not zero but 152
 backend/lower_call3.c                    ok
-backend/optest.c                         ok
-backend/optest_float.c                   ok
-backend/optest_longlong.c                ok
-backend/paramaddr.c                      ok
-backend/paramaddrsf.c                    ok
-backend/pic_const.c                      ok
-backend/prefetch.c                       ok
-backend/register_pressure.c              ok
-backend/shift64.c                        ok
-backend/sign_bit.c                       ok
-backend/sparc_bitopcc.c                  ok
-backend/sparc_immediates.c               ok
-backend/sparc_notconsts.c                ok
-backend/sparc_restorepeepholes.c         ok
-backend/srettaken.c                      ok
-backend/stackarray.c                     ok
-backend/taken64.c                        ok
-backend/tls_ptr.c                        ok
-backend/transform_loop.c                 ok
+backend/optest.c                         Test return code not zero but 168
+backend/optest_float.c                   Test return code not zero but 152
+backend/optest_longlong.c                Test return code not zero but 136
+backend/paramaddr.c                      Test return code not zero but 152
+backend/paramaddrsf.c                    Test return code not zero but 152
+backend/pic_const.c                      Test return code not zero but 152
+backend/prefetch.c                       Test return code not zero but 152
+backend/register_pressure.c              Test return code not zero but 136
+backend/shift64.c                        Test return code not zero but 152
+backend/sign_bit.c                       Test return code not zero but 152
+backend/sparc_bitopcc.c                  Test return code not zero but 152
+backend/sparc_immediates.c               Test return code not zero but 136
+backend/sparc_notconsts.c                Test return code not zero but 136
+backend/sparc_restorepeepholes.c         Test return code not zero but 136
+backend/srettaken.c                      Test return code not zero but 152
+backend/stackarray.c                     Test return code not zero but 152
+backend/taken64.c                        Test return code not zero but 152
+backend/tls_ptr.c                        Test return code not zero but 152
+backend/transform_loop.c                 Test return code not zero but 152
 opt/20001212-1.c                         ok
-opt/Args.c                               ok
-opt/Arrays.c                             ok
-opt/BinaryOpTest.c                       ok
-opt/BreakTest.c                          ok
-opt/Bucmp.c                              ok
-opt/ByteTest.c                           ok
-opt/CallingTest.c                        ok
-opt/CondExpr.c                           ok
-opt/ContinueTest.c                       ok
-opt/DeclTest.c                           ok
-opt/DivBug.c                             ok
-opt/Do.c                                 ok
-opt/Doit.c                               ok
+opt/Args.c                               Test return code not zero but 168
+opt/Arrays.c                             Test return code not zero but 168
+opt/BinaryOpTest.c                       Test return code not zero but 152
+opt/BreakTest.c                          Test return code not zero but 168
+opt/Bucmp.c                              Test return code not zero but 168
+opt/ByteTest.c                           Test return code not zero but 168
+opt/CallingTest.c                        Test return code not zero but 152
+opt/CondExpr.c                           Test return code not zero but 168
+opt/ContinueTest.c                       Test return code not zero but 152
+opt/DeclTest.c                           Test return code not zero but 168
+opt/DivBug.c                             Test return code not zero but 168
+opt/Do.c                                 execution: SIGSEGV
+opt/Doit.c                               Test return code not zero but 168
 opt/Empty.c                              ok
-opt/EmptyFor.c                           ok
-opt/Field.c                              ok
-opt/Float.c                              ok
-opt/ForTest.c                            ok
-opt/GlobalCseTest.c                      ok
-opt/Hanoi.c                              ok
-opt/HeapSort.c                           ok
-opt/HelloWorld.c                         ok
-opt/IfExpr.c                             ok
-opt/Int.c                                ok
-opt/Label.c                              ok
-opt/Local.c                              ok
-opt/LuIs.c                               ok
-opt/MergeSort.c                          ok
+opt/EmptyFor.c                           Test return code not zero but 168
+opt/Field.c                              Test return code not zero but 168
+opt/Float.c                              Test return code not zero but 168
+opt/ForTest.c                            Test return code not zero but 168
+opt/GlobalCseTest.c                      Test return code not zero but 152
+opt/Hanoi.c                              Test return code not zero but 168
+opt/HeapSort.c                           Test return code not zero but 168
+opt/HelloWorld.c                         Test return code not zero but 168
+opt/IfExpr.c                             Test return code not zero but 168
+opt/Int.c                                Test return code not zero but 168
+opt/Label.c                              Test return code not zero but 168
+opt/Local.c                              Test return code not zero but 168
+opt/LuIs.c                               Test return code not zero but 168
+opt/MergeSort.c                          Test return code not zero but 168
 opt/Or.c                                 ok
-opt/Pdg.c                                ok
-opt/Queens.c                             ok
-opt/QuickSort.c                          ok
-opt/Return.c                             ok
-opt/Sieve.c                              ok
-opt/SieveBits.c                          ok
+opt/Pdg.c                                Test return code not zero but 168
+opt/Queens.c                             Test return code not zero but 168
+opt/QuickSort.c                          Test return code not zero but 168
+opt/Return.c                             Test return code not zero but 168
+opt/Sieve.c                              Test return code not zero but 168
+opt/SieveBits.c                          Test return code not zero but 168
 opt/SimpleExpr.c                         ok
-opt/Strings.c                            ok
-opt/Swap.c                               ok
-opt/Switcher.c                           ok
-opt/Test.c                               ok
-opt/Thilo.c                              ok
-opt/While.c                              ok
-opt/XXEndless.c                          ok
-opt/abs.c                                ok
-opt/adam_putt.c                          ok
-opt/add64.c                              ok
-opt/addn.c                               ok
-opt/addr_test.c                          ok
-opt/alloca.c                             ok
-opt/andtest.c                            ok
-opt/arr_init.c                           ok
-opt/array_type.c                         ok
-opt/backendcallorder.c                   ok
-opt/backendcallorder2.c                  ok
+opt/Strings.c                            Test return code not zero but 168
+opt/Swap.c                               Test return code not zero but 168
+opt/Switcher.c                           Test return code not zero but 168
+opt/Test.c                               Test return code not zero but 168
+opt/Thilo.c                              Test return code not zero but 168
+opt/While.c                              Test return code not zero but 168
+opt/XXEndless.c                          Test return code not zero but 168
+opt/abs.c                                Test return code not zero but 168
+opt/adam_putt.c                          Test return code not zero but 168
+opt/add64.c                              Test return code not zero but 168
+opt/addn.c                               Test return code not zero but 168
+opt/addr_test.c                          Test return code not zero but 168
+opt/alloca.c                             Test return code not zero but 168
+opt/andtest.c                            Test return code not zero but 168
+opt/arr_init.c                           Test return code not zero but 168
+opt/array_type.c                         Test return code not zero but 168
+opt/backendcallorder.c                   Test return code not zero but 152
+opt/backendcallorder2.c                  Test return code not zero but 152
 opt/bad.c                                ok
-opt/bf_constfold.c                       ok
-opt/biggest_prime.c                      ok
-opt/bitfield.c                           ok
-opt/bittest.c                            ok
-opt/bittest2.c                           ok
+opt/bf_constfold.c                       Test return code not zero but 152
+opt/biggest_prime.c                      Test return code not zero but 152
+opt/bitfield.c                           Test return code not zero but 168
+opt/bittest.c                            Test return code not zero but 168
+opt/bittest2.c                           Test return code not zero but 168
 opt/bitwise.c                            ok
 opt/blocks.c                             ok
-opt/boolopt.c                            ok
-opt/boolopts.c                           ok
+opt/boolopt.c                            Test return code not zero but 168
+opt/boolopts.c                           Test return code not zero but 168
 opt/boolsimplify.c                       ok
-opt/bttest.c                             ok
-opt/callref.c                            ok
-opt/calls.c                              ok
-opt/cfoptbug.c                           ok
-opt/cmp.c                                ok
-opt/cmp2.c                               ok
+opt/bttest.c                             Test return code not zero but 168
+opt/callref.c                            Test return code not zero but 168
+opt/calls.c                              Test return code not zero but 168
+opt/cfoptbug.c                           Test return code not zero but 168
+opt/cmp.c                                Test return code not zero but 168
+opt/cmp2.c                               Test return code not zero but 168
 opt/cmp_cse.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             compiler: SIGABRT
-opt/combo_comm.c                         ok
-opt/combo_paper.c                        ok
+opt/combo_comm.c                         Test return code not zero but 168
+opt/combo_paper.c                        Test return code not zero but 152
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      ok
 opt/compilerhang3.c                      execution: SIGABRT
-opt/compilerhang4.c                      ok
+opt/compilerhang4.c                      Test return code not zero but 152
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
-opt/confirm.c                            ok
-opt/const.c                              ok
+opt/confirm.c                            Test return code not zero but 168
+opt/const.c                              Test return code not zero but 168
 opt/const_load.c                         ok
-opt/conv.c                               ok
-opt/conv_orgie.c                         ok
-opt/convfloat.c                          ok
-opt/convtest.c                           ok
-opt/csetest.c                            ok
-opt/d.c                                  ok
-opt/dblstruct.c                          ok
+opt/conv.c                               Test return code not zero but 168
+opt/conv_orgie.c                         Test return code not zero but 168
+opt/convfloat.c                          Test return code not zero but 168
+opt/convtest.c                           Test return code not zero but 168
+opt/csetest.c                            Test return code not zero but 168
+opt/d.c                                  Test return code not zero but 184
+opt/dblstruct.c                          Test return code not zero but 168
 opt/deadstores.c                         ok
 opt/delayslot.c                          ok
-opt/distributive.c                       ok
-opt/divs.c                               ok
-opt/divtest.c                            ok
+opt/distributive.c                       Test return code not zero but 152
+opt/divs.c                               Test return code not zero but 168
+opt/divtest.c                            Test return code not zero but 168
 opt/doms_segfault.c                      ok
-opt/dowhile.c                            ok
-opt/duffs.c                              ok
-opt/dwlower.c                            ok
+opt/dowhile.c                            Test return code not zero but 168
+opt/duffs.c                              Test return code not zero but 168
+opt/dwlower.c                            Test return code not zero but 168
 opt/endless_phi_cons.c                   ok
-opt/enum.c                               ok
-opt/fabs.c                               ok
-opt/fak.c                                ok
-opt/fastcall.c                           ok
-opt/fbench.c                             ok
-opt/fcall.c                              ok
-opt/fcmp.c                               ok
-opt/fe_bug.c                             ok
+opt/enum.c                               Test return code not zero but 168
+opt/fabs.c                               Test return code not zero but 168
+opt/fak.c                                Test return code not zero but 168
+opt/fastcall.c                           Test return code not zero but 168
+opt/fbench.c                             Test return code not zero but 168
+opt/fcall.c                              Test return code not zero but 168
+opt/fcmp.c                               Test return code not zero but 168
+opt/fe_bug.c                             Test return code not zero but 168
 opt/fehler001.c                          ok
-opt/fehler002.c                          ok
-opt/fehler003.c                          ok
-opt/fehler004.c                          ok
-opt/fehler005.c                          ok
-opt/fehler006.c                          ok
-opt/fehler007.c                          ok
-opt/fehler008.c                          ok
-opt/fehler009.c                          ok
-opt/fehler010.c                          ok
-opt/fehler011.c                          ok
-opt/fehler012.c                          ok
-opt/fehler013.c                          ok
-opt/fehler014.c                          ok
-opt/fehler015.c                          ok
-opt/fehler016.c                          ok
-opt/fehler017.c                          ok
-opt/fehler018.c                          ok
-opt/fehler019.c                          ok
-opt/fehler021.c                          ok
+opt/fehler002.c                          Test return code not zero but 168
+opt/fehler003.c                          Test return code not zero but 168
+opt/fehler004.c                          Test return code not zero but 168
+opt/fehler005.c                          Test return code not zero but 168
+opt/fehler006.c                          Test return code not zero but 168
+opt/fehler007.c                          Test return code not zero but 168
+opt/fehler008.c                          Test return code not zero but 168
+opt/fehler009.c                          Test return code not zero but 168
+opt/fehler010.c                          Test return code not zero but 168
+opt/fehler011.c                          Test return code not zero but 168
+opt/fehler012.c                          Test return code not zero but 168
+opt/fehler013.c                          Test return code not zero but 168
+opt/fehler014.c                          Test return code not zero but 168
+opt/fehler015.c                          Test return code not zero but 168
+opt/fehler016.c                          Test return code not zero but 168
+opt/fehler017.c                          Test return code not zero but 168
+opt/fehler018.c                          Test return code not zero but 168
+opt/fehler019.c                          Test return code not zero but 168
+opt/fehler021.c                          Test return code not zero but 168
 opt/fehler022.c                          ok
-opt/fehler023.c                          ok
+opt/fehler023.c                          Test return code not zero but 168
 opt/fehler024.c                          ok
 opt/fehler025.c                          ok
 opt/fehler026.c                          ok
 opt/fehler027.c                          ok
-opt/fehler028.c                          ok
+opt/fehler028.c                          Test return code not zero but 168
 opt/fehler029.c                          ok
-opt/fehler030.c                          ok
-opt/fehler031.c                          ok
-opt/fehler032.c                          ok
+opt/fehler030.c                          Test return code not zero but 168
+opt/fehler031.c                          Test return code not zero but 168
+opt/fehler032.c                          Test return code not zero but 168
 opt/fehler033.c                          ok
-opt/fehler034.c                          ok
-opt/fehler035.c                          ok
+opt/fehler034.c                          Test return code not zero but 168
+opt/fehler035.c                          Test return code not zero but 168
 opt/fehler036.c                          ok
-opt/fehler037.c                          ok
-opt/fehler038.c                          ok
+opt/fehler037.c                          Test return code not zero but 168
+opt/fehler038.c                          Test return code not zero but 168
 opt/fehler039.c                          ok
-opt/fehler040.c                          ok
-opt/fehler042.c                          ok
-opt/fehler045.c                          ok
-opt/fehler047.c                          ok
+opt/fehler040.c                          Test return code not zero but 168
+opt/fehler042.c                          Test return code not zero but 168
+opt/fehler045.c                          Test return code not zero but 168
+opt/fehler047.c                          Test return code not zero but 168
 opt/fehler048.c                          ok
 opt/fehler049.c                          ok
-opt/fehler050.c                          ok
-opt/fehler051.c                          ok
-opt/fehler052.c                          ok
-opt/fehler053.c                          ok
-opt/fehler054.c                          ok
-opt/fehler055.c                          ok
-opt/fehler056.c                          ok
-opt/fehler057.c                          ok
-opt/fehler058.c                          ok
+opt/fehler050.c                          Test return code not zero but 168
+opt/fehler051.c                          Test return code not zero but 168
+opt/fehler052.c                          Test return code not zero but 168
+opt/fehler053.c                          Test return code not zero but 168
+opt/fehler054.c                          execution: SIGABRT
+opt/fehler055.c                          Test return code not zero but 168
+opt/fehler056.c                          Test return code not zero but 168
+opt/fehler057.c                          Test return code not zero but 168
+opt/fehler058.c                          Test return code not zero but 168
 opt/fehler059.c                          execution: SIGABRT
 opt/fehler060.c                          ok
-opt/fehler061.c                          ok
-opt/fehler062.c                          ok
-opt/fehler063.c                          ok
+opt/fehler061.c                          Test return code not zero but 168
+opt/fehler062.c                          Test return code not zero but 168
+opt/fehler063.c                          Test return code not zero but 168
 opt/fehler064.c                          ok
-opt/fehler065.c                          ok
-opt/fehler066.c                          ok
-opt/fehler067.c                          ok
-opt/fehler068.c                          ok
+opt/fehler065.c                          Test return code not zero but 168
+opt/fehler066.c                          Test return code not zero but 168
+opt/fehler067.c                          Test return code not zero but 168
+opt/fehler068.c                          Test return code not zero but 168
 opt/fehler069.c                          ok
-opt/fehler070.c                          ok
-opt/fehler071.c                          ok
-opt/fehler072.c                          ok
-opt/fehler073.c                          ok
-opt/fehler074.c                          ok
-opt/fehler075.c                          ok
-opt/fehler076.c                          ok
+opt/fehler070.c                          Test return code not zero but 168
+opt/fehler071.c                          Test return code not zero but 168
+opt/fehler072.c                          Test return code not zero but 168
+opt/fehler073.c                          Test return code not zero but 168
+opt/fehler074.c                          Test return code not zero but 168
+opt/fehler075.c                          Test return code not zero but 168
+opt/fehler076.c                          Test return code not zero but 168
 opt/fehler077.c                          ok
-opt/fehler078.c                          ok
-opt/fehler079.c                          ok
-opt/fehler080.c                          ok
-opt/fehler081.c                          ok
-opt/fehler082.c                          ok
-opt/fehler083.c                          ok
+opt/fehler078.c                          Test return code not zero but 168
+opt/fehler079.c                          Test return code not zero but 168
+opt/fehler080.c                          Test return code not zero but 168
+opt/fehler081.c                          Test return code not zero but 168
+opt/fehler082.c                          Test return code not zero but 168
+opt/fehler083.c                          Test return code not zero but 168
 opt/fehler084.c                          ok
 opt/fehler085.c                          ok
-opt/fehler086.c                          ok
-opt/fehler087.c                          ok
-opt/fehler088.c                          ok
-opt/fehler089.c                          ok
-opt/fehler090.c                          ok
-opt/fehler091.c                          ok
-opt/fehler092.c                          ok
-opt/fehler093.c                          ok
-opt/fehler094.c                          ok
+opt/fehler086.c                          Test return code not zero but 168
+opt/fehler087.c                          Test return code not zero but 168
+opt/fehler088.c                          Test return code not zero but 168
+opt/fehler089.c                          Test return code not zero but 168
+opt/fehler090.c                          Test return code not zero but 168
+opt/fehler091.c                          Test return code not zero but 168
+opt/fehler092.c                          Test return code not zero but 168
+opt/fehler093.c                          Test return code not zero but 168
+opt/fehler094.c                          Test return code not zero but 168
 opt/fehler095.c                          ok
-opt/fehler096.c                          ok
-opt/fehler097.c                          ok
-opt/fehler098.c                          ok
-opt/fehler099.c                          ok
+opt/fehler096.c                          Test return code not zero but 168
+opt/fehler097.c                          Test return code not zero but 168
+opt/fehler098.c                          Test return code not zero but 168
+opt/fehler099.c                          Test return code not zero but 168
 opt/fehler100.c                          ok
-opt/fehler101.c                          output mismatch
-opt/fehler102.c                          ok
+opt/fehler101.c                          Test return code not zero but 168
+opt/fehler102.c                          Test return code not zero but 168
 opt/fehler103.c                          ok
 opt/fehler105.c                          ok
-opt/fehler106.c                          ok
-opt/fehler107.c                          ok
-opt/fehler108.c                          ok
-opt/fehler109.c                          ok
-opt/fehler110.c                          ok
+opt/fehler106.c                          Test return code not zero but 168
+opt/fehler107.c                          Test return code not zero but 168
+opt/fehler108.c                          Test return code not zero but 168
+opt/fehler109.c                          Test return code not zero but 168
+opt/fehler110.c                          Test return code not zero but 168
 opt/fehler112.c                          ok
-opt/fehler113.c                          ok
-opt/fehler114.c                          ok
-opt/fehler115.c                          ok
-opt/fehler116.c                          ok
-opt/fehler117.c                          ok
+opt/fehler113.c                          Test return code not zero but 168
+opt/fehler114.c                          Test return code not zero but 168
+opt/fehler115.c                          Test return code not zero but 168
+opt/fehler116.c                          Test return code not zero but 168
+opt/fehler117.c                          Test return code not zero but 168
 opt/fehler118.c                          ok
 opt/fehler119.c                          ok
-opt/fehler120.c                          ok
+opt/fehler120.c                          Test return code not zero but 168
 opt/fehler121.c                          ok
 opt/fehler122.c                          ok
-opt/fehler123.c                          ok
-opt/fehler124.c                          ok
+opt/fehler123.c                          Test return code not zero but 168
+opt/fehler124.c                          Test return code not zero but 168
 opt/fehler125.c                          ok
 opt/fehler126.c                          ok
 opt/fehler127.c                          ok
@@ -300,7 +300,7 @@ opt/fehler135.c                          ok
 opt/fehler136.c                          ok
 opt/fehler137.c                          execution: SIGSEGV
 opt/fehler138.c                          ok
-opt/fehler139.c                          ok
+opt/fehler139.c                          Test return code not zero but 168
 opt/fehler140.c                          ok
 opt/fehler141.c                          ok
 opt/fehler142.c                          ok
@@ -308,7 +308,7 @@ opt/fehler143.c                          ok
 opt/fehler144.c                          ok
 opt/fehler145.c                          ok
 opt/fehler146.c                          ok
-opt/fehler147.c                          ok
+opt/fehler147.c                          Test return code not zero but 168
 opt/fehler148.c                          ok
 opt/fehler149.c                          ok
 opt/fehler150.c                          ok
@@ -318,81 +318,81 @@ opt/fehler153.c                          ok
 opt/fehler154.c                          ok
 opt/fehler155.c                          ok
 opt/fehler157.c                          ok
-opt/fehler158.c                          ok
+opt/fehler158.c                          Test return code not zero but 168
 opt/fehler159.c                          ok
 opt/fehler160.c                          ok
 opt/fehler161.c                          ok
-opt/fehler162.c                          ok
-opt/fehler163.c                          ok
+opt/fehler162.c                          Test return code not zero but 168
+opt/fehler163.c                          Test return code not zero but 168
 opt/fehler164.c                          ok
 opt/fehler165.c                          ok
 opt/fehler166.c                          ok
 opt/fehler167.c                          ok
-opt/fehler168.c                          ok
-opt/fehler169.c                          ok
-opt/fehler170.c                          ok
-opt/fehler171.c                          ok
+opt/fehler168.c                          Test return code not zero but 168
+opt/fehler169.c                          Test return code not zero but 168
+opt/fehler170.c                          Test return code not zero but 168
+opt/fehler171.c                          Test return code not zero but 168
 opt/fehler172.c                          ok
-opt/fehler173.c                          ok
-opt/fehler174.c                          ok
-opt/fehler175.c                          ok
-opt/fehler176.c                          ok
-opt/fehler177.c                          ok
+opt/fehler173.c                          Test return code not zero but 168
+opt/fehler174.c                          Test return code not zero but 168
+opt/fehler175.c                          Test return code not zero but 168
+opt/fehler176.c                          Test return code not zero but 168
+opt/fehler177.c                          Test return code not zero but 168
 opt/fehler178.c                          ok
 opt/fehler179.c                          ok
 opt/fehler180.c                          ok
-opt/fehler181.c                          ok
-opt/fehler182.c                          ok
+opt/fehler181.c                          Test return code not zero but 168
+opt/fehler182.c                          Test return code not zero but 168
 opt/fehler183.c                          ok
 opt/fehler184.c                          ok
-opt/fehler186.c                          ok
-opt/fehler187.c                          ok
-opt/fehler188.c                          ok
-opt/fehler189.c                          ok
-opt/fehler190.c                          ok
-opt/fehler191.c                          ok
+opt/fehler186.c                          Test return code not zero but 168
+opt/fehler187.c                          Test return code not zero but 168
+opt/fehler188.c                          Test return code not zero but 168
+opt/fehler189.c                          Test return code not zero but 168
+opt/fehler190.c                          Test return code not zero but 168
+opt/fehler191.c                          Test return code not zero but 168
 opt/fehler192.c                          ok
 opt/fehler193.c                          ok
 opt/fehler194.c                          ok
-opt/fehler195.c                          ok
-opt/fehler196.c                          ok
+opt/fehler195.c                          Test return code not zero but 168
+opt/fehler196.c                          Test return code not zero but 168
 opt/fehler197.c                          ok
-opt/fehler198.c                          ok
+opt/fehler198.c                          Test return code not zero but 168
 opt/fehler199.c                          Test return code not zero but 42
 opt/fehler200.c                          ok
-opt/fehler201.c                          ok
+opt/fehler201.c                          Test return code not zero but 168
 opt/fehler202.c                          ok
 opt/fehler203.c                          ok
 opt/fehler204.c                          ok
 opt/fehler205.c                          ok
 opt/fehler206.c                          ok
-opt/fehler207.c                          ok
-opt/fehler_gt_0.c                        ok
-opt/fehler_no_equality_0.c               ok
-opt/fib.c                                ok
-opt/fib_iter.c                           ok
-opt/fisttp.c                             ok
+opt/fehler207.c                          Test return code not zero but 168
+opt/fehler_gt_0.c                        Test return code not zero but 152
+opt/fehler_no_equality_0.c               Test return code not zero but 136
+opt/fib.c                                Test return code not zero but 168
+opt/fib_iter.c                           Test return code not zero but 168
+opt/fisttp.c                             Test return code not zero but 168
 opt/float_if.c                           Test return code not zero but 1
-opt/func_arg.c                           ok
+opt/func_arg.c                           Test return code not zero but 168
 opt/gap.c                                ok
-opt/gcd.c                                ok
-opt/gcd_bench.c                          ok
-opt/gcentities.c                         ok
+opt/gcd.c                                Test return code not zero but 168
+opt/gcd_bench.c                          Test return code not zero but 168
+opt/gcentities.c                         Test return code not zero but 168
 opt/gcse_no_end.c                        ok
-opt/git_error.c                          ok
-opt/global_null_test.c                   ok
-opt/globalrefs.c                         ok
+opt/git_error.c                          Test return code not zero but 168
+opt/global_null_test.c                   Test return code not zero but 152
+opt/globalrefs.c                         Test return code not zero but 168
 opt/gnu_def.c                            ok
 opt/gzip_error.c                         ok
-opt/iabs.c                               ok
-opt/if.c                                 ok
+opt/iabs.c                               Test return code not zero but 168
+opt/if.c                                 Test return code not zero but 184
 opt/ifconv.c                             ok
-opt/implicit_call.c                      ok
-opt/init_unnamed_bitfield.c              ok
+opt/implicit_call.c                      Test return code not zero but 152
+opt/init_unnamed_bitfield.c              Test return code not zero but 136
 opt/inline.c                             ok
 opt/inline2.c                            ok
 opt/inline_infinite_loop.c               ok
-opt/invsqrt.c                            ok
+opt/invsqrt.c                            Test return code not zero but 169
 opt/ioet.c                               ok
 opt/jumpthreading.c                      ok
 opt/jumpthreading2.c                     ok
@@ -402,123 +402,123 @@ opt/jumpthreading5.c                     compiler: SIGKILL
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
-opt/kahansum.c                           ok
-opt/labs.c                               ok
+opt/kahansum.c                           Test return code not zero but 168
+opt/labs.c                               Test return code not zero but 168
 opt/ldst.c                               ok
-opt/ll.c                                 ok
-opt/ll_call.c                            ok
-opt/load_memout_necessary.c              ok
-opt/localopts.c                          ok
+opt/ll.c                                 Test return code not zero but 184
+opt/ll_call.c                            Test return code not zero but 168
+opt/load_memout_necessary.c              Test return code not zero but 136
+opt/localopts.c                          Test return code not zero but 168
 opt/localopts2.c                         ok
-opt/longlong.c                           ok
+opt/longlong.c                           Test return code not zero but 168
 opt/loop_without_phi.c                   ok
-opt/loopana.c                            ok
-opt/loopspilling.c                       ok
-opt/lrot.c                               ok
-opt/max.c                                ok
-opt/memperm_stress.c                     ok
-opt/mismatch.c                           ok
-opt/mod10.c                              ok
-opt/most_complex_conv.c                  ok
-opt/mul.c                                ok
-opt/mul2n.c                              ok
-opt/mul32x32.c                           ok
-opt/mulconst.c                           ok
-opt/multidim-array.c                     ok
+opt/loopana.c                            Test return code not zero but 168
+opt/loopspilling.c                       Test return code not zero but 152
+opt/lrot.c                               Test return code not zero but 168
+opt/max.c                                Test return code not zero but 168
+opt/memperm_stress.c                     Test return code not zero but 152
+opt/mismatch.c                           Test return code not zero but 168
+opt/mod10.c                              Test return code not zero but 168
+opt/most_complex_conv.c                  Test return code not zero but 152
+opt/mul.c                                Test return code not zero but 168
+opt/mul2n.c                              Test return code not zero but 168
+opt/mul32x32.c                           Test return code not zero but 168
+opt/mulconst.c                           Test return code not zero but 168
+opt/multidim-array.c                     Test return code not zero but 152
 opt/mux.c                                ok
-opt/muxcmps.c                            ok
-opt/muxopts.c                            ok
-opt/nans.c                               ok
+opt/muxcmps.c                            Test return code not zero but 168
+opt/muxopts.c                            Test return code not zero but 168
+opt/nans.c                               Test return code not zero but 168
 opt/nested_loops.c                       ok
 opt/nested_loops2.c                      ok
-opt/ns.c                                 ok
-opt/nulladd.c                            ok
+opt/ns.c                                 Test return code not zero but 184
+opt/nulladd.c                            Test return code not zero but 168
 opt/nullnode.c                           ok
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
 opt/pbqpHeur3.c                          ok
-opt/pbqp_RedN.c                          ok
-opt/phi_bad.c                            ok
+opt/pbqp_RedN.c                          Test return code not zero but 168
+opt/phi_bad.c                            Test return code not zero but 168
 opt/place.c                              ok
-opt/postinc.c                            ok
+opt/postinc.c                            Test return code not zero but 168
 opt/pr37102.c                            ok
 opt/psi_test.c                           ok
-opt/ptr_to_int.c                         ok
-opt/queens-handoptimized.c               ok
+opt/ptr_to_int.c                         Test return code not zero but 168
+opt/queens-handoptimized.c               Test return code not zero but 136
 opt/reassoc-amok.c                       ok
-opt/reassoc.c                            ok
-opt/rotate.c                             ok
+opt/reassoc.c                            Test return code not zero but 168
+opt/rotate.c                             Test return code not zero but 168
 opt/rtsopt.c                             ok
-opt/setjump.c                            ok
+opt/setjump.c                            Test return code not zero but 168
 opt/shiftamount.c                        ok
-opt/shiftconst.c                         ok
+opt/shiftconst.c                         Test return code not zero but 168
 opt/should_be_same.c                     ok
-opt/simd1-i.c                            ok
-opt/simd1.c                              ok
-opt/simd2.c                              ok
+opt/simd1-i.c                            Test return code not zero but 168
+opt/simd1.c                              Test return code not zero but 168
+opt/simd2.c                              Test return code not zero but 168
 opt/simple.c                             ok
-opt/slow_memperm.c                       ok
-opt/sparam.c                             ok
-opt/spills.c                             ok
+opt/slow_memperm.c                       Test return code not zero but 152
+opt/sparam.c                             Test return code not zero but 168
+opt/spills.c                             Test return code not zero but 168
 opt/sret.c                               ok
-opt/stmt_expr.c                          ok
+opt/stmt_expr.c                          Test return code not zero but 168
 opt/store_bug.c                          ok
-opt/strenght_red.c                       ok
-opt/struct.c                             ok
-opt/structcall.c                         ok
-opt/structcopy.c                         ok
-opt/structtest.c                         ok
-opt/switch.c                             ok
-opt/switch_test.c                        ok
-opt/switch_test2.c                       ok
-opt/tailrec.c                            ok
-opt/tailrec2.c                           ok
+opt/strenght_red.c                       Test return code not zero but 152
+opt/struct.c                             Test return code not zero but 168
+opt/structcall.c                         Test return code not zero but 168
+opt/structcopy.c                         Test return code not zero but 168
+opt/structtest.c                         Test return code not zero but 168
+opt/switch.c                             Test return code not zero but 168
+opt/switch_test.c                        Test return code not zero but 152
+opt/switch_test2.c                       Test return code not zero but 152
+opt/tailrec.c                            Test return code not zero but 168
+opt/tailrec2.c                           Test return code not zero but 168
 opt/test1.c                              ok
-opt/thread.c                             ok
-opt/trivial_add.c                        ok
-opt/trivial_div.c                        ok
+opt/thread.c                             Test return code not zero but 168
+opt/trivial_add.c                        Test return code not zero but 152
+opt/trivial_div.c                        Test return code not zero but 152
 opt/trivial_empty.c                      ok
-opt/trivial_extern_add.c                 ok
-opt/trivial_max.c                        ok
-opt/trivial_sum_upto.c                   ok
-opt/trivial_two_times.c                  ok
-opt/truth.c                              ok
-opt/types.c                              ok
-opt/types2.c                             ok
+opt/trivial_extern_add.c                 Test return code not zero but 152
+opt/trivial_max.c                        Test return code not zero but 152
+opt/trivial_sum_upto.c                   Test return code not zero but 152
+opt/trivial_two_times.c                  Test return code not zero but 152
+opt/truth.c                              Test return code not zero but 168
+opt/types.c                              Test return code not zero but 168
+opt/types2.c                             Test return code not zero but 168
 opt/unary.c                              ok
-opt/union_init.c                         ok
+opt/union_init.c                         Test return code not zero but 168
 opt/unknown_combo.c                      ok
-opt/unknown_combo2.c                     ok
+opt/unknown_combo2.c                     Test return code not zero but 152
 opt/unreachable_block.c                  ok
 opt/use_uninit_ptr.c                     ok
-opt/vadd_store.c                         ok
-opt/valist.c                             ok
-opt/valist2.c                            ok
-opt/vandrunen.c                          ok
-opt/vararray.c                           ok
-opt/variadic_longlong.c                  ok
-opt/vla.c                                ok
+opt/vadd_store.c                         Test return code not zero but 168
+opt/valist.c                             Test return code not zero but 168
+opt/valist2.c                            Test return code not zero but 168
+opt/vandrunen.c                          Test return code not zero but 168
+opt/vararray.c                           Test return code not zero but 168
+opt/variadic_longlong.c                  Test return code not zero but 152
+opt/vla.c                                Test return code not zero but 168
 opt/volatile.c                           ok
-opt/while-printf.c                       ok
-opt/wrong_cmp.c                          ok
-C/LongLong.c                             ok
-C/abi_null_mode_proj.c                   ok
+opt/while-printf.c                       Test return code not zero but 152
+opt/wrong_cmp.c                          Test return code not zero but 168
+C/LongLong.c                             Test return code not zero but 168
+C/abi_null_mode_proj.c                   Test return code not zero but 152
 C/abstract_declarator.c                  ok
 C/anon_entity.c                          compiler: SIGABRT
-C/array.c                                ok
-C/bitfield.c                             ok
+C/array.c                                Test return code not zero but 168
+C/bitfield.c                             Test return code not zero but 168
 C/bitfield2.c                            ok
 C/bitfield3.c                            ok
-C/bitfield4.c                            ok
-C/bitfield_conversion.c                  ok
+C/bitfield4.c                            Test return code not zero but 168
+C/bitfield_conversion.c                  Test return code not zero but 152
 C/bool.c                                 ok
-C/bool2.c                                ok
-C/bool3.c                                ok
+C/bool2.c                                Test return code not zero but 168
+C/bool3.c                                Test return code not zero but 168
 C/bool4.c                                ok
-C/compoundlit.c                          ok
+C/compoundlit.c                          Test return code not zero but 168
 C/compoundlit2.c                         ok
-C/compoundlit3.c                         ok
+C/compoundlit3.c                         Test return code not zero but 168
 C/const2.c                               ok
 C/constarraytd.c                         ok
 C/constexpr.c                            ok
@@ -533,7 +533,7 @@ C/cp_error005.c                          ok
 C/cp_error006.c                          ok
 C/cp_error007.c                          ok
 C/cp_error008.c                          ok
-C/cp_error009.c                          ok
+C/cp_error009.c                          Test return code not zero but 168
 C/cp_error010.c                          ok
 C/cp_error011.c                          ok
 C/cp_error012.c                          ok
@@ -547,20 +547,20 @@ C/cp_error020.c                          ok
 C/cp_error021.c                          ok
 C/cp_error023.c                          ok
 C/cp_error024.c                          ok
-C/cp_error026.c                          ok
+C/cp_error026.c                          Test return code not zero but 168
 C/cp_error027.c                          ok
 C/cp_error028.c                          ok
-C/cp_error029.c                          ok
-C/cp_error031.c                          ok
-C/cp_error032.c                          ok
-C/cp_error033.c                          ok
+C/cp_error029.c                          Test return code not zero but 168
+C/cp_error031.c                          Test return code not zero but 168
+C/cp_error032.c                          Test return code not zero but 168
+C/cp_error033.c                          Test return code not zero but 168
 C/cp_error034.c                          ok
-C/cp_error035.c                          ok
+C/cp_error035.c                          Test return code not zero but 168
 C/cp_error036.c                          ok
 C/cp_error037.c                          ok
 C/cp_error041.c                          ok
 C/cp_error042.c                          ok
-C/cp_error043.c                          ok
+C/cp_error043.c                          Test return code not zero but 168
 C/cp_error044.c                          ok
 C/cp_error046.c                          ok
 C/cp_error047.c                          ok
@@ -572,9 +572,9 @@ C/cp_error052.c                          ok
 C/cp_error053.c                          ok
 C/cp_error055.c                          ok
 C/cp_error056.c                          ok
-C/cp_error057.c                          ok
+C/cp_error057.c                          Test return code not zero but 226
 C/cp_error058.c                          ok
-C/cp_error059.c                          ok
+C/cp_error059.c                          Test return code not zero but 168
 C/cp_error060.c                          ok
 C/cp_error061.c                          ok
 C/cp_error062.c                          ok
@@ -586,77 +586,77 @@ C/cp_error067.c                          ok
 C/cp_error068.c                          ok
 C/cp_error069.c                          ok
 C/cp_error070.c                          ok
-C/csmith1.c                              ok
-C/csmith2.c                              ok
-C/declarator_special.c                   ok
-C/designators.c                          ok
-C/designators2.c                         ok
-C/doublewide.c                           ok
+C/csmith1.c                              Test return code not zero but 168
+C/csmith2.c                              Test return code not zero but 168
+C/declarator_special.c                   Test return code not zero but 152
+C/designators.c                          Test return code not zero but 168
+C/designators2.c                         Test return code not zero but 168
+C/doublewide.c                           Test return code not zero but 168
 C/empty.c                                ok
 C/enum.c                                 ok
 C/flexarray.c                            ok
-C/floatcmp.c                             ok
+C/floatcmp.c                             Test return code not zero but 168
 C/floatvals.c                            ok
 C/folderror.c                            ok
-C/funcname.c                             ok
+C/funcname.c                             Test return code not zero but 168
 C/function.c                             ok
 C/function_declarator.c                  ok
 C/gigo_return.c                          ok
-C/hexfloat.c                             ok
-C/hugeval.c                              ok
+C/hexfloat.c                             Test return code not zero but 168
+C/hugeval.c                              Test return code not zero but 168
 C/if.c                                   ok
-C/implicit.c                             ok
-C/implicit2.c                            ok
+C/implicit.c                             Test return code not zero but 168
+C/implicit2.c                            Test return code not zero but 168
 C/incompleteextern.c                     ok
-C/init1.c                                ok
+C/init1.c                                Test return code not zero but 168
 C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
-C/init8.c                                ok
+C/init8.c                                Test return code not zero but 168
 C/initializers.c                         ok
-C/int_promote.c                          ok
-C/kr.c                                   ok
+C/int_promote.c                          Test return code not zero but 168
+C/kr.c                                   Test return code not zero but 184
 C/kr2.c                                  ok
 C/kr4.c                                  ok
-C/kr6.c                                  ok
+C/kr6.c                                  Test return code not zero but 184
 C/kr8.c                                  ok
 C/ldst_opt_id.c                          ok
-C/localfuncdecl.c                        ok
-C/long_double_int_conv.c                 ok
+C/localfuncdecl.c                        Test return code not zero but 152
+C/long_double_int_conv.c                 Test return code not zero but 152
 C/mini_complex.c                         compiler: SIGABRT
-C/mod.c                                  ok
-C/noconst.c                              ok
+C/mod.c                                  Test return code not zero but 184
+C/noconst.c                              Test return code not zero but 168
 C/number2.c                              ok
 C/number3.c                              ok
 C/offsetof.c                             ok
-C/precedence.c                           ok
+C/precedence.c                           Test return code not zero but 168
 C/scanf.c                                ok
 C/segfault4.c                            ok
 C/segfault5.c                            ok
 C/segfault6.c                            ok
 C/segfault7.c                            ok
-C/sideeffects.c                          ok
-C/statics.c                              ok
-C/struct_init.c                          ok
+C/sideeffects.c                          Test return code not zero but 168
+C/statics.c                              Test return code not zero but 168
+C/struct_init.c                          Test return code not zero but 168
 C/structns1.c                            ok
 C/structs.c                              ok
 C/structs2.c                             ok
 C/suffixes.c                             ok
 C/switch.c                               ok
-C/tarval_sign_error.c                    ok
-C/union_init.c                           ok
+C/tarval_sign_error.c                    Test return code not zero but 152
+C/union_init.c                           Test return code not zero but 168
 C/universal_character.c                  21 compile errors
 C/unkept_loop.c                          ok
-C/utf8input.c                            ok
-C/varargs.c                              ok
-C/vla.c                                  ok
+C/utf8input.c                            Test return code not zero but 168
+C/varargs.c                              Test return code not zero but 168
+C/vla.c                                  Test return code not zero but 184
 C/whiles.c                               ok
 C/pragmatic/conditional.c                ok
 C/pragmatic/fewparams.c                  ok
-C/pragmatic/kr2.c                        ok
+C/pragmatic/kr2.c                        Test return code not zero but 152
 C/pragmatic/kr3.c                        ok
 C/pragmatic/shift.c                      ok
-C/pragmatic/toomuchparams.c              ok
+C/pragmatic/toomuchparams.c              Test return code not zero but 136
 C/should_fail/adr_reg.c                  ok
 C/should_fail/anonunion.c                compiler missed error
 C/should_fail/arr_idx_float.c            ok
@@ -706,7 +706,7 @@ C/should_fail/float_xor.c                ok
 C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
-C/should_fail/goto_identifier_scope.c    verify warning
+C/should_fail/goto_identifier_scope.c    compiler missed error
 C/should_fail/incomplete_array.c         ok
 C/should_fail/incomplete_struct.c        ok
 C/should_fail/init1.c                    ok
@@ -846,7 +846,7 @@ C/nowarn/write_only14.c                  compiler produced invalid warning
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   2 compile errors
-C/gnu99/anonstruct.c                     ok
+C/gnu99/anonstruct.c                     Test return code not zero but 152
 C/gnu99/anonstruct2.c                    ok
 C/gnu99/anonstruct3.c                    ok
 C/gnu99/asmname.c                        ok
@@ -860,100 +860,100 @@ C/gnu99/attributes4.c                    execution: SIGABRT
 C/gnu99/attributes5.c                    ok
 C/gnu99/basic_complex.c                  compiler: SIGABRT
 C/gnu99/builtin_expect.c                 ok
-C/gnu99/builtins_libc.c                  ok
+C/gnu99/builtins_libc.c                  Test return code not zero but 152
 C/gnu99/cdecl.c                          ok
 C/gnu99/combo_load_mode.c                compiler: SIGABRT
 C/gnu99/computed_goto.c                  compiler: SIGABRT
-C/gnu99/construct_destruct.c             ok
+C/gnu99/construct_destruct.c             Test return code not zero but 136
 C/gnu99/cp_error038.c                    ok
 C/gnu99/cp_error059.c                    compiler: SIGABRT
 C/gnu99/cp_error064.c                    ok
 C/gnu99/emptystruct.c                    ok
 C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
-C/gnu99/extension_in_for_init.c          ok
+C/gnu99/extension_in_for_init.c          Test return code not zero but 136
 C/gnu99/flex_array_init.c                compiler: SIGABRT
 C/gnu99/ijmp.c                           compiler: SIGABRT
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
-C/gnu99/inlineextern.c                   ok
-C/gnu99/l1.c                             ok
-C/gnu99/local_label.c                    ok
-C/gnu99/longlong_bf.c                    ok
+C/gnu99/inlineextern.c                   Test return code not zero but 152
+C/gnu99/l1.c                             Test return code not zero but 168
+C/gnu99/local_label.c                    Test return code not zero but 152
+C/gnu99/longlong_bf.c                    Test return code not zero but 152
 C/gnu99/mode_attrib.c                    ok
-C/gnu99/multichar.c                      ok
-C/gnu99/nested_function.c                ok
+C/gnu99/multichar.c                      Test return code not zero but 152
+C/gnu99/nested_function.c                Test return code not zero but 136
 C/gnu99/nested_function_goto.c           compiler: SIGABRT
 C/gnu99/nullarray.c                      compiler: SIGABRT
-C/gnu99/omitted_cond.c                   ok
+C/gnu99/omitted_cond.c                   Test return code not zero but 152
 C/gnu99/packed.c                         ok
 C/gnu99/packed_bf.c                      ok
 C/gnu99/pointerarith.c                   ok
-C/gnu99/pretty_function.c                ok
+C/gnu99/pretty_function.c                Test return code not zero but 136
 C/gnu99/printfm.c                        ok
-C/gnu99/redirect.c                       ok
+C/gnu99/redirect.c                       Test return code not zero but 152
 C/gnu99/redirect_nowarn.c                ok
 C/gnu99/sizeof_function.c                ok
 C/gnu99/strangeattr.c                    ok
 C/gnu99/system_header_typedef.c          ok
 C/gnu99/tcctest.c                        1 compile errors
-C/gnu99/transparent_union.c              ok
-C/gnu99/transparent_union3.c             ok
-C/gnu99/typeof.c                         ok
+C/gnu99/transparent_union.c              Test return code not zero but 136
+C/gnu99/transparent_union3.c             Test return code not zero but 136
+C/gnu99/typeof.c                         Test return code not zero but 168
 C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     2 compile errors
 C/gnu99/unused_label.c                   ok
 C/gnu99/void_pointer_arithmetic.c        ok
 C++/should_fail/bad_retypedef.cc         ok
 C++/should_fail/bad_retypedef_sys.cc     ok
-ack/ack_conv.c                           ok
-ack/decl.c                               ok
-ack/init.c                               ok
-ack/ops.c                                ok
-ack/str.c                                ok
+ack/ack_conv.c                           Test return code not zero but 168
+ack/decl.c                               Test return code not zero but 168
+ack/init.c                               Test return code not zero but 168
+ack/ops.c                                Test return code not zero but 168
+ack/str.c                                Test return code not zero but 168
 ack/t7.c                                 ok
-ack/test.c                               ok
-ack/test1.c                              ok
-ack/test2.c                              ok
-langshootout/bintree.c                   ok
-langshootout/fannkuch.c                  ok
-langshootout/fasta.c                     ok
+ack/test.c                               Test return code not zero but 168
+ack/test1.c                              Test return code not zero but 168
+ack/test2.c                              execution: SIGKILL
+langshootout/bintree.c                   execution: SIGSEGV
+langshootout/fannkuch.c                  Test return code not zero but 152
+langshootout/fasta.c                     Test return code not zero but 152
 langshootout/n-body.c                    execution: SIGKILL
 langshootout/nsieve-bits.c               ok
-langshootout/nsieve.c                    ok
+langshootout/nsieve.c                    Test return code not zero but 152
 langshootout/partial-sums.c              execution: SIGKILL
 langshootout/recursive.c                 execution: SIGKILL
 langshootout/spectral-norm.c             execution: SIGSEGV
-llvm/2003-05-14-initialize-string.c      ok
+llvm/2003-05-14-initialize-string.c      Test return code not zero but 120
 llvm/2003-05-21-BitfieldHandling.c       ok
-llvm/2003-05-21-UnionBitfields.c         ok
-llvm/2003-05-21-UnionTest.c              ok
+llvm/2003-05-21-UnionBitfields.c         Test return code not zero but 136
+llvm/2003-05-21-UnionTest.c              Test return code not zero but 136
 llvm/2003-05-22-LocalTypeTest.c          ok
-llvm/2003-05-22-VarSizeArray.c           ok
-llvm/2003-05-23-TransparentUnion.c       ok
+llvm/2003-05-22-VarSizeArray.c           Test return code not zero but 136
+llvm/2003-05-23-TransparentUnion.c       Test return code not zero but 120
 llvm/2003-06-16-InvalidInitializer.c     ok
 llvm/2003-06-16-VolatileError.c          ok
-llvm/2003-10-12-GlobalVarInitializers.c  ok
-llvm/2004-02-03-AggregateCopy.c          ok
-llvm/2004-08-12-InlinerAndAllocas.c      ok
-llvm/2005-05-06-LongLongSignedShift.c    ok
+llvm/2003-10-12-GlobalVarInitializers.c  Test return code not zero but 120
+llvm/2004-02-03-AggregateCopy.c          Test return code not zero but 136
+llvm/2004-08-12-InlinerAndAllocas.c      Test return code not zero but 120
+llvm/2005-05-06-LongLongSignedShift.c    Test return code not zero but 120
 llvm/ConstructorDestructorAttributes.c   ok
-llvm/DuffsDevice.c                       ok
+llvm/DuffsDevice.c                       Test return code not zero but 152
 llvm/PR491.c                             ok
-llvm/PR640.c                             ok
-llvm/badidx.c                            ok
-llvm/bigstack.c                          ok
-llvm/callargs.c                          ok
-llvm/casts.c                             ok
-llvm/globalrefs.c                        ok
-llvm/matrixTranspose.c                   ok
+llvm/PR640.c                             Test return code not zero but 1
+llvm/badidx.c                            Test return code not zero but 168
+llvm/bigstack.c                          Test return code not zero but 168
+llvm/callargs.c                          Test return code not zero but 168
+llvm/casts.c                             Test return code not zero but 168
+llvm/globalrefs.c                        Test return code not zero but 152
+llvm/matrixTranspose.c                   Test return code not zero but 152
 llvm/pointer_arithmetic.c                ok
-llvm/sumarray.c                          ok
-llvm/sumarray2d.c                        ok
-llvm/sumarraymalloc.c                    ok
-llvm/test_indvars.c                      ok
-llvm/testtrace.c                         ok
-sparccode/bf_init.c                      ok
-sparccode/bf_localinit.c                 ok
-sparccode/fehler104.c                    ok
+llvm/sumarray.c                          Test return code not zero but 168
+llvm/sumarray2d.c                        Test return code not zero but 152
+llvm/sumarraymalloc.c                    Test return code not zero but 152
+llvm/test_indvars.c                      Test return code not zero but 152
+llvm/testtrace.c                         Test return code not zero but 168
+sparccode/bf_init.c                      Test return code not zero but 152
+sparccode/bf_localinit.c                 Test return code not zero but 152
+sparccode/fehler104.c                    Test return code not zero but 152
 sparccode/structlayout.c                 ok
