@@ -25,7 +25,7 @@ x10firm/GenericCall.x10                  ok
 x10firm/GenericCallTwoLevels.x10         ok
 x10firm/GenericClass.x10                 ok
 x10firm/GenericClass2.x10                ok
-x10firm/GenericClosure.x10               compilation not ok (returncode 1)
+x10firm/GenericClosure.x10               ok
 x10firm/GenericConstructor.x10           ok
 x10firm/GenericField.x10                 ok
 x10firm/GenericIdentity.x10              ok
@@ -33,7 +33,7 @@ x10firm/GenericParamShadowing.x10        ok
 x10firm/GenericStaticMethodsTest.x10     execution: SIGABRT
 x10firm/GenericsTest1.x10                ok
 x10firm/GrowableIMCTest.x10              ok
-x10firm/HelloWorld.x10                   compilation not ok (returncode 1)
+x10firm/HelloWorld.x10                   ok
 x10firm/If.x10                           ok
 x10firm/If2.x10                          ok
 x10firm/If3.x10                          ok
