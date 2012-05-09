@@ -2,7 +2,6 @@ x10firm/AnonymousClass.x10               ok
 x10firm/ArrayBenchmark.x10               ok
 x10firm/ArrayListTest.x10                ok
 x10firm/Assert.x10                       ok
-x10firm/Atomic1.x10                      ok
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/Cast1.x10                        execution: SIGABRT
@@ -44,7 +43,6 @@ x10firm/InterfaceCall.x10                ok
 x10firm/LazyAnd.x10                      ok
 x10firm/LazyOr.x10                       ok
 x10firm/LocalClass.x10                   ok
-x10firm/Lock1.x10                        ok
 x10firm/Loop.x10                         ok
 x10firm/Loop2.x10                        ok
 x10firm/NestedTypeParams.x10             ok
@@ -88,8 +86,5 @@ x10firm/SubtypeTest.x10                  ok
 x10firm/Switch.x10                       ok
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
-x10firm/Thread1.x10                      ok
-x10firm/Thread2.x10                      ok
-x10firm/Thread3.x10                      ok
 x10firm/TypeNames.x10                    ok
 x10firm/X10CPPCrash.x10                  execution: SIGSEGV
