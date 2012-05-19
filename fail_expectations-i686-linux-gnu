@@ -822,6 +822,7 @@ C/should_warn/stupid_formats.c           ok
 C/should_warn/switch_on_enum.c           ok
 C/should_warn/traditional.c              ok
 C/should_warn/unused_param.c             ok
+C/should_warn/wprintf_formats.c          ok
 C/should_warn/write_only11.c             ok
 C/should_warn/write_only12.c             ok
 C/should_warn/write_only14.c             compiler missed warnings
