@@ -632,7 +632,7 @@ C/mod.c                                  ok
 C/noconst.c                              ok
 C/number2.c                              ok
 C/number3.c                              ok
-C/number_after_line_directive.c          compiler: SIGKILL
+C/number_after_line_directive.c          ok
 C/offsetof.c                             ok
 C/precedence.c                           ok
 C/scanf.c                                ok
