@@ -595,6 +595,7 @@ C/csmith2.c                              ok
 C/declarator_special.c                   ok
 C/designators.c                          ok
 C/designators2.c                         ok
+C/digraphs.c                             ok
 C/doublewide.c                           ok
 C/empty.c                                ok
 C/enum.c                                 ok
