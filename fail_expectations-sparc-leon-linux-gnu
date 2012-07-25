@@ -660,6 +660,7 @@ C/unkept_loop.c                          ok
 C/utf8input.c                            ok
 C/varargs.c                              ok
 C/vla.c                                  ok
+C/vlainit.c                              compiler: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
 C/pragmatic/conditional.c                ok
@@ -968,6 +969,15 @@ llvm/sumarray2d.c                        ok
 llvm/sumarraymalloc.c                    ok
 llvm/test_indvars.c                      ok
 llvm/testtrace.c                         ok
+gcc/20020129-1.c                         compiler: SIGABRT
+gcc/20030305-1.c                         compiler: SIGABRT
+gcc/pr21839.c                            compiler: SIGABRT
+gcc/pr22379.c                            compiler: SIGKILL
+gcc/pr25860.c                            compiler: SIGABRT
+gcc/pr36988.c                            compiler: SIGABRT
+gcc/pr37285.c                            compiler: SIGABRT
+gcc/pr37433.c                            compiler: SIGABRT
+gcc/pr39614-4.c                          compiler: SIGABRT
 sparccode/bf_init.c                      ok
 sparccode/bf_localinit.c                 ok
 sparccode/fehler104.c                    ok
