@@ -2,6 +2,7 @@ x10firm/AnonymousClass.x10               ok
 x10firm/ArrayBenchmark.x10               ok
 x10firm/ArrayListTest.x10                ok
 x10firm/Assert.x10                       ok
+x10firm/Async0.x10                       compilation not ok (returncode 1)
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/Cast1.x10                        execution: SIGABRT
