@@ -3,6 +3,7 @@ x10firm/ArrayBenchmark.x10               execution: SIGKILL
 x10firm/ArrayListTest.x10                ok
 x10firm/Assert.x10                       ok
 x10firm/Async0.x10                       compilation not ok (returncode 1)
+x10firm/Async1.x10                       execution: SIGABRT
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/Cast1.x10                        execution: SIGABRT
