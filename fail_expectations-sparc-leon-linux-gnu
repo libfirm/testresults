@@ -992,4 +992,5 @@ gcc/va-arg-12.c                          compiler: SIGABRT
 sparccode/bf_init.c                      ok
 sparccode/bf_localinit.c                 ok
 sparccode/fehler104.c                    ok
+sparccode/restoredelayslot.c             ok
 sparccode/structlayout.c                 ok
