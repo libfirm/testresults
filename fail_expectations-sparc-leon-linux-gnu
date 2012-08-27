@@ -154,6 +154,7 @@ opt/const_load.c                         ok
 opt/conv.c                               ok
 opt/conv_orgie.c                         ok
 opt/convfloat.c                          ok
+opt/convs.c                              ok
 opt/convtest.c                           ok
 opt/csetest.c                            ok
 opt/d.c                                  ok
