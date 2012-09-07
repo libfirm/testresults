@@ -6,6 +6,7 @@ x10firm/ArrayTest.x10                    compilation not ok (returncode 1)
 x10firm/Assert.x10                       ok
 x10firm/Async0.x10                       compilation not ok (returncode 1)
 x10firm/Async1.x10                       execution: SIGABRT
+x10firm/AsyncVarTest.x10                 compilation not ok (returncode 1)
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/BoxTest.x10                      ok
@@ -17,6 +18,7 @@ x10firm/Class.x10                        ok
 x10firm/Class2.x10                       ok
 x10firm/ClosureField.x10                 ok
 x10firm/ClosureLocal.x10                 ok
+x10firm/ClosureTest.x10                  ok
 x10firm/CompareTest.x10                  ok
 x10firm/Conditional.x10                  ok
 x10firm/ConstrainedTypes.x10             ok
@@ -25,6 +27,7 @@ x10firm/Dynamic.x10                      ok
 x10firm/DynamicInnerClass.x10            ok
 x10firm/Fibonacci.x10                    ok
 x10firm/Fields.x10                       ok
+x10firm/FunTest.x10                      execution: SIGABRT
 x10firm/GenericBase.x10                  ok
 x10firm/GenericCall.x10                  ok
 x10firm/GenericCallTwoLevels.x10         ok
