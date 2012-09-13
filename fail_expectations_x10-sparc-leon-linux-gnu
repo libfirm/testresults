@@ -105,6 +105,7 @@ x10firm/StructArgs.x10                   output mismatch
 x10firm/StructStdMethods.x10             ok
 x10firm/Structs.x10                      ok
 x10firm/SubtypeTest.x10                  ok
+x10firm/SuperTest.x10                    ok
 x10firm/Switch.x10                       ok
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
