@@ -472,6 +472,7 @@ opt/store_bug.c                          ok
 opt/strenght_red.c                       ok
 opt/struct.c                             ok
 opt/structcall.c                         ok
+opt/structcall2.c                        output mismatch
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
