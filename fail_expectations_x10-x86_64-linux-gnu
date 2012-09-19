@@ -13,7 +13,7 @@ x10firm/BoxTest.x10                      ok
 x10firm/Cast1.x10                        execution: SIGABRT
 x10firm/Cast2.x10                        execution: SIGABRT
 x10firm/Cast3.x10                        execution: SIGABRT
-x10firm/CellTest.x10                     compilation not ok (returncode 1)
+x10firm/CellTest.x10                     ok
 x10firm/Class.x10                        ok
 x10firm/Class2.x10                       ok
 x10firm/ClosureField.x10                 ok
@@ -63,12 +63,12 @@ x10firm/Loop3.x10                        ok
 x10firm/NestedTypeParams.x10             ok
 x10firm/NullUnbox.x10                    ok
 x10firm/Overrides.x10                    ok
-x10firm/PairTest.x10                     compilation not ok (returncode 1)
+x10firm/PairTest.x10                     ok
 x10firm/PiParallel1.x10                  ok
 x10firm/PrimitiveTypename.x10            ok
 x10firm/PrimitivesBoxing.x10             ok
 x10firm/Print.x10                        ok
-x10firm/RandomTest.x10                   compilation not ok (returncode 1)
+x10firm/RandomTest.x10                   ok
 x10firm/RegionTest.x10                   ok
 x10firm/Reverse.x10                      ok
 x10firm/SelfRefField.x10                 ok
@@ -85,7 +85,7 @@ x10firm/SimpleStruct2.x10                ok
 x10firm/SimpleTest.x10                   ok
 x10firm/SimpleTest2.x10                  ok
 x10firm/SimpleTest3.x10                  ok
-x10firm/StackTest.x10                    compilation not ok (returncode 1)
+x10firm/StackTest.x10                    ok
 x10firm/StaticFields.x10                 ok
 x10firm/StaticInnerClass.x10             ok
 x10firm/StaticNonConstTest1.x10          ok
