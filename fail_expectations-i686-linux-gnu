@@ -987,7 +987,7 @@ gcc/pr21839.c                            compiler: SIGABRT
 gcc/pr22379.c                            compiler: SIGKILL
 gcc/pr25860.c                            compiler: SIGABRT
 gcc/pr36988.c                            compiler: SIGABRT
-gcc/pr37285.c                            compiler: SIGABRT
+gcc/pr37285.c                            ok
 gcc/pr37433.c                            compiler: SIGABRT
 gcc/pr39614-4.c                          compiler: SIGABRT
 gcc/pr43784.c                            Test return code not zero but 4
