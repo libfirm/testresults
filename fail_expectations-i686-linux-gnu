@@ -55,7 +55,7 @@ backend/register_pressure.c              ok
 backend/setjmp.c                         output mismatch
 backend/setmem.c                         ok
 backend/shift64.c                        ok
-backend/sign_bit.c                       output mismatch
+backend/sign_bit.c                       ok
 backend/sparc_bitopcc.c                  ok
 backend/sparc_immediates.c               ok
 backend/sparc_notconsts.c                ok
@@ -477,6 +477,7 @@ opt/structcall2.c                        ok
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
+opt/switch_ll.c                          compiler: SIGABRT
 opt/switch_test.c                        ok
 opt/switch_test2.c                       ok
 opt/tailrec.c                            ok
@@ -913,6 +914,7 @@ C/gnu99/printfm.c                        ok
 C/gnu99/redirect.c                       ok
 C/gnu99/redirect_nowarn.c                ok
 C/gnu99/sizeof_function.c                ok
+C/gnu99/stmtexpr.c                       1 compile errors
 C/gnu99/strangeattr.c                    ok
 C/gnu99/system_header_typedef.c          ok
 C/gnu99/tcctest.c                        1 compile errors
@@ -922,7 +924,8 @@ C/gnu99/typeof.c                         ok
 C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     2 compile errors
 C/gnu99/unused_label.c                   ok
-C/gnu99/vlabel2.c                        assembler error
+C/gnu99/vlabel2.c                        ok
+C/gnu99/vlabel3.c                        verify warning
 C/gnu99/void_pointer_arithmetic.c        ok
 C++/should_fail/bad_retypedef.cc         ok
 C++/should_fail/bad_retypedef_sys.cc     ok
