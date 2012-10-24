@@ -77,6 +77,7 @@ x10firm/RecursiveAsyncTest.x10           ok
 x10firm/RegionTest.x10                   ok
 x10firm/Reverse.x10                      ok
 x10firm/SelfRefField.x10                 ok
+x10firm/Serialization.x10                ok
 x10firm/Simple.x10                       ok
 x10firm/Simple0.x10                      ok
 x10firm/Simple1.x10                      ok
