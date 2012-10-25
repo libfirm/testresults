@@ -477,7 +477,7 @@ opt/structcall2.c                        ok
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
-opt/switch_ll.c                          compiler: SIGABRT
+opt/switch_ll.c                          ok
 opt/switch_test.c                        ok
 opt/switch_test2.c                       ok
 opt/tailrec.c                            ok
@@ -984,7 +984,7 @@ gcc/20030305-1.c                         compiler: SIGABRT
 gcc/20031003-1.c                         Test return code not zero but 1
 gcc/20040208-2.c                         Test return code not zero but 1
 gcc/920908-1.c                           ok
-gcc/930111-1.c                           compiler: SIGABRT
+gcc/930111-1.c                           ok
 gcc/991227-1.c                           output mismatch
 gcc/pr21839.c                            compiler: SIGABRT
 gcc/pr22379.c                            compiler: SIGKILL
