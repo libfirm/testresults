@@ -925,7 +925,7 @@ C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     2 compile errors
 C/gnu99/unused_label.c                   ok
 C/gnu99/vlabel2.c                        ok
-C/gnu99/vlabel3.c                        verify warning
+C/gnu99/vlabel3.c                        ok
 C/gnu99/void_pointer_arithmetic.c        ok
 C++/should_fail/bad_retypedef.cc         ok
 C++/should_fail/bad_retypedef_sys.cc     ok
