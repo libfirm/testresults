@@ -168,7 +168,7 @@ opt/doms_segfault.c                      ok
 opt/dowhile.c                            ok
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
-opt/endless.c                            output mismatch
+opt/endless.c                            ok
 opt/endless_phi_cons.c                   ok
 opt/enum.c                               ok
 opt/fabs.c                               ok
@@ -607,6 +607,7 @@ C/doublewide.c                           ok
 C/empty.c                                ok
 C/enum.c                                 ok
 C/flexarray.c                            ok
+C/flexarray2.c                           compiler: SIGABRT
 C/floatcmp.c                             ok
 C/floatcmp_implicit.c                    ok
 C/floatvals.c                            ok
@@ -1040,6 +1041,7 @@ x86code/float_rounding0.c                !check 'fst' failed
 x86code/float_rounding1.c                !check 'fst' failed
 x86code/float_rounding2.c                check[1] 'fst' failed
 x86code/incmem.c                         ok
+x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
 x86code/setmem.c                         ok
 x86code/shift64.c                        ok
