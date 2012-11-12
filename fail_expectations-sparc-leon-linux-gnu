@@ -169,6 +169,7 @@ opt/dowhile.c                            ok
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
 opt/endless.c                            ok
+opt/endless1.c                           ok
 opt/endless_phi_cons.c                   ok
 opt/enum.c                               ok
 opt/fabs.c                               ok
