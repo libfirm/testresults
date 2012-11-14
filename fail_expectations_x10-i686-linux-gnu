@@ -11,6 +11,7 @@ x10firm/AsyncAtTest.x10                  ok
 x10firm/AsyncVarTest.x10                 compilation not ok (returncode 1)
 x10firm/AtArrayListTest.x10              ok
 x10firm/AtArrayTest.x10                  ok
+x10firm/AtArrayTest2.x10                 output mismatch
 x10firm/AtAsyncAtomicTest.x10            ok
 x10firm/AtClass2Test.x10                 ok
 x10firm/AtClass3Test.x10                 ok
