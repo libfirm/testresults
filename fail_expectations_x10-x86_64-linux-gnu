@@ -8,6 +8,7 @@ x10firm/Assert.x10                       ok
 x10firm/Async0.x10                       compilation not ok (returncode 1)
 x10firm/Async1.x10                       ok
 x10firm/AsyncVarTest.x10                 compilation not ok (returncode 1)
+x10firm/AtExpressionTest.x10             ok
 x10firm/AtomicAtomicTest.x10             ok
 x10firm/AtomicFunctionTest.x10           ok
 x10firm/AtomicTest.x10                   ok
