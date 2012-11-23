@@ -56,8 +56,8 @@ x10firm/GenericsTest1.x10                ok
 x10firm/GrowableIMCTest.x10              ok
 x10firm/GuardClosure.x10                 ok
 x10firm/HashMapBug.x10                   ok
-x10firm/HashMapTest.x10                  compilation not ok (returncode 1)
-x10firm/HashSetTest.x10                  compilation not ok (returncode 1)
+x10firm/HashMapTest.x10                  ok
+x10firm/HashSetTest.x10                  ok
 x10firm/HelloWorld.x10                   ok
 x10firm/If.x10                           ok
 x10firm/If2.x10                          ok
@@ -66,7 +66,7 @@ x10firm/If4.x10                          ok
 x10firm/ImplementsAny.x10                ok
 x10firm/InstanceOfComparable.x10         ok
 x10firm/InterfaceCall.x10                ok
-x10firm/IterableTest.x10                 compilation not ok (returncode 1)
+x10firm/IterableTest.x10                 ok
 x10firm/LazyAnd.x10                      ok
 x10firm/LazyOr.x10                       ok
 x10firm/LocalClass.x10                   ok
