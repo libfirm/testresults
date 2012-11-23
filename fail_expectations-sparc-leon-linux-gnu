@@ -140,6 +140,7 @@ opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             compiler: SIGABRT
+opt/combo4.c                             compiler: SIGABRT
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
@@ -990,7 +991,7 @@ gcc/20040208-2.c                         compiler: SIGABRT
 gcc/920908-1.c                           compiler: SIGABRT
 gcc/930111-1.c                           compiler: SIGABRT
 gcc/991227-1.c                           output mismatch
-gcc/pr21839.c                            compiler: SIGABRT
+gcc/pr21839.c                            ok
 gcc/pr22379.c                            compiler: SIGKILL
 gcc/pr25860.c                            compiler: SIGABRT
 gcc/pr36988.c                            compiler: SIGABRT
