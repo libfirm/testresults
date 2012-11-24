@@ -607,6 +607,7 @@ C/designators.c                          ok
 C/designators2.c                         ok
 C/digraphs.c                             ok
 C/doublewide.c                           ok
+C/dynamic_initializers.c                 output mismatch
 C/empty.c                                ok
 C/enum.c                                 ok
 C/flexarray.c                            ok
@@ -984,7 +985,7 @@ llvm/testtrace.c                         ok
 gcc/20000914-1.c                         Test return code not zero but 1
 gcc/20010123-1.c                         execution: SIGSEGV
 gcc/20020129-1.c                         compiler: SIGABRT
-gcc/20020920-1.c                         compiler: SIGABRT
+gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compiler: SIGABRT
 gcc/20031003-1.c                         Test return code not zero but 1
 gcc/20040208-2.c                         compiler: SIGABRT
