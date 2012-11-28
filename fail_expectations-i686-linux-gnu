@@ -1041,6 +1041,7 @@ x86code/fehler135.c                      ok
 x86code/fehler136.c                      ok
 x86code/float_asm.c                      compiler: SIGABRT
 x86code/float_fld.c                      !check 'fld.*%st' failed
+x86code/float_ret_sse.c                  ok
 x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
