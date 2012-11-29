@@ -531,7 +531,8 @@ C/compoundlit.c                          ok
 C/compoundlit2.c                         ok
 C/compoundlit3.c                         ok
 C/compoundlit4.c                         ok
-C/compoundlit_lhs.c                      execution: SIGSEGV
+C/compoundlit5.c                         ok
+C/compoundlit_lhs.c                      ok
 C/const2.c                               ok
 C/constarraytd.c                         ok
 C/constexpr.c                            ok
@@ -983,7 +984,7 @@ llvm/sumarraymalloc.c                    ok
 llvm/test_indvars.c                      ok
 llvm/testtrace.c                         ok
 gcc/20000914-1.c                         Test return code not zero but 1
-gcc/20010123-1.c                         execution: SIGSEGV
+gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         compiler: SIGABRT
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compiler: SIGABRT
