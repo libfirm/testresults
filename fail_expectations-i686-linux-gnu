@@ -36,6 +36,7 @@ backend/fdiv.c                           ok
 backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
 backend/floatset.c                       ok
+backend/fpu.c                            compiler: SIGABRT
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/longfunc.c                       ok
@@ -50,6 +51,7 @@ backend/optest_longlong.c                ok
 backend/paramaddr.c                      ok
 backend/paramaddrsf.c                    ok
 backend/pic_const.c                      ok
+backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
 backend/setjmp.c                         output mismatch
