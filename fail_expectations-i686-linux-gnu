@@ -1057,3 +1057,4 @@ x86code/shift64.c                        ok
 x86code/shiftd.c                         ok
 x86code/struct.c                         ok
 x86code/struct_alignment.c               ok
+x86code/test16.c                         check 'testw .0x2A2A, _?x' failed
