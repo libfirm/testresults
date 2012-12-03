@@ -1,0 +1,1012 @@
+backend/RegallocBug.c                    compiler: SIGSEGV
+backend/alloca.c                         compiler: SIGABRT
+backend/allocacall.c                     compiler: SIGSEGV
+backend/am_explode.c                     ok
+backend/am_possibilities.c               compiler: SIGSEGV
+backend/am_test.c                        compiler: SIGSEGV
+backend/am_test2.c                       ok
+backend/am_test3.c                       ok
+backend/am_test4.c                       output mismatch
+backend/am_test5.c                       compiler: SIGSEGV
+backend/am_test_float.c                  compiler: SIGABRT
+backend/am_test_float2.c                 1 compile errors
+backend/arm_cconv.c                      1 compile errors
+backend/arm_immediate.c                  ok
+backend/builtin_bswap32.c                compiler: SIGABRT
+backend/builtin_bswap64.c                8 compile errors
+backend/builtin_clz.c                    ok
+backend/builtin_clzl.c                   ok
+backend/builtin_clzll.c                  compiler: SIGSEGV
+backend/builtin_ctz.c                    compiler: SIGABRT
+backend/builtin_ctzl.c                   compiler: SIGABRT
+backend/builtin_ctzll.c                  compiler: SIGABRT
+backend/builtin_ffs.c                    compiler: SIGABRT
+backend/builtin_ffsl.c                   compiler: SIGABRT
+backend/builtin_ffsll.c                  compiler: SIGABRT
+backend/builtin_parity.c                 compiler: SIGABRT
+backend/builtin_parityl.c                compiler: SIGABRT
+backend/builtin_parityll.c               compiler: SIGABRT
+backend/builtin_popcount.c               compiler: SIGABRT
+backend/builtin_popcountl.c              compiler: SIGABRT
+backend/builtin_popcountll.c             compiler: SIGABRT
+backend/cmovs.c                          1 compile errors
+backend/conv_float_unsigned.c            compiler: SIGABRT
+backend/extern_sret.c                    execution: SIGSEGV
+backend/fdiv.c                           compiler: SIGABRT
+backend/fehler_mux_am.c                  ok
+backend/flags.c                          ok
+backend/floatset.c                       compiler: SIGABRT
+backend/fpu.c                            compilation not ok (returncode 1)
+backend/inconsistent_outs.c              compiler: SIGSEGV
+backend/initializer_bug.c                compiler: SIGABRT
+backend/longfunc.c                       compiler: SIGSEGV
+backend/longlongptr.c                    compiler: SIGSEGV
+backend/lower_call.c                     compiler: SIGSEGV
+backend/lower_call2.c                    compiler: SIGSEGV
+backend/lower_call3.c                    compiler: SIGSEGV
+backend/memperm.c                        compiler: SIGABRT
+backend/optest.c                         compiler: SIGSEGV
+backend/optest_float.c                   compiler: SIGABRT
+backend/optest_longlong.c                compiler: SIGSEGV
+backend/paramaddr.c                      compiler: SIGSEGV
+backend/paramaddrsf.c                    compiler: SIGSEGV
+backend/pic_const.c                      1 compile errors
+backend/prefalloc.c                      compiler: SIGABRT
+backend/prefetch.c                       compiler: SIGABRT
+backend/register_pressure.c              compiler: SIGSEGV
+backend/setjmp.c                         ok
+backend/setmem.c                         ok
+backend/shift64.c                        output mismatch
+backend/sign_bit.c                       ok
+backend/sparc_bitopcc.c                  output mismatch
+backend/sparc_immediates.c               ok
+backend/sparc_notconsts.c                ok
+backend/sparc_restorepeepholes.c         ok
+backend/srettaken.c                      compiler: SIGSEGV
+backend/stackarray.c                     1 compile errors
+backend/taken64.c                        compiler: SIGSEGV
+backend/tls_ptr.c                        ok
+backend/transform_loop.c                 compiler: SIGSEGV
+opt/20001212-1.c                         compiler: SIGSEGV
+opt/Args.c                               compiler: SIGSEGV
+opt/Arrays.c                             compiler: SIGSEGV
+opt/BinaryOpTest.c                       compiler: SIGSEGV
+opt/BreakTest.c                          compiler: SIGSEGV
+opt/Bucmp.c                              ok
+opt/ByteTest.c                           compiler: SIGSEGV
+opt/CallingTest.c                        compiler: SIGSEGV
+opt/CondExpr.c                           compiler: SIGSEGV
+opt/ContinueTest.c                       compiler: SIGSEGV
+opt/DeclTest.c                           compiler: SIGSEGV
+opt/DivBug.c                             compiler: SIGSEGV
+opt/Do.c                                 1 compile errors
+opt/Doit.c                               compiler: SIGSEGV
+opt/Empty.c                              ok
+opt/EmptyFor.c                           compiler: SIGSEGV
+opt/Field.c                              ok
+opt/Float.c                              compiler: SIGSEGV
+opt/ForTest.c                            compiler: SIGSEGV
+opt/GlobalCseTest.c                      compiler: SIGSEGV
+opt/Hanoi.c                              1 compile errors
+opt/HeapSort.c                           ok
+opt/HelloWorld.c                         compiler: SIGSEGV
+opt/IfExpr.c                             compiler: SIGSEGV
+opt/Int.c                                compiler: SIGSEGV
+opt/Label.c                              compiler: SIGSEGV
+opt/Local.c                              compiler: SIGSEGV
+opt/LuIs.c                               ok
+opt/MergeSort.c                          ok
+opt/Or.c                                 ok
+opt/Pdg.c                                compiler: SIGSEGV
+opt/Queens.c                             ok
+opt/QuickSort.c                          1 compile errors
+opt/Return.c                             compiler: SIGSEGV
+opt/Sieve.c                              ok
+opt/SieveBits.c                          ok
+opt/SimpleExpr.c                         compiler: SIGSEGV
+opt/Strings.c                            ok
+opt/Swap.c                               compiler: SIGSEGV
+opt/Switcher.c                           compiler: SIGSEGV
+opt/Test.c                               compiler: SIGSEGV
+opt/Thilo.c                              ok
+opt/While.c                              compiler: SIGSEGV
+opt/XXEndless.c                          ok
+opt/abs.c                                ok
+opt/adam_putt.c                          ok
+opt/add64.c                              compiler: SIGSEGV
+opt/addn.c                               ok
+opt/addr_test.c                          compiler: SIGSEGV
+opt/alloca.c                             compiler: SIGABRT
+opt/andtest.c                            ok
+opt/arr_init.c                           ok
+opt/array_type.c                         ok
+opt/backendcallorder.c                   compiler: SIGABRT
+opt/backendcallorder2.c                  compiler: SIGABRT
+opt/bad.c                                compiler: SIGSEGV
+opt/bf_constfold.c                       output mismatch
+opt/biggest_prime.c                      ok
+opt/bitfield.c                           Test return code not zero but 42
+opt/bittest.c                            ok
+opt/bittest2.c                           ok
+opt/bitwise.c                            ok
+opt/blocks.c                             compiler: SIGSEGV
+opt/boolopt.c                            ok
+opt/boolopts.c                           1 compile errors
+opt/boolsimplify.c                       compiler: SIGSEGV
+opt/bttest.c                             ok
+opt/callref.c                            compiler: SIGSEGV
+opt/calls.c                              compiler: SIGSEGV
+opt/cfoptbug.c                           compiler: SIGSEGV
+opt/cmp.c                                output mismatch
+opt/cmp2.c                               1 compile errors
+opt/cmp_cse.c                            ok
+opt/combo2.c                             compiler: SIGSEGV
+opt/combo3.c                             ok
+opt/combo4.c                             ok
+opt/combo_comm.c                         compiler: SIGSEGV
+opt/combo_paper.c                        ok
+opt/comboattrs.c                         ok
+opt/compilerhang2.c                      compiler: SIGABRT
+opt/compilerhang3.c                      compiler: SIGABRT
+opt/compilerhang4.c                      ok
+opt/compilerhang5.c                      compiler: SIGSEGV
+opt/cond.c                               compiler: SIGSEGV
+opt/confirm.c                            ok
+opt/const.c                              ok
+opt/const_load.c                         compiler: SIGSEGV
+opt/conv.c                               ok
+opt/conv_orgie.c                         1 compile errors
+opt/convfloat.c                          compiler: SIGABRT
+opt/convs.c                              1 compile errors
+opt/convtest.c                           compiler: SIGABRT
+opt/csetest.c                            compiler: SIGSEGV
+opt/d.c                                  compiler: SIGSEGV
+opt/dblstruct.c                          ok
+opt/deadstores.c                         ok
+opt/delayslot.c                          ok
+opt/distributive.c                       1 compile errors
+opt/divs.c                               compiler: SIGABRT
+opt/divtest.c                            ok
+opt/doms_segfault.c                      compiler: SIGSEGV
+opt/dowhile.c                            ok
+opt/duffs.c                              compiler: SIGSEGV
+opt/dwlower.c                            ok
+opt/endless.c                            compiler: SIGSEGV
+opt/endless1.c                           compiler: SIGSEGV
+opt/endless_phi_cons.c                   compiler: SIGSEGV
+opt/enum.c                               compiler: SIGSEGV
+opt/fabs.c                               compiler: SIGABRT
+opt/fak.c                                ok
+opt/fastcall.c                           ok
+opt/fbench.c                             compiler: SIGABRT
+opt/fcall.c                              1 compile errors
+opt/fcmp.c                               compiler: SIGABRT
+opt/fe_bug.c                             ok
+opt/fehler001.c                          compiler: SIGSEGV
+opt/fehler002.c                          compiler: SIGSEGV
+opt/fehler003.c                          ok
+opt/fehler004.c                          ok
+opt/fehler005.c                          ok
+opt/fehler006.c                          ok
+opt/fehler007.c                          ok
+opt/fehler008.c                          compiler: SIGABRT
+opt/fehler009.c                          ok
+opt/fehler010.c                          ok
+opt/fehler011.c                          output mismatch
+opt/fehler012.c                          ok
+opt/fehler013.c                          ok
+opt/fehler014.c                          ok
+opt/fehler015.c                          ok
+opt/fehler016.c                          ok
+opt/fehler017.c                          ok
+opt/fehler018.c                          ok
+opt/fehler019.c                          compiler: SIGSEGV
+opt/fehler021.c                          ok
+opt/fehler022.c                          ok
+opt/fehler023.c                          compiler: SIGSEGV
+opt/fehler024.c                          compiler: SIGABRT
+opt/fehler025.c                          ok
+opt/fehler026.c                          ok
+opt/fehler027.c                          ok
+opt/fehler028.c                          output mismatch
+opt/fehler029.c                          compiler: SIGABRT
+opt/fehler030.c                          ok
+opt/fehler031.c                          ok
+opt/fehler032.c                          ok
+opt/fehler033.c                          ok
+opt/fehler034.c                          ok
+opt/fehler035.c                          ok
+opt/fehler036.c                          compiler: SIGSEGV
+opt/fehler037.c                          ok
+opt/fehler038.c                          ok
+opt/fehler039.c                          ok
+opt/fehler040.c                          compiler: SIGABRT
+opt/fehler042.c                          compiler: SIGABRT
+opt/fehler045.c                          output mismatch
+opt/fehler047.c                          ok
+opt/fehler048.c                          ok
+opt/fehler049.c                          ok
+opt/fehler050.c                          ok
+opt/fehler051.c                          verify warning
+opt/fehler052.c                          compiler: SIGSEGV
+opt/fehler053.c                          output mismatch
+opt/fehler054.c                          compiler: SIGSEGV
+opt/fehler055.c                          ok
+opt/fehler056.c                          compiler: SIGSEGV
+opt/fehler057.c                          ok
+opt/fehler058.c                          ok
+opt/fehler059.c                          compiler: SIGABRT
+opt/fehler060.c                          1 compile errors
+opt/fehler061.c                          ok
+opt/fehler062.c                          1 compile errors
+opt/fehler063.c                          ok
+opt/fehler064.c                          ok
+opt/fehler065.c                          compiler: SIGABRT
+opt/fehler066.c                          compiler: SIGABRT
+opt/fehler067.c                          compiler: SIGSEGV
+opt/fehler068.c                          compiler: SIGABRT
+opt/fehler069.c                          ok
+opt/fehler070.c                          ok
+opt/fehler071.c                          ok
+opt/fehler072.c                          ok
+opt/fehler073.c                          1 compile errors
+opt/fehler074.c                          1 compile errors
+opt/fehler075.c                          output mismatch
+opt/fehler076.c                          1 compile errors
+opt/fehler077.c                          ok
+opt/fehler078.c                          ok
+opt/fehler079.c                          ok
+opt/fehler080.c                          ok
+opt/fehler081.c                          ok
+opt/fehler082.c                          compiler: SIGABRT
+opt/fehler083.c                          ok
+opt/fehler084.c                          compiler: SIGSEGV
+opt/fehler085.c                          compiler: SIGSEGV
+opt/fehler086.c                          ok
+opt/fehler087.c                          compiler: SIGABRT
+opt/fehler088.c                          ok
+opt/fehler089.c                          output mismatch
+opt/fehler090.c                          compiler: SIGSEGV
+opt/fehler091.c                          Test return code not zero but 1
+opt/fehler092.c                          compiler: SIGSEGV
+opt/fehler093.c                          execution: SIGSEGV
+opt/fehler094.c                          execution: SIGSEGV
+opt/fehler095.c                          compiler: SIGSEGV
+opt/fehler096.c                          ok
+opt/fehler097.c                          ok
+opt/fehler098.c                          ok
+opt/fehler099.c                          output mismatch
+opt/fehler100.c                          compiler: SIGSEGV
+opt/fehler101.c                          1 compile errors
+opt/fehler102.c                          ok
+opt/fehler103.c                          ok
+opt/fehler105.c                          ok
+opt/fehler106.c                          1 compile errors
+opt/fehler107.c                          compiler: SIGABRT
+opt/fehler108.c                          ok
+opt/fehler109.c                          ok
+opt/fehler110.c                          execution: SIGSEGV
+opt/fehler112.c                          ok
+opt/fehler113.c                          output mismatch
+opt/fehler114.c                          output mismatch
+opt/fehler115.c                          compiler: SIGABRT
+opt/fehler116.c                          ok
+opt/fehler117.c                          compiler: SIGABRT
+opt/fehler118.c                          ok
+opt/fehler119.c                          ok
+opt/fehler120.c                          compiler: SIGABRT
+opt/fehler121.c                          compiler: SIGSEGV
+opt/fehler122.c                          ok
+opt/fehler123.c                          ok
+opt/fehler124.c                          compiler: SIGABRT
+opt/fehler125.c                          ok
+opt/fehler126.c                          ok
+opt/fehler127.c                          ok
+opt/fehler128.c                          compiler: SIGABRT
+opt/fehler129.c                          ok
+opt/fehler130.c                          ok
+opt/fehler135.c                          compiler: SIGSEGV
+opt/fehler136.c                          ok
+opt/fehler137.c                          1 compile errors
+opt/fehler138.c                          ok
+opt/fehler139.c                          output mismatch
+opt/fehler140.c                          ok
+opt/fehler141.c                          ok
+opt/fehler142.c                          compiler: SIGABRT
+opt/fehler143.c                          compiler: SIGSEGV
+opt/fehler144.c                          ok
+opt/fehler145.c                          compiler: SIGSEGV
+opt/fehler146.c                          compiler: SIGSEGV
+opt/fehler147.c                          compiler: SIGABRT
+opt/fehler148.c                          compiler: SIGSEGV
+opt/fehler149.c                          compiler: SIGSEGV
+opt/fehler150.c                          compiler: SIGSEGV
+opt/fehler151.c                          compiler: SIGSEGV
+opt/fehler152.c                          compiler: SIGSEGV
+opt/fehler153.c                          compiler: SIGSEGV
+opt/fehler154.c                          compiler: SIGSEGV
+opt/fehler155.c                          ok
+opt/fehler157.c                          ok
+opt/fehler158.c                          compiler: SIGSEGV
+opt/fehler159.c                          ok
+opt/fehler160.c                          ok
+opt/fehler161.c                          compiler: SIGABRT
+opt/fehler162.c                          execution: SIGSEGV
+opt/fehler163.c                          compiler: SIGABRT
+opt/fehler164.c                          ok
+opt/fehler165.c                          compiler: SIGSEGV
+opt/fehler166.c                          ok
+opt/fehler167.c                          ok
+opt/fehler168.c                          ok
+opt/fehler169.c                          ok
+opt/fehler170.c                          compiler: SIGABRT
+opt/fehler171.c                          compiler: SIGSEGV
+opt/fehler172.c                          ok
+opt/fehler173.c                          compiler: SIGABRT
+opt/fehler174.c                          compiler: SIGABRT
+opt/fehler175.c                          compiler: SIGABRT
+opt/fehler176.c                          compiler: SIGABRT
+opt/fehler177.c                          compiler: SIGSEGV
+opt/fehler178.c                          ok
+opt/fehler179.c                          compiler: SIGSEGV
+opt/fehler180.c                          compiler: SIGSEGV
+opt/fehler181.c                          compiler: SIGABRT
+opt/fehler182.c                          compiler: SIGSEGV
+opt/fehler183.c                          ok
+opt/fehler184.c                          ok
+opt/fehler186.c                          ok
+opt/fehler187.c                          ok
+opt/fehler188.c                          output mismatch
+opt/fehler189.c                          output mismatch
+opt/fehler190.c                          compiler: SIGSEGV
+opt/fehler191.c                          ok
+opt/fehler192.c                          Test return code not zero but 1
+opt/fehler193.c                          ok
+opt/fehler194.c                          output mismatch
+opt/fehler195.c                          ok
+opt/fehler196.c                          compiler: SIGSEGV
+opt/fehler197.c                          ok
+opt/fehler198.c                          ok
+opt/fehler199.c                          ok
+opt/fehler200.c                          ok
+opt/fehler201.c                          compiler: SIGSEGV
+opt/fehler202.c                          ok
+opt/fehler203.c                          compiler: SIGSEGV
+opt/fehler204.c                          compiler: SIGSEGV
+opt/fehler205.c                          ok
+opt/fehler206.c                          ok
+opt/fehler207.c                          1 compile errors
+opt/fehler208.c                          ok
+opt/fehler209.c                          compiler: SIGSEGV
+opt/fehler_gt_0.c                        ok
+opt/fehler_no_equality_0.c               ok
+opt/fib.c                                1 compile errors
+opt/fib_iter.c                           ok
+opt/fisttp.c                             compiler: SIGABRT
+opt/float_if.c                           compiler: SIGSEGV
+opt/func_arg.c                           compiler: SIGSEGV
+opt/gap.c                                ok
+opt/gcd.c                                ok
+opt/gcd_bench.c                          ok
+opt/gcentities.c                         ok
+opt/gcse_no_end.c                        compiler: SIGSEGV
+opt/git_error.c                          ok
+opt/global_null_test.c                   compiler: SIGSEGV
+opt/globalrefs.c                         compiler: SIGSEGV
+opt/gnu_def.c                            ok
+opt/gzip_error.c                         ok
+opt/iabs.c                               ok
+opt/if.c                                 compiler: SIGSEGV
+opt/ifconv.c                             compiler: SIGSEGV
+opt/implicit_call.c                      compiler: SIGSEGV
+opt/init_unnamed_bitfield.c              output mismatch
+opt/inline.c                             compiler: SIGSEGV
+opt/inline2.c                            compiler: SIGSEGV
+opt/inline_infinite_loop.c               compiler: SIGSEGV
+opt/inline_struct.c                      compiler: SIGABRT
+opt/invsqrt.c                            compiler: SIGSEGV
+opt/ioet.c                               compiler: SIGSEGV
+opt/jumpthreading.c                      ok
+opt/jumpthreading2.c                     compiler: SIGSEGV
+opt/jumpthreading3.c                     compiler: SIGSEGV
+opt/jumpthreading4.c                     compiler: SIGSEGV
+opt/jumpthreading5.c                     compiler: SIGKILL
+opt/jumpthreading6.c                     compiler: SIGSEGV
+opt/jumpthreading7.c                     compiler: SIGSEGV
+opt/jumpthreading8.c                     compiler: SIGSEGV
+opt/kahansum.c                           compiler: SIGABRT
+opt/labs.c                               compiler: SIGSEGV
+opt/ldst.c                               compiler: SIGSEGV
+opt/ll.c                                 compiler: SIGABRT
+opt/ll_call.c                            output mismatch
+opt/load_memout_necessary.c              ok
+opt/loadstore.c                          output mismatch
+opt/localopts.c                          compiler: SIGSEGV
+opt/localopts2.c                         compiler: SIGSEGV
+opt/longlong.c                           ok
+opt/loop_without_phi.c                   compiler: SIGSEGV
+opt/loopana.c                            compiler: SIGSEGV
+opt/loopspilling.c                       ok
+opt/lrot.c                               output mismatch
+opt/max.c                                1 compile errors
+opt/memperm_stress.c                     compiler: SIGSEGV
+opt/mismatch.c                           compiler: SIGSEGV
+opt/mod10.c                              ok
+opt/most_complex_conv.c                  compiler: SIGABRT
+opt/mul.c                                ok
+opt/mul2n.c                              output mismatch
+opt/mul32x32.c                           compiler: SIGSEGV
+opt/mulconst.c                           compiler: SIGSEGV
+opt/multidim-array.c                     ok
+opt/mux.c                                ok
+opt/muxcmps.c                            compiler: SIGSEGV
+opt/muxopts.c                            ok
+opt/nans.c                               compiler: SIGABRT
+opt/nested_loops.c                       ok
+opt/nested_loops2.c                      ok
+opt/ns.c                                 ok
+opt/nulladd.c                            ok
+opt/nullnode.c                           ok
+opt/pad_return.c                         compiler: SIGSEGV
+opt/pbqpHeur.c                           compiler: SIGSEGV
+opt/pbqpHeur2.c                          compiler: SIGSEGV
+opt/pbqpHeur3.c                          compiler: SIGSEGV
+opt/pbqp_RedN.c                          1 compile errors
+opt/phi_bad.c                            ok
+opt/place.c                              compiler: SIGSEGV
+opt/postinc.c                            ok
+opt/pr37102.c                            ok
+opt/psi_test.c                           compiler: SIGABRT
+opt/ptr_to_int.c                         ok
+opt/queens-handoptimized.c               ok
+opt/reassoc-amok.c                       ok
+opt/reassoc.c                            ok
+opt/rotate.c                             ok
+opt/rtsopt.c                             compiler: SIGSEGV
+opt/setjump.c                            output mismatch
+opt/shiftamount.c                        compiler: SIGSEGV
+opt/shiftconst.c                         compiler: SIGSEGV
+opt/should_be_same.c                     compiler: SIGSEGV
+opt/simd1-i.c                            1 compile errors
+opt/simd1.c                              ok
+opt/simd2.c                              1 compile errors
+opt/simple.c                             ok
+opt/slow_memperm.c                       ok
+opt/sparam.c                             execution: SIGILL
+opt/spills.c                             ok
+opt/sret.c                               ok
+opt/stmt_expr.c                          compiler: SIGSEGV
+opt/store_bug.c                          ok
+opt/strenght_red.c                       ok
+opt/struct.c                             output mismatch
+opt/structcall.c                         compiler: SIGSEGV
+opt/structcall2.c                        ok
+opt/structcopy.c                         1 compile errors
+opt/structtest.c                         compiler: SIGSEGV
+opt/switch.c                             ok
+opt/switch_ll.c                          execution: SIGSEGV
+opt/switch_test.c                        ok
+opt/switch_test2.c                       ok
+opt/tailrec.c                            compiler: SIGSEGV
+opt/tailrec2.c                           ok
+opt/test1.c                              ok
+opt/thread.c                             output mismatch
+opt/trivial_add.c                        compiler: SIGSEGV
+opt/trivial_div.c                        compiler: SIGSEGV
+opt/trivial_empty.c                      ok
+opt/trivial_extern_add.c                 compiler: SIGSEGV
+opt/trivial_max.c                        compiler: SIGSEGV
+opt/trivial_sum_upto.c                   compiler: SIGSEGV
+opt/trivial_two_times.c                  compiler: SIGSEGV
+opt/truth.c                              ok
+opt/types.c                              output mismatch
+opt/types2.c                             ok
+opt/unary.c                              ok
+opt/union_init.c                         ok
+opt/unknown_combo.c                      ok
+opt/unknown_combo2.c                     compiler: SIGSEGV
+opt/unreachable_block.c                  compiler: SIGSEGV
+opt/use_uninit_ptr.c                     ok
+opt/vadd_store.c                         output mismatch
+opt/valist.c                             compiler: SIGSEGV
+opt/valist2.c                            output mismatch
+opt/vandrunen.c                          compiler: SIGSEGV
+opt/vararray.c                           compiler: SIGABRT
+opt/variadic_longlong.c                  output mismatch
+opt/vla.c                                compiler: SIGABRT
+opt/volatile.c                           1 compile errors
+opt/while-printf.c                       ok
+opt/wrong_cmp.c                          ok
+C/LongLong.c                             compiler: SIGSEGV
+C/abi_null_mode_proj.c                   ok
+C/abstract_declarator.c                  compiler: SIGSEGV
+C/anon_entity.c                          compiler: SIGABRT
+C/array.c                                ok
+C/bitfield.c                             ok
+C/bitfield2.c                            ok
+C/bitfield3.c                            ok
+C/bitfield4.c                            output mismatch
+C/bitfield_conversion.c                  ok
+C/bool.c                                 ok
+C/bool2.c                                ok
+C/bool3.c                                ok
+C/bool4.c                                ok
+C/compoundlit.c                          output mismatch
+C/compoundlit2.c                         ok
+C/compoundlit3.c                         1 compile errors
+C/compoundlit4.c                         ok
+C/compoundlit5.c                         ok
+C/compoundlit_lhs.c                      ok
+C/const2.c                               ok
+C/constarraytd.c                         compiler: SIGSEGV
+C/constexpr.c                            ok
+C/constexpr2.c                           ok
+C/constexpr3.c                           ok
+C/constexpr4.c                           ok
+C/constexpr5.c                           ok
+C/constexpr6.c                           ok
+C/cp_error001.c                          ok
+C/cp_error004.c                          ok
+C/cp_error005.c                          ok
+C/cp_error006.c                          ok
+C/cp_error007.c                          ok
+C/cp_error008.c                          ok
+C/cp_error009.c                          ok
+C/cp_error010.c                          ok
+C/cp_error011.c                          ok
+C/cp_error012.c                          ok
+C/cp_error014.c                          ok
+C/cp_error015.c                          ok
+C/cp_error016.c                          ok
+C/cp_error017.c                          ok
+C/cp_error018.c                          ok
+C/cp_error019.c                          ok
+C/cp_error020.c                          ok
+C/cp_error021.c                          ok
+C/cp_error023.c                          ok
+C/cp_error024.c                          ok
+C/cp_error026.c                          output mismatch
+C/cp_error027.c                          ok
+C/cp_error028.c                          ok
+C/cp_error029.c                          ok
+C/cp_error031.c                          ok
+C/cp_error032.c                          ok
+C/cp_error033.c                          compiler: SIGSEGV
+C/cp_error034.c                          ok
+C/cp_error035.c                          compiler: SIGABRT
+C/cp_error036.c                          ok
+C/cp_error037.c                          compiler: SIGSEGV
+C/cp_error041.c                          ok
+C/cp_error042.c                          ok
+C/cp_error043.c                          ok
+C/cp_error044.c                          ok
+C/cp_error046.c                          ok
+C/cp_error047.c                          ok
+C/cp_error048.c                          ok
+C/cp_error049.c                          ok
+C/cp_error050.c                          ok
+C/cp_error051.c                          ok
+C/cp_error052.c                          ok
+C/cp_error053.c                          ok
+C/cp_error055.c                          compiler: SIGSEGV
+C/cp_error056.c                          ok
+C/cp_error057.c                          ok
+C/cp_error058.c                          compiler: SIGSEGV
+C/cp_error059.c                          ok
+C/cp_error060.c                          ok
+C/cp_error061.c                          ok
+C/cp_error062.c                          ok
+C/cp_error063.c                          compiler: SIGSEGV
+C/cp_error064.c                          ok
+C/cp_error065.c                          compiler: SIGSEGV
+C/cp_error066.c                          ok
+C/cp_error067.c                          ok
+C/cp_error068.c                          ok
+C/cp_error069.c                          ok
+C/cp_error070.c                          ok
+C/cp_error071.c                          ok
+C/csmith1.c                              output mismatch
+C/csmith2.c                              compiler: SIGSEGV
+C/declarator_special.c                   ok
+C/designators.c                          output mismatch
+C/designators2.c                         ok
+C/digraphs.c                             1 compile errors
+C/doublewide.c                           ok
+C/dynamic_initializers.c                 output mismatch
+C/empty.c                                ok
+C/enum.c                                 compiler: SIGSEGV
+C/flexarray.c                            ok
+C/flexarray2.c                           ok
+C/floatcmp.c                             compiler: SIGABRT
+C/floatcmp_implicit.c                    compiler: SIGABRT
+C/floatvals.c                            ok
+C/folderror.c                            compiler: SIGSEGV
+C/funcname.c                             ok
+C/function.c                             ok
+C/function_declarator.c                  ok
+C/gigo_return.c                          compiler: SIGSEGV
+C/hexfloat.c                             compiler: SIGSEGV
+C/hugeval.c                              1 compile errors
+C/if.c                                   ok
+C/implicit.c                             ok
+C/implicit2.c                            compiler: SIGSEGV
+C/incompleteextern.c                     ok
+C/init1.c                                ok
+C/init2.c                                ok
+C/init6.c                                ok
+C/init7.c                                ok
+C/init8.c                                ok
+C/init_wide.c                            ok
+C/initializers.c                         ok
+C/int_promote.c                          ok
+C/kr.c                                   1 compile errors
+C/kr2.c                                  compiler: SIGSEGV
+C/kr4.c                                  compiler: SIGSEGV
+C/kr6.c                                  1 compile errors
+C/kr8.c                                  ok
+C/ldst_opt_id.c                          ok
+C/localfuncdecl.c                        ok
+C/long_double_int_conv.c                 ok
+C/mini_complex.c                         compiler: SIGABRT
+C/mod.c                                  ok
+C/noconst.c                              ok
+C/number2.c                              ok
+C/number3.c                              ok
+C/number_after_line_directive.c          ok
+C/offsetof.c                             ok
+C/precedence.c                           ok
+C/scanf.c                                ok
+C/segfault4.c                            compiler: SIGSEGV
+C/segfault5.c                            ok
+C/segfault6.c                            ok
+C/segfault7.c                            ok
+C/sideeffects.c                          ok
+C/statics.c                              ok
+C/struct_init.c                          ok
+C/structns1.c                            ok
+C/structs.c                              ok
+C/structs2.c                             ok
+C/suffixes.c                             ok
+C/switch.c                               ok
+C/tarval_sign_error.c                    ok
+C/union_init.c                           ok
+C/universal_character.c                  ok
+C/unkept_loop.c                          compiler: SIGSEGV
+C/utf8input.c                            ok
+C/varargs.c                              output mismatch
+C/vla.c                                  compiler: SIGABRT
+C/vlainit.c                              compiler: SIGABRT
+C/void_cast.c                            ok
+C/whiles.c                               compiler: SIGSEGV
+C/pragmatic/conditional.c                ok
+C/pragmatic/fewparams.c                  ok
+C/pragmatic/kr2.c                        1 compile errors
+C/pragmatic/kr3.c                        ok
+C/pragmatic/shift.c                      Test return code not zero but 1
+C/pragmatic/toomuchparams.c              ok
+C/should_fail/adr_reg.c                  ok
+C/should_fail/anonunion.c                compiler missed error
+C/should_fail/arr_idx_float.c            ok
+C/should_fail/array0.c                   ok
+C/should_fail/array1.c                   ok
+C/should_fail/array2.c                   compiler: SIGSEGV
+C/should_fail/array3.c                   ok
+C/should_fail/array4.c                   compiler missed error
+C/should_fail/array5.c                   compiler missed error
+C/should_fail/array6.c                   compiler missed error
+C/should_fail/array7.c                   compiler missed error
+C/should_fail/array8.c                   ok
+C/should_fail/badarraytype.c             ok
+C/should_fail/baderr0.c                  ok
+C/should_fail/badparam.c                 ok
+C/should_fail/bitfield.c                 ok
+C/should_fail/brace1.c                   ok
+C/should_fail/brace2.c                   ok
+C/should_fail/call1.c                    ok
+C/should_fail/call2.c                    ok
+C/should_fail/casts.c                    ok
+C/should_fail/conflicting_types.c        ok
+C/should_fail/const.c                    ok
+C/should_fail/const2.c                   ok
+C/should_fail/cp_error002.c              ok
+C/should_fail/cp_error003.c              ok
+C/should_fail/cp_error054.c              ok
+C/should_fail/cp_error066.c              ok
+C/should_fail/cp_error066a.c             ok
+C/should_fail/cpponly.c                  ok
+C/should_fail/decl_after_label.c         ok
+C/should_fail/decl_in_do_while.c         ok
+C/should_fail/decl_in_else.c             ok
+C/should_fail/decl_in_for.c              ok
+C/should_fail/decl_in_switch.c           ok
+C/should_fail/decl_in_then.c             ok
+C/should_fail/decl_in_while.c            ok
+C/should_fail/decl_without_name.c        ok
+C/should_fail/double_typedef.c           ok
+C/should_fail/empty_char.c               ok
+C/should_fail/enum_forward.c             ok
+C/should_fail/error_directive.c          ok
+C/should_fail/f.c                        ok
+C/should_fail/float_and.c                ok
+C/should_fail/float_or.c                 ok
+C/should_fail/float_xor.c                ok
+C/should_fail/forscope.c                 ok
+C/should_fail/funcassign.c               ok
+C/should_fail/function_return.c          ok
+C/should_fail/goto_identifier_scope.c    compiler: SIGABRT
+C/should_fail/incomplete_array.c         ok
+C/should_fail/incomplete_struct.c        ok
+C/should_fail/init1.c                    ok
+C/should_fail/init2.c                    ok
+C/should_fail/init3.c                    ok
+C/should_fail/init4.c                    ok
+C/should_fail/init5.c                    ok
+C/should_fail/init8.c                    ok
+C/should_fail/kr1.c                      ok
+C/should_fail/kr2.c                      ok
+C/should_fail/kr3.c                      ok
+C/should_fail/kr4.c                      ok
+C/should_fail/kr5.c                      ok
+C/should_fail/kr7.c                      ok
+C/should_fail/label.c                    ok
+C/should_fail/large_array.c              compiler missed error
+C/should_fail/lvalue.c                   ok
+C/should_fail/missing.c                  ok
+C/should_fail/multifield.c               ok
+C/should_fail/multiple_types.c           ok
+C/should_fail/multiple_types2.c          ok
+C/should_fail/multiple_types3.c          ok
+C/should_fail/noconst.c                  ok
+C/should_fail/nofloat.c                  ok
+C/should_fail/nofloat2.c                 ok
+C/should_fail/number.c                   ok
+C/should_fail/offsetof.c                 ok
+C/should_fail/osmesa.cpp.c               ok
+C/should_fail/paramerror.c               ok
+C/should_fail/paramredef.c               ok
+C/should_fail/paramstorageclass.c        ok
+C/should_fail/pointerarith.c             ok
+C/should_fail/pointerarith2.c            ok
+C/should_fail/pointerarith3.c            ok
+C/should_fail/pointerarith4.c            ok
+C/should_fail/pointerarith5.c            ok
+C/should_fail/randprog1.c                ok
+C/should_fail/recursive_struct.c         ok
+C/should_fail/scope_do_while_body.c      ok
+C/should_fail/scope_do_while_body_cond.c compiler missed error
+C/should_fail/scope_do_while_cond.c      ok
+C/should_fail/scope_for_body.c           ok
+C/should_fail/scope_for_cond.c           ok
+C/should_fail/scope_if_cond.c            ok
+C/should_fail/scope_if_else.c            ok
+C/should_fail/scope_if_then.c            ok
+C/should_fail/scope_if_then_else.c       compiler missed error
+C/should_fail/scope_switch_body.c        ok
+C/should_fail/scope_switch_cond.c        ok
+C/should_fail/scope_while_body.c         ok
+C/should_fail/scope_while_cond.c         ok
+C/should_fail/segfault1.c                ok
+C/should_fail/segfault2.c                ok
+C/should_fail/segfault4.c                ok
+C/should_fail/sizeof_function.c          ok
+C/should_fail/struct.c                   ok
+C/should_fail/struct2.c                  ok
+C/should_fail/struct_flexible_array.c    ok
+C/should_fail/struct_self.c              ok
+C/should_fail/structd.c                  ok
+C/should_fail/structns0.c                ok
+C/should_fail/suffix1.c                  ok
+C/should_fail/suffix2.c                  ok
+C/should_fail/suffix3.c                  ok
+C/should_fail/switches.c                 ok
+C/should_fail/t.c                        ok
+C/should_fail/transparent_union2.c       compiler: SIGSEGV
+C/should_fail/typedef_enum.c             ok
+C/should_fail/typedef_in_expr.c          ok
+C/should_fail/typedef_init.c             ok
+C/should_fail/unclosed_string.c          ok
+C/should_fail/union.c                    ok
+C/should_fail/universal_character.c      ok
+C/should_fail/universal_character2.c     ok
+C/should_fail/unspec_params.c            ok
+C/should_fail/voidarray.c                ok
+C/should_fail/weird_label.c              compiler: SIGABRT
+C/should_fail/wrongtype.c                ok
+C/should_warn/cast_qual.c                compiler: SIGSEGV
+C/should_warn/compare.c                  compiler missed warnings
+C/should_warn/compare2.c                 compiler missed warnings
+C/should_warn/cp_error025.c              compiler missed warnings
+C/should_warn/div_by_zero.c              compiler: SIGSEGV
+C/should_warn/implicit_int.c             ok
+C/should_warn/init_self.c                ok
+C/should_warn/main0.c                    compiler: SIGSEGV
+C/should_warn/main1.c                    compiler: SIGSEGV
+C/should_warn/main2.c                    compiler: SIGSEGV
+C/should_warn/main3.c                    compiler: SIGSEGV
+C/should_warn/missing_return.c           ok
+C/should_warn/nested_comment.c           compiler missed warnings
+C/should_warn/never_read1.c              ok
+C/should_warn/padded.c                   compiler missed warnings
+C/should_warn/paramscope.c               compiler missed warnings
+C/should_warn/printf2.c                  ok
+C/should_warn/printf_formats.c           ok
+C/should_warn/printf_int_for_short.c     ok
+C/should_warn/printf_zero_precision.c    ok
+C/should_warn/prototype.c                ok
+C/should_warn/prototype2.c               compiler: SIGSEGV
+C/should_warn/redundant_decl.c           ok
+C/should_warn/ref_local.c                ok
+C/should_warn/return_with_void.c         compiler: SIGSEGV
+C/should_warn/scanf_formats.c            ok
+C/should_warn/scanf_width_c.c            ok
+C/should_warn/scanf_width_s.c            ok
+C/should_warn/struct_ret.c               compiler: SIGSEGV
+C/should_warn/stupid_formats.c           ok
+C/should_warn/switch_on_enum.c           compiler: SIGSEGV
+C/should_warn/traditional.c              ok
+C/should_warn/unused_param.c             ok
+C/should_warn/wprintf_formats.c          ok
+C/should_warn/write_only11.c             ok
+C/should_warn/write_only12.c             ok
+C/should_warn/write_only14.c             compiler missed warnings
+C/should_warn/write_only2.c              ok
+C/should_warn/write_only3.c              ok
+C/should_warn/write_only4.c              ok
+C/should_warn/write_only6.c              ok
+C/should_warn/write_only8.c              ok
+C/should_warn/write_strings.c            compiler: SIGSEGV
+C/nowarn/fooredirect.c                   ok
+C/nowarn/init_self.c                     ok
+C/nowarn/main.c                          compiler: SIGSEGV
+C/nowarn/noreturn.c                      ok
+C/nowarn/printf.c                        ok
+C/nowarn/printf_unsigned_short.c         ok
+C/nowarn/redirect.c                      ok
+C/nowarn/redundant_decl.c                ok
+C/nowarn/scanf_suppress.c                ok
+C/nowarn/scanf_width_c.c                 ok
+C/nowarn/scanf_width_s.c                 ok
+C/nowarn/write_only1.c                   ok
+C/nowarn/write_only10.c                  ok
+C/nowarn/write_only11.c                  1 compile errors
+C/nowarn/write_only12.c                  ok
+C/nowarn/write_only13.c                  ok
+C/nowarn/write_only14.c                  compiler produced invalid warning
+C/nowarn/write_only5.c                   ok
+C/nowarn/write_only7.c                   ok
+C/nowarn/write_only9.c                   2 compile errors
+C/gnu90/noinline.c                       linker error
+C/gnu99/anonstruct.c                     1 compile errors
+C/gnu99/anonstruct2.c                    ok
+C/gnu99/anonstruct3.c                    ok
+C/gnu99/asmname.c                        compiler: SIGSEGV
+C/gnu99/attribute_after_bitfield.c       ok
+C/gnu99/attribute_empty.c                ok
+C/gnu99/attribute_in_decl.c              2 compile errors
+C/gnu99/attributes.c                     linker error
+C/gnu99/attributes2.c                    ok
+C/gnu99/attributes3.c                    ok
+C/gnu99/attributes4.c                    compiler: SIGSEGV
+C/gnu99/attributes5.c                    ok
+C/gnu99/basic_complex.c                  compiler: SIGABRT
+C/gnu99/binary_const.c                   ok
+C/gnu99/builtin_expect.c                 compiler: SIGSEGV
+C/gnu99/builtins_libc.c                  ok
+C/gnu99/cdecl.c                          ok
+C/gnu99/combo_load_mode.c                compiler: SIGSEGV
+C/gnu99/computed_goto.c                  compiler: SIGSEGV
+C/gnu99/construct_destruct.c             output mismatch
+C/gnu99/cp_error038.c                    ok
+C/gnu99/cp_error059.c                    compiler: SIGABRT
+C/gnu99/cp_error064.c                    ok
+C/gnu99/emptystruct.c                    compiler: SIGSEGV
+C/gnu99/escape.c                         compiler: SIGSEGV
+C/gnu99/extension_in_compound.c          ok
+C/gnu99/extension_in_for_init.c          ok
+C/gnu99/flex_array_init.c                compiler: SIGABRT
+C/gnu99/ijmp.c                           compiler: SIGSEGV
+C/gnu99/incomplete_array.c               ok
+C/gnu99/incomplete_enum.c                compiler: SIGSEGV
+C/gnu99/inlineextern.c                   ok
+C/gnu99/l1.c                             ok
+C/gnu99/local_label.c                    compiler: SIGSEGV
+C/gnu99/longlong_bf.c                    1 compile errors
+C/gnu99/mode_attrib.c                    ok
+C/gnu99/multichar.c                      compiler: SIGSEGV
+C/gnu99/nested_function.c                compiler: SIGSEGV
+C/gnu99/nested_function_goto.c           compiler: SIGABRT
+C/gnu99/nullarray.c                      compiler: SIGABRT
+C/gnu99/omitted_cond.c                   ok
+C/gnu99/packed.c                         ok
+C/gnu99/packed_bf.c                      ok
+C/gnu99/pointerarith.c                   ok
+C/gnu99/pretty_function.c                ok
+C/gnu99/printfm.c                        ok
+C/gnu99/redirect.c                       ok
+C/gnu99/redirect_nowarn.c                ok
+C/gnu99/sizeof_function.c                ok
+C/gnu99/stmtexpr.c                       1 compile errors
+C/gnu99/strangeattr.c                    ok
+C/gnu99/system_header_typedef.c          ok
+C/gnu99/tcctest.c                        1 compile errors
+C/gnu99/transparent_union.c              compiler: SIGSEGV
+C/gnu99/transparent_union3.c             compiler: SIGSEGV
+C/gnu99/typeof.c                         ok
+C/gnu99/typeprop_funcs.c                 ok
+C/gnu99/union_cast.c                     2 compile errors
+C/gnu99/unused_label.c                   ok
+C/gnu99/vlabel2.c                        compiler: SIGSEGV
+C/gnu99/vlabel3.c                        compiler: SIGSEGV
+C/gnu99/void_pointer_arithmetic.c        ok
+C++/should_fail/bad_retypedef.cc         compiler missed error
+C++/should_fail/bad_retypedef_sys.cc     compiler missed error
+ack/ack_conv.c                           1 compile errors
+ack/decl.c                               execution: SIGSEGV
+ack/init.c                               1 compile errors
+ack/ops.c                                ok
+ack/str.c                                execution: SIGSEGV
+ack/t7.c                                 execution: SIGSEGV
+ack/test.c                               compiler: SIGABRT
+ack/test1.c                              compiler: SIGABRT
+ack/test2.c                              ok
+langshootout/bintree.c                   output mismatch
+langshootout/fannkuch.c                  ok
+langshootout/fasta.c                     compiler: SIGABRT
+langshootout/n-body.c                    compiler: SIGABRT
+langshootout/nsieve-bits.c               compiler: SIGABRT
+langshootout/nsieve.c                    ok
+langshootout/partial-sums.c              compiler: SIGABRT
+langshootout/recursive.c                 compiler: SIGABRT
+langshootout/spectral-norm.c             compiler: SIGABRT
+llvm/2003-05-14-initialize-string.c      output mismatch
+llvm/2003-05-21-BitfieldHandling.c       1 compile errors
+llvm/2003-05-21-UnionBitfields.c         1 compile errors
+llvm/2003-05-21-UnionTest.c              1 compile errors
+llvm/2003-05-22-LocalTypeTest.c          ok
+llvm/2003-05-22-VarSizeArray.c           compiler: SIGABRT
+llvm/2003-05-23-TransparentUnion.c       compiler: SIGSEGV
+llvm/2003-06-16-InvalidInitializer.c     ok
+llvm/2003-06-16-VolatileError.c          ok
+llvm/2003-10-12-GlobalVarInitializers.c  1 compile errors
+llvm/2004-02-03-AggregateCopy.c          ok
+llvm/2004-08-12-InlinerAndAllocas.c      compiler: SIGABRT
+llvm/2005-05-06-LongLongSignedShift.c    compiler: SIGSEGV
+llvm/ConstructorDestructorAttributes.c   output mismatch
+llvm/DuffsDevice.c                       ok
+llvm/PR491.c                             ok
+llvm/PR640.c                             compiler: SIGSEGV
+llvm/badidx.c                            ok
+llvm/bigstack.c                          compiler: SIGABRT
+llvm/callargs.c                          compiler: SIGABRT
+llvm/casts.c                             compiler: SIGABRT
+llvm/globalrefs.c                        compiler: SIGSEGV
+llvm/matrixTranspose.c                   compiler: SIGSEGV
+llvm/pointer_arithmetic.c                compiler: SIGSEGV
+llvm/sumarray.c                          ok
+llvm/sumarray2d.c                        1 compile errors
+llvm/sumarraymalloc.c                    ok
+llvm/test_indvars.c                      compiler: SIGABRT
+llvm/testtrace.c                         ok
+gcc/20000914-1.c                         Test return code not zero but 1
+gcc/20010123-1.c                         ok
+gcc/20020129-1.c                         compiler: SIGABRT
+gcc/20020920-1.c                         ok
+gcc/20030305-1.c                         compiler: SIGABRT
+gcc/20031003-1.c                         Test return code not zero but 1
+gcc/20040208-2.c                         1 compile errors
+gcc/920908-1.c                           compiler: SIGSEGV
+gcc/930111-1.c                           ok
+gcc/991227-1.c                           output mismatch
+gcc/pr21839.c                            ok
+gcc/pr22379.c                            compiler: SIGKILL
+gcc/pr25860.c                            compiler: SIGABRT
+gcc/pr36988.c                            compiler: SIGABRT
+gcc/pr37285.c                            compiler: SIGSEGV
+gcc/pr37433.c                            compiler: SIGABRT
+gcc/pr39614-4.c                          compiler: SIGABRT
+gcc/pr43784.c                            Test return code not zero but 32
+gcc/strct-varg-1.c                       Test return code not zero but 2
+gcc/string-opt-5.c                       Test return code not zero but 3
+gcc/va-arg-12.c                          compiler: SIGSEGV
+armcode/clz.c                            no reference output
+armcode/shifter_operand.c                no reference output
