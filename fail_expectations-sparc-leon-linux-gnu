@@ -403,6 +403,7 @@ opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
 opt/inline2.c                            ok
 opt/inline_infinite_loop.c               ok
+opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
 opt/ioet.c                               ok
 opt/jumpthreading.c                      ok
