@@ -647,7 +647,7 @@ C/kr8.c                                  ok
 C/ldst_opt_id.c                          ok
 C/localfuncdecl.c                        ok
 C/long_double_int_conv.c                 ok
-C/mini_complex.c                         compiler: SIGABRT
+C/mini_complex.c                         2 compile errors
 C/mod.c                                  ok
 C/noconst.c                              ok
 C/number2.c                              ok
@@ -888,7 +888,7 @@ C/gnu99/attributes2.c                    ok
 C/gnu99/attributes3.c                    ok
 C/gnu99/attributes4.c                    execution: SIGABRT
 C/gnu99/attributes5.c                    ok
-C/gnu99/basic_complex.c                  compiler: SIGABRT
+C/gnu99/basic_complex.c                  11 compile errors
 C/gnu99/binary_const.c                   ok
 C/gnu99/builtin_expect.c                 ok
 C/gnu99/builtins_libc.c                  ok
