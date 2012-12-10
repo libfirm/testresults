@@ -1003,7 +1003,7 @@ gcc/pr25860.c                            compiler: SIGABRT
 gcc/pr36988.c                            compiler: SIGABRT
 gcc/pr37285.c                            compiler: SIGSEGV
 gcc/pr37433.c                            compiler: SIGABRT
-gcc/pr39614-4.c                          compiler: SIGABRT
+gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            Test return code not zero but 32
 gcc/strct-varg-1.c                       Test return code not zero but 2
 gcc/string-opt-5.c                       Test return code not zero but 3
