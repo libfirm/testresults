@@ -60,6 +60,7 @@ x10firm/HashMapTest.x10                  ok
 x10firm/HashSetTest.x10                  ok
 x10firm/HelloWorld.x10                   ok
 x10firm/IMCSerializationTest.x10         ok
+x10firm/IMCSerializationTest2.x10        ok
 x10firm/If.x10                           ok
 x10firm/If2.x10                          ok
 x10firm/If3.x10                          ok
@@ -90,7 +91,7 @@ x10firm/RegionTest.x10                   ok
 x10firm/Reverse.x10                      ok
 x10firm/SelfRefField.x10                 ok
 x10firm/Serialization.x10                ok
-x10firm/Serialization2.x10               compiler SIGABRT (SIG 6)
+x10firm/Serialization2.x10               ok
 x10firm/Simple.x10                       ok
 x10firm/Simple0.x10                      ok
 x10firm/Simple1.x10                      ok
