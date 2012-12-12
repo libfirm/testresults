@@ -531,6 +531,8 @@ C/bool.c                                 ok
 C/bool2.c                                ok
 C/bool3.c                                ok
 C/bool4.c                                ok
+C/complex_arithmetic.c                   compiler: SIGABRT
+C/complex_misc.c                         compiler: SIGABRT
 C/compoundlit.c                          output mismatch
 C/compoundlit2.c                         ok
 C/compoundlit3.c                         1 compile errors
@@ -647,7 +649,7 @@ C/kr8.c                                  ok
 C/ldst_opt_id.c                          ok
 C/localfuncdecl.c                        ok
 C/long_double_int_conv.c                 ok
-C/mini_complex.c                         2 compile errors
+C/mini_complex.c                         compiler: SIGABRT
 C/mod.c                                  ok
 C/noconst.c                              ok
 C/number2.c                              ok
@@ -705,6 +707,11 @@ C/should_fail/brace2.c                   ok
 C/should_fail/call1.c                    ok
 C/should_fail/call2.c                    ok
 C/should_fail/casts.c                    ok
+C/should_fail/complex_bitops.c           ok
+C/should_fail/complex_cast.c             ok
+C/should_fail/complex_compare.c          ok
+C/should_fail/complex_complement.c       ok
+C/should_fail/complex_shift.c            ok
 C/should_fail/conflicting_types.c        ok
 C/should_fail/const.c                    ok
 C/should_fail/const2.c                   ok
@@ -733,6 +740,8 @@ C/should_fail/float_xor.c                ok
 C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
+C/should_fail/gnuimagext.c               ok
+C/should_fail/gnuimagext2.c              ok
 C/should_fail/goto_identifier_scope.c    compiler: SIGABRT
 C/should_fail/incomplete_array.c         ok
 C/should_fail/incomplete_struct.c        ok
@@ -888,12 +897,16 @@ C/gnu99/attributes2.c                    ok
 C/gnu99/attributes3.c                    ok
 C/gnu99/attributes4.c                    compiler: SIGSEGV
 C/gnu99/attributes5.c                    ok
-C/gnu99/basic_complex.c                  11 compile errors
+C/gnu99/basic_complex.c                  compiler: SIGABRT
 C/gnu99/binary_const.c                   ok
 C/gnu99/builtin_expect.c                 compiler: SIGSEGV
 C/gnu99/builtins_libc.c                  ok
 C/gnu99/cdecl.c                          ok
 C/gnu99/combo_load_mode.c                compiler: SIGSEGV
+C/gnu99/complex_conjugate.c              1 compile errors
+C/gnu99/complex_int.c                    ok
+C/gnu99/complex_misc.c                   compiler: SIGABRT
+C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  compiler: SIGSEGV
 C/gnu99/construct_destruct.c             output mismatch
 C/gnu99/cp_error038.c                    ok
