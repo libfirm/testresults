@@ -54,6 +54,7 @@ x10firm/GenericIdentity.x10              ok
 x10firm/GenericParamShadowing.x10        ok
 x10firm/GenericStaticMethodsTest.x10     ok
 x10firm/GenericsTest1.x10                ok
+x10firm/GlobalRefTest.x10                ok
 x10firm/GrowableIMCTest.x10              ok
 x10firm/GuardClosure.x10                 ok
 x10firm/HashMapBug.x10                   ok
