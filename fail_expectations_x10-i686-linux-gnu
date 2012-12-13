@@ -20,6 +20,7 @@ x10firm/AtStructTest.x10                 ok
 x10firm/AtomicAtomicTest.x10             ok
 x10firm/AtomicFunctionTest.x10           ok
 x10firm/AtomicTest.x10                   ok
+x10firm/Bitops.x10                       ok
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/BoxTest.x10                      ok
