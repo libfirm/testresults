@@ -607,6 +607,7 @@ C/cp_error068.c                          ok
 C/cp_error069.c                          ok
 C/cp_error070.c                          ok
 C/cp_error071.c                          ok
+C/cp_error072.c                          1 compile errors
 C/csmith1.c                              output mismatch
 C/csmith2.c                              compiler: SIGSEGV
 C/declarator_special.c                   ok
