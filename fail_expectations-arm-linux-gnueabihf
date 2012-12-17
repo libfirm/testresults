@@ -710,7 +710,6 @@ C/should_fail/casts.c                    ok
 C/should_fail/complex_bitops.c           ok
 C/should_fail/complex_cast.c             ok
 C/should_fail/complex_compare.c          ok
-C/should_fail/complex_complement.c       ok
 C/should_fail/complex_shift.c            ok
 C/should_fail/conflicting_types.c        ok
 C/should_fail/const.c                    ok
@@ -729,7 +728,6 @@ C/should_fail/decl_in_switch.c           ok
 C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
-C/should_fail/double_typedef.c           ok
 C/should_fail/empty_char.c               ok
 C/should_fail/enum_forward.c             ok
 C/should_fail/error_directive.c          ok
@@ -740,8 +738,6 @@ C/should_fail/float_xor.c                ok
 C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
-C/should_fail/gnuimagext.c               ok
-C/should_fail/gnuimagext2.c              ok
 C/should_fail/goto_identifier_scope.c    compiler: SIGABRT
 C/should_fail/incomplete_array.c         ok
 C/should_fail/incomplete_struct.c        ok
@@ -774,11 +770,6 @@ C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
 C/should_fail/paramstorageclass.c        ok
-C/should_fail/pointerarith.c             ok
-C/should_fail/pointerarith2.c            ok
-C/should_fail/pointerarith3.c            ok
-C/should_fail/pointerarith4.c            ok
-C/should_fail/pointerarith5.c            ok
 C/should_fail/randprog1.c                ok
 C/should_fail/recursive_struct.c         ok
 C/should_fail/scope_do_while_body.c      ok
@@ -797,7 +788,6 @@ C/should_fail/scope_while_cond.c         ok
 C/should_fail/segfault1.c                ok
 C/should_fail/segfault2.c                ok
 C/should_fail/segfault4.c                ok
-C/should_fail/sizeof_function.c          ok
 C/should_fail/struct.c                   ok
 C/should_fail/struct2.c                  ok
 C/should_fail/struct_flexible_array.c    ok
