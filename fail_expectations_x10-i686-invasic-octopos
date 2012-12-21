@@ -1,132 +1,136 @@
-x10firm/ActivityLocalCounter.x10         compilation not ok (returncode 1)
-x10firm/AnonymousClass.x10               compilation not ok (returncode 1)
-x10firm/ArrayBenchmark.x10               compilation not ok (returncode 1)
-x10firm/ArrayListTest.x10                compilation not ok (returncode 1)
-x10firm/ArrayListTest2.x10               compilation not ok (returncode 1)
-x10firm/ArrayTest.x10                    compilation not ok (returncode 1)
-x10firm/Assert.x10                       compilation not ok (returncode 1)
+x10firm/ActivityLocalCounter.x10         ok
+x10firm/AnonymousClass.x10               ok
+x10firm/ArrayBenchmark.x10               execution: SIGABRT
+x10firm/ArrayListTest.x10                ok
+x10firm/ArrayListTest2.x10               ok
+x10firm/ArrayTest.x10                    ok
+x10firm/Assert.x10                       ok
 x10firm/Async0.x10                       compilation not ok (returncode 1)
-x10firm/Async1.x10                       compilation not ok (returncode 1)
-x10firm/AsyncAtTest.x10                  compilation not ok (returncode 1)
+x10firm/Async1.x10                       ok
+x10firm/AsyncAtTest.x10                  ok
 x10firm/AsyncVarTest.x10                 compilation not ok (returncode 1)
-x10firm/AtArrayListTest.x10              compilation not ok (returncode 1)
-x10firm/AtArrayTest.x10                  compilation not ok (returncode 1)
-x10firm/AtArrayTest2.x10                 compilation not ok (returncode 1)
-x10firm/AtAsyncAtomicTest.x10            compilation not ok (returncode 1)
-x10firm/AtClass2Test.x10                 compilation not ok (returncode 1)
-x10firm/AtClass3Test.x10                 compilation not ok (returncode 1)
-x10firm/AtExpressionTest.x10             compilation not ok (returncode 1)
-x10firm/AtStructTest.x10                 compilation not ok (returncode 1)
-x10firm/AtomicAtomicTest.x10             compilation not ok (returncode 1)
-x10firm/AtomicFunctionTest.x10           compilation not ok (returncode 1)
-x10firm/AtomicTest.x10                   compilation not ok (returncode 1)
-x10firm/BoolBoxing.x10                   compilation not ok (returncode 1)
-x10firm/BoolFields.x10                   compilation not ok (returncode 1)
-x10firm/BoxTest.x10                      compilation not ok (returncode 1)
-x10firm/Cast1.x10                        compilation not ok (returncode 1)
-x10firm/Cast2.x10                        compilation not ok (returncode 1)
-x10firm/Cast3.x10                        compilation not ok (returncode 1)
-x10firm/CellTest.x10                     compilation not ok (returncode 1)
-x10firm/Class.x10                        compilation not ok (returncode 1)
-x10firm/Class2.x10                       compilation not ok (returncode 1)
-x10firm/ClosureField.x10                 compilation not ok (returncode 1)
-x10firm/ClosureLocal.x10                 compilation not ok (returncode 1)
-x10firm/ClosureTest.x10                  compilation not ok (returncode 1)
-x10firm/CompareTest.x10                  compilation not ok (returncode 1)
-x10firm/Conditional.x10                  compilation not ok (returncode 1)
-x10firm/ConstrainedTypes.x10             compilation not ok (returncode 1)
-x10firm/DDispatch.x10                    compilation not ok (returncode 1)
-x10firm/Dynamic.x10                      compilation not ok (returncode 1)
-x10firm/DynamicInnerClass.x10            compilation not ok (returncode 1)
-x10firm/Fibonacci.x10                    compilation not ok (returncode 1)
-x10firm/Fields.x10                       compilation not ok (returncode 1)
-x10firm/FunTest.x10                      compilation not ok (returncode 1)
-x10firm/GenericBase.x10                  compilation not ok (returncode 1)
-x10firm/GenericCall.x10                  compilation not ok (returncode 1)
-x10firm/GenericCallTwoLevels.x10         compilation not ok (returncode 1)
-x10firm/GenericClass.x10                 compilation not ok (returncode 1)
-x10firm/GenericClass2.x10                compilation not ok (returncode 1)
-x10firm/GenericClosure.x10               compilation not ok (returncode 1)
-x10firm/GenericConstructor.x10           compilation not ok (returncode 1)
-x10firm/GenericField.x10                 compilation not ok (returncode 1)
-x10firm/GenericIdentity.x10              compilation not ok (returncode 1)
-x10firm/GenericParamShadowing.x10        compilation not ok (returncode 1)
-x10firm/GenericStaticMethodsTest.x10     compilation not ok (returncode 1)
-x10firm/GenericsTest1.x10                compilation not ok (returncode 1)
-x10firm/GrowableIMCTest.x10              compilation not ok (returncode 1)
-x10firm/GuardClosure.x10                 compilation not ok (returncode 1)
-x10firm/HashMapBug.x10                   compilation not ok (returncode 1)
-x10firm/HashMapTest.x10                  compilation not ok (returncode 1)
-x10firm/HashSetTest.x10                  compilation not ok (returncode 1)
-x10firm/HelloWorld.x10                   compilation not ok (returncode 1)
-x10firm/If.x10                           compilation not ok (returncode 1)
-x10firm/If2.x10                          compilation not ok (returncode 1)
-x10firm/If3.x10                          compilation not ok (returncode 1)
-x10firm/If4.x10                          compilation not ok (returncode 1)
-x10firm/ImplementsAny.x10                compilation not ok (returncode 1)
-x10firm/InstanceOfComparable.x10         compilation not ok (returncode 1)
-x10firm/InterfaceCall.x10                compilation not ok (returncode 1)
-x10firm/IterableTest.x10                 compilation not ok (returncode 1)
-x10firm/LazyAnd.x10                      compilation not ok (returncode 1)
-x10firm/LazyOr.x10                       compilation not ok (returncode 1)
-x10firm/LocalClass.x10                   compilation not ok (returncode 1)
-x10firm/Loop.x10                         compilation not ok (returncode 1)
-x10firm/Loop2.x10                        compilation not ok (returncode 1)
-x10firm/Loop3.x10                        compilation not ok (returncode 1)
-x10firm/NestedTypeParams.x10             compilation not ok (returncode 1)
-x10firm/NullUnbox.x10                    compilation not ok (returncode 1)
-x10firm/Operators.x10                    compilation not ok (returncode 1)
-x10firm/Overrides.x10                    compilation not ok (returncode 1)
-x10firm/PairTest.x10                     compilation not ok (returncode 1)
-x10firm/PiParallel1.x10                  compilation not ok (returncode 1)
-x10firm/PlaceTest.x10                    compilation not ok (returncode 1)
-x10firm/PrimitiveTypename.x10            compilation not ok (returncode 1)
-x10firm/PrimitivesBoxing.x10             compilation not ok (returncode 1)
-x10firm/Print.x10                        compilation not ok (returncode 1)
-x10firm/RandomTest.x10                   compilation not ok (returncode 1)
-x10firm/RecursiveAsyncTest.x10           compilation not ok (returncode 1)
-x10firm/RegionTest.x10                   compilation not ok (returncode 1)
-x10firm/Reverse.x10                      compilation not ok (returncode 1)
-x10firm/SelfRefField.x10                 compilation not ok (returncode 1)
-x10firm/Serialization.x10                compilation not ok (returncode 1)
-x10firm/Serialization2.x10               compilation not ok (returncode 1)
-x10firm/Simple.x10                       compilation not ok (returncode 1)
-x10firm/Simple0.x10                      compilation not ok (returncode 1)
-x10firm/Simple1.x10                      compilation not ok (returncode 1)
-x10firm/Simple2.x10                      compilation not ok (returncode 1)
-x10firm/Simple3.x10                      compilation not ok (returncode 1)
-x10firm/Simple4.x10                      compilation not ok (returncode 1)
-x10firm/Simple5.x10                      compilation not ok (returncode 1)
-x10firm/SimpleClosure.x10                compilation not ok (returncode 1)
-x10firm/SimpleStruct.x10                 compilation not ok (returncode 1)
-x10firm/SimpleStruct2.x10                compilation not ok (returncode 1)
-x10firm/SimpleTest.x10                   compilation not ok (returncode 1)
-x10firm/SimpleTest2.x10                  compilation not ok (returncode 1)
-x10firm/SimpleTest3.x10                  compilation not ok (returncode 1)
-x10firm/StackTest.x10                    compilation not ok (returncode 1)
-x10firm/StaticFields.x10                 compilation not ok (returncode 1)
-x10firm/StaticInnerClass.x10             compilation not ok (returncode 1)
-x10firm/StaticNonConstTest1.x10          compilation not ok (returncode 1)
-x10firm/StaticNonConstTest2.x10          compilation not ok (returncode 1)
-x10firm/StaticNonConstTest3.x10          compilation not ok (returncode 1)
-x10firm/StaticNonConstTest4.x10          compilation not ok (returncode 1)
-x10firm/StaticNonConstTest5.x10          compilation not ok (returncode 1)
-x10firm/StringBuilderTest.x10            compilation not ok (returncode 1)
-x10firm/StringDDispatch.x10              compilation not ok (returncode 1)
-x10firm/StringEquals.x10                 compilation not ok (returncode 1)
-x10firm/StringIndex.x10                  compilation not ok (returncode 1)
-x10firm/StringInstanceOf.x10             compilation not ok (returncode 1)
-x10firm/StringInterfaceCall.x10          compilation not ok (returncode 1)
-x10firm/StringOps.x10                    compilation not ok (returncode 1)
-x10firm/Struct.x10                       compilation not ok (returncode 1)
-x10firm/StructArgs.x10                   compilation not ok (returncode 1)
-x10firm/StructStdMethods.x10             compilation not ok (returncode 1)
-x10firm/Structs.x10                      compilation not ok (returncode 1)
-x10firm/SubtypeTest.x10                  compilation not ok (returncode 1)
-x10firm/SuperTest.x10                    compilation not ok (returncode 1)
-x10firm/Switch.x10                       compilation not ok (returncode 1)
-x10firm/TestObject.x10                   compilation not ok (returncode 1)
-x10firm/This.x10                         compilation not ok (returncode 1)
-x10firm/TypeNames.x10                    compilation not ok (returncode 1)
-x10firm/WhenTest.x10                     compilation not ok (returncode 1)
-x10firm/X10CPPCrash.x10                  compilation not ok (returncode 1)
+x10firm/AtArrayListTest.x10              ok
+x10firm/AtArrayTest.x10                  ok
+x10firm/AtArrayTest2.x10                 ok
+x10firm/AtAsyncAtomicTest.x10            ok
+x10firm/AtClass2Test.x10                 ok
+x10firm/AtClass3Test.x10                 ok
+x10firm/AtExpressionTest.x10             ok
+x10firm/AtStructTest.x10                 ok
+x10firm/AtomicAtomicTest.x10             ok
+x10firm/AtomicFunctionTest.x10           ok
+x10firm/AtomicTest.x10                   ok
+x10firm/Bitops.x10                       ok
+x10firm/BoolBoxing.x10                   ok
+x10firm/BoolFields.x10                   ok
+x10firm/BoxTest.x10                      ok
+x10firm/Cast1.x10                        execution: SIGABRT
+x10firm/Cast2.x10                        execution: SIGABRT
+x10firm/Cast3.x10                        execution: SIGABRT
+x10firm/CellTest.x10                     ok
+x10firm/Class.x10                        ok
+x10firm/Class2.x10                       ok
+x10firm/ClosureField.x10                 ok
+x10firm/ClosureLocal.x10                 ok
+x10firm/ClosureTest.x10                  ok
+x10firm/CompareTest.x10                  ok
+x10firm/Conditional.x10                  ok
+x10firm/ConstrainedTypes.x10             ok
+x10firm/DDispatch.x10                    ok
+x10firm/Dynamic.x10                      ok
+x10firm/DynamicInnerClass.x10            ok
+x10firm/Fibonacci.x10                    ok
+x10firm/Fields.x10                       ok
+x10firm/FunTest.x10                      execution: SIGABRT
+x10firm/GenericBase.x10                  ok
+x10firm/GenericCall.x10                  ok
+x10firm/GenericCallTwoLevels.x10         ok
+x10firm/GenericClass.x10                 ok
+x10firm/GenericClass2.x10                ok
+x10firm/GenericClosure.x10               ok
+x10firm/GenericConstructor.x10           ok
+x10firm/GenericField.x10                 ok
+x10firm/GenericIdentity.x10              ok
+x10firm/GenericParamShadowing.x10        ok
+x10firm/GenericStaticMethodsTest.x10     ok
+x10firm/GenericsTest1.x10                ok
+x10firm/GlobalRefTest.x10                ok
+x10firm/GrowableIMCTest.x10              ok
+x10firm/GuardClosure.x10                 ok
+x10firm/HashMapBug.x10                   ok
+x10firm/HashMapTest.x10                  ok
+x10firm/HashSetTest.x10                  ok
+x10firm/HelloWorld.x10                   ok
+x10firm/IMCSerializationTest.x10         ok
+x10firm/IMCSerializationTest2.x10        ok
+x10firm/If.x10                           ok
+x10firm/If2.x10                          ok
+x10firm/If3.x10                          ok
+x10firm/If4.x10                          ok
+x10firm/ImplementsAny.x10                ok
+x10firm/InstanceOfComparable.x10         ok
+x10firm/InterfaceCall.x10                ok
+x10firm/IterableTest.x10                 ok
+x10firm/LazyAnd.x10                      ok
+x10firm/LazyOr.x10                       ok
+x10firm/LocalClass.x10                   ok
+x10firm/Loop.x10                         ok
+x10firm/Loop2.x10                        ok
+x10firm/Loop3.x10                        ok
+x10firm/NestedTypeParams.x10             ok
+x10firm/NullUnbox.x10                    ok
+x10firm/Operators.x10                    ok
+x10firm/Overrides.x10                    ok
+x10firm/PairTest.x10                     ok
+x10firm/PiParallel1.x10                  ok
+x10firm/PlaceTest.x10                    ok
+x10firm/PrimitiveTypename.x10            ok
+x10firm/PrimitivesBoxing.x10             ok
+x10firm/Print.x10                        ok
+x10firm/RandomTest.x10                   ok
+x10firm/RecursiveAsyncTest.x10           ok
+x10firm/RegionTest.x10                   ok
+x10firm/Reverse.x10                      ok
+x10firm/SelfRefField.x10                 ok
+x10firm/Serialization.x10                ok
+x10firm/Serialization2.x10               ok
+x10firm/Simple.x10                       ok
+x10firm/Simple0.x10                      ok
+x10firm/Simple1.x10                      ok
+x10firm/Simple2.x10                      ok
+x10firm/Simple3.x10                      ok
+x10firm/Simple4.x10                      ok
+x10firm/Simple5.x10                      ok
+x10firm/SimpleClosure.x10                ok
+x10firm/SimpleStruct.x10                 ok
+x10firm/SimpleStruct2.x10                ok
+x10firm/SimpleTest.x10                   ok
+x10firm/SimpleTest2.x10                  ok
+x10firm/SimpleTest3.x10                  ok
+x10firm/StackTest.x10                    ok
+x10firm/StaticFields.x10                 ok
+x10firm/StaticInnerClass.x10             ok
+x10firm/StaticNonConstTest1.x10          ok
+x10firm/StaticNonConstTest2.x10          ok
+x10firm/StaticNonConstTest3.x10          ok
+x10firm/StaticNonConstTest4.x10          ok
+x10firm/StaticNonConstTest5.x10          ok
+x10firm/StringBuilderTest.x10            ok
+x10firm/StringDDispatch.x10              ok
+x10firm/StringEquals.x10                 ok
+x10firm/StringIndex.x10                  ok
+x10firm/StringInstanceOf.x10             ok
+x10firm/StringInterfaceCall.x10          ok
+x10firm/StringOps.x10                    ok
+x10firm/Struct.x10                       ok
+x10firm/StructArgs.x10                   ok
+x10firm/StructStdMethods.x10             ok
+x10firm/Structs.x10                      ok
+x10firm/SubtypeTest.x10                  ok
+x10firm/SuperTest.x10                    ok
+x10firm/Switch.x10                       ok
+x10firm/TestObject.x10                   ok
+x10firm/This.x10                         ok
+x10firm/TypeNames.x10                    ok
+x10firm/WhenTest.x10                     ok
+x10firm/X10CPPCrash.x10                  ok
