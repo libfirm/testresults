@@ -826,7 +826,7 @@ C/should_warn/main3.c                    ok
 C/should_warn/missing_return.c           ok
 C/should_warn/nested_comment.c           compiler missed warnings
 C/should_warn/never_read1.c              ok
-C/should_warn/padded.c                   compiler missed warnings
+C/should_warn/padded.c                   ok
 C/should_warn/paramscope.c               compiler missed warnings
 C/should_warn/printf2.c                  ok
 C/should_warn/printf_formats.c           ok
@@ -876,6 +876,7 @@ C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   ok
 C/gnu90/noinline.c                       linker error
+C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     ok
 C/gnu99/anonstruct2.c                    ok
 C/gnu99/anonstruct3.c                    ok
@@ -886,7 +887,7 @@ C/gnu99/attribute_in_decl.c              2 compile errors
 C/gnu99/attributes.c                     linker error
 C/gnu99/attributes2.c                    ok
 C/gnu99/attributes3.c                    ok
-C/gnu99/attributes4.c                    execution: SIGABRT
+C/gnu99/attributes4.c                    ok
 C/gnu99/attributes5.c                    ok
 C/gnu99/basic_complex.c                  ok
 C/gnu99/binary_const.c                   ok
@@ -931,6 +932,7 @@ C/gnu99/redirect_nowarn.c                ok
 C/gnu99/sizeof_function.c                ok
 C/gnu99/stmtexpr.c                       1 compile errors
 C/gnu99/strangeattr.c                    ok
+C/gnu99/structalign.c                    output mismatch
 C/gnu99/system_header_typedef.c          ok
 C/gnu99/tcctest.c                        1 compile errors
 C/gnu99/transparent_union.c              ok
