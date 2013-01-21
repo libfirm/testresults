@@ -1,6 +1,6 @@
 x10firm/ActivityLocalCounter.x10         execution: SIGSEGV
 x10firm/AnonymousClass.x10               ok
-x10firm/ArrayBenchmark.x10               execution: SIGKILL
+x10firm/ArrayBenchmark.x10               ok
 x10firm/ArrayListTest.x10                ok
 x10firm/ArrayListTest2.x10               ok
 x10firm/ArrayTest.x10                    ok
