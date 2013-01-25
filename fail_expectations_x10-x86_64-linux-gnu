@@ -24,6 +24,7 @@ x10firm/Bitops.x10                       ok
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/BoxTest.x10                      ok
+x10firm/CPeanoOrder.x10                  ok
 x10firm/Cast1.x10                        execution: SIGABRT
 x10firm/Cast2.x10                        execution: SIGABRT
 x10firm/Cast3.x10                        execution: SIGABRT
@@ -129,6 +130,7 @@ x10firm/Structs.x10                      ok
 x10firm/SubtypeTest.x10                  ok
 x10firm/SuperTest.x10                    ok
 x10firm/Switch.x10                       ok
+x10firm/Switch2.x10                      compiler: SIGABRT
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
 x10firm/TypeNames.x10                    ok
