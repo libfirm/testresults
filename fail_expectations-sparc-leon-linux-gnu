@@ -417,7 +417,7 @@ opt/inline2.c                            ok
 opt/inline20.c                           ok
 opt/inline21.c                           ok
 opt/inline22.c                           ok
-opt/inline23.c                           compiler: SIGABRT
+opt/inline23.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
