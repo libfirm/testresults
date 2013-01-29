@@ -402,7 +402,22 @@ opt/ifconv.c                             ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
+opt/inline00.c                           ok
+opt/inline01.c                           ok
+opt/inline02.c                           ok
+opt/inline03.c                           ok
+opt/inline10.c                           ok
+opt/inline11.c                           ok
+opt/inline12.c                           ok
+opt/inline13.c                           ok
+opt/inline14.c                           ok
+opt/inline15.c                           ok
+opt/inline16.c                           ok
 opt/inline2.c                            ok
+opt/inline20.c                           ok
+opt/inline21.c                           ok
+opt/inline22.c                           ok
+opt/inline23.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
@@ -642,8 +657,8 @@ C/init7.c                                ok
 C/init8.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
-C/input_iso8859_1.c                      22 compile errors
-C/input_iso8859_15.c                     38 compile errors
+C/input_iso8859_1.c                      19 compile errors
+C/input_iso8859_15.c                     35 compile errors
 C/input_utf8.c                           ok
 C/int_promote.c                          ok
 C/kr.c                                   ok
