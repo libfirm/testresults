@@ -25,9 +25,9 @@ x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/BoxTest.x10                      ok
 x10firm/CPeanoOrder.x10                  ok
-x10firm/Cast1.x10                        execution: SIGABRT
-x10firm/Cast2.x10                        execution: SIGABRT
-x10firm/Cast3.x10                        execution: SIGABRT
+x10firm/Cast1.x10                        execute: SIGABRT
+x10firm/Cast2.x10                        execute: SIGABRT
+x10firm/Cast3.x10                        execute: SIGABRT
 x10firm/CellTest.x10                     ok
 x10firm/Class.x10                        ok
 x10firm/Class2.x10                       ok
@@ -42,7 +42,7 @@ x10firm/Dynamic.x10                      ok
 x10firm/DynamicInnerClass.x10            ok
 x10firm/Fibonacci.x10                    ok
 x10firm/Fields.x10                       ok
-x10firm/FunTest.x10                      execution: SIGABRT
+x10firm/FunTest.x10                      execute: SIGABRT
 x10firm/GenericBase.x10                  ok
 x10firm/GenericCall.x10                  ok
 x10firm/GenericCallTwoLevels.x10         ok
@@ -130,7 +130,7 @@ x10firm/Structs.x10                      ok
 x10firm/SubtypeTest.x10                  ok
 x10firm/SuperTest.x10                    ok
 x10firm/Switch.x10                       ok
-x10firm/Switch2.x10                      compiler: SIGABRT
+x10firm/Switch2.x10                      compile: SIGABRT
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
 x10firm/TypeNames.x10                    ok

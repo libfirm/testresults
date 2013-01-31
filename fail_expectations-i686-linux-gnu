@@ -54,7 +54,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/setjmp.c                         output mismatch
+backend/setjmp.c                         execute: output mismatch
 backend/setmem.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
@@ -426,7 +426,7 @@ opt/jumpthreading.c                      ok
 opt/jumpthreading2.c                     ok
 opt/jumpthreading3.c                     ok
 opt/jumpthreading4.c                     ok
-opt/jumpthreading5.c                     compiler: SIGKILL
+opt/jumpthreading5.c                     compile: SIGKILL
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
@@ -536,7 +536,7 @@ opt/wrong_cmp.c                          ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/abstract_declarator.c                  ok
-C/anon_entity.c                          compiler: SIGABRT
+C/anon_entity.c                          compile: SIGABRT
 C/array.c                                ok
 C/bitfield.c                             ok
 C/bitfield2.c                            ok
@@ -657,8 +657,8 @@ C/init7.c                                ok
 C/init8.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
-C/input_iso8859_1.c                      19 compile errors
-C/input_iso8859_15.c                     35 compile errors
+C/input_iso8859_1.c                      compile: 19 compile errors
+C/input_iso8859_15.c                     compile: 35 compile errors
 C/input_utf8.c                           ok
 C/int_promote.c                          ok
 C/kr.c                                   ok
@@ -696,7 +696,7 @@ C/universal_character.c                  ok
 C/unkept_loop.c                          ok
 C/varargs.c                              ok
 C/vla.c                                  ok
-C/vlainit.c                              compiler: SIGABRT
+C/vlainit.c                              compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
 C/pragmatic/conditional.c                ok
@@ -706,16 +706,16 @@ C/pragmatic/kr3.c                        ok
 C/pragmatic/shift.c                      ok
 C/pragmatic/toomuchparams.c              ok
 C/should_fail/adr_reg.c                  ok
-C/should_fail/anonunion.c                compiler missed error
+C/should_fail/anonunion.c                compile: missed error
 C/should_fail/arr_idx_float.c            ok
 C/should_fail/array0.c                   ok
 C/should_fail/array1.c                   ok
-C/should_fail/array2.c                   compiler missed error
+C/should_fail/array2.c                   compile: missed error
 C/should_fail/array3.c                   ok
-C/should_fail/array4.c                   compiler missed error
-C/should_fail/array5.c                   compiler missed error
-C/should_fail/array6.c                   compiler missed error
-C/should_fail/array7.c                   compiler missed error
+C/should_fail/array4.c                   compile: missed error
+C/should_fail/array5.c                   compile: missed error
+C/should_fail/array6.c                   compile: missed error
+C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
 C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
@@ -748,7 +748,7 @@ C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
 C/should_fail/empty_char.c               ok
-C/should_fail/enum_forward.c             ok
+C/should_fail/enum_forward.c             compile: missed error
 C/should_fail/error_directive.c          ok
 C/should_fail/f.c                        ok
 C/should_fail/float_and.c                ok
@@ -757,7 +757,7 @@ C/should_fail/float_xor.c                ok
 C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
-C/should_fail/goto_identifier_scope.c    compiler missed error
+C/should_fail/goto_identifier_scope.c    compile: missed error
 C/should_fail/incomplete_array.c         ok
 C/should_fail/incomplete_struct.c        ok
 C/should_fail/init1.c                    ok
@@ -773,7 +773,7 @@ C/should_fail/kr4.c                      ok
 C/should_fail/kr5.c                      ok
 C/should_fail/kr7.c                      ok
 C/should_fail/label.c                    ok
-C/should_fail/large_array.c              compiler missed error
+C/should_fail/large_array.c              compile: missed error
 C/should_fail/lvalue.c                   ok
 C/should_fail/missing.c                  ok
 C/should_fail/multifield.c               ok
@@ -792,14 +792,14 @@ C/should_fail/paramstorageclass.c        ok
 C/should_fail/randprog1.c                ok
 C/should_fail/recursive_struct.c         ok
 C/should_fail/scope_do_while_body.c      ok
-C/should_fail/scope_do_while_body_cond.c compiler missed error
+C/should_fail/scope_do_while_body_cond.c compile: missed error
 C/should_fail/scope_do_while_cond.c      ok
 C/should_fail/scope_for_body.c           ok
 C/should_fail/scope_for_cond.c           ok
 C/should_fail/scope_if_cond.c            ok
 C/should_fail/scope_if_else.c            ok
 C/should_fail/scope_if_then.c            ok
-C/should_fail/scope_if_then_else.c       compiler missed error
+C/should_fail/scope_if_then_else.c       compile: missed error
 C/should_fail/scope_switch_body.c        ok
 C/should_fail/scope_switch_cond.c        ok
 C/should_fail/scope_while_body.c         ok
@@ -817,8 +817,8 @@ C/should_fail/suffix1.c                  ok
 C/should_fail/suffix2.c                  ok
 C/should_fail/suffix3.c                  ok
 C/should_fail/switches.c                 ok
-C/should_fail/t.c                        compiler missed error
-C/should_fail/transparent_union2.c       compiler missed error
+C/should_fail/t.c                        compile: missed error
+C/should_fail/transparent_union2.c       compile: missed error
 C/should_fail/typedef_enum.c             ok
 C/should_fail/typedef_in_expr.c          ok
 C/should_fail/typedef_init.c             ok
@@ -828,12 +828,12 @@ C/should_fail/universal_character.c      ok
 C/should_fail/universal_character2.c     ok
 C/should_fail/unspec_params.c            ok
 C/should_fail/voidarray.c                ok
-C/should_fail/weird_label.c              compiler: SIGABRT
+C/should_fail/weird_label.c              compile: SIGABRT
 C/should_fail/wrongtype.c                ok
 C/should_warn/cast_qual.c                ok
-C/should_warn/compare.c                  compiler missed warnings
-C/should_warn/compare2.c                 compiler missed warnings
-C/should_warn/cp_error025.c              compiler missed warnings
+C/should_warn/compare.c                  compile: missed warnings
+C/should_warn/compare2.c                 compile: missed warnings
+C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
@@ -842,10 +842,10 @@ C/should_warn/main1.c                    ok
 C/should_warn/main2.c                    ok
 C/should_warn/main3.c                    ok
 C/should_warn/missing_return.c           ok
-C/should_warn/nested_comment.c           compiler missed warnings
+C/should_warn/nested_comment.c           compile: missed warnings
 C/should_warn/never_read1.c              ok
 C/should_warn/padded.c                   ok
-C/should_warn/paramscope.c               compiler missed warnings
+C/should_warn/paramscope.c               compile: missed warnings
 C/should_warn/printf2.c                  ok
 C/should_warn/printf_formats.c           ok
 C/should_warn/printf_int_for_short.c     ok
@@ -866,7 +866,7 @@ C/should_warn/unused_param.c             ok
 C/should_warn/wprintf_formats.c          ok
 C/should_warn/write_only11.c             ok
 C/should_warn/write_only12.c             ok
-C/should_warn/write_only14.c             compiler missed warnings
+C/should_warn/write_only14.c             compile: missed warnings
 C/should_warn/write_only2.c              ok
 C/should_warn/write_only3.c              ok
 C/should_warn/write_only4.c              ok
@@ -889,11 +889,11 @@ C/nowarn/write_only10.c                  ok
 C/nowarn/write_only11.c                  ok
 C/nowarn/write_only12.c                  ok
 C/nowarn/write_only13.c                  ok
-C/nowarn/write_only14.c                  compiler produced invalid warning
+C/nowarn/write_only14.c                  compile: produced invalid warning
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   ok
-C/gnu90/noinline.c                       linker error
+C/gnu90/noinline.c                       compile: linker error
 C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     ok
 C/gnu99/anonstruct2.c                    ok
@@ -901,8 +901,8 @@ C/gnu99/anonstruct3.c                    ok
 C/gnu99/asmname.c                        ok
 C/gnu99/attribute_after_bitfield.c       ok
 C/gnu99/attribute_empty.c                ok
-C/gnu99/attribute_in_decl.c              2 compile errors
-C/gnu99/attributes.c                     linker error
+C/gnu99/attribute_in_decl.c              compile: 2 compile errors
+C/gnu99/attributes.c                     compile: linker error
 C/gnu99/attributes2.c                    ok
 C/gnu99/attributes3.c                    ok
 C/gnu99/attributes4.c                    ok
@@ -920,13 +920,13 @@ C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  ok
 C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error038.c                    ok
-C/gnu99/cp_error059.c                    compiler: SIGSEGV
+C/gnu99/cp_error059.c                    compile: SIGSEGV
 C/gnu99/cp_error064.c                    ok
 C/gnu99/emptystruct.c                    ok
 C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
 C/gnu99/extension_in_for_init.c          ok
-C/gnu99/flex_array_init.c                compiler: SIGABRT
+C/gnu99/flex_array_init.c                compile: SIGABRT
 C/gnu99/ijmp.c                           ok
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
@@ -937,8 +937,8 @@ C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
 C/gnu99/nested_function.c                ok
-C/gnu99/nested_function_goto.c           compiler: SIGABRT
-C/gnu99/nullarray.c                      compiler: SIGABRT
+C/gnu99/nested_function_goto.c           compile: SIGABRT
+C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/packed.c                         ok
 C/gnu99/packed_bf.c                      ok
@@ -948,16 +948,16 @@ C/gnu99/printfm.c                        ok
 C/gnu99/redirect.c                       ok
 C/gnu99/redirect_nowarn.c                ok
 C/gnu99/sizeof_function.c                ok
-C/gnu99/stmtexpr.c                       1 compile errors
+C/gnu99/stmtexpr.c                       compile: 1 compile errors
 C/gnu99/strangeattr.c                    ok
-C/gnu99/structalign.c                    output mismatch
+C/gnu99/structalign.c                    execute: output mismatch
 C/gnu99/system_header_typedef.c          ok
-C/gnu99/tcctest.c                        1 compile errors
+C/gnu99/tcctest.c                        compile: 1 compile errors
 C/gnu99/transparent_union.c              ok
 C/gnu99/transparent_union3.c             ok
 C/gnu99/typeof.c                         ok
 C/gnu99/typeprop_funcs.c                 ok
-C/gnu99/union_cast.c                     2 compile errors
+C/gnu99/union_cast.c                     compile: 2 compile errors
 C/gnu99/unused_label.c                   ok
 C/gnu99/vlabel2.c                        ok
 C/gnu99/vlabel3.c                        ok
@@ -1011,32 +1011,32 @@ llvm/sumarray2d.c                        ok
 llvm/sumarraymalloc.c                    ok
 llvm/test_indvars.c                      ok
 llvm/testtrace.c                         ok
-gcc/20000914-1.c                         Test return code not zero but 1
+gcc/20000914-1.c                         execute: returncode not zero but 1
 gcc/20010123-1.c                         ok
-gcc/20020129-1.c                         compiler: SIGABRT
+gcc/20020129-1.c                         compile: SIGABRT
 gcc/20020920-1.c                         ok
-gcc/20030305-1.c                         compiler: SIGABRT
-gcc/20031003-1.c                         Test return code not zero but 1
+gcc/20030305-1.c                         compile: SIGABRT
+gcc/20031003-1.c                         execute: returncode not zero but 1
 gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
-gcc/991227-1.c                           output mismatch
+gcc/991227-1.c                           execute: output mismatch
 gcc/pr21839.c                            ok
-gcc/pr22379.c                            compiler: SIGKILL
-gcc/pr25860.c                            compiler: SIGABRT
-gcc/pr36988.c                            compiler: SIGABRT
+gcc/pr22379.c                            compile: SIGKILL
+gcc/pr25860.c                            compile: SIGABRT
+gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
-gcc/pr37433.c                            compiler: SIGABRT
+gcc/pr37433.c                            compile: SIGABRT
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            Test return code not zero but 4
+gcc/pr43784.c                            execute: returncode not zero but 4
 gcc/strct-varg-1.c                       ok
 gcc/va-arg-12.c                          ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
 x86code/asm_test.c                       ok
-x86code/asm_test10.c                     compiler: SIGABRT
+x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
-x86code/asm_test13.c                     compiler: SIGABRT
+x86code/asm_test13.c                     compile: SIGABRT
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
@@ -1067,8 +1067,8 @@ x86code/fehler133.c                      ok
 x86code/fehler134.c                      ok
 x86code/fehler135.c                      ok
 x86code/fehler136.c                      ok
-x86code/float_asm.c                      compiler: SIGABRT
-x86code/float_fld.c                      !check 'fld.*%st' failed
+x86code/float_asm.c                      compile: SIGABRT
+x86code/float_fld.c                      asm: !check 'fld.*%st' failed
 x86code/float_ret_sse.c                  ok
 x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
@@ -1081,4 +1081,4 @@ x86code/shift64.c                        ok
 x86code/shiftd.c                         ok
 x86code/struct.c                         ok
 x86code/struct_alignment.c               ok
-x86code/test16.c                         check 'testw .0x2A2A, _?x' failed
+x86code/test16.c                         asm: check 'testw .0x2A2A, _?x' failed

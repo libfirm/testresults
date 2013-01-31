@@ -1,4 +1,4 @@
-x10firm/ActivityLocalCounter.x10         execution: SIGSEGV
+x10firm/ActivityLocalCounter.x10         execute: SIGSEGV
 x10firm/AnonymousClass.x10               ok
 x10firm/ArrayBenchmark.x10               ok
 x10firm/ArrayListTest.x10                ok
@@ -6,27 +6,27 @@ x10firm/ArrayListTest2.x10               ok
 x10firm/ArrayTest.x10                    ok
 x10firm/Assert.x10                       ok
 x10firm/Async0.x10                       compilation not ok (returncode 1)
-x10firm/Async1.x10                       execution: SIGSEGV
-x10firm/AsyncAtTest.x10                  execution: SIGSEGV
+x10firm/Async1.x10                       execute: SIGSEGV
+x10firm/AsyncAtTest.x10                  execute: SIGSEGV
 x10firm/AsyncVarTest.x10                 compilation not ok (returncode 1)
-x10firm/AtArrayListTest.x10              execution: SIGSEGV
-x10firm/AtArrayTest.x10                  execution: SIGSEGV
-x10firm/AtArrayTest2.x10                 execution: SIGSEGV
-x10firm/AtAsyncAtomicTest.x10            execution: SIGSEGV
-x10firm/AtClass2Test.x10                 execution: SIGSEGV
-x10firm/AtClass3Test.x10                 execution: SIGSEGV
-x10firm/AtExpressionTest.x10             execution: SIGSEGV
-x10firm/AtStructTest.x10                 execution: SIGSEGV
-x10firm/AtomicAtomicTest.x10             execution: SIGSEGV
-x10firm/AtomicFunctionTest.x10           execution: SIGSEGV
-x10firm/AtomicTest.x10                   execution: SIGSEGV
+x10firm/AtArrayListTest.x10              execute: SIGSEGV
+x10firm/AtArrayTest.x10                  execute: SIGSEGV
+x10firm/AtArrayTest2.x10                 execute: SIGSEGV
+x10firm/AtAsyncAtomicTest.x10            execute: SIGSEGV
+x10firm/AtClass2Test.x10                 execute: SIGSEGV
+x10firm/AtClass3Test.x10                 execute: SIGSEGV
+x10firm/AtExpressionTest.x10             execute: SIGSEGV
+x10firm/AtStructTest.x10                 execute: SIGSEGV
+x10firm/AtomicAtomicTest.x10             execute: SIGSEGV
+x10firm/AtomicFunctionTest.x10           execute: SIGSEGV
+x10firm/AtomicTest.x10                   execute: SIGSEGV
 x10firm/Bitops.x10                       ok
 x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/BoxTest.x10                      ok
-x10firm/Cast1.x10                        execution: SIGABRT
-x10firm/Cast2.x10                        execution: SIGABRT
-x10firm/Cast3.x10                        execution: SIGABRT
+x10firm/Cast1.x10                        execute: SIGABRT
+x10firm/Cast2.x10                        execute: SIGABRT
+x10firm/Cast3.x10                        execute: SIGABRT
 x10firm/CellTest.x10                     ok
 x10firm/Class.x10                        ok
 x10firm/Class2.x10                       ok
@@ -41,7 +41,7 @@ x10firm/Dynamic.x10                      ok
 x10firm/DynamicInnerClass.x10            ok
 x10firm/Fibonacci.x10                    ok
 x10firm/Fields.x10                       ok
-x10firm/FunTest.x10                      execution: SIGABRT
+x10firm/FunTest.x10                      execute: SIGABRT
 x10firm/GenericBase.x10                  ok
 x10firm/GenericCall.x10                  ok
 x10firm/GenericCallTwoLevels.x10         ok
@@ -54,15 +54,15 @@ x10firm/GenericIdentity.x10              ok
 x10firm/GenericParamShadowing.x10        ok
 x10firm/GenericStaticMethodsTest.x10     ok
 x10firm/GenericsTest1.x10                ok
-x10firm/GlobalRefTest.x10                execution: SIGSEGV
+x10firm/GlobalRefTest.x10                execute: SIGSEGV
 x10firm/GrowableIMCTest.x10              ok
 x10firm/GuardClosure.x10                 ok
 x10firm/HashMapBug.x10                   ok
 x10firm/HashMapTest.x10                  ok
 x10firm/HashSetTest.x10                  ok
 x10firm/HelloWorld.x10                   ok
-x10firm/IMCSerializationTest.x10         execution: SIGSEGV
-x10firm/IMCSerializationTest2.x10        execution: SIGSEGV
+x10firm/IMCSerializationTest.x10         execute: SIGSEGV
+x10firm/IMCSerializationTest2.x10        execute: SIGSEGV
 x10firm/If.x10                           ok
 x10firm/If2.x10                          ok
 x10firm/If3.x10                          ok
@@ -82,18 +82,18 @@ x10firm/NullUnbox.x10                    ok
 x10firm/Operators.x10                    ok
 x10firm/Overrides.x10                    ok
 x10firm/PairTest.x10                     ok
-x10firm/PiParallel1.x10                  execution: SIGSEGV
+x10firm/PiParallel1.x10                  execute: SIGSEGV
 x10firm/PlaceTest.x10                    ok
 x10firm/PrimitiveTypename.x10            ok
 x10firm/PrimitivesBoxing.x10             ok
 x10firm/Print.x10                        ok
 x10firm/RandomTest.x10                   ok
-x10firm/RecursiveAsyncTest.x10           execution: SIGSEGV
+x10firm/RecursiveAsyncTest.x10           execute: SIGSEGV
 x10firm/RegionTest.x10                   ok
 x10firm/Reverse.x10                      ok
 x10firm/SelfRefField.x10                 ok
-x10firm/Serialization.x10                execution: SIGSEGV
-x10firm/Serialization2.x10               execution: SIGSEGV
+x10firm/Serialization.x10                execute: SIGSEGV
+x10firm/Serialization2.x10               execute: SIGSEGV
 x10firm/Simple.x10                       ok
 x10firm/Simple0.x10                      ok
 x10firm/Simple1.x10                      ok
@@ -132,5 +132,5 @@ x10firm/Switch.x10                       ok
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
 x10firm/TypeNames.x10                    ok
-x10firm/WhenTest.x10                     execution: SIGSEGV
+x10firm/WhenTest.x10                     execute: SIGSEGV
 x10firm/X10CPPCrash.x10                  ok
