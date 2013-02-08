@@ -193,8 +193,8 @@ C/init7.c                                ok
 C/init8.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
-C/input_iso8859_1.c                      compile: 19 compile errors
-C/input_iso8859_15.c                     compile: 35 compile errors
+C/input_iso8859_1.c                      ok
+C/input_iso8859_15.c                     ok
 C/input_utf8.c                           ok
 C/int_promote.c                          ok
 C/kr.c                                   ok
