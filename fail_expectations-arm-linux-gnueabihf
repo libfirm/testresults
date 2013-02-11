@@ -36,7 +36,7 @@ backend/fdiv.c                           compile: SIGABRT
 backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
 backend/floatset.c                       compile: SIGABRT
-backend/fpu.c                            compilation not ok (returncode 1)
+backend/fpu.c                            compile: returncode not zero but 1
 backend/inconsistent_outs.c              compile: SIGSEGV
 backend/initializer_bug.c                compile: SIGABRT
 backend/longfunc.c                       compile: SIGSEGV

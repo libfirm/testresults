@@ -5,10 +5,10 @@ x10firm/ArrayListTest.x10                ok
 x10firm/ArrayListTest2.x10               ok
 x10firm/ArrayTest.x10                    ok
 x10firm/Assert.x10                       ok
-x10firm/Async0.x10                       compilation not ok (returncode 1)
+x10firm/Async0.x10                       compile: returncode not zero but 1
 x10firm/Async1.x10                       execute: SIGSEGV
 x10firm/AsyncAtTest.x10                  execute: SIGSEGV
-x10firm/AsyncVarTest.x10                 compilation not ok (returncode 1)
+x10firm/AsyncVarTest.x10                 compile: returncode not zero but 1
 x10firm/AtArrayListTest.x10              execute: SIGSEGV
 x10firm/AtArrayTest.x10                  execute: SIGSEGV
 x10firm/AtArrayTest2.x10                 execute: SIGSEGV
