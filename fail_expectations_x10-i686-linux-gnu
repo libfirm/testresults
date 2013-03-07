@@ -52,6 +52,7 @@ x10firm/GenericClosure.x10               ok
 x10firm/GenericConstructor.x10           ok
 x10firm/GenericField.x10                 ok
 x10firm/GenericIdentity.x10              ok
+x10firm/GenericOverride.x10              ok
 x10firm/GenericParamShadowing.x10        ok
 x10firm/GenericStaticMethodsTest.x10     ok
 x10firm/GenericsTest1.x10                ok
@@ -81,6 +82,7 @@ x10firm/Loop3.x10                        ok
 x10firm/NestedTypeParams.x10             ok
 x10firm/NullUnbox.x10                    ok
 x10firm/Operators.x10                    ok
+x10firm/OutEdges.x10                     ok
 x10firm/Overrides.x10                    ok
 x10firm/PairTest.x10                     ok
 x10firm/PiParallel1.x10                  ok
@@ -88,6 +90,7 @@ x10firm/PlaceTest.x10                    ok
 x10firm/PrimitiveTypename.x10            ok
 x10firm/PrimitivesBoxing.x10             ok
 x10firm/Print.x10                        ok
+x10firm/Print2.x10                       ok
 x10firm/RandomTest.x10                   ok
 x10firm/RecursiveAsyncTest.x10           ok
 x10firm/RegionTest.x10                   ok
@@ -117,7 +120,6 @@ x10firm/StaticNonConstTest3.x10          ok
 x10firm/StaticNonConstTest4.x10          ok
 x10firm/StaticNonConstTest5.x10          ok
 x10firm/StringBuilderTest.x10            ok
-x10firm/StringDDispatch.x10              ok
 x10firm/StringEquals.x10                 ok
 x10firm/StringIndex.x10                  ok
 x10firm/StringInstanceOf.x10             ok
@@ -136,3 +138,4 @@ x10firm/This.x10                         ok
 x10firm/TypeNames.x10                    ok
 x10firm/WhenTest.x10                     ok
 x10firm/X10CPPCrash.x10                  ok
+x10firm/ZeroTest.x10                     ok
