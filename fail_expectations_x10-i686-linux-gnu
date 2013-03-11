@@ -86,7 +86,7 @@ x10firm/OutEdges.x10                     ok
 x10firm/Overrides.x10                    ok
 x10firm/PairTest.x10                     ok
 x10firm/PiParallel1.x10                  ok
-x10firm/PlaceLocalHandleTest.x10         compile: returncode not zero but 1
+x10firm/PlaceLocalHandleTest.x10         ok
 x10firm/PlaceTest.x10                    ok
 x10firm/PrimitiveTypename.x10            ok
 x10firm/PrimitivesBoxing.x10             ok
@@ -137,6 +137,7 @@ x10firm/Switch.x10                       ok
 x10firm/Switch2.x10                      compile: SIGABRT
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
+x10firm/TryFinallyReturn.x10             ok
 x10firm/TypeNames.x10                    ok
 x10firm/WhenTest.x10                     ok
 x10firm/X10CPPCrash.x10                  ok
