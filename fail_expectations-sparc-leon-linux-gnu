@@ -520,13 +520,13 @@ gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
 gcc/20031003-1.c                         execute: returncode not zero but 1
 gcc/920908-1.c                           compile: SIGABRT
-gcc/930111-1.c                           compile: SIGABRT
+gcc/930111-1.c                           ok
 gcc/991227-1.c                           execute: output mismatch
 gcc/pr21839.c                            ok
 gcc/pr22379.c                            compile: SIGKILL
 gcc/pr25860.c                            compile: SIGABRT
 gcc/pr36988.c                            compile: SIGABRT
-gcc/pr37285.c                            compile: SIGABRT
+gcc/pr37285.c                            ok
 gcc/pr37433.c                            compile: SIGABRT
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            execute: returncode not zero but 32
@@ -1003,7 +1003,7 @@ opt/structcall2.c                        ok
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
-opt/switch_ll.c                          compile: SIGABRT
+opt/switch_ll.c                          ok
 opt/switch_test.c                        ok
 opt/switch_test2.c                       ok
 opt/tailrec.c                            ok
