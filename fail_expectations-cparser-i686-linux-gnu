@@ -646,6 +646,7 @@ opt/cmp_cse.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
+opt/combo5.c                             compile: SIGABRT
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
