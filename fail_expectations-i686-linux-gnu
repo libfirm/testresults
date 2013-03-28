@@ -1065,7 +1065,7 @@ x86code/common.c                         ok
 x86code/cp_error022.c                    ok
 x86code/cp_error040.c                    ok
 x86code/doz.c                            ok
-x86code/early_clobber.c                  ok
+x86code/early_clobber.c                  compile: 1 compile errors
 x86code/fehler020.c                      ok
 x86code/fehler041.c                      ok
 x86code/fehler043.c                      ok
