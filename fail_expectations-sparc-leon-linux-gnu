@@ -884,8 +884,8 @@ opt/fehler207.c                          ok
 opt/fehler208.c                          ok
 opt/fehler209.c                          ok
 opt/fehler210.c                          ok
-opt/fehler211.c                          compile: SIGABRT
-opt/fehler212.c                          compile: SIGABRT
+opt/fehler211.c                          ok
+opt/fehler212.c                          ok
 opt/fehler213.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
