@@ -228,7 +228,7 @@ C/nowarn/write_only13.c                  ok
 C/nowarn/write_only14.c                  compile: produced invalid warning
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
-C/nowarn/write_only9.c                   compile: 2 compile errors
+C/nowarn/write_only9.c                   ok
 C/number2.c                              ok
 C/number3.c                              ok
 C/number_after_line_directive.c          ok
@@ -258,6 +258,8 @@ C/should_fail/array5.c                   compile: missed error
 C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
+C/should_fail/asm.c                      ok
+C/should_fail/asm2.c                     ok
 C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
@@ -1041,6 +1043,7 @@ opt/vla.c                                ok
 opt/volatile.c                           ok
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
+sparccode/asm.c                          ok
 sparccode/bf_init.c                      ok
 sparccode/bf_localinit.c                 ok
 sparccode/fehler104.c                    ok
