@@ -627,6 +627,7 @@ opt/alloca.c                             ok
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
 opt/array_type.c                         ok
+opt/asmargs.c                            ok
 opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
