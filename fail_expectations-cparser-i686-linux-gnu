@@ -516,6 +516,7 @@ backend/stackarray.c                     ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
 backend/transform_loop.c                 ok
+backend/udiv.c                           ok
 gcc/20000914-1.c                         execute: returncode not zero but 1
 gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         compile: SIGABRT
@@ -626,6 +627,7 @@ opt/alloca.c                             ok
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
 opt/array_type.c                         ok
+opt/asmargs.c                            ok
 opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
