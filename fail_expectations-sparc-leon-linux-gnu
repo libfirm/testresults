@@ -938,7 +938,7 @@ opt/jumpthreading.c                      ok
 opt/jumpthreading2.c                     ok
 opt/jumpthreading3.c                     ok
 opt/jumpthreading4.c                     ok
-opt/jumpthreading5.c                     compile: SIGKILL
+opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
