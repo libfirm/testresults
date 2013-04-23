@@ -966,7 +966,6 @@ opt/mul2n.c                              ok
 opt/mul32x32.c                           ok
 opt/mulconst.c                           ok
 opt/multidim-array.c                     ok
-opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
 opt/nans.c                               ok
