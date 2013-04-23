@@ -966,7 +966,6 @@ opt/mul2n.c                              ok
 opt/mul32x32.c                           ok
 opt/mulconst.c                           ok
 opt/multidim-array.c                     ok
-opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
 opt/nans.c                               ok
@@ -1092,6 +1091,7 @@ x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
 x86code/incmem.c                         ok
+x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
 x86code/setmem.c                         ok
