@@ -890,7 +890,7 @@ opt/fehler209.c                          ok
 opt/fehler210.c                          ok
 opt/fehler211.c                          ok
 opt/fehler212.c                          ok
-opt/fehler213.c                          compile: SIGABRT
+opt/fehler213.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -966,7 +966,6 @@ opt/mul2n.c                              ok
 opt/mul32x32.c                           ok
 opt/mulconst.c                           ok
 opt/multidim-array.c                     ok
-opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
 opt/nans.c                               ok
@@ -975,6 +974,7 @@ opt/nested_loops2.c                      ok
 opt/ns.c                                 ok
 opt/nulladd.c                            ok
 opt/nullnode.c                           ok
+opt/occult.c                             ok
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
@@ -1053,6 +1053,7 @@ x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
+x86code/asm_test15.c                     compile: 2 compile errors
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
@@ -1090,6 +1091,7 @@ x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
 x86code/incmem.c                         ok
+x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
 x86code/setmem.c                         ok
