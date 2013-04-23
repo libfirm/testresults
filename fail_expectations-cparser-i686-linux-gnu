@@ -260,6 +260,7 @@ C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
+C/should_fail/asm3.c                     ok
 C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
@@ -1053,7 +1054,6 @@ x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
-x86code/asm_test15.c                     compile: 2 compile errors
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
