@@ -260,6 +260,7 @@ C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
+C/should_fail/asm3.c                     ok
 C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
