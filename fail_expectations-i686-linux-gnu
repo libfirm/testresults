@@ -975,6 +975,7 @@ opt/nested_loops2.c                      ok
 opt/ns.c                                 ok
 opt/nulladd.c                            ok
 opt/nullnode.c                           ok
+opt/occult.c                             ok
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
@@ -1053,6 +1054,7 @@ x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
+x86code/asm_test15.c                     compile: SIGSEGV
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
