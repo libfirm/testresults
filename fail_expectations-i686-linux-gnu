@@ -1066,6 +1066,7 @@ x86code/asmq3.c                          ok
 x86code/bf_init.c                        ok
 x86code/bf_localinit.c                   ok
 x86code/bittest.c                        ok
+x86code/cas.c                            ok
 x86code/cfopt.c                          ok
 x86code/common.c                         ok
 x86code/cp_error022.c                    ok
