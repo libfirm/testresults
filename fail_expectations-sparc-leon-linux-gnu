@@ -1049,6 +1049,7 @@ opt/wrong_cmp.c                          ok
 sparccode/asm.c                          ok
 sparccode/bf_init.c                      ok
 sparccode/bf_localinit.c                 ok
+sparccode/cas.c                          execute: SIGILL
 sparccode/fehler104.c                    ok
 sparccode/restoredelayslot.c             ok
 sparccode/structlayout.c                 ok
