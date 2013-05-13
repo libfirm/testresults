@@ -42,7 +42,9 @@ x10firm/Dynamic.x10                      ok
 x10firm/DynamicInnerClass.x10            ok
 x10firm/Fibonacci.x10                    ok
 x10firm/Fields.x10                       ok
+x10firm/FileTest.x10                     ok
 x10firm/FunTest.x10                      execute: SIGABRT
+x10firm/FutureTest.x10                   ok
 x10firm/GenericBase.x10                  ok
 x10firm/GenericCall.x10                  ok
 x10firm/GenericCallTwoLevels.x10         ok
