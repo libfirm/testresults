@@ -45,6 +45,7 @@ x10firm/Fields.x10                       ok
 x10firm/FileTest.x10                     ok
 x10firm/FunTest.x10                      execute: SIGABRT
 x10firm/FutureTest.x10                   ok
+x10firm/GIMCSerializationTest.x10        ok
 x10firm/GenericBase.x10                  ok
 x10firm/GenericCall.x10                  ok
 x10firm/GenericCallTwoLevels.x10         ok
