@@ -38,6 +38,7 @@ x10firm/CompareTest.x10                  ok
 x10firm/Conditional.x10                  ok
 x10firm/ConstrainedTypes.x10             ok
 x10firm/DDispatch.x10                    ok
+x10firm/DesugarerTest.x10                ok
 x10firm/Dynamic.x10                      ok
 x10firm/DynamicInnerClass.x10            ok
 x10firm/Fibonacci.x10                    ok
