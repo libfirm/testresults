@@ -25,9 +25,9 @@ x10firm/BoolBoxing.x10                   ok
 x10firm/BoolFields.x10                   ok
 x10firm/BoxTest.x10                      ok
 x10firm/CPeanoOrder.x10                  ok
-x10firm/Cast1.x10                        execute: SIGABRT
-x10firm/Cast2.x10                        execute: SIGABRT
-x10firm/Cast3.x10                        execute: SIGABRT
+x10firm/Cast1.x10                        ok
+x10firm/Cast2.x10                        ok
+x10firm/Cast3.x10                        ok
 x10firm/CellTest.x10                     ok
 x10firm/Class.x10                        ok
 x10firm/Class2.x10                       ok
@@ -99,7 +99,7 @@ x10firm/Print2.x10                       ok
 x10firm/RandomTest.x10                   ok
 x10firm/RecursiveAsyncTest.x10           ok
 x10firm/RegionTest.x10                   ok
-x10firm/ReturnInAtomic.x10               compile: returncode not zero but 1
+x10firm/ReturnInAtomic.x10               ok
 x10firm/Reverse.x10                      ok
 x10firm/SelfRefField.x10                 ok
 x10firm/Serialization.x10                ok
@@ -141,6 +141,8 @@ x10firm/Switch.x10                       ok
 x10firm/Switch2.x10                      compile: SIGABRT
 x10firm/TestObject.x10                   ok
 x10firm/This.x10                         ok
+x10firm/TryCatchFinally.x10              ok
+x10firm/TryFinallyBreakContinue.x10      ok
 x10firm/TryFinallyReturn.x10             ok
 x10firm/TypeNames.x10                    ok
 x10firm/WhenTest.x10                     ok
