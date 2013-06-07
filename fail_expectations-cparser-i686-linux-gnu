@@ -259,6 +259,7 @@ C/should_fail/array5.c                   compile: missed error
 C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
+C/should_fail/array9.c                   compile: missed error
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
@@ -982,7 +983,7 @@ opt/ns.c                                 ok
 opt/nulladd.c                            ok
 opt/nullnode.c                           ok
 opt/occult.c                             ok
-opt/occult2.c                            execute: output mismatch
+opt/occult2.c                            ok
 opt/occult3.c                            compile: SIGABRT
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
