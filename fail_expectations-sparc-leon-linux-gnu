@@ -514,7 +514,7 @@ backend/sparc_bitopcc.c                  ok
 backend/sparc_immediates.c               ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
-backend/spill_cost.c                     compile: SIGABRT
+backend/spill_cost.c                     ok
 backend/srettaken.c                      ok
 backend/stackarray.c                     ok
 backend/taken64.c                        ok
@@ -634,7 +634,7 @@ opt/array_type.c                         ok
 opt/asmargs.c                            ok
 opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
-opt/bad.c                                compile: SIGABRT
+opt/bad.c                                ok
 opt/bf_constfold.c                       ok
 opt/biggest_prime.c                      ok
 opt/bitfield.c                           ok
@@ -652,7 +652,7 @@ opt/cfoptbug.c                           ok
 opt/cmp.c                                ok
 opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
-opt/combo2.c                             compile: SIGABRT
+opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
 opt/combo5.c                             ok
@@ -818,7 +818,7 @@ opt/fehler127.c                          ok
 opt/fehler128.c                          ok
 opt/fehler129.c                          ok
 opt/fehler130.c                          ok
-opt/fehler135.c                          compile: SIGABRT
+opt/fehler135.c                          ok
 opt/fehler136.c                          ok
 opt/fehler137.c                          compile: SIGABRT
 opt/fehler138.c                          ok
@@ -914,7 +914,7 @@ opt/gnu_def.c                            ok
 opt/gzip_error.c                         ok
 opt/iabs.c                               ok
 opt/if.c                                 ok
-opt/ifconv.c                             compile: SIGABRT
+opt/ifconv.c                             ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
@@ -948,7 +948,7 @@ opt/jumpthreading3.c                     ok
 opt/jumpthreading4.c                     ok
 opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
-opt/jumpthreading7.c                     compile: SIGABRT
+opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
 opt/kahansum.c                           ok
 opt/labs.c                               ok
