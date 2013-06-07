@@ -93,6 +93,7 @@ C/cp_error071.c                          ok
 C/cp_error072.c                          ok
 C/cp_error073.c                          ok
 C/cp_error074.c                          compile: SIGABRT
+C/cp_error075.c                          compile: SIGABRT
 C/csmith1.c                              ok
 C/csmith2.c                              ok
 C/declarator_special.c                   ok
@@ -258,6 +259,7 @@ C/should_fail/array5.c                   compile: missed error
 C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
+C/should_fail/array9.c                   compile: missed error
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
@@ -512,6 +514,7 @@ backend/sparc_bitopcc.c                  ok
 backend/sparc_immediates.c               ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
+backend/spill_cost.c                     compile: SIGABRT
 backend/srettaken.c                      ok
 backend/stackarray.c                     ok
 backend/taken64.c                        ok
@@ -912,6 +915,9 @@ opt/gzip_error.c                         ok
 opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
+opt/ifconv2.c                            compile: SIGABRT
+opt/ifconv3.c                            compile: SIGABRT
+opt/ifconv4.c                            compile: SIGABRT
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -931,6 +937,7 @@ opt/inline20.c                           ok
 opt/inline21.c                           ok
 opt/inline22.c                           ok
 opt/inline23.c                           ok
+opt/inline24.c                           compile: SIGABRT
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
@@ -977,6 +984,7 @@ opt/nulladd.c                            ok
 opt/nullnode.c                           ok
 opt/occult.c                             ok
 opt/occult2.c                            ok
+opt/occult3.c                            compile: SIGABRT
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
