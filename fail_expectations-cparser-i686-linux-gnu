@@ -481,8 +481,8 @@ backend/builtin_popcountll.c             ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/extern_sret.c                    ok
-backend/fabsf1.c                         compile: SIGABRT
-backend/fabsf2.c                         compile: SIGABRT
+backend/fabsf1.c                         ok
+backend/fabsf2.c                         ok
 backend/fdiv.c                           ok
 backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
