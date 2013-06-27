@@ -511,7 +511,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/setjmp.c                         execute: output mismatch
+backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
