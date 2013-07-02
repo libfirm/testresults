@@ -313,6 +313,12 @@ C/should_fail/init3.c                    ok
 C/should_fail/init4.c                    ok
 C/should_fail/init5.c                    ok
 C/should_fail/init8.c                    ok
+C/should_fail/intconst.c                 ok
+C/should_fail/intconst2.c                ok
+C/should_fail/intconst3.c                ok
+C/should_fail/intconst4.c                ok
+C/should_fail/intconst5.c                ok
+C/should_fail/intconst6.c                ok
 C/should_fail/kr1.c                      ok
 C/should_fail/kr2.c                      ok
 C/should_fail/kr3.c                      ok
@@ -511,7 +517,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/setjmp.c                         execute: output mismatch
+backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
@@ -924,6 +930,7 @@ opt/ifconv.c                             ok
 opt/ifconv2.c                            compile: SIGABRT
 opt/ifconv3.c                            compile: SIGABRT
 opt/ifconv4.c                            compile: SIGABRT
+opt/ifconv5.c                            execute: returncode not zero but 1
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -1110,6 +1117,7 @@ x86code/incmem.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
+x86code/rol_ror.c                        ok
 x86code/setmem.c                         ok
 x86code/shift64.c                        ok
 x86code/shiftd.c                         ok
