@@ -930,6 +930,7 @@ opt/ifconv.c                             ok
 opt/ifconv2.c                            compile: SIGABRT
 opt/ifconv3.c                            compile: SIGABRT
 opt/ifconv4.c                            compile: SIGABRT
+opt/ifconv5.c                            execute: returncode not zero but 1
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -1116,6 +1117,7 @@ x86code/incmem.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
+x86code/rol_ror.c                        ok
 x86code/setmem.c                         ok
 x86code/shift64.c                        ok
 x86code/shiftd.c                         ok
