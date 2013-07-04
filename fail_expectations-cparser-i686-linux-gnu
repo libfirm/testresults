@@ -93,7 +93,7 @@ C/cp_error070.c                          ok
 C/cp_error071.c                          ok
 C/cp_error072.c                          ok
 C/cp_error073.c                          ok
-C/cp_error074.c                          compile: SIGABRT
+C/cp_error074.c                          ok
 C/cp_error075.c                          ok
 C/csmith1.c                              ok
 C/csmith2.c                              ok
