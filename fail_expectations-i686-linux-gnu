@@ -544,7 +544,7 @@ gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
 gcc/pr22379.c                            compile: SIGKILL
-gcc/pr25860.c                            compile: SIGABRT
+gcc/pr25860.c                            ok
 gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            compile: SIGABRT
