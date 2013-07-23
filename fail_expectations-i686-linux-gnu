@@ -21,6 +21,7 @@ C/compoundlit2.c                         ok
 C/compoundlit3.c                         ok
 C/compoundlit4.c                         ok
 C/compoundlit5.c                         ok
+C/compoundlit6.c                         ok
 C/compoundlit_lhs.c                      ok
 C/const2.c                               ok
 C/constarraytd.c                         ok
@@ -31,6 +32,7 @@ C/constexpr4.c                           ok
 C/constexpr5.c                           ok
 C/constexpr6.c                           ok
 C/constexpr7.c                           ok
+C/constexpr8.c                           ok
 C/cp_error001.c                          ok
 C/cp_error004.c                          ok
 C/cp_error005.c                          ok
@@ -213,6 +215,8 @@ C/mod.c                                  ok
 C/noconst.c                              ok
 C/nowarn/fooredirect.c                   ok
 C/nowarn/init_self.c                     ok
+C/nowarn/initializer0.c                  ok
+C/nowarn/initializer1.c                  ok
 C/nowarn/main.c                          ok
 C/nowarn/noreturn.c                      ok
 C/nowarn/printf.c                        ok
@@ -277,6 +281,8 @@ C/should_fail/complex_bitops.c           ok
 C/should_fail/complex_cast.c             ok
 C/should_fail/complex_compare.c          ok
 C/should_fail/complex_shift.c            ok
+C/should_fail/compoundlit0.c             ok
+C/should_fail/compoundlit1.c             ok
 C/should_fail/conflicting_types.c        ok
 C/should_fail/const.c                    ok
 C/should_fail/const2.c                   ok
@@ -313,6 +319,12 @@ C/should_fail/init3.c                    ok
 C/should_fail/init4.c                    ok
 C/should_fail/init5.c                    ok
 C/should_fail/init8.c                    ok
+C/should_fail/initializer2.c             ok
+C/should_fail/initializer3.c             ok
+C/should_fail/initializer4.c             ok
+C/should_fail/initializer5.c             ok
+C/should_fail/initializer6.c             ok
+C/should_fail/initializer7.c             ok
 C/should_fail/intconst.c                 ok
 C/should_fail/intconst2.c                ok
 C/should_fail/intconst3.c                ok
@@ -393,6 +405,7 @@ C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
+C/should_warn/initializer1.c             ok
 C/should_warn/main0.c                    ok
 C/should_warn/main1.c                    ok
 C/should_warn/main2.c                    ok
@@ -447,7 +460,6 @@ C/universal_character.c                  ok
 C/unkept_loop.c                          ok
 C/varargs.c                              ok
 C/vla.c                                  ok
-C/vlainit.c                              compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
 ack/ack_conv.c                           ok
