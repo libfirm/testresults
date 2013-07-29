@@ -331,6 +331,7 @@ C/should_fail/intconst3.c                ok
 C/should_fail/intconst4.c                ok
 C/should_fail/intconst5.c                ok
 C/should_fail/intconst6.c                ok
+C/should_fail/invalid.c                  ok
 C/should_fail/kr1.c                      ok
 C/should_fail/kr2.c                      ok
 C/should_fail/kr3.c                      ok
@@ -919,6 +920,7 @@ opt/fehler210.c                          ok
 opt/fehler211.c                          ok
 opt/fehler212.c                          ok
 opt/fehler213.c                          ok
+opt/fehler214.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
