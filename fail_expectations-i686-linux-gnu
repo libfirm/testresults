@@ -920,7 +920,7 @@ opt/fehler210.c                          ok
 opt/fehler211.c                          ok
 opt/fehler212.c                          ok
 opt/fehler213.c                          ok
-opt/fehler214.c                          compile: SIGABRT
+opt/fehler214.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
