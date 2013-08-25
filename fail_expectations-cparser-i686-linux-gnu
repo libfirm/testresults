@@ -117,6 +117,9 @@ C/funcname.c                             ok
 C/function.c                             ok
 C/function_declarator.c                  ok
 C/gigo_return.c                          ok
+C/gnu99/alias.c                          ok
+C/gnu99/alias2.c                         compile: SIGSEGV
+C/gnu99/alias3.c                         ok
 C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     ok
 C/gnu99/anonstruct2.c                    ok
@@ -125,7 +128,7 @@ C/gnu99/asmname.c                        ok
 C/gnu99/attribute_after_bitfield.c       ok
 C/gnu99/attribute_empty.c                ok
 C/gnu99/attribute_in_decl.c              compile: 2 compile errors
-C/gnu99/attributes.c                     compile: linker error
+C/gnu99/attributes.c                     ok
 C/gnu99/attributes2.c                    ok
 C/gnu99/attributes3.c                    ok
 C/gnu99/attributes4.c                    ok
@@ -268,6 +271,15 @@ C/should_fail/array9.c                   compile: missed error
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
+C/should_fail/bad_alias.c                ok
+C/should_fail/bad_alias2.c               ok
+C/should_fail/bad_alias3.c               ok
+C/should_fail/bad_alias4.c               ok
+C/should_fail/bad_alias5.c               ok
+C/should_fail/bad_alias6.c               ok
+C/should_fail/bad_alias7.c               ok
+C/should_fail/bad_alias8.c               ok
+C/should_fail/bad_alias9.c               ok
 C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
@@ -342,6 +354,12 @@ C/should_fail/label.c                    ok
 C/should_fail/large_array.c              compile: missed error
 C/should_fail/lvalue.c                   ok
 C/should_fail/missing.c                  ok
+C/should_fail/multidef0.c                compile: missed error
+C/should_fail/multidef1.c                ok
+C/should_fail/multidef2.c                ok
+C/should_fail/multidef3.c                ok
+C/should_fail/multidef4.c                ok
+C/should_fail/multidef5.c                ok
 C/should_fail/multifield.c               ok
 C/should_fail/multiple_types.c           ok
 C/should_fail/multiple_types2.c          ok
@@ -558,9 +576,9 @@ cparser/should_fail/nonexistent2.cmd     ok
 cparser/should_fail/nonexistent3.cmd     ok
 cparser/should_fail/nonexistent4.cmd     ok
 cparser/should_work/help.cmd             ok
-cparser/should_work/helpall.cmd          cmd_should_work: No such file or directory
+cparser/should_work/helpall.cmd          ok
 cparser/should_work/os.cmd               ok
-cparser/should_work/version.cmd          cmd_should_work: No such file or directory
+cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         execute: returncode not zero but 1
 gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         compile: SIGABRT
