@@ -1123,6 +1123,7 @@ preproctest/concat.c                     ok
 preproctest/concatbug.c                  ok
 preproctest/define_in_call.c             ok
 preproctest/define_keyword.c             ok
+preproctest/defined_defined.c            ok
 preproctest/defined_in_macro.c           ok
 preproctest/defines.c                    ok
 preproctest/defines2.c                   ok
