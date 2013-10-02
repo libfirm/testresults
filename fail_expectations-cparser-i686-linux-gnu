@@ -433,7 +433,7 @@ C/should_warn/main1.c                    ok
 C/should_warn/main2.c                    ok
 C/should_warn/main3.c                    ok
 C/should_warn/missing_return.c           ok
-C/should_warn/nested_comment.c           compile: missed warnings
+C/should_warn/nested_comment.c           ok
 C/should_warn/never_read1.c              ok
 C/should_warn/padded.c                   ok
 C/should_warn/paramscope.c               compile: missed warnings
@@ -572,7 +572,6 @@ cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
 cparser/should_fail/badopt2.cmd          ok
 cparser/should_fail/badopt3.cmd          ok
-cparser/should_fail/badopt4.cmd          ok
 cparser/should_fail/noc99.cmd            ok
 cparser/should_fail/noinput.cmd          ok
 cparser/should_fail/nonexistent0.cmd     ok
