@@ -571,6 +571,8 @@ cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
 cparser/should_fail/badopt2.cmd          ok
+cparser/should_fail/badopt3.cmd          ok
+cparser/should_fail/badopt4.cmd          ok
 cparser/should_fail/noc99.cmd            ok
 cparser/should_fail/noinput.cmd          ok
 cparser/should_fail/nonexistent0.cmd     ok
