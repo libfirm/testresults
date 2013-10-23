@@ -326,6 +326,8 @@ C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
 C/should_fail/goto_identifier_scope.c    compile: missed error
+C/should_fail/incomplete0.c              ok
+C/should_fail/incomplete1.c              ok
 C/should_fail/incomplete_array.c         ok
 C/should_fail/incomplete_struct.c        ok
 C/should_fail/init1.c                    ok
@@ -541,6 +543,7 @@ backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
 backend/lower_call2.c                    ok
 backend/lower_call3.c                    ok
+backend/lower_call4.c                    compile: SIGABRT
 backend/memperm.c                        ok
 backend/optest.c                         ok
 backend/optest_float.c                   ok
