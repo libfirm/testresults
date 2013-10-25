@@ -437,6 +437,8 @@ C/should_warn/main3.c                    ok
 C/should_warn/missing_return.c           ok
 C/should_warn/nested_comment.c           ok
 C/should_warn/never_read1.c              ok
+C/should_warn/notabinassign0.c           ok
+C/should_warn/notabinassign1.c           ok
 C/should_warn/padded.c                   ok
 C/should_warn/paramscope.c               compile: missed warnings
 C/should_warn/printf2.c                  ok
