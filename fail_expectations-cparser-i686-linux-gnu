@@ -983,9 +983,9 @@ opt/gzip_error.c                         ok
 opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
-opt/ifconv2.c                            compile: SIGABRT
-opt/ifconv3.c                            compile: SIGABRT
-opt/ifconv4.c                            compile: SIGABRT
+opt/ifconv2.c                            ok
+opt/ifconv3.c                            ok
+opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
