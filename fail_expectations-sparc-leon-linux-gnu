@@ -328,6 +328,7 @@ C/should_fail/function_return.c          ok
 C/should_fail/goto_identifier_scope.c    compile: missed error
 C/should_fail/incomplete0.c              ok
 C/should_fail/incomplete1.c              ok
+C/should_fail/incomplete2.c              ok
 C/should_fail/incomplete_array.c         ok
 C/should_fail/incomplete_struct.c        ok
 C/should_fail/init1.c                    ok
