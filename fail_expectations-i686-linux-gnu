@@ -964,6 +964,7 @@ opt/fehler211.c                          ok
 opt/fehler212.c                          ok
 opt/fehler213.c                          ok
 opt/fehler214.c                          ok
+opt/fehler215.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
