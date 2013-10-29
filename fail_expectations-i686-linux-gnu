@@ -1055,7 +1055,7 @@ opt/nulladd.c                            ok
 opt/nullnode.c                           ok
 opt/occult.c                             ok
 opt/occult2.c                            ok
-opt/occult3.c                            compile: SIGABRT
+opt/occult3.c                            ok
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
