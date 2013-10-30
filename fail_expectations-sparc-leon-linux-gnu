@@ -965,6 +965,7 @@ opt/fehler212.c                          ok
 opt/fehler213.c                          ok
 opt/fehler214.c                          ok
 opt/fehler215.c                          ok
+opt/fehler216.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -989,6 +990,7 @@ opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
+opt/ifconv6.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -1055,7 +1057,7 @@ opt/nulladd.c                            ok
 opt/nullnode.c                           ok
 opt/occult.c                             ok
 opt/occult2.c                            ok
-opt/occult3.c                            compile: SIGABRT
+opt/occult3.c                            ok
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
