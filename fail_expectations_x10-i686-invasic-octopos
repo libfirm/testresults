@@ -35,9 +35,9 @@ x10firm/ClosureField.x10                 ok
 x10firm/ClosureLocal.x10                 ok
 x10firm/ClosureTest.x10                  ok
 x10firm/CompareTest.x10                  ok
-x10firm/ConcurrentAtTest.x10             execute: SIGKILL
-x10firm/ConcurrentAtTest2.x10            execute: SIGKILL
-x10firm/ConcurrentAtTest3.x10            execute: SIGKILL
+x10firm/ConcurrentAtTest.x10             execute: SIGABRT
+x10firm/ConcurrentAtTest2.x10            execute: SIGSEGV
+x10firm/ConcurrentAtTest3.x10            execute: SIGABRT
 x10firm/Conditional.x10                  ok
 x10firm/ConstrainedTypes.x10             ok
 x10firm/DDispatch.x10                    ok
