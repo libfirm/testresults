@@ -589,7 +589,7 @@ cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
 cparser/should_work/os.cmd               ok
 cparser/should_work/version.cmd          ok
-gcc/20000914-1.c                         execute: returncode not zero but 1
+gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         compile: SIGABRT
 gcc/20020920-1.c                         ok
