@@ -603,7 +603,7 @@ gcc/pr22379.c                            compile: SIGKILL
 gcc/pr25860.c                            ok
 gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
-gcc/pr37433.c                            compile: SIGABRT
+gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            execute: returncode not zero but 4
 gcc/strct-varg-1.c                       ok
