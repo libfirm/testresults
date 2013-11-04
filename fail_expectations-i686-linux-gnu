@@ -100,6 +100,8 @@ C/cp_error072.c                          ok
 C/cp_error073.c                          ok
 C/cp_error074.c                          ok
 C/cp_error075.c                          ok
+C/cp_error076.c                          compile: SIGABRT
+C/cp_error077.c                          compile: 2 compile errors
 C/csmith1.c                              ok
 C/csmith2.c                              ok
 C/declarator_special.c                   ok
@@ -373,8 +375,10 @@ C/should_fail/multiple_types3.c          ok
 C/should_fail/noconst.c                  ok
 C/should_fail/nofloat.c                  ok
 C/should_fail/nofloat2.c                 ok
+C/should_fail/noname1.c                  ok
 C/should_fail/number.c                   ok
 C/should_fail/offsetof.c                 ok
+C/should_fail/offsetof2.c                compile: SIGABRT
 C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
@@ -965,7 +969,7 @@ opt/fehler212.c                          ok
 opt/fehler213.c                          ok
 opt/fehler214.c                          ok
 opt/fehler215.c                          ok
-opt/fehler216.c                          compile: SIGABRT
+opt/fehler216.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
