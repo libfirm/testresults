@@ -595,7 +595,7 @@ cparser/should_work/os.cmd               ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
-gcc/20020129-1.c                         compile: SIGABRT
+gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
 gcc/20031003-1.c                         execute: returncode not zero but 1
@@ -607,7 +607,7 @@ gcc/pr22379.c                            compile: SIGKILL
 gcc/pr25860.c                            ok
 gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
-gcc/pr37433.c                            compile: SIGABRT
+gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            execute: returncode not zero but 4
 gcc/strct-varg-1.c                       ok
@@ -968,8 +968,8 @@ opt/fehler211.c                          ok
 opt/fehler212.c                          ok
 opt/fehler213.c                          ok
 opt/fehler214.c                          ok
-opt/fehler215.c                          compile: SIGABRT
-opt/fehler216.c                          compile: SIGABRT
+opt/fehler215.c                          ok
+opt/fehler216.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1014,7 +1014,7 @@ opt/inline20.c                           ok
 opt/inline21.c                           ok
 opt/inline22.c                           ok
 opt/inline23.c                           ok
-opt/inline24.c                           compile: SIGABRT
+opt/inline24.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
@@ -1061,7 +1061,7 @@ opt/nulladd.c                            ok
 opt/nullnode.c                           ok
 opt/occult.c                             ok
 opt/occult2.c                            ok
-opt/occult3.c                            compile: SIGABRT
+opt/occult3.c                            ok
 opt/pad_return.c                         ok
 opt/pbqpHeur.c                           ok
 opt/pbqpHeur2.c                          ok
