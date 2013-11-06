@@ -1,3 +1,4 @@
+AbstractGenericMethod.x10                compile: returncode not zero but 1
 ActivityLocalCounter.x10                 ok
 AnonymousClass.x10                       ok
 ArrayBenchmark.x10                       ok
