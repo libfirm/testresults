@@ -1,3 +1,4 @@
+AbstractGenericMethod.x10                compile: returncode not zero but 1
 ActivityLocalCounter.x10                 ok
 AnonymousClass.x10                       ok
 ArrayBenchmark.x10                       ok
@@ -35,7 +36,7 @@ ClosureField.x10                         ok
 ClosureLocal.x10                         ok
 ClosureTest.x10                          ok
 CompareTest.x10                          ok
-ConcurrentAtTest.x10                     run: SIGSEGV
+ConcurrentAtTest.x10                     run: SIGABRT
 ConcurrentAtTest2.x10                    run: SIGXCPU
 ConcurrentAtTest3.x10                    run: SIGABRT
 Conditional.x10                          ok
@@ -153,4 +154,5 @@ X10CPPCrash.x10                          ok
 ZeroTest.x10                             ok
 agent/HelloAgent.x10                     compile: returncode not zero but 1
 agent/Integrate.x10                      compile: returncode not zero but 1
+agent/SkinDetect.x10                     compile: returncode not zero but 1
 agent/Update.x10                         compile: returncode not zero but 1
