@@ -36,7 +36,7 @@ ClosureField.x10                         ok
 ClosureLocal.x10                         ok
 ClosureTest.x10                          ok
 CompareTest.x10                          ok
-ConcurrentAtTest.x10                     run: SIGABRT
+ConcurrentAtTest.x10                     run: SIGSEGV
 ConcurrentAtTest2.x10                    run: SIGXCPU
 ConcurrentAtTest3.x10                    run: SIGABRT
 Conditional.x10                          ok
