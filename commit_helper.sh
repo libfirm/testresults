@@ -16,5 +16,5 @@ cp "${new_expectations}" "${file}"
 git add "${file}"
 git commit -m "buildbot update"
 while ! git push; do
-	git pull --rebase
+	git pull --rebase -s ours
 done
