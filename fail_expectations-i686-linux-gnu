@@ -598,7 +598,6 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/20031003-1.c                         execute: returncode not zero but 1
 gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
@@ -1252,6 +1251,7 @@ x86code/float_ret_sse.c                  ok
 x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
+x86code/flt2int.c                        ok
 x86code/incmem.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
