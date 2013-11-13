@@ -2,7 +2,7 @@
 #
 # Takes a newly generated fail_expectations and attempts to merge/commit it into
 # the repository
-set -eu
+set -euv
 
 new_expectations="$1"
 file="$2"
