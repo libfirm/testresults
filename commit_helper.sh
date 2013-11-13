@@ -12,6 +12,8 @@ if diff "${new_expectations}" "${file}" >& /dev/null; then
 	exit 0
 fi
 
+git remote add origin /ben/local/GIT/public/firm-testresults
+
 cp "${new_expectations}" "${file}"
 git add "${file}"
 git commit -m "buildbot update"
