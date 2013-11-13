@@ -10,14 +10,14 @@ Async0.x10                               compile: returncode not zero but 1
 Async1.x10                               ok
 AsyncAtTest.x10                          run: SIGSEGV
 AsyncVarTest.x10                         compile: returncode not zero but 1
-AtArrayListTest.x10                      run: SIGSEGV
-AtArrayTest.x10                          run: SIGSEGV
-AtArrayTest2.x10                         run: SIGSEGV
+AtArrayListTest.x10                      run: SIGFPE
+AtArrayTest.x10                          run: SIGFPE
+AtArrayTest2.x10                         ok
 AtAsyncAtomicTest.x10                    run: SIGSEGV
-AtClass2Test.x10                         run: SIGSEGV
-AtClass3Test.x10                         run: SIGSEGV
+AtClass2Test.x10                         run: SIGFPE
+AtClass3Test.x10                         run: SIGFPE
 AtExpressionTest.x10                     run: SIGSEGV
-AtStructTest.x10                         run: SIGSEGV
+AtStructTest.x10                         ok
 AtomicAtomicTest.x10                     ok
 AtomicFunctionTest.x10                   ok
 AtomicTest.x10                           ok
@@ -37,8 +37,8 @@ ClosureLocal.x10                         ok
 ClosureTest.x10                          ok
 CompareTest.x10                          ok
 ConcurrentAtTest.x10                     run: SIGSEGV
-ConcurrentAtTest2.x10                    run: SIGSEGV
-ConcurrentAtTest3.x10                    run: SIGSEGV
+ConcurrentAtTest2.x10                    run: SIGFPE
+ConcurrentAtTest3.x10                    run: SIGFPE
 Conditional.x10                          ok
 ConstrainedTypes.x10                     ok
 DDispatch.x10                            ok
@@ -64,7 +64,7 @@ GenericOverride.x10                      ok
 GenericParamShadowing.x10                ok
 GenericStaticMethodsTest.x10             ok
 GenericsTest1.x10                        ok
-GlobalRefTest.x10                        run: SIGSEGV
+GlobalRefTest.x10                        run: SIGFPE
 GrowableIMCTest.x10                      ok
 GuardClosure.x10                         ok
 HashMapBug.x10                           ok
@@ -87,6 +87,9 @@ LocalClass.x10                           ok
 Loop.x10                                 ok
 Loop2.x10                                ok
 Loop3.x10                                ok
+NQueens.x10                              ok
+NQueensDist.x10                          run: SIGFPE
+NQueensPar.x10                           ok
 NestedTypeParams.x10                     ok
 NullUnbox.x10                            ok
 Operators.x10                            ok
@@ -94,8 +97,8 @@ OutEdges.x10                             ok
 Overrides.x10                            ok
 PairTest.x10                             ok
 PiParallel1.x10                          ok
-PlaceLocalHandleTest.x10                 run: SIGSEGV
-PlaceTest.x10                            ok
+PlaceLocalHandleTest.x10                 run: SIGFPE
+PlaceTest.x10                            run: SIGFPE
 PrimitiveTypename.x10                    ok
 PrimitivesBoxing.x10                     ok
 Print.x10                                ok
@@ -154,5 +157,7 @@ X10CPPCrash.x10                          ok
 ZeroTest.x10                             ok
 agent/HelloAgent.x10                     ok
 agent/Integrate.x10                      ok
+agent/Multigrid.x10                      run: SIGABRT
+agent/PEDistTest.x10                     ok
 agent/SkinDetect.x10                     run: output mismatch
 agent/Update.x10                         ok
