@@ -551,6 +551,7 @@ backend/lower_call.c                     ok
 backend/lower_call2.c                    ok
 backend/lower_call3.c                    ok
 backend/lower_call4.c                    ok
+backend/lower_copyb.c                    execute: returncode not zero but 1
 backend/memperm.c                        ok
 backend/optest.c                         ok
 backend/optest_float.c                   ok
