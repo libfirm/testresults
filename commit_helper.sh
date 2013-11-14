@@ -25,5 +25,5 @@ git commit -m "buildbot update" --author "buildbot <firm@ipd.info.uni-karlsruhe.
 # publish changes
 while ! git push origin master -u; do
 	git fetch origin
-	git rebase master -s theirs
+	git rebase origin/master -s theirs
 done
