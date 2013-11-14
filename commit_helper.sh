@@ -16,7 +16,7 @@ git remote add origin /ben/local/GIT/public/firm-testresults
 
 cp "${new_expectations}" "${file}"
 git add "${file}"
-git commit -m "buildbot update"
+git commit -m "buildbot update" --author "buildbot <firm@ipd.info.uni-karlsruhe.de>"
 while ! git push origin master -u; do
 	git pull --rebase -s ours
 done
