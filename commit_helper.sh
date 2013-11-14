@@ -6,6 +6,8 @@ set -euv
 
 new_expectations="$1"
 file="$2"
+buildername="$3"
+buildnumber="$4"
 
 # check if push is necessary
 if diff "${new_expectations}" "${file}" >& /dev/null; then
@@ -20,7 +22,7 @@ git remote add origin /ben/local/GIT/public/firm-testresults
 # locally commit changes
 cp "${new_expectations}" "${file}"
 git add "${file}"
-git commit -m "buildbot update" --author "buildbot <firm@ipd.info.uni-karlsruhe.de>"
+git commit -m "buildbot update ${buildername} ${buildnumber}" --author "buildbot <firm@ipd.info.uni-karlsruhe.de>"
 
 # publish changes
 while ! git push origin master -u; do
