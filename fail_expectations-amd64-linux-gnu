@@ -3,7 +3,7 @@ C++/should_fail/bad_retypedef_sys.cc     ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/abstract_declarator.c                  ok
-C/anon_entity.c                          ok
+C/anon_entity.c                          compile: SIGABRT
 C/array.c                                ok
 C/bitfield.c                             ok
 C/bitfield2.c                            ok
@@ -157,7 +157,7 @@ C/gnu99/emptystruct.c                    ok
 C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
 C/gnu99/extension_in_for_init.c          ok
-C/gnu99/flex_array_init.c                execute: SIGABRT
+C/gnu99/flex_array_init.c                compile: SIGABRT
 C/gnu99/ijmp.c                           ok
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
@@ -169,7 +169,7 @@ C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
 C/gnu99/nested_function.c                ok
 C/gnu99/nested_function_goto.c           compile: SIGABRT
-C/gnu99/nullarray.c                      ok
+C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/packed.c                         ok
 C/gnu99/packed_bf.c                      ok
@@ -378,7 +378,7 @@ C/should_fail/nofloat2.c                 ok
 C/should_fail/noname1.c                  ok
 C/should_fail/number.c                   ok
 C/should_fail/offsetof.c                 ok
-C/should_fail/offsetof2.c                ok
+C/should_fail/offsetof2.c                compile: SIGABRT
 C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
@@ -598,14 +598,14 @@ gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
-gcc/20030305-1.c                         ok
+gcc/20030305-1.c                         compile: SIGABRT
 gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
 gcc/pr22379.c                            compile: SIGKILL
 gcc/pr25860.c                            ok
-gcc/pr36988.c                            ok
+gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
@@ -994,7 +994,7 @@ opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
-opt/ifconv6.c                            compile: SIGKILL
+opt/ifconv6.c                            compile: SIGABRT
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -1210,7 +1210,7 @@ preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
 x86code/asm_test.c                       ok
-x86code/asm_test10.c                     compile: SIGSEGV
+x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
