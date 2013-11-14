@@ -18,5 +18,6 @@ cp "${new_expectations}" "${file}"
 git add "${file}"
 git commit -m "buildbot update" --author "buildbot <firm@ipd.info.uni-karlsruhe.de>"
 while ! git push origin master -u; do
-	git pull --rebase -s ours
+	git fetch origin
+	git rebase master -s theirs
 done
