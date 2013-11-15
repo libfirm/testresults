@@ -87,6 +87,9 @@ LocalClass.x10                           ok
 Loop.x10                                 ok
 Loop2.x10                                ok
 Loop3.x10                                ok
+NQueens.x10                              ok
+NQueensDist.x10                          ok
+NQueensPar.x10                           ok
 NestedTypeParams.x10                     ok
 NullUnbox.x10                            ok
 Operators.x10                            ok
@@ -155,5 +158,6 @@ ZeroTest.x10                             ok
 agent/HelloAgent.x10                     compile: returncode not zero but 1
 agent/Integrate.x10                      compile: returncode not zero but 1
 agent/Multigrid.x10                      compile: returncode not zero but 1
+agent/PEDistTest.x10                     compile: returncode not zero but 1
 agent/SkinDetect.x10                     compile: returncode not zero but 1
 agent/Update.x10                         compile: returncode not zero but 1
