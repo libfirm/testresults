@@ -159,5 +159,6 @@ agent/HelloAgent.x10                     ok
 agent/Integrate.x10                      ok
 agent/Multigrid.x10                      run: SIGABRT
 agent/PEDistTest.x10                     ok
+agent/SFCMatMul.x10                      run: SIGSEGV
 agent/SkinDetect.x10                     run: output mismatch
 agent/Update.x10                         ok
