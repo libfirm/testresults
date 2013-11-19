@@ -36,8 +36,8 @@ ClosureField.x10                         ok
 ClosureLocal.x10                         ok
 ClosureTest.x10                          ok
 CompareTest.x10                          ok
-ConcurrentAtTest.x10                     run: SIGKILL
-ConcurrentAtTest2.x10                    run: SIGABRT
+ConcurrentAtTest.x10                     ok
+ConcurrentAtTest2.x10                    ok
 ConcurrentAtTest3.x10                    run: SIGABRT
 Conditional.x10                          ok
 ConstrainedTypes.x10                     ok
@@ -88,7 +88,7 @@ Loop.x10                                 ok
 Loop2.x10                                ok
 Loop3.x10                                ok
 NQueens.x10                              ok
-NQueensDist.x10                          run: output mismatch
+NQueensDist.x10                          ok
 NQueensPar.x10                           ok
 NestedTypeParams.x10                     ok
 NullUnbox.x10                            ok
