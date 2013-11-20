@@ -159,5 +159,6 @@ agent/HelloAgent.x10                     compile: returncode not zero but 1
 agent/Integrate.x10                      compile: returncode not zero but 1
 agent/Multigrid.x10                      compile: returncode not zero but 1
 agent/PEDistTest.x10                     compile: returncode not zero but 1
+agent/SFCMatMul.x10                      compile: returncode not zero but 1
 agent/SkinDetect.x10                     compile: returncode not zero but 1
 agent/Update.x10                         compile: returncode not zero but 1
