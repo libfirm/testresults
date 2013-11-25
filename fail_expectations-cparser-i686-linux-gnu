@@ -603,7 +603,7 @@ gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
-gcc/pr22379.c                            compile: SIGKILL
+gcc/pr22379.c                            ok
 gcc/pr25860.c                            ok
 gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
@@ -728,7 +728,7 @@ opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
 opt/combo5.c                             ok
-opt/combo6.c                             execute: returncode not zero but 1
+opt/combo6.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
@@ -996,6 +996,7 @@ opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
 opt/ifconv6.c                            compile: SIGABRT
+opt/ifconv7.c                            compile: SIGABRT
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
