@@ -996,6 +996,7 @@ opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
 opt/ifconv6.c                            compile: SIGABRT
+opt/ifconv7.c                            compile: SIGABRT
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
