@@ -728,7 +728,7 @@ opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
 opt/combo5.c                             ok
-opt/combo6.c                             execute: returncode not zero but 1
+opt/combo6.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
