@@ -562,7 +562,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/setcc.c                          execute: returncode not zero but 1
+backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift64.c                        ok
@@ -997,7 +997,7 @@ opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
 opt/ifconv6.c                            compile: SIGABRT
-opt/ifconv7.c                            compile: SIGABRT
+opt/ifconv7.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
