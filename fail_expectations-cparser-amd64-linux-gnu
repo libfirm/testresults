@@ -570,6 +570,7 @@ backend/sign_bit.c                       ok
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
 backend/sparc_immediates.c               ok
+backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
 backend/spill_cost.c                     ok
