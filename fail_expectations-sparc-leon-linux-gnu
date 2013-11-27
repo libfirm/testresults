@@ -544,13 +544,14 @@ backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            ok
 backend/inconsistent_outs.c              ok
-backend/initializer_bug.c                compile: SIGABRT
+backend/initializer_bug.c                ok
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
 backend/lower_call2.c                    ok
 backend/lower_call3.c                    ok
 backend/lower_call4.c                    ok
+backend/lower_copyb.c                    ok
 backend/memperm.c                        ok
 backend/optest.c                         ok
 backend/optest_float.c                   ok
@@ -561,6 +562,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
+backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift64.c                        ok
@@ -598,12 +600,11 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/20031003-1.c                         execute: returncode not zero but 1
 gcc/920908-1.c                           compile: SIGABRT
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
-gcc/pr22379.c                            compile: SIGKILL
+gcc/pr22379.c                            ok
 gcc/pr25860.c                            ok
 gcc/pr36988.c                            compile: SIGABRT
 gcc/pr37285.c                            ok
@@ -728,11 +729,12 @@ opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
 opt/combo5.c                             ok
+opt/combo6.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      ok
-opt/compilerhang3.c                      compile: SIGABRT
+opt/compilerhang3.c                      ok
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
@@ -862,7 +864,7 @@ opt/fehler097.c                          ok
 opt/fehler098.c                          ok
 opt/fehler099.c                          ok
 opt/fehler100.c                          ok
-opt/fehler101.c                          compile: SIGABRT
+opt/fehler101.c                          execute: SIGSEGV
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
 opt/fehler105.c                          ok
@@ -892,7 +894,7 @@ opt/fehler129.c                          ok
 opt/fehler130.c                          ok
 opt/fehler135.c                          ok
 opt/fehler136.c                          ok
-opt/fehler137.c                          compile: SIGABRT
+opt/fehler137.c                          execute: SIGSEGV
 opt/fehler138.c                          ok
 opt/fehler139.c                          ok
 opt/fehler140.c                          ok
@@ -975,7 +977,7 @@ opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
 opt/fib_iter.c                           ok
 opt/fisttp.c                             ok
-opt/float_if.c                           compile: SIGABRT
+opt/float_if.c                           execute: returncode not zero but 1
 opt/func_arg.c                           ok
 opt/gap.c                                ok
 opt/gcd.c                                ok
@@ -995,6 +997,7 @@ opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
 opt/ifconv6.c                            ok
+opt/ifconv7.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -1034,6 +1037,7 @@ opt/ll.c                                 ok
 opt/ll_call.c                            ok
 opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
+opt/loadstore2.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1212,5 +1216,6 @@ sparccode/bf_init.c                      ok
 sparccode/bf_localinit.c                 ok
 sparccode/cas.c                          execute: SIGILL
 sparccode/fehler104.c                    ok
+sparccode/flt2int.c                      ok
 sparccode/restoredelayslot.c             ok
 sparccode/structlayout.c                 ok
