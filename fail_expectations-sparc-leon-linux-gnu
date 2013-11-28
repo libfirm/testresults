@@ -569,7 +569,9 @@ backend/shift64.c                        ok
 backend/sign_bit.c                       ok
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
+backend/sparc_chordal.c                  compile: SIGABRT
 backend/sparc_immediates.c               ok
+backend/sparc_keep.c                     execute: SIGABRT
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
 backend/spill_cost.c                     ok
@@ -579,6 +581,7 @@ backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
 backend/transform_loop.c                 ok
 backend/udiv.c                           ok
+backend/vastruct.c                       compile: SIGABRT
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
@@ -998,6 +1001,7 @@ opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
 opt/ifconv6.c                            ok
 opt/ifconv7.c                            ok
+opt/ifconv8.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
@@ -1038,6 +1042,7 @@ opt/ll_call.c                            ok
 opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
 opt/loadstore2.c                         ok
+opt/loadstore3.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
