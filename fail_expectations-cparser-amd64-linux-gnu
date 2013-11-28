@@ -580,6 +580,7 @@ backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
 backend/transform_loop.c                 ok
 backend/udiv.c                           ok
+backend/vastruct.c                       ok
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
