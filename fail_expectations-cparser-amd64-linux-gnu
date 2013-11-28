@@ -1040,6 +1040,7 @@ opt/ll_call.c                            ok
 opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
 opt/loadstore2.c                         ok
+opt/loadstore3.c                         execute: returncode not zero but 1
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
