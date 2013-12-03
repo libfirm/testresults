@@ -24,6 +24,7 @@ cp "${new_expectations}" "${file}"
 git add "${file}"
 git commit -m "buildbot update ${buildername} ${buildnumber}" --author="buildbot <firm@ipd.info.uni-karlsruhe.de>"
 
+
 # publish changes
 while ! git push origin master -u; do
 	git fetch origin
