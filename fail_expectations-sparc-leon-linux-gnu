@@ -1004,6 +1004,7 @@ opt/ifconv5.c                            ok
 opt/ifconv6.c                            ok
 opt/ifconv7.c                            ok
 opt/ifconv8.c                            ok
+opt/ifconv9.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
