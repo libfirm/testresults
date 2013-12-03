@@ -22,8 +22,9 @@ git remote add origin /ben/local/GIT/public/firm-testresults
 # locally commit changes
 cp "${new_expectations}" "${file}"
 git add "${file}"
-git commit -m "buildbot update ${buildername} ${buildnumber}" --author="buildbot <firm@ipd.info.uni-karlsruhe.de>"
-
+git config user.email "firm@ipd.info.uni-karlsruhe.de"
+git config user.name "buildbot"
+git commit -m "buildbot update ${buildername} ${buildnumber}"
 
 # publish changes
 while ! git push origin master -u; do
