@@ -533,7 +533,7 @@ backend/builtin_parityll.c               ok
 backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
-backend/chordal.c                        compile: SIGSEGV
+backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/extern_sret.c                    ok
