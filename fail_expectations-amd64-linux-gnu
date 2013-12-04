@@ -533,6 +533,7 @@ backend/builtin_parityll.c               ok
 backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
+backend/chordal.c                        compile: SIGSEGV
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/extern_sret.c                    ok
@@ -977,6 +978,7 @@ opt/fehler213.c                          ok
 opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
+opt/fehler217.c                          compile: SIGSEGV
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
