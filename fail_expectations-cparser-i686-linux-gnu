@@ -533,7 +533,7 @@ backend/builtin_parityll.c               ok
 backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
-backend/chordal.c                        compile: SIGSEGV
+backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/extern_sret.c                    ok
@@ -554,13 +554,13 @@ backend/lower_call3.c                    ok
 backend/lower_call4.c                    ok
 backend/lower_copyb.c                    ok
 backend/memperm.c                        ok
-backend/minus64.c                        execute: returncode not zero but 1
+backend/minus64.c                        ok
 backend/optest.c                         ok
 backend/optest_float.c                   ok
 backend/optest_longlong.c                ok
 backend/paramaddr.c                      ok
 backend/paramaddrsf.c                    ok
-backend/peephole.c                       execute: returncode not zero but 1
+backend/peephole.c                       ok
 backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
@@ -1011,7 +1011,7 @@ opt/ifconv5.c                            ok
 opt/ifconv6.c                            compile: SIGABRT
 opt/ifconv7.c                            ok
 opt/ifconv8.c                            compile: SIGABRT
-opt/ifconv9.c                            execute: returncode not zero but 1
+opt/ifconv9.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
 opt/inline.c                             ok
