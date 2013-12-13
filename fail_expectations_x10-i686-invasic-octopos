@@ -38,7 +38,7 @@ ClosureTest.x10                          ok
 CompareTest.x10                          ok
 ConcurrentAtTest.x10                     ok
 ConcurrentAtTest2.x10                    ok
-ConcurrentAtTest3.x10                    run: SIGABRT
+ConcurrentAtTest3.x10                    ok
 Conditional.x10                          ok
 ConstrainedTypes.x10                     ok
 DDispatch.x10                            ok
