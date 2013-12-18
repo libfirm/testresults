@@ -156,7 +156,7 @@ WhenTest.x10                             ok
 X10CPPCrash.x10                          ok
 ZeroTest.x10                             ok
 agent/HelloAgent.x10                     ok
-agent/Integrate.x10                      ok
+agent/Integrate.x10                      run: SIGABRT
 agent/Multigrid.x10                      run: SIGABRT
 agent/PEDistTest.x10                     ok
 agent/SFCMatMul.x10                      run: SIGSEGV
