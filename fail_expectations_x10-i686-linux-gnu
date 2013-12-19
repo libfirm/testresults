@@ -158,6 +158,7 @@ ZeroTest.x10                             ok
 agent/Fehler001.x10                      compile: returncode not zero but 1
 agent/HelloAgent.x10                     compile: returncode not zero but 1
 agent/Integrate.x10                      compile: returncode not zero but 1
+agent/MapReduce.x10                      compile: returncode not zero but 1
 agent/Multigrid.x10                      compile: returncode not zero but 1
 agent/PEDistTest.x10                     compile: returncode not zero but 1
 agent/SFCMatMul.x10                      compile: returncode not zero but 1
