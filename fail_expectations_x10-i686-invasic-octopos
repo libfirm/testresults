@@ -163,6 +163,7 @@ agent/Integrate.x10                      run: SIGABRT
 agent/MapReduce.x10                      run: SIGABRT
 agent/Multigrid.x10                      run: SIGABRT
 agent/PEDistTest.x10                     run: SIGABRT
+agent/ReinvadeCheck.x10                  run: SIGABRT
 agent/SFCMatMul.x10                      run: SIGABRT
 agent/SkinDetect.x10                     run: SIGABRT
 agent/Update.x10                         run: SIGABRT
