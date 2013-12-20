@@ -1008,7 +1008,7 @@ opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
-opt/ifconv6.c                            compile: SIGABRT
+opt/ifconv6.c                            ok
 opt/ifconv7.c                            ok
 opt/ifconv8.c                            ok
 opt/ifconv9.c                            ok
