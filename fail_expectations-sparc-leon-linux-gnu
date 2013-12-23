@@ -568,7 +568,7 @@ backend/register_pressure.c              ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
-backend/shift.c                          execute: output mismatch
+backend/shift.c                          ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
 backend/sparc_bad_delayslot.c            ok
