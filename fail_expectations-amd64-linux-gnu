@@ -568,6 +568,7 @@ backend/register_pressure.c              ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
+backend/shift.c                          ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
 backend/sparc_bad_delayslot.c            ok
@@ -981,7 +982,7 @@ opt/fehler213.c                          ok
 opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
-opt/fehler217.c                          compile: SIGSEGV
+opt/fehler217.c                          ok
 opt/fehler218.c                          ok
 opt/fehler219.c                          ok
 opt/fehler_gt_0.c                        ok
@@ -1008,7 +1009,7 @@ opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
 opt/ifconv5.c                            ok
-opt/ifconv6.c                            compile: SIGABRT
+opt/ifconv6.c                            ok
 opt/ifconv7.c                            ok
 opt/ifconv8.c                            ok
 opt/ifconv9.c                            ok
