@@ -738,6 +738,7 @@ opt/combo3.c                             ok
 opt/combo4.c                             ok
 opt/combo5.c                             ok
 opt/combo6.c                             ok
+opt/combo7.c                             compile: SIGSEGV
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
@@ -1005,6 +1006,7 @@ opt/gzip_error.c                         ok
 opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
+opt/ifconv10.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
