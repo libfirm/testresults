@@ -44,6 +44,7 @@ Conditional.x10                          ok
 ConstrainedTypes.x10                     ok
 DDispatch.x10                            ok
 DesugarerTest.x10                        ok
+DistArrayTest.x10                        ok
 Dynamic.x10                              ok
 DynamicInnerClass.x10                    ok
 Fibonacci.x10                            ok
@@ -162,6 +163,7 @@ agent/HelloAgent.x10                     run: SIGABRT
 agent/Integrate.x10                      run: SIGABRT
 agent/MapReduce.x10                      run: SIGABRT
 agent/Multigrid.x10                      run: SIGABRT
+agent/Multiple.x10                       run: SIGABRT
 agent/PEDistTest.x10                     run: SIGABRT
 agent/ReinvadeCheck.x10                  run: SIGABRT
 agent/SFCMatMul.x10                      run: SIGABRT
