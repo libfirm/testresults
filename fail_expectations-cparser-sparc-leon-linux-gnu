@@ -986,6 +986,7 @@ opt/fehler216.c                          ok
 opt/fehler217.c                          compile: SIGABRT
 opt/fehler218.c                          compile: SIGABRT
 opt/fehler219.c                          compile: SIGABRT
+opt/fehler220.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
