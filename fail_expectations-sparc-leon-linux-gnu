@@ -986,6 +986,7 @@ opt/fehler216.c                          ok
 opt/fehler217.c                          ok
 opt/fehler218.c                          compile: SIGKILL
 opt/fehler219.c                          compile: SIGKILL
+opt/fehler220.c                          compile: SIGSEGV
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
