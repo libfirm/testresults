@@ -987,7 +987,7 @@ opt/fehler217.c                          ok
 opt/fehler218.c                          compile: SIGKILL
 opt/fehler219.c                          compile: SIGKILL
 opt/fehler220.c                          compile: SIGSEGV
-opt/fehler221.c                          execute: output mismatch
+opt/fehler221.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
