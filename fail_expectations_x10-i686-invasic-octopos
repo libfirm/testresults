@@ -166,6 +166,8 @@ agent/MapReduce.x10                      run: SIGABRT
 agent/Multiple.x10                       run: SIGABRT
 agent/PEDistTest.x10                     run: SIGABRT
 agent/ReinvadeCheck.x10                  run: SIGABRT
+agent/ReinvadeDistArrayTest.x10          run: SIGABRT
+agent/ReinvadePlaceLocalHandleTest.x10   run: SIGABRT
 agent/SFCMatMul.x10                      run: SIGABRT
 agent/SkinDetect.x10                     run: SIGABRT
 agent/Update.x10                         run: SIGABRT
