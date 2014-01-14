@@ -1054,6 +1054,7 @@ opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
+opt/jumpthreading9.c                     compile: SIGSEGV
 opt/kahansum.c                           ok
 opt/labs.c                               ok
 opt/ldst.c                               ok
