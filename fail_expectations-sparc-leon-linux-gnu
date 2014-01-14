@@ -769,6 +769,7 @@ opt/dowhile.c                            ok
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
 opt/dwlower2.c                           ok
+opt/dwlower3.c                           compile: SIGSEGV
 opt/endless.c                            ok
 opt/endless1.c                           ok
 opt/endless_phi_cons.c                   ok
