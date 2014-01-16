@@ -168,6 +168,6 @@ agent/PEDistTest.x10                     ok
 agent/ReinvadeCheck.x10                  run: output mismatch
 agent/ReinvadeDistArrayTest.x10          run: SIGSEGV
 agent/ReinvadePlaceLocalHandleTest.x10   ok
-agent/SFCMatMul.x10                      run: SIGSEGV
+agent/SFCMatMul.x10                      run: SIGABRT
 agent/SkinDetect.x10                     run: output mismatch
 agent/Update.x10                         ok
