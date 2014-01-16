@@ -162,11 +162,12 @@ ZeroTest.x10                             ok
 agent/Fehler001.x10                      ok
 agent/HelloAgent.x10                     ok
 agent/Integrate.x10                      run: SIGABRT
+agent/InvadeTest.x10                     ok
 agent/MapReduce.x10                      ok
 agent/Multiple.x10                       ok
 agent/PEDistTest.x10                     ok
-agent/ReinvadeCheck.x10                  run: output mismatch
-agent/ReinvadeDistArrayTest.x10          run: SIGSEGV
+agent/ReinvadeCheck.x10                  ok
+agent/ReinvadeDistArrayTest.x10          ok
 agent/ReinvadePlaceLocalHandleTest.x10   ok
 agent/SFCMatMul.x10                      run: SIGABRT
 agent/SkinDetect.x10                     run: output mismatch
