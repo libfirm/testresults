@@ -546,6 +546,7 @@ backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            ok
+backend/ia32_heights.c                   compile: SIGABRT
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/longfunc.c                       ok
@@ -996,6 +997,7 @@ opt/fehler221.c                          ok
 opt/fehler222.c                          ok
 opt/fehler223.c                          compile: SIGABRT
 opt/fehler224.c                          execute: returncode not zero but 1
+opt/fehler225.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
