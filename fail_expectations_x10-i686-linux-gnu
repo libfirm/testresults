@@ -137,6 +137,7 @@ StaticNonConstTest3.x10                  ok
 StaticNonConstTest4.x10                  ok
 StaticNonConstTest5.x10                  ok
 StringBuilderTest.x10                    ok
+StringConcat.x10                         ok
 StringEquals.x10                         ok
 StringIndex.x10                          ok
 StringInstanceOf.x10                     ok
