@@ -1135,7 +1135,7 @@ opt/strenght_red.c                       ok
 opt/struct.c                             ok
 opt/structcall.c                         ok
 opt/structcall2.c                        ok
-opt/structcall3.c                        execute: output mismatch
+opt/structcall3.c                        ok
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
