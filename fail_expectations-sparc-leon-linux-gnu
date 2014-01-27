@@ -578,13 +578,13 @@ backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
 backend/sparc_chordal.c                  compile: SIGABRT
 backend/sparc_chordal2.c                 compile: SIGABRT
-backend/sparc_cmp.c                      execute: returncode not zero but -127
+backend/sparc_cmp.c                      ok
 backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
-backend/sparc_shr.c                      execute: returncode not zero but -126
+backend/sparc_shr.c                      ok
 backend/spill_cost.c                     ok
 backend/srettaken.c                      ok
 backend/stackarray.c                     ok
