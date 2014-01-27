@@ -776,7 +776,7 @@ opt/dowhile.c                            ok
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
 opt/dwlower2.c                           ok
-opt/dwlower3.c                           compile: SIGSEGV
+opt/dwlower3.c                           ok
 opt/endless.c                            ok
 opt/endless1.c                           ok
 opt/endless_phi_cons.c                   ok
@@ -997,10 +997,10 @@ opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
 opt/fehler222.c                          ok
-opt/fehler223.c                          compile: SIGABRT
-opt/fehler224.c                          execute: returncode not zero but 1
+opt/fehler223.c                          ok
+opt/fehler224.c                          ok
 opt/fehler225.c                          ok
-opt/fehler226.c                          execute: output mismatch
+opt/fehler226.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1073,7 +1073,7 @@ opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
 opt/loadstore2.c                         ok
 opt/loadstore3.c                         ok
-opt/loadstore4.c                         execute: returncode not zero but 1
+opt/loadstore4.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
