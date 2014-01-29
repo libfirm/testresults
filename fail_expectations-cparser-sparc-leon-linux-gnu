@@ -578,13 +578,13 @@ backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
 backend/sparc_chordal.c                  compile: SIGABRT
 backend/sparc_chordal2.c                 compile: SIGABRT
-backend/sparc_cmp.c                      execute: returncode not zero but -127
+backend/sparc_cmp.c                      ok
 backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
-backend/sparc_shr.c                      execute: returncode not zero but -126
+backend/sparc_shr.c                      ok
 backend/spill_cost.c                     ok
 backend/srettaken.c                      ok
 backend/stackarray.c                     ok
@@ -776,7 +776,7 @@ opt/dowhile.c                            ok
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
 opt/dwlower2.c                           ok
-opt/dwlower3.c                           compile: SIGSEGV
+opt/dwlower3.c                           ok
 opt/endless.c                            ok
 opt/endless1.c                           ok
 opt/endless_phi_cons.c                   ok
@@ -997,8 +997,8 @@ opt/fehler219.c                          compile: SIGKILL
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
 opt/fehler222.c                          ok
-opt/fehler223.c                          compile: SIGABRT
-opt/fehler224.c                          execute: returncode not zero but 1
+opt/fehler223.c                          ok
+opt/fehler224.c                          ok
 opt/fehler225.c                          ok
 opt/fehler226.c                          ok
 opt/fehler_gt_0.c                        ok
@@ -1073,7 +1073,7 @@ opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
 opt/loadstore2.c                         ok
 opt/loadstore3.c                         ok
-opt/loadstore4.c                         execute: returncode not zero but 1
+opt/loadstore4.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1137,7 +1137,7 @@ opt/strenght_red.c                       ok
 opt/struct.c                             ok
 opt/structcall.c                         ok
 opt/structcall2.c                        ok
-opt/structcall3.c                        execute: output mismatch
+opt/structcall3.c                        ok
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
