@@ -586,7 +586,7 @@ backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
 backend/sparc_shr.c                      ok
-backend/sparc_shr2.c                     execute: returncode not zero but -126
+backend/sparc_shr2.c                     ok
 backend/spill_cost.c                     ok
 backend/srettaken.c                      ok
 backend/stackarray.c                     ok
