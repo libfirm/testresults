@@ -580,6 +580,8 @@ backend/sparc_chordal.c                  ok
 backend/sparc_chordal2.c                 ok
 backend/sparc_cmp.c                      ok
 backend/sparc_cmp2.c                     ok
+backend/sparc_cmp3.c                     ok
+backend/sparc_div.c                      ok
 backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
