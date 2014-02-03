@@ -580,6 +580,8 @@ backend/sparc_chordal.c                  compile: SIGABRT
 backend/sparc_chordal2.c                 compile: SIGABRT
 backend/sparc_cmp.c                      ok
 backend/sparc_cmp2.c                     ok
+backend/sparc_cmp3.c                     execute: returncode not zero but -127
+backend/sparc_div.c                      execute: returncode not zero but 1
 backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
