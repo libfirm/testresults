@@ -1,3 +1,4 @@
+AbstractCallBug.x10                      run: SIGABRT
 AbstractGenericMethod.x10                compile: returncode not zero but 1
 ActivityLocalCounter.x10                 ok
 AnonymousClass.x10                       ok
