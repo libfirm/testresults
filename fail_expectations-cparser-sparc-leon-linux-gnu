@@ -319,7 +319,7 @@ C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
 C/should_fail/empty_char.c               ok
-C/should_fail/enum_forward.c             compile: missed error
+C/should_fail/enum_forward.c             ok
 C/should_fail/error_directive.c          ok
 C/should_fail/f.c                        ok
 C/should_fail/float_and.c                ok
@@ -380,7 +380,7 @@ C/should_fail/nofloat2.c                 ok
 C/should_fail/noname1.c                  ok
 C/should_fail/number.c                   ok
 C/should_fail/offsetof.c                 ok
-C/should_fail/offsetof2.c                compile: SIGABRT
+C/should_fail/offsetof2.c                ok
 C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
@@ -580,8 +580,8 @@ backend/sparc_chordal.c                  compile: SIGABRT
 backend/sparc_chordal2.c                 compile: SIGABRT
 backend/sparc_cmp.c                      ok
 backend/sparc_cmp2.c                     ok
-backend/sparc_cmp3.c                     execute: returncode not zero but -127
-backend/sparc_div.c                      execute: returncode not zero but 1
+backend/sparc_cmp3.c                     ok
+backend/sparc_div.c                      ok
 backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
