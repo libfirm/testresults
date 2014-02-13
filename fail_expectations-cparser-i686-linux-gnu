@@ -319,7 +319,7 @@ C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
 C/should_fail/empty_char.c               ok
-C/should_fail/enum_forward.c             compile: missed error
+C/should_fail/enum_forward.c             ok
 C/should_fail/error_directive.c          ok
 C/should_fail/f.c                        ok
 C/should_fail/float_and.c                ok
@@ -380,7 +380,7 @@ C/should_fail/nofloat2.c                 ok
 C/should_fail/noname1.c                  ok
 C/should_fail/number.c                   ok
 C/should_fail/offsetof.c                 ok
-C/should_fail/offsetof2.c                compile: SIGABRT
+C/should_fail/offsetof2.c                ok
 C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
