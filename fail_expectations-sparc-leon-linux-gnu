@@ -346,7 +346,6 @@ C/should_fail/initializer4.c             ok
 C/should_fail/initializer5.c             ok
 C/should_fail/initializer6.c             ok
 C/should_fail/initializer7.c             ok
-C/should_fail/initializer8.c             compile: SIGSEGV
 C/should_fail/intconst.c                 ok
 C/should_fail/intconst2.c                ok
 C/should_fail/intconst3.c                ok
@@ -437,6 +436,7 @@ C/should_warn/div_by_zero.c              ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
 C/should_warn/initializer1.c             ok
+C/should_warn/initializer8.c             ok
 C/should_warn/main0.c                    ok
 C/should_warn/main1.c                    ok
 C/should_warn/main2.c                    ok
