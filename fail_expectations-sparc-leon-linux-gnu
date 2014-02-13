@@ -319,7 +319,7 @@ C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
 C/should_fail/empty_char.c               ok
-C/should_fail/enum_forward.c             compile: missed error
+C/should_fail/enum_forward.c             ok
 C/should_fail/error_directive.c          ok
 C/should_fail/f.c                        ok
 C/should_fail/float_and.c                ok
