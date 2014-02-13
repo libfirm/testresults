@@ -380,7 +380,7 @@ C/should_fail/nofloat2.c                 ok
 C/should_fail/noname1.c                  ok
 C/should_fail/number.c                   ok
 C/should_fail/offsetof.c                 ok
-C/should_fail/offsetof2.c                compile: SIGABRT
+C/should_fail/offsetof2.c                ok
 C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
