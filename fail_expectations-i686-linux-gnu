@@ -749,7 +749,7 @@ opt/combo3.c                             ok
 opt/combo4.c                             ok
 opt/combo5.c                             ok
 opt/combo6.c                             ok
-opt/combo7.c                             compile: SIGSEGV
+opt/combo7.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
