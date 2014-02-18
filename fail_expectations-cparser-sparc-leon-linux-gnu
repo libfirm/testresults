@@ -613,6 +613,7 @@ cparser/should_work/ansi.cmd             ok
 cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
 cparser/should_work/os.cmd               ok
+cparser/should_work/samenames.cmd        cmd_should_work: returncode not zero but 1
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
@@ -750,6 +751,7 @@ opt/combo4.c                             ok
 opt/combo5.c                             ok
 opt/combo6.c                             ok
 opt/combo7.c                             compile: SIGSEGV
+opt/combo8.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
