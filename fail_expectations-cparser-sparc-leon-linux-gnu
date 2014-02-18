@@ -1008,6 +1008,7 @@ opt/fehler224.c                          ok
 opt/fehler225.c                          ok
 opt/fehler226.c                          ok
 opt/fehler227.c                          ok
+opt/fehler228.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
