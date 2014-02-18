@@ -613,6 +613,7 @@ cparser/should_work/ansi.cmd             ok
 cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
 cparser/should_work/os.cmd               ok
+cparser/should_work/samenames.cmd        cmd_should_work: returncode not zero but 1
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
