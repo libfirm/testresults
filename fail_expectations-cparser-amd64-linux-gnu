@@ -546,7 +546,7 @@ backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            ok
-backend/ia32_heights.c                   compile: SIGABRT
+backend/ia32_heights.c                   ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/longfunc.c                       ok
@@ -1018,9 +1018,9 @@ opt/fehler227.c                          ok
 opt/fehler228.c                          ok
 opt/fehler229.c                          ok
 opt/fehler230.c                          ok
-opt/fehler231.c                          compile: SIGABRT
-opt/fehler232.c                          compile: SIGABRT
-opt/fehler233.c                          compile: SIGABRT
+opt/fehler231.c                          ok
+opt/fehler232.c                          ok
+opt/fehler233.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
