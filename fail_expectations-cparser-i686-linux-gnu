@@ -1013,6 +1013,7 @@ opt/fehler229.c                          ok
 opt/fehler230.c                          ok
 opt/fehler231.c                          compile: SIGABRT
 opt/fehler232.c                          compile: SIGABRT
+opt/fehler233.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
