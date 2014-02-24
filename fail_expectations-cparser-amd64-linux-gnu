@@ -752,6 +752,7 @@ opt/combo5.c                             ok
 opt/combo6.c                             ok
 opt/combo7.c                             ok
 opt/combo8.c                             ok
+opt/combo9.c                             compile: SIGSEGV
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
