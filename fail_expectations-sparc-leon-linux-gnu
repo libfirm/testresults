@@ -609,10 +609,16 @@ cparser/should_fail/nonexistent1.cmd     ok
 cparser/should_fail/nonexistent2.cmd     ok
 cparser/should_fail/nonexistent3.cmd     ok
 cparser/should_fail/nonexistent4.cmd     ok
+cparser/should_warn/badopt4.cmd          ok
+cparser/should_warn/unused.cmd           ok
+cparser/should_warn/unused2.cmd          ok
+cparser/should_warn/unused3.cmd          ok
 cparser/should_work/ansi.cmd             ok
 cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
+cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
+cparser/should_work/preprocas.cmd        ok
 cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
@@ -1014,7 +1020,7 @@ opt/fehler229.c                          ok
 opt/fehler230.c                          ok
 opt/fehler231.c                          ok
 opt/fehler232.c                          ok
-opt/fehler233.c                          compile: SIGABRT
+opt/fehler233.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
