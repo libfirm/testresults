@@ -609,10 +609,16 @@ cparser/should_fail/nonexistent1.cmd     ok
 cparser/should_fail/nonexistent2.cmd     ok
 cparser/should_fail/nonexistent3.cmd     ok
 cparser/should_fail/nonexistent4.cmd     ok
+cparser/should_warn/badopt4.cmd          ok
+cparser/should_warn/unused.cmd           ok
+cparser/should_warn/unused2.cmd          ok
+cparser/should_warn/unused3.cmd          ok
 cparser/should_work/ansi.cmd             ok
 cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
+cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
+cparser/should_work/preprocas.cmd        ok
 cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
