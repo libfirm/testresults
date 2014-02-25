@@ -433,6 +433,7 @@ C/should_warn/compare.c                  compile: missed warnings
 C/should_warn/compare2.c                 compile: missed warnings
 C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
+C/should_warn/enum_conversion.c          ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
 C/should_warn/initializer1.c             ok
