@@ -671,7 +671,6 @@ llvm/badidx.c                            ok
 llvm/bigstack.c                          ok
 llvm/callargs.c                          ok
 llvm/casts.c                             ok
-llvm/globalrefs.c                        ok
 llvm/matrixTranspose.c                   ok
 llvm/pointer_arithmetic.c                ok
 llvm/sumarray.c                          ok
