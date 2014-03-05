@@ -1139,7 +1139,7 @@ opt/psi_test.c                           ok
 opt/ptr_to_int.c                         ok
 opt/queens-handoptimized.c               ok
 opt/reassoc-amok.c                       ok
-opt/reassoc-amok2.c                      compile: SIGKILL
+opt/reassoc-amok2.c                      ok
 opt/reassoc.c                            ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
