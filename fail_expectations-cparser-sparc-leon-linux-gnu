@@ -222,6 +222,7 @@ C/long_double_int_conv.c                 ok
 C/mini_complex.c                         ok
 C/mod.c                                  ok
 C/noconst.c                              ok
+C/nowarn/defined.c                       ok
 C/nowarn/fooredirect.c                   ok
 C/nowarn/init_self.c                     ok
 C/nowarn/initializer0.c                  ok
@@ -235,6 +236,7 @@ C/nowarn/redundant_decl.c                ok
 C/nowarn/scanf_suppress.c                ok
 C/nowarn/scanf_width_c.c                 ok
 C/nowarn/scanf_width_s.c                 ok
+C/nowarn/sign_compare.c                  compile: produced invalid warning
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
 C/nowarn/write_only11.c                  compile: 1 compile errors
@@ -551,6 +553,7 @@ backend/fpu.c                            ok
 backend/ia32_heights.c                   ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                compile: SIGABRT
+backend/ldouble_memperm.c                compile: SIGABRT
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
@@ -604,6 +607,7 @@ cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
 cparser/should_fail/badopt2.cmd          ok
 cparser/should_fail/badopt3.cmd          ok
+cparser/should_fail/badopt4.cmd          cmd_should_fail: returncode zero
 cparser/should_fail/noc99.cmd            ok
 cparser/should_fail/noinput.cmd          ok
 cparser/should_fail/nonexistent0.cmd     ok
@@ -1023,6 +1027,7 @@ opt/fehler231.c                          ok
 opt/fehler232.c                          ok
 opt/fehler233.c                          ok
 opt/fehler234.c                          ok
+opt/fehler235.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1269,6 +1274,7 @@ preproctest/should_fail/defined3.c       ok
 preproctest/should_fail/double_define_arg.c ok
 preproctest/should_fail/halfcall.c       ok
 preproctest/should_fail/halfcall2.c      ok
+preproctest/should_fail/if_in_param.c    preprocess: SIGABRT
 preproctest/should_fail/ifdef_empty.c    ok
 preproctest/should_fail/ifdef_plus.c     ok
 preproctest/should_fail/ifndef_empty.c   ok
