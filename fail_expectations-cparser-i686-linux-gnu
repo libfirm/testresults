@@ -1026,8 +1026,8 @@ opt/fehler230.c                          ok
 opt/fehler231.c                          ok
 opt/fehler232.c                          ok
 opt/fehler233.c                          ok
-opt/fehler234.c                          execute: returncode not zero but -127
-opt/fehler235.c                          execute: returncode not zero but 1
+opt/fehler234.c                          ok
+opt/fehler235.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1143,7 +1143,7 @@ opt/psi_test.c                           ok
 opt/ptr_to_int.c                         ok
 opt/queens-handoptimized.c               ok
 opt/reassoc-amok.c                       ok
-opt/reassoc-amok2.c                      compile: SIGKILL
+opt/reassoc-amok2.c                      ok
 opt/reassoc.c                            ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
