@@ -1206,7 +1206,6 @@ opt/wrong_cmp.c                          ok
 preproctest/builtins.c                   ok
 preproctest/concat.c                     ok
 preproctest/concatbug.c                  ok
-preproctest/define_in_call.c             ok
 preproctest/define_keyword.c             ok
 preproctest/defined_defined.c            ok
 preproctest/defined_in_macro.c           ok
@@ -1234,7 +1233,6 @@ preproctest/include.c                    ok
 preproctest/include_def.c                ok
 preproctest/include_def1.c               ok
 preproctest/include_def2.c               ok
-preproctest/include_in_call.c            ok
 preproctest/includefoo.c                 ok
 preproctest/line_directive.c             ok
 preproctest/linecomments.c               ok
@@ -1275,7 +1273,6 @@ preproctest/should_fail/defined3.c       ok
 preproctest/should_fail/double_define_arg.c ok
 preproctest/should_fail/halfcall.c       ok
 preproctest/should_fail/halfcall2.c      ok
-preproctest/should_fail/if_in_param.c    preprocess: SIGABRT
 preproctest/should_fail/ifdef_empty.c    ok
 preproctest/should_fail/ifdef_plus.c     ok
 preproctest/should_fail/ifndef_empty.c   ok
@@ -1293,6 +1290,9 @@ preproctest/should_fail/unbalanced2.c    ok
 preproctest/should_fail/unbalanced3.c    ok
 preproctest/should_fail/unbalanced4.c    ok
 preproctest/should_fail/undef_defined.c  ok
+preproctest/should_warn/define_in_call.c ok
+preproctest/should_warn/if_in_param.c    ok
+preproctest/should_warn/include_in_call.c ok
 preproctest/should_warn/missing_end.c    ok
 preproctest/should_warn/missing_end2.c   ok
 preproctest/should_warn/nospace.c        ok
