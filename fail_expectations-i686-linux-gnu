@@ -3,7 +3,7 @@ C++/should_fail/bad_retypedef_sys.cc     ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/abstract_declarator.c                  ok
-C/anon_entity.c                          compile: SIGABRT
+C/anon_entity.c                          ok
 C/array.c                                ok
 C/bitfield.c                             ok
 C/bitfield2.c                            ok
@@ -14,7 +14,7 @@ C/bool.c                                 ok
 C/bool2.c                                ok
 C/bool3.c                                ok
 C/bool4.c                                ok
-C/boolbitfield.c                         execute: returncode not zero but 1
+C/boolbitfield.c                         ok
 C/complex_arithmetic.c                   ok
 C/complex_misc.c                         ok
 C/composite_type0.c                      compile: 5 compile errors
@@ -607,7 +607,7 @@ cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
 cparser/should_fail/badopt2.cmd          ok
 cparser/should_fail/badopt3.cmd          ok
-cparser/should_fail/badopt4.cmd          cmd_should_fail: returncode zero
+cparser/should_fail/badopt4.cmd          ok
 cparser/should_fail/noc99.cmd            ok
 cparser/should_fail/noinput.cmd          ok
 cparser/should_fail/nonexistent0.cmd     ok
