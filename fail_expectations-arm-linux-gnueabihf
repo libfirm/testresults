@@ -810,7 +810,7 @@ C/should_fail/universal_character.c      ok
 C/should_fail/universal_character2.c     ok
 C/should_fail/unspec_params.c            ok
 C/should_fail/voidarray.c                ok
-C/should_fail/weird_label.c              compile: SIGABRT
+C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
 C/should_warn/cast_qual.c                compile: SIGSEGV
 C/should_warn/compare.c                  compile: missed warnings
