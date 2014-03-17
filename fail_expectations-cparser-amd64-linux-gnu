@@ -236,7 +236,7 @@ C/nowarn/redundant_decl.c                ok
 C/nowarn/scanf_suppress.c                ok
 C/nowarn/scanf_width_c.c                 ok
 C/nowarn/scanf_width_s.c                 ok
-C/nowarn/sign_compare.c                  compile: produced invalid warning
+C/nowarn/sign_compare.c                  ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
 C/nowarn/write_only11.c                  ok
@@ -464,6 +464,7 @@ C/should_warn/return_with_void.c         ok
 C/should_warn/scanf_formats.c            ok
 C/should_warn/scanf_width_c.c            ok
 C/should_warn/scanf_width_s.c            ok
+C/should_warn/sign_compare.c             ok
 C/should_warn/static_array_size1.c       compile: reported 0 warnings instead of 1
 C/should_warn/static_array_size2.c       compile: reported 0 warnings instead of 1
 C/should_warn/struct_ret.c               ok
