@@ -276,7 +276,7 @@ C/should_fail/array5.c                   compile: missed error
 C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
-C/should_fail/array9.c                   compile: missed error
+C/should_fail/array9.c                   ok
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
