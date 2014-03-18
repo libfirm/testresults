@@ -222,6 +222,7 @@ C/long_double_int_conv.c                 ok
 C/mini_complex.c                         ok
 C/mod.c                                  ok
 C/noconst.c                              ok
+C/nowarn/compare.c                       ok
 C/nowarn/defined.c                       ok
 C/nowarn/fooredirect.c                   ok
 C/nowarn/init_self.c                     ok
@@ -297,6 +298,8 @@ C/should_fail/brace2.c                   ok
 C/should_fail/call1.c                    ok
 C/should_fail/call2.c                    ok
 C/should_fail/casts.c                    ok
+C/should_fail/compare.c                  ok
+C/should_fail/compare2.c                 ok
 C/should_fail/complex_bitops.c           ok
 C/should_fail/complex_cast.c             ok
 C/should_fail/complex_compare.c          ok
@@ -431,8 +434,9 @@ C/should_fail/voidarray.c                ok
 C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
 C/should_warn/cast_qual.c                ok
-C/should_warn/compare.c                  compile: missed warnings
-C/should_warn/compare2.c                 compile: missed warnings
+C/should_warn/compare.c                  ok
+C/should_warn/compare2.c                 ok
+C/should_warn/compare3.c                 ok
 C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/enum_conversion.c          ok
