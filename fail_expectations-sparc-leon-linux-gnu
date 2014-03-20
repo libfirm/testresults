@@ -17,7 +17,7 @@ C/bool4.c                                ok
 C/boolbitfield.c                         ok
 C/complex_arithmetic.c                   ok
 C/complex_misc.c                         ok
-C/composite_type0.c                      compile: 5 compile errors
+C/composite_type0.c                      ok
 C/composite_type1.c                      compile: 1 compile errors
 C/compoundlit.c                          ok
 C/compoundlit2.c                         ok
@@ -223,6 +223,7 @@ C/mini_complex.c                         ok
 C/mod.c                                  ok
 C/noconst.c                              ok
 C/nowarn/compare.c                       ok
+C/nowarn/compatible.c                    ok
 C/nowarn/defined.c                       ok
 C/nowarn/fooredirect.c                   ok
 C/nowarn/init_self.c                     ok
@@ -243,7 +244,9 @@ C/nowarn/write_only10.c                  ok
 C/nowarn/write_only11.c                  compile: 1 compile errors
 C/nowarn/write_only12.c                  ok
 C/nowarn/write_only13.c                  ok
-C/nowarn/write_only14.c                  compile: produced invalid warning
+C/nowarn/write_only14.c                  ok
+C/nowarn/write_only15.c                  ok
+C/nowarn/write_only16.c                  ok
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   ok
@@ -334,6 +337,18 @@ C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
 C/should_fail/goto_identifier_scope.c    compile: missed error
+C/should_fail/incompatible0.c            ok
+C/should_fail/incompatible1.c            ok
+C/should_fail/incompatible10.c           ok
+C/should_fail/incompatible11.c           ok
+C/should_fail/incompatible2.c            ok
+C/should_fail/incompatible3.c            ok
+C/should_fail/incompatible4.c            ok
+C/should_fail/incompatible5.c            ok
+C/should_fail/incompatible6.c            ok
+C/should_fail/incompatible7.c            ok
+C/should_fail/incompatible8.c            ok
+C/should_fail/incompatible9.c            ok
 C/should_fail/incomplete0.c              ok
 C/should_fail/incomplete1.c              ok
 C/should_fail/incomplete2.c              ok
@@ -457,6 +472,7 @@ C/should_warn/notabinassign1.c           ok
 C/should_warn/padded.c                   ok
 C/should_warn/paramscope.c               compile: missed warnings
 C/should_warn/printf2.c                  ok
+C/should_warn/printf3.c                  ok
 C/should_warn/printf_formats.c           ok
 C/should_warn/printf_int_for_short.c     ok
 C/should_warn/printf_zero_precision.c    ok
@@ -479,7 +495,7 @@ C/should_warn/unused_param.c             ok
 C/should_warn/wprintf_formats.c          ok
 C/should_warn/write_only11.c             ok
 C/should_warn/write_only12.c             ok
-C/should_warn/write_only14.c             compile: missed warnings
+C/should_warn/write_only14.c             ok
 C/should_warn/write_only2.c              ok
 C/should_warn/write_only3.c              ok
 C/should_warn/write_only4.c              ok
