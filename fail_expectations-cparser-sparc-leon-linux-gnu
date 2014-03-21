@@ -662,7 +662,7 @@ gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
 gcc/pr22379.c                            ok
 gcc/pr25860.c                            ok
-gcc/pr36988.c                            compile: SIGABRT
+gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
@@ -1052,7 +1052,7 @@ opt/fehler232.c                          ok
 opt/fehler233.c                          ok
 opt/fehler234.c                          ok
 opt/fehler235.c                          ok
-opt/fehler236.c                          execute: returncode not zero but 1
+opt/fehler236.c                          ok
 opt/fehler237.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
