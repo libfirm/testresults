@@ -222,6 +222,7 @@ C/long_double_int_conv.c                 ok
 C/mini_complex.c                         ok
 C/mod.c                                  ok
 C/noconst.c                              ok
+C/nowarn/builtin_addr.c                  ok
 C/nowarn/compare.c                       ok
 C/nowarn/compatible.c                    ok
 C/nowarn/defined.c                       ok
@@ -247,6 +248,7 @@ C/nowarn/write_only13.c                  ok
 C/nowarn/write_only14.c                  ok
 C/nowarn/write_only15.c                  ok
 C/nowarn/write_only16.c                  ok
+C/nowarn/write_only17.c                  ok
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   ok
@@ -448,6 +450,7 @@ C/should_fail/unspec_params.c            ok
 C/should_fail/voidarray.c                ok
 C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
+C/should_warn/builtin_addr.c             ok
 C/should_warn/cast_qual.c                ok
 C/should_warn/compare.c                  ok
 C/should_warn/compare2.c                 ok
