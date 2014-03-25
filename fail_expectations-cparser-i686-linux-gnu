@@ -1055,6 +1055,7 @@ opt/fehler235.c                          ok
 opt/fehler236.c                          ok
 opt/fehler237.c                          compile: SIGABRT
 opt/fehler238.c                          compile: SIGABRT
+opt/fehler239.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
