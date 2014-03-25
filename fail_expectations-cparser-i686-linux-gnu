@@ -1130,6 +1130,7 @@ opt/loadstore2.c                         ok
 opt/loadstore3.c                         ok
 opt/loadstore4.c                         ok
 opt/loadstore5.c                         ok
+opt/loadstore6.c                         execute: returncode not zero but 1
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
