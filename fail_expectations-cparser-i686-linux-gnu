@@ -1057,10 +1057,10 @@ opt/fehler234.c                          ok
 opt/fehler235.c                          ok
 opt/fehler236.c                          ok
 opt/fehler237.c                          compile: SIGABRT
-opt/fehler238.c                          compile: SIGABRT
-opt/fehler239.c                          compile: SIGABRT
-opt/fehler240.c                          execute: returncode not zero but -127
-opt/fehler241.c                          compile: SIGABRT
+opt/fehler238.c                          ok
+opt/fehler239.c                          ok
+opt/fehler240.c                          ok
+opt/fehler241.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1136,7 +1136,7 @@ opt/loadstore2.c                         ok
 opt/loadstore3.c                         ok
 opt/loadstore4.c                         ok
 opt/loadstore5.c                         ok
-opt/loadstore6.c                         execute: returncode not zero but 1
+opt/loadstore6.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1411,6 +1411,7 @@ x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
 x86code/flt2int.c                        ok
 x86code/incmem.c                         ok
+x86code/lea.c                            ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
