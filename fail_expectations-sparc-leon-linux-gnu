@@ -1037,8 +1037,8 @@ opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
-opt/fehler218.c                          compile: SIGKILL
-opt/fehler219.c                          compile: SIGKILL
+opt/fehler218.c                          compile: SIGABRT
+opt/fehler219.c                          compile: SIGABRT
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
 opt/fehler222.c                          ok
