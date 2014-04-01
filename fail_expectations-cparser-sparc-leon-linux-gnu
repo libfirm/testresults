@@ -168,7 +168,7 @@ C/gnu99/local_label.c                    ok
 C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
-C/gnu99/nested_function.c                ok
+C/gnu99/nested_function.c                compile: 1 compile errors
 C/gnu99/nested_function_goto.c           compile: SIGABRT
 C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
