@@ -102,6 +102,7 @@ C/cp_error074.c                          ok
 C/cp_error075.c                          ok
 C/cp_error076.c                          compile: SIGABRT
 C/cp_error077.c                          ok
+C/cp_error078.c                          compile: SIGABRT
 C/csmith1.c                              ok
 C/csmith2.c                              ok
 C/declarator_special.c                   ok
