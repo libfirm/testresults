@@ -2,6 +2,7 @@ C++/should_fail/bad_retypedef.cc         ok
 C++/should_fail/bad_retypedef_sys.cc     ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
+C/absolute_include.c                     ok
 C/abstract_declarator.c                  ok
 C/anon_entity.c                          ok
 C/array.c                                ok
@@ -155,6 +156,7 @@ C/gnu99/cp_error038.c                    ok
 C/gnu99/cp_error059.c                    compile: SIGSEGV
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
+C/gnu99/cp_error078.c                    ok
 C/gnu99/emptystruct.c                    ok
 C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
@@ -461,6 +463,7 @@ C/should_warn/composite1.c               compile: missed warnings
 C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/enum_conversion.c          ok
+C/should_warn/enumbitfield.c             compile: missed warnings
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
 C/should_warn/initializer1.c             ok
@@ -570,6 +573,7 @@ backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
+backend/double_memperm.c                 ok
 backend/extern_sret.c                    ok
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
@@ -769,6 +773,9 @@ opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
 opt/biggest_prime.c                      ok
+opt/bitcast_dw.c                         ok
+opt/bitcast_f2i.c                        ok
+opt/bitcast_i2f.c                        ok
 opt/bitfield.c                           ok
 opt/bittest.c                            ok
 opt/bittest2.c                           ok
