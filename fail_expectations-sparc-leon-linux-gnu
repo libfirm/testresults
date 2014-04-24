@@ -256,6 +256,7 @@ C/nowarn/write_only17.c                  ok
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   ok
+C/null_pointer_constants.c               ok
 C/number2.c                              ok
 C/number3.c                              ok
 C/number_after_line_directive.c          ok
@@ -465,6 +466,7 @@ C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/enum_conversion.c          ok
 C/should_warn/enumbitfield.c             compile: missed warnings
+C/should_warn/extern_alias.c             ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
 C/should_warn/initializer1.c             ok
@@ -551,6 +553,7 @@ backend/am_test4.c                       ok
 backend/am_test5.c                       ok
 backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
+backend/amd64_immediate64.c              ok
 backend/amd64_sign_extend.c              ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
@@ -657,6 +660,7 @@ cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
 cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
+cparser/should_work/pipe.cmd             ok
 cparser/should_work/preprocas.cmd        ok
 cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
@@ -1047,7 +1051,7 @@ opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
 opt/fehler218.c                          compile: SIGABRT
-opt/fehler219.c                          compile: SIGABRT
+opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
 opt/fehler222.c                          ok
@@ -1133,7 +1137,7 @@ opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
-opt/jumpthreading9.c                     compile: SIGSEGV
+opt/jumpthreading9.c                     ok
 opt/kahansum.c                           ok
 opt/labs.c                               ok
 opt/ldst.c                               ok
