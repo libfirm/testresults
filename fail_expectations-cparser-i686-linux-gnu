@@ -554,6 +554,7 @@ backend/am_test5.c                       ok
 backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
 backend/amd64_immediate64.c              ok
+backend/amd64_mod.c                      ok
 backend/amd64_sign_extend.c              ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
