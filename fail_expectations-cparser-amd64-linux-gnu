@@ -1053,7 +1053,7 @@ opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
 opt/fehler218.c                          compile: SIGABRT
-opt/fehler219.c                          compile: SIGABRT
+opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
 opt/fehler222.c                          ok
@@ -1076,6 +1076,7 @@ opt/fehler238.c                          ok
 opt/fehler239.c                          ok
 opt/fehler240.c                          ok
 opt/fehler241.c                          ok
+opt/fehler242.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1139,7 +1140,7 @@ opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
-opt/jumpthreading9.c                     compile: SIGSEGV
+opt/jumpthreading9.c                     ok
 opt/kahansum.c                           ok
 opt/labs.c                               ok
 opt/ldst.c                               ok
