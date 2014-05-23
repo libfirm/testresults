@@ -557,6 +557,7 @@ backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
 backend/amd64_modeb.c                    ok
 backend/amd64_sign_extend.c              ok
+backend/amd64_umod.c                     ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
 backend/builtin_bswap32.c                ok
