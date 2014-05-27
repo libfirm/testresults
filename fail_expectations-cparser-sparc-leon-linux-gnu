@@ -780,7 +780,6 @@ opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
-opt/biggest_prime.c                      ok
 opt/bitcast_dw.c                         ok
 opt/bitcast_f2i.c                        ok
 opt/bitcast_i2f.c                        ok
