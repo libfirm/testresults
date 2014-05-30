@@ -324,6 +324,7 @@ C/should_fail/cp_error003.c              ok
 C/should_fail/cp_error054.c              ok
 C/should_fail/cp_error066.c              ok
 C/should_fail/cp_error066a.c             ok
+C/should_fail/cp_error080.c              compile: SIGABRT
 C/should_fail/cpponly.c                  ok
 C/should_fail/decl_after_label.c         ok
 C/should_fail/decl_in_do_while.c         ok
