@@ -576,13 +576,13 @@ backend/builtin_ctz.c                    ok
 backend/builtin_ctzl.c                   ok
 backend/builtin_ctzll.c                  compile: assembler error
 backend/builtin_ffs.c                    ok
-backend/builtin_ffsl.c                   compile: assembler error
+backend/builtin_ffsl.c                   ok
 backend/builtin_ffsll.c                  compile: assembler error
 backend/builtin_parity.c                 ok
 backend/builtin_parityl.c                ok
 backend/builtin_parityll.c               compile: assembler error
 backend/builtin_popcount.c               ok
-backend/builtin_popcountl.c              compile: assembler error
+backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             compile: assembler error
 backend/chordal.c                        ok
 backend/cmovs.c                          compile: assembler error
@@ -803,7 +803,7 @@ opt/callref.c                            ok
 opt/calls.c                              compile: SIGABRT
 opt/cfoptbug.c                           ok
 opt/cmp.c                                ok
-opt/cmp2.c                               compile: assembler error
+opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
