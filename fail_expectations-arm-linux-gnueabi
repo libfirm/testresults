@@ -800,7 +800,7 @@ opt/boolopts.c                           compile: assembler error
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
 opt/callref.c                            ok
-opt/calls.c                              compile: SIGABRT
+opt/calls.c                              ok
 opt/cfoptbug.c                           ok
 opt/cmp.c                                ok
 opt/cmp2.c                               ok
