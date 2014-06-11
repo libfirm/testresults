@@ -782,8 +782,8 @@ opt/backendcallorder.c                   compile: SIGABRT
 opt/backendcallorder2.c                  compile: SIGABRT
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
-opt/bitcast_dw.c                         compile: SIGSEGV
-opt/bitcast_f2i.c                        compile: SIGSEGV
+opt/bitcast_dw.c                         compile: SIGABRT
+opt/bitcast_f2i.c                        compile: SIGABRT
 opt/bitcast_i2f.c                        compile: SIGABRT
 opt/bitfield.c                           ok
 opt/bittest.c                            ok
