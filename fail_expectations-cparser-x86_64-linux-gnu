@@ -642,6 +642,7 @@ backend/taken64.c                        ok
 backend/tls_ptr.c                        execute: SIGSEGV
 backend/transform_loop.c                 ok
 backend/udiv.c                           compile: SIGABRT
+backend/udiv2.c                          compile: SIGABRT
 backend/vastruct.c                       compile: SIGABRT
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
