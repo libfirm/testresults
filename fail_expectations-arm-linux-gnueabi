@@ -566,6 +566,7 @@ backend/amd64_sign_extend.c              ok
 backend/amd64_sub.c                      ok
 backend/amd64_umod.c                     ok
 backend/amd64_umod2.c                    ok
+backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
 backend/builtin_bswap32.c                ok
