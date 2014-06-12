@@ -945,7 +945,7 @@ opt/fehler097.c                          ok
 opt/fehler098.c                          ok
 opt/fehler099.c                          ok
 opt/fehler100.c                          ok
-opt/fehler101.c                          compile: SIGABRT
+opt/fehler101.c                          execute: output mismatch
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
 opt/fehler105.c                          compile: SIGABRT
