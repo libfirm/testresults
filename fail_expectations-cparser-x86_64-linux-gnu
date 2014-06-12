@@ -1389,3 +1389,5 @@ preproctest/t9.c                         ok
 preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
+x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
+x86_64code/lea.c                         asm: check 'leal\s+_?arr.*\+12\(%.*,%.*,4\), %eax' failed
