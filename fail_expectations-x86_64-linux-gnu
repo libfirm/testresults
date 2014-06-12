@@ -1000,7 +1000,7 @@ opt/fehler159.c                          ok
 opt/fehler160.c                          ok
 opt/fehler161.c                          compile: SIGABRT
 opt/fehler162.c                          compile: SIGABRT
-opt/fehler163.c                          execute: output mismatch
+opt/fehler163.c                          compile: SIGABRT
 opt/fehler164.c                          ok
 opt/fehler165.c                          ok
 opt/fehler166.c                          ok
