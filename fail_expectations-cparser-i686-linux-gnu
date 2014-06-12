@@ -1435,6 +1435,7 @@ x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
 x86code/flt2int.c                        ok
+x86code/imm32.c                          asm: check 'leal\s+-1\(' failed
 x86code/incmem.c                         ok
 x86code/lea.c                            ok
 x86code/mux.c                            ok
