@@ -1089,6 +1089,10 @@ opt/fehler241.c                          ok
 opt/fehler242.c                          ok
 opt/fehler243.c                          ok
 opt/fehler244.c                          execute: returncode not zero but -127
+opt/fehler245.c                          ok
+opt/fehler246.c                          ok
+opt/fehler247.c                          execute: returncode not zero but -127
+opt/fehler248.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
