@@ -117,7 +117,7 @@ C/empty.c                                ok
 C/enum.c                                 ok
 C/flexarray.c                            ok
 C/flexarray2.c                           ok
-C/floatcmp.c                             ok
+C/floatcmp.c                             compile: assembler error
 C/floatcmp_implicit.c                    ok
 C/floatvals.c                            ok
 C/folderror.c                            ok
