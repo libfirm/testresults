@@ -1088,6 +1088,15 @@ opt/fehler245.c                          ok
 opt/fehler246.c                          ok
 opt/fehler247.c                          execute: returncode not zero but -127
 opt/fehler248.c                          ok
+opt/fehler249.c                          ok
+opt/fehler250.c                          ok
+opt/fehler251.c                          ok
+opt/fehler252.c                          ok
+opt/fehler253.c                          ok
+opt/fehler254.c                          ok
+opt/fehler255.c                          ok
+opt/fehler256.c                          ok
+opt/fehler257.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
