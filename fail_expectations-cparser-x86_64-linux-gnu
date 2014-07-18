@@ -585,7 +585,7 @@ backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/double_memperm.c                 compile: SIGABRT
-backend/extern_sret.c                    compile: SIGABRT
+backend/extern_sret.c                    execute: output mismatch
 backend/fabsf1.c                         compile: SIGABRT
 backend/fabsf2.c                         compile: SIGABRT
 backend/fdiv.c                           ok
@@ -687,7 +687,7 @@ gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            compile: SIGABRT
+gcc/pr43784.c                            execute: returncode not zero but 16
 gcc/strct-varg-1.c                       compile: SIGABRT
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
