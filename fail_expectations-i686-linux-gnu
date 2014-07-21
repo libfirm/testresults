@@ -1083,7 +1083,7 @@ opt/fehler240.c                          ok
 opt/fehler241.c                          ok
 opt/fehler242.c                          ok
 opt/fehler243.c                          ok
-opt/fehler244.c                          execute: returncode not zero but -127
+opt/fehler244.c                          ok
 opt/fehler245.c                          ok
 opt/fehler246.c                          ok
 opt/fehler247.c                          execute: returncode not zero but -127
