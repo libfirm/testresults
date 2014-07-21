@@ -1099,7 +1099,7 @@ opt/fehler256.c                          ok
 opt/fehler257.c                          ok
 opt/fehler258.c                          ok
 opt/fehler259.c                          ok
-opt/fehler260.c                          execute: returncode not zero but -127
+opt/fehler260.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
