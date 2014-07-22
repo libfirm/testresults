@@ -776,6 +776,10 @@ opt/adam_putt.c                          ok
 opt/add64.c                              ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
+opt/alias_classify.c                     execute: output mismatch
+opt/alias_escapes.c                      execute: output mismatch
+opt/alias_noescape.c                     execute: output mismatch
+opt/alias_pointer.c                      execute: output mismatch
 opt/alloca.c                             compile: SIGABRT
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
