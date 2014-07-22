@@ -777,6 +777,7 @@ opt/add64.c                              ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
 opt/alias_classify.c                     ok
+opt/alias_compounds.c                    execute: output mismatch
 opt/alias_escapes.c                      ok
 opt/alias_noescape.c                     ok
 opt/alias_pointer.c                      ok
