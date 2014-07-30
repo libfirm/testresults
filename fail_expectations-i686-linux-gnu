@@ -816,7 +816,7 @@ opt/combo5.c                             ok
 opt/combo6.c                             ok
 opt/combo7.c                             ok
 opt/combo8.c                             ok
-opt/combo9.c                             compile: SIGSEGV
+opt/combo9.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
@@ -1082,7 +1082,7 @@ opt/fehler233.c                          ok
 opt/fehler234.c                          ok
 opt/fehler235.c                          ok
 opt/fehler236.c                          ok
-opt/fehler237.c                          compile: SIGABRT
+opt/fehler237.c                          ok
 opt/fehler238.c                          ok
 opt/fehler239.c                          ok
 opt/fehler240.c                          ok
@@ -1127,7 +1127,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           compile: SIGABRT
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           execute: returncode not zero but 1
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
