@@ -776,11 +776,11 @@ opt/adam_putt.c                          ok
 opt/add64.c                              ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
-opt/alias_classify.c                     execute: output mismatch
+opt/alias_classify.c                     ok
 opt/alias_compounds.c                    execute: output mismatch
-opt/alias_escapes.c                      execute: output mismatch
-opt/alias_noescape.c                     execute: output mismatch
-opt/alias_pointer.c                      execute: output mismatch
+opt/alias_escapes.c                      ok
+opt/alias_noescape.c                     ok
+opt/alias_pointer.c                      ok
 opt/alloca.c                             ok
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
@@ -816,7 +816,7 @@ opt/combo5.c                             ok
 opt/combo6.c                             ok
 opt/combo7.c                             ok
 opt/combo8.c                             ok
-opt/combo9.c                             compile: SIGSEGV
+opt/combo9.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
@@ -1082,14 +1082,14 @@ opt/fehler233.c                          ok
 opt/fehler234.c                          ok
 opt/fehler235.c                          ok
 opt/fehler236.c                          ok
-opt/fehler237.c                          compile: SIGABRT
+opt/fehler237.c                          ok
 opt/fehler238.c                          ok
 opt/fehler239.c                          ok
 opt/fehler240.c                          ok
 opt/fehler241.c                          ok
 opt/fehler242.c                          ok
 opt/fehler243.c                          ok
-opt/fehler244.c                          execute: returncode not zero but -127
+opt/fehler244.c                          ok
 opt/fehler245.c                          ok
 opt/fehler246.c                          ok
 opt/fehler247.c                          execute: returncode not zero but -127
@@ -1105,7 +1105,7 @@ opt/fehler256.c                          ok
 opt/fehler257.c                          ok
 opt/fehler258.c                          ok
 opt/fehler259.c                          ok
-opt/fehler260.c                          execute: returncode not zero but -127
+opt/fehler260.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1127,7 +1127,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           compile: SIGABRT
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           execute: returncode not zero but 1
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
@@ -1458,7 +1458,7 @@ x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
 x86code/flt2int.c                        ok
 x86code/funcana_nowrite.c                ok
-x86code/funcana_nowrite2.c               execute: returncode not zero but -120
+x86code/funcana_nowrite2.c               ok
 x86code/funcana_pure.c                   ok
 x86code/imm32.c                          ok
 x86code/incmem.c                         ok
