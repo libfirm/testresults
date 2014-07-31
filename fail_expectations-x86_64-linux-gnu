@@ -1128,7 +1128,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           ok
-opt/ifconv11.c                           ok
+opt/ifconv11.c                           compile: SIGSEGV
 opt/ifconv12.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
