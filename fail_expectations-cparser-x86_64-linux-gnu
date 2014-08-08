@@ -594,6 +594,7 @@ backend/flags.c                          ok
 backend/floatset.c                       execute: output mismatch
 backend/fpu.c                            ok
 backend/ia32_heights.c                   ok
+backend/ia32_mode_t.c                    ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
