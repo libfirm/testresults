@@ -595,7 +595,7 @@ backend/floatset.c                       ok
 backend/fpu.c                            ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
-backend/ia32_remat.c                     compile: SIGABRT
+backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
