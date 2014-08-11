@@ -1095,7 +1095,7 @@ opt/fehler243.c                          ok
 opt/fehler244.c                          ok
 opt/fehler245.c                          ok
 opt/fehler246.c                          ok
-opt/fehler247.c                          execute: returncode not zero but -127
+opt/fehler247.c                          ok
 opt/fehler248.c                          ok
 opt/fehler249.c                          ok
 opt/fehler250.c                          ok
@@ -1114,6 +1114,7 @@ opt/fehler262.c                          ok
 opt/fehler263.c                          ok
 opt/fehler264.c                          compile: SIGABRT
 opt/fehler265.c                          ok
+opt/fehler266.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
