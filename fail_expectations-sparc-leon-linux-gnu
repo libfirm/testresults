@@ -1116,6 +1116,7 @@ opt/fehler263.c                          ok
 opt/fehler264.c                          ok
 opt/fehler265.c                          ok
 opt/fehler266.c                          ok
+opt/fehler267.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
