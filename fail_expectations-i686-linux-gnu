@@ -1067,7 +1067,7 @@ opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
-opt/fehler218.c                          compile: SIGABRT
+opt/fehler218.c                          ok
 opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
@@ -1113,10 +1113,10 @@ opt/fehler260.c                          ok
 opt/fehler261.c                          ok
 opt/fehler262.c                          ok
 opt/fehler263.c                          ok
-opt/fehler264.c                          compile: SIGABRT
+opt/fehler264.c                          ok
 opt/fehler265.c                          ok
 opt/fehler266.c                          ok
-opt/fehler267.c                          compile: SIGABRT
+opt/fehler267.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1138,7 +1138,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           compile: SIGABRT
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           execute: returncode not zero but 1
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
