@@ -533,7 +533,7 @@ C/varargs.c                              compile: SIGABRT
 C/vla.c                                  compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
-ack/ack_conv.c                           compile: SIGABRT
+ack/ack_conv.c                           execute: output mismatch
 ack/decl.c                               ok
 ack/init.c                               ok
 ack/ops.c                                ok
@@ -691,7 +691,7 @@ gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            ok
+gcc/pr43784.c                            execute: returncode not zero but 16
 gcc/strct-varg-1.c                       compile: SIGABRT
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
@@ -723,7 +723,7 @@ llvm/PR640.c                             compile: SIGABRT
 llvm/badidx.c                            ok
 llvm/bigstack.c                          compile: SIGABRT
 llvm/callargs.c                          compile: SIGABRT
-llvm/casts.c                             compile: SIGABRT
+llvm/casts.c                             execute: output mismatch
 llvm/matrixTranspose.c                   compile: SIGABRT
 llvm/pointer_arithmetic.c                ok
 llvm/sumarray.c                          ok
@@ -1013,7 +1013,7 @@ opt/fehler159.c                          ok
 opt/fehler160.c                          ok
 opt/fehler161.c                          compile: SIGABRT
 opt/fehler162.c                          ok
-opt/fehler163.c                          compile: SIGABRT
+opt/fehler163.c                          execute: output mismatch
 opt/fehler164.c                          ok
 opt/fehler165.c                          ok
 opt/fehler166.c                          ok
@@ -1023,7 +1023,7 @@ opt/fehler169.c                          ok
 opt/fehler170.c                          compile: SIGABRT
 opt/fehler171.c                          ok
 opt/fehler172.c                          ok
-opt/fehler173.c                          compile: SIGABRT
+opt/fehler173.c                          execute: SIGABRT
 opt/fehler174.c                          compile: SIGABRT
 opt/fehler175.c                          compile: SIGABRT
 opt/fehler176.c                          ok
@@ -1067,7 +1067,7 @@ opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
-opt/fehler218.c                          compile: SIGABRT
+opt/fehler218.c                          compile: SIGKILL
 opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
@@ -1122,7 +1122,7 @@ opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
 opt/fib_iter.c                           ok
 opt/fisttp.c                             ok
-opt/float_if.c                           compile: SIGABRT
+opt/float_if.c                           execute: output mismatch
 opt/func_arg.c                           ok
 opt/gap.c                                ok
 opt/gcd.c                                ok
@@ -1179,7 +1179,7 @@ opt/jumpthreading4.c                     ok
 opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
-opt/jumpthreading8.c                     ok
+opt/jumpthreading8.c                     compile: verify warning
 opt/jumpthreading9.c                     ok
 opt/kahansum.c                           ok
 opt/labs.c                               ok
