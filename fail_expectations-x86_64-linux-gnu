@@ -856,7 +856,7 @@ opt/endless.c                            ok
 opt/endless1.c                           ok
 opt/endless_phi_cons.c                   ok
 opt/enum.c                               ok
-opt/fabs.c                               compile: SIGABRT
+opt/fabs.c                               execute: output mismatch
 opt/fak.c                                ok
 opt/fastcall.c                           ok
 opt/fbench.c                             compile: SIGABRT
