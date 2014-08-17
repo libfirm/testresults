@@ -16,8 +16,8 @@ C/bool2.c                                ok
 C/bool3.c                                ok
 C/bool4.c                                ok
 C/boolbitfield.c                         ok
-C/complex_arithmetic.c                   compile: SIGABRT
-C/complex_misc.c                         compile: SIGABRT
+C/complex_arithmetic.c                   ok
+C/complex_misc.c                         ok
 C/composite_type0.c                      ok
 C/composite_type1.c                      compile: 1 compile errors
 C/compoundlit.c                          ok
@@ -147,7 +147,7 @@ C/gnu99/builtin_expect.c                 ok
 C/gnu99/builtins_libc.c                  ok
 C/gnu99/cdecl.c                          ok
 C/gnu99/combo_load_mode.c                ok
-C/gnu99/complex_conjugate.c              compile: SIGABRT
+C/gnu99/complex_conjugate.c              ok
 C/gnu99/complex_int.c                    ok
 C/gnu99/complex_misc.c                   compile: SIGABRT
 C/gnu99/complex_uint.c                   ok
@@ -552,7 +552,7 @@ backend/am_test2.c                       ok
 backend/am_test3.c                       ok
 backend/am_test4.c                       ok
 backend/am_test5.c                       ok
-backend/am_test_float.c                  compile: SIGABRT
+backend/am_test_float.c                  ok
 backend/am_test_float2.c                 compile: SIGABRT
 backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
@@ -691,7 +691,7 @@ gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            execute: returncode not zero but 16
+gcc/pr43784.c                            ok
 gcc/strct-varg-1.c                       compile: SIGABRT
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
@@ -738,7 +738,7 @@ opt/BinaryOpTest.c                       ok
 opt/BreakTest.c                          ok
 opt/Bucmp.c                              ok
 opt/ByteTest.c                           ok
-opt/CallingTest.c                        compile: SIGABRT
+opt/CallingTest.c                        ok
 opt/CondExpr.c                           ok
 opt/ContinueTest.c                       ok
 opt/DeclTest.c                           ok
@@ -791,7 +791,7 @@ opt/arr_init.c                           ok
 opt/array_type.c                         ok
 opt/asmargs.c                            compile: SIGABRT
 opt/backendcallorder.c                   compile: SIGABRT
-opt/backendcallorder2.c                  compile: SIGABRT
+opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
 opt/bitcast_dw.c                         compile: SIGABRT
@@ -834,16 +834,16 @@ opt/const.c                              ok
 opt/const_load.c                         ok
 opt/conv.c                               ok
 opt/conv_orgie.c                         ok
-opt/convfloat.c                          compile: SIGABRT
+opt/convfloat.c                          ok
 opt/convs.c                              ok
 opt/convtest.c                           ok
 opt/csetest.c                            ok
-opt/d.c                                  compile: SIGABRT
+opt/d.c                                  ok
 opt/dblstruct.c                          ok
 opt/deadstores.c                         ok
 opt/delayslot.c                          ok
 opt/distributive.c                       ok
-opt/divs.c                               compile: SIGABRT
+opt/divs.c                               ok
 opt/divtest.c                            ok
 opt/doms_segfault.c                      ok
 opt/doms_segfault2.c                     ok
@@ -860,7 +860,7 @@ opt/fabs.c                               execute: output mismatch
 opt/fak.c                                ok
 opt/fastcall.c                           ok
 opt/fbench.c                             compile: SIGABRT
-opt/fcall.c                              compile: SIGABRT
+opt/fcall.c                              ok
 opt/fcmp.c                               compile: SIGABRT
 opt/fe_bug.c                             ok
 opt/fehler001.c                          ok
@@ -908,7 +908,7 @@ opt/fehler047.c                          ok
 opt/fehler048.c                          ok
 opt/fehler049.c                          ok
 opt/fehler050.c                          ok
-opt/fehler051.c                          compile: SIGABRT
+opt/fehler051.c                          ok
 opt/fehler052.c                          compile: SIGABRT
 opt/fehler053.c                          ok
 opt/fehler054.c                          ok
@@ -983,7 +983,7 @@ opt/fehler124.c                          ok
 opt/fehler125.c                          ok
 opt/fehler126.c                          ok
 opt/fehler127.c                          ok
-opt/fehler128.c                          compile: SIGABRT
+opt/fehler128.c                          ok
 opt/fehler129.c                          ok
 opt/fehler130.c                          ok
 opt/fehler135.c                          ok
@@ -1020,12 +1020,12 @@ opt/fehler166.c                          ok
 opt/fehler167.c                          ok
 opt/fehler168.c                          ok
 opt/fehler169.c                          ok
-opt/fehler170.c                          compile: SIGABRT
+opt/fehler170.c                          ok
 opt/fehler171.c                          ok
 opt/fehler172.c                          ok
 opt/fehler173.c                          execute: SIGABRT
-opt/fehler174.c                          compile: SIGABRT
-opt/fehler175.c                          compile: SIGABRT
+opt/fehler174.c                          ok
+opt/fehler175.c                          ok
 opt/fehler176.c                          ok
 opt/fehler177.c                          ok
 opt/fehler178.c                          ok
@@ -1056,7 +1056,7 @@ opt/fehler203.c                          ok
 opt/fehler204.c                          ok
 opt/fehler205.c                          ok
 opt/fehler206.c                          ok
-opt/fehler207.c                          compile: SIGABRT
+opt/fehler207.c                          ok
 opt/fehler208.c                          ok
 opt/fehler209.c                          ok
 opt/fehler210.c                          ok
@@ -1138,7 +1138,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           ok
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
@@ -1184,7 +1184,7 @@ opt/jumpthreading9.c                     ok
 opt/kahansum.c                           ok
 opt/labs.c                               ok
 opt/ldst.c                               ok
-opt/ll.c                                 compile: SIGABRT
+opt/ll.c                                 ok
 opt/ll_call.c                            ok
 opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
@@ -1213,7 +1213,7 @@ opt/multidim-array.c                     ok
 opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
-opt/nans.c                               compile: SIGABRT
+opt/nans.c                               ok
 opt/nested_loops.c                       ok
 opt/nested_loops2.c                      ok
 opt/ns.c                                 ok
