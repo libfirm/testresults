@@ -601,7 +601,7 @@ backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
-backend/ldouble_memperm.c                compile: SIGABRT
+backend/ldouble_memperm.c                execute: output mismatch
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
@@ -692,7 +692,7 @@ gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            ok
+gcc/pr43784.c                            execute: returncode not zero but 16
 gcc/strct-varg-1.c                       compile: SIGABRT
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
