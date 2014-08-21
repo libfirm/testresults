@@ -539,8 +539,8 @@ ack/init.c                               ok
 ack/ops.c                                ok
 ack/str.c                                ok
 ack/t7.c                                 ok
-ack/test.c                               compile: SIGABRT
-ack/test1.c                              compile: SIGABRT
+ack/test.c                               ok
+ack/test1.c                              ok
 ack/test2.c                              ok
 backend/RegallocBug.c                    ok
 backend/alloca.c                         compile: SIGABRT
@@ -553,7 +553,7 @@ backend/am_test3.c                       ok
 backend/am_test4.c                       ok
 backend/am_test5.c                       ok
 backend/am_test_float.c                  ok
-backend/am_test_float2.c                 compile: SIGABRT
+backend/am_test_float2.c                 ok
 backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
 backend/amd64_modeb.c                    ok
@@ -585,7 +585,7 @@ backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
-backend/double_memperm.c                 compile: SIGABRT
+backend/double_memperm.c                 ok
 backend/extern_sret.c                    execute: output mismatch
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         compile: SIGABRT
@@ -692,12 +692,12 @@ gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            execute: returncode not zero but 16
+gcc/pr43784.c                            ok
 gcc/strct-varg-1.c                       compile: SIGABRT
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
-langshootout/fasta.c                     compile: SIGABRT
+langshootout/fasta.c                     ok
 langshootout/n-body.c                    compile: SIGABRT
 langshootout/nsieve-bits.c               compile: SIGABRT
 langshootout/nsieve.c                    ok
@@ -722,10 +722,10 @@ llvm/DuffsDevice.c                       ok
 llvm/PR491.c                             ok
 llvm/PR640.c                             compile: SIGABRT
 llvm/badidx.c                            ok
-llvm/bigstack.c                          compile: SIGABRT
+llvm/bigstack.c                          ok
 llvm/callargs.c                          compile: SIGABRT
 llvm/casts.c                             execute: output mismatch
-llvm/matrixTranspose.c                   compile: SIGABRT
+llvm/matrixTranspose.c                   ok
 llvm/pointer_arithmetic.c                ok
 llvm/sumarray.c                          ok
 llvm/sumarray2d.c                        ok
@@ -825,7 +825,7 @@ opt/combo9.c                             ok
 opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
-opt/compilerhang2.c                      compile: SIGABRT
+opt/compilerhang2.c                      ok
 opt/compilerhang3.c                      ok
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
@@ -926,7 +926,7 @@ opt/fehler064.c                          ok
 opt/fehler065.c                          ok
 opt/fehler066.c                          ok
 opt/fehler067.c                          ok
-opt/fehler068.c                          compile: SIGABRT
+opt/fehler068.c                          ok
 opt/fehler069.c                          ok
 opt/fehler070.c                          ok
 opt/fehler071.c                          ok
