@@ -820,7 +820,7 @@ opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      compile: SIGABRT
-opt/compilerhang3.c                      execute: SIGABRT
+opt/compilerhang3.c                      compile: verify warning
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
@@ -1062,7 +1062,7 @@ opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
-opt/fehler218.c                          compile: SIGABRT
+opt/fehler218.c                          compile: SIGKILL
 opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
