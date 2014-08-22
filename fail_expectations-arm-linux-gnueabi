@@ -569,6 +569,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
+backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
 backend/builtin_bswap64.c                ok
 backend/builtin_clz.c                    ok
@@ -599,6 +600,10 @@ backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            compile: linker error
 backend/ia32_heights.c                   ok
+backend/ia32_mode_t.c                    ok
+backend/ia32_remat.c                     ok
+backend/ia32_scheduled.c                 ok
+backend/ia32_scheduled2.c                ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
@@ -635,7 +640,7 @@ backend/sparc_cmp.c                      ok
 backend/sparc_cmp2.c                     ok
 backend/sparc_cmp3.c                     ok
 backend/sparc_div.c                      ok
-backend/sparc_finish.c                   compile: SIGSEGV
+backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
@@ -691,7 +696,7 @@ gcc/pr25860.c                            ok
 gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
-gcc/pr39614-4.c                          compile: SIGSEGV
+gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            execute: returncode not zero but 32
 gcc/strct-varg-1.c                       execute: returncode not zero but 2
 gcc/va-arg-12.c                          execute: returncode not zero but 1
@@ -781,6 +786,11 @@ opt/adam_putt.c                          ok
 opt/add64.c                              ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
+opt/alias_classify.c                     compile: SIGABRT
+opt/alias_compounds.c                    execute: output mismatch
+opt/alias_escapes.c                      ok
+opt/alias_noescape.c                     ok
+opt/alias_pointer.c                      compile: SIGABRT
 opt/alloca.c                             compile: SIGABRT
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
@@ -808,6 +818,7 @@ opt/cfoptbug.c                           ok
 opt/cmp.c                                ok
 opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
+opt/combo10.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
@@ -1081,17 +1092,17 @@ opt/fehler233.c                          ok
 opt/fehler234.c                          ok
 opt/fehler235.c                          ok
 opt/fehler236.c                          ok
-opt/fehler237.c                          compile: SIGABRT
+opt/fehler237.c                          ok
 opt/fehler238.c                          ok
 opt/fehler239.c                          ok
 opt/fehler240.c                          ok
 opt/fehler241.c                          ok
 opt/fehler242.c                          ok
 opt/fehler243.c                          ok
-opt/fehler244.c                          execute: returncode not zero but -127
+opt/fehler244.c                          ok
 opt/fehler245.c                          ok
 opt/fehler246.c                          ok
-opt/fehler247.c                          execute: returncode not zero but -127
+opt/fehler247.c                          ok
 opt/fehler248.c                          ok
 opt/fehler249.c                          ok
 opt/fehler250.c                          ok
@@ -1105,6 +1116,13 @@ opt/fehler257.c                          ok
 opt/fehler258.c                          ok
 opt/fehler259.c                          ok
 opt/fehler260.c                          ok
+opt/fehler261.c                          ok
+opt/fehler262.c                          ok
+opt/fehler263.c                          ok
+opt/fehler264.c                          ok
+opt/fehler265.c                          ok
+opt/fehler266.c                          ok
+opt/fehler267.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1126,7 +1144,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           ok
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
