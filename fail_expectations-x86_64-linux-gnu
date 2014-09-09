@@ -117,7 +117,7 @@ C/empty.c                                ok
 C/enum.c                                 ok
 C/flexarray.c                            ok
 C/flexarray2.c                           ok
-C/floatcmp.c                             compile: SIGABRT
+C/floatcmp.c                             execute: output mismatch
 C/floatcmp_implicit.c                    execute: output mismatch
 C/floatvals.c                            ok
 C/folderror.c                            ok
