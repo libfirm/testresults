@@ -267,6 +267,7 @@ C/pragmatic/fewparams.c                  ok
 C/pragmatic/kr2.c                        ok
 C/pragmatic/kr3.c                        ok
 C/pragmatic/shift.c                      ok
+C/pragmatic/struct.c                     compile: 2 compile errors
 C/pragmatic/toomuchparams.c              ok
 C/precedence.c                           ok
 C/scanf.c                                ok
@@ -564,6 +565,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
+backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
 backend/builtin_bswap64.c                ok
 backend/builtin_clz.c                    ok
@@ -639,6 +641,7 @@ backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
+backend/sparc_segfault.c                 execute: SIGSEGV
 backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
 backend/spill_cost.c                     ok
@@ -1138,7 +1141,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           ok
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
