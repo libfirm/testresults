@@ -969,7 +969,7 @@ opt/fehler106.c                          ok
 opt/fehler107.c                          ok
 opt/fehler108.c                          ok
 opt/fehler109.c                          ok
-opt/fehler110.c                          ok
+opt/fehler110.c                          execute: output mismatch
 opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok

@@ -172,7 +172,7 @@ C/gnu99/local_label.c                    ok
 C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
-C/gnu99/nested_function.c                ok
+C/gnu99/nested_function.c                compile: SIGABRT
 C/gnu99/nested_function_goto.c           compile: SIGABRT
 C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
@@ -969,7 +969,7 @@ opt/fehler106.c                          ok
 opt/fehler107.c                          ok
 opt/fehler108.c                          ok
 opt/fehler109.c                          ok
-opt/fehler110.c                          ok
+opt/fehler110.c                          execute: output mismatch
 opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
