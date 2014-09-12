@@ -641,7 +641,7 @@ backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
-backend/sparc_segfault.c                 execute: SIGSEGV
+backend/sparc_segfault.c                 ok
 backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
 backend/spill_cost.c                     ok
