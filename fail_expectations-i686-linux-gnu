@@ -267,7 +267,7 @@ C/pragmatic/fewparams.c                  ok
 C/pragmatic/kr2.c                        ok
 C/pragmatic/kr3.c                        ok
 C/pragmatic/shift.c                      ok
-C/pragmatic/struct.c                     compile: 2 compile errors
+C/pragmatic/struct.c                     ok
 C/pragmatic/toomuchparams.c              ok
 C/precedence.c                           ok
 C/scanf.c                                ok
