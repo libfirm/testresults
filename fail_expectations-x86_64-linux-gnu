@@ -534,7 +534,7 @@ C/varargs.c                              compile: SIGABRT
 C/vla.c                                  compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
-ack/ack_conv.c                           execute: output mismatch
+ack/ack_conv.c                           ok
 ack/decl.c                               ok
 ack/init.c                               ok
 ack/ops.c                                ok
