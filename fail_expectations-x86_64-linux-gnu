@@ -589,7 +589,7 @@ backend/conv_float_unsigned.c            ok
 backend/double_memperm.c                 ok
 backend/extern_sret.c                    execute: output mismatch
 backend/fabsf1.c                         ok
-backend/fabsf2.c                         compile: SIGABRT
+backend/fabsf2.c                         ok
 backend/fdiv.c                           ok
 backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
@@ -613,7 +613,7 @@ backend/lower_copyb.c                    ok
 backend/memperm.c                        ok
 backend/minus64.c                        ok
 backend/optest.c                         ok
-backend/optest_float.c                   compile: SIGABRT
+backend/optest_float.c                   ok
 backend/optest_longlong.c                ok
 backend/paramaddr.c                      ok
 backend/paramaddrsf.c                    ok
@@ -704,7 +704,7 @@ langshootout/n-body.c                    compile: SIGABRT
 langshootout/nsieve-bits.c               compile: SIGABRT
 langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
-langshootout/recursive.c                 compile: SIGABRT
+langshootout/recursive.c                 ok
 langshootout/spectral-norm.c             compile: SIGABRT
 llvm/2003-05-14-initialize-string.c      ok
 llvm/2003-05-21-BitfieldHandling.c       ok
@@ -793,7 +793,7 @@ opt/andtest.c                            ok
 opt/arr_init.c                           ok
 opt/array_type.c                         ok
 opt/asmargs.c                            compile: SIGABRT
-opt/backendcallorder.c                   compile: SIGABRT
+opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
