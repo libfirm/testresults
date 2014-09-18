@@ -158,6 +158,7 @@ C/gnu99/cp_error059.c                    compile: 1 compile errors
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
+C/gnu99/cp_error080.c                    ok
 C/gnu99/emptystruct.c                    ok
 C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
