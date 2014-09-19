@@ -154,7 +154,6 @@ C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  compile: SIGSEGV
 C/gnu99/construct_destruct.c             execute: output mismatch
 C/gnu99/cp_error038.c                    ok
-C/gnu99/cp_error059.c                    compile: 1 compile errors
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
@@ -173,8 +172,6 @@ C/gnu99/local_label.c                    ok
 C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
-C/gnu99/nested_function.c                compile: 1 compile errors
-C/gnu99/nested_function_goto.c           compile: SIGABRT
 C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/packed.c                         ok
