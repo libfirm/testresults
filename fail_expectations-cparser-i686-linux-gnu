@@ -154,10 +154,10 @@ C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  ok
 C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error038.c                    ok
-C/gnu99/cp_error059.c                    compile: SIGSEGV
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
+C/gnu99/cp_error080.c                    ok
 C/gnu99/emptystruct.c                    ok
 C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
@@ -172,8 +172,6 @@ C/gnu99/local_label.c                    ok
 C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
-C/gnu99/nested_function.c                compile: SIGABRT
-C/gnu99/nested_function_goto.c           compile: SIGABRT
 C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/packed.c                         ok
@@ -267,7 +265,7 @@ C/pragmatic/fewparams.c                  ok
 C/pragmatic/kr2.c                        ok
 C/pragmatic/kr3.c                        ok
 C/pragmatic/shift.c                      ok
-C/pragmatic/struct.c                     compile: 2 compile errors
+C/pragmatic/struct.c                     ok
 C/pragmatic/toomuchparams.c              ok
 C/precedence.c                           ok
 C/scanf.c                                ok
@@ -1070,7 +1068,7 @@ opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
-opt/fehler218.c                          compile: SIGABRT
+opt/fehler218.c                          ok
 opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
@@ -1099,7 +1097,7 @@ opt/fehler243.c                          ok
 opt/fehler244.c                          ok
 opt/fehler245.c                          ok
 opt/fehler246.c                          ok
-opt/fehler247.c                          execute: returncode not zero but -127
+opt/fehler247.c                          ok
 opt/fehler248.c                          ok
 opt/fehler249.c                          ok
 opt/fehler250.c                          ok
@@ -1115,11 +1113,11 @@ opt/fehler259.c                          ok
 opt/fehler260.c                          ok
 opt/fehler261.c                          ok
 opt/fehler262.c                          ok
-opt/fehler263.c                          compile: SIGABRT
-opt/fehler264.c                          compile: SIGABRT
+opt/fehler263.c                          ok
+opt/fehler264.c                          ok
 opt/fehler265.c                          ok
-opt/fehler266.c                          compile: assembler error
-opt/fehler267.c                          compile: SIGABRT
+opt/fehler266.c                          ok
+opt/fehler267.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1141,7 +1139,7 @@ opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
 opt/ifconv10.c                           compile: SIGABRT
-opt/ifconv11.c                           compile: SIGSEGV
+opt/ifconv11.c                           ok
 opt/ifconv12.c                           execute: returncode not zero but 1
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
