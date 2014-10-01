@@ -117,8 +117,8 @@ C/empty.c                                ok
 C/enum.c                                 ok
 C/flexarray.c                            ok
 C/flexarray2.c                           ok
-C/floatcmp.c                             execute: output mismatch
-C/floatcmp_implicit.c                    execute: output mismatch
+C/floatcmp.c                             ok
+C/floatcmp_implicit.c                    ok
 C/floatvals.c                            ok
 C/folderror.c                            ok
 C/funcname.c                             ok
@@ -591,7 +591,7 @@ backend/fabsf2.c                         ok
 backend/fdiv.c                           ok
 backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
-backend/floatset.c                       execute: output mismatch
+backend/floatset.c                       ok
 backend/fpu.c                            ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
@@ -857,7 +857,7 @@ opt/endless.c                            ok
 opt/endless1.c                           ok
 opt/endless_phi_cons.c                   ok
 opt/enum.c                               ok
-opt/fabs.c                               execute: output mismatch
+opt/fabs.c                               ok
 opt/fak.c                                ok
 opt/fastcall.c                           ok
 opt/fbench.c                             compile: SIGABRT
@@ -1024,7 +1024,7 @@ opt/fehler169.c                          ok
 opt/fehler170.c                          ok
 opt/fehler171.c                          ok
 opt/fehler172.c                          ok
-opt/fehler173.c                          execute: SIGABRT
+opt/fehler173.c                          ok
 opt/fehler174.c                          ok
 opt/fehler175.c                          ok
 opt/fehler176.c                          ok
