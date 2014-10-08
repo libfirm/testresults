@@ -162,16 +162,3 @@ TypeNames.x10                            ok
 WhenTest.x10                             ok
 X10CPPCrash.x10                          ok
 ZeroTest.x10                             ok
-agent/Fehler001.x10                      run: SIGABRT
-agent/HelloAgent.x10                     run: SIGABRT
-agent/Integrate.x10                      run: SIGABRT
-agent/InvadeTest.x10                     run: SIGABRT
-agent/MapReduce.x10                      run: SIGABRT
-agent/Multiple.x10                       run: SIGABRT
-agent/PEDistTest.x10                     run: SIGABRT
-agent/ReinvadeCheck.x10                  run: SIGABRT
-agent/ReinvadeDistArrayTest.x10          run: SIGABRT
-agent/ReinvadePlaceLocalHandleTest.x10   run: SIGABRT
-agent/SFCMatMul.x10                      run: SIGABRT
-agent/SkinDetect.x10                     run: SIGABRT
-agent/Update.x10                         run: SIGABRT
