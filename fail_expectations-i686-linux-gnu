@@ -1484,6 +1484,7 @@ x86code/funcana_pure.c                   ok
 x86code/imm32.c                          ok
 x86code/incmem.c                         ok
 x86code/lea.c                            ok
+x86code/loadafterload.c                  ok
 x86code/modopt.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
