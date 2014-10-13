@@ -1127,6 +1127,7 @@ opt/fehler271.c                          execute: returncode not zero but 42
 opt/fehler272.c                          ok
 opt/fehler273.c                          ok
 opt/fehler274.c                          ok
+opt/fehler275.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
