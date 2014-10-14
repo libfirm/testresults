@@ -974,7 +974,7 @@ opt/fehler106.c                          compile: SIGABRT
 opt/fehler107.c                          compile: linker error
 opt/fehler108.c                          ok
 opt/fehler109.c                          compile: SIGABRT
-opt/fehler110.c                          execute: output mismatch
+opt/fehler110.c                          ok
 opt/fehler112.c                          compile: SIGABRT
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
@@ -1128,7 +1128,7 @@ opt/fehler267.c                          ok
 opt/fehler268.c                          ok
 opt/fehler269.c                          ok
 opt/fehler270.c                          compile: SIGABRT
-opt/fehler271.c                          execute: returncode not zero but 42
+opt/fehler271.c                          ok
 opt/fehler272.c                          ok
 opt/fehler273.c                          ok
 opt/fehler274.c                          ok
