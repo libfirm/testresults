@@ -645,7 +645,7 @@ backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
 backend/spill_cost.c                     ok
 backend/srettaken.c                      ok
-backend/stack.c                          compile: SIGABRT
+backend/stack.c                          ok
 backend/stackarray.c                     ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
