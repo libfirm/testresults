@@ -1128,6 +1128,7 @@ opt/fehler272.c                          ok
 opt/fehler273.c                          ok
 opt/fehler274.c                          ok
 opt/fehler275.c                          ok
+opt/fehler276.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
