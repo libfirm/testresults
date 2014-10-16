@@ -1141,6 +1141,7 @@ opt/fib_iter.c                           ok
 opt/fisttp.c                             compile: linker error
 opt/float_if.c                           ok
 opt/func_arg.c                           ok
+opt/funcana_nowrite.c                    ok
 opt/gap.c                                ok
 opt/gcd.c                                ok
 opt/gcd_bench.c                          ok
