@@ -65,7 +65,7 @@ C/cp_error031.c                          ok
 C/cp_error032.c                          ok
 C/cp_error033.c                          ok
 C/cp_error034.c                          ok
-C/cp_error035.c                          compile: SIGABRT
+C/cp_error035.c                          ok
 C/cp_error036.c                          ok
 C/cp_error037.c                          ok
 C/cp_error041.c                          ok
@@ -529,7 +529,7 @@ C/union_init.c                           ok
 C/universal_character.c                  ok
 C/unkept_loop.c                          ok
 C/varargs.c                              compile: SIGABRT
-C/vla.c                                  compile: SIGABRT
+C/vla.c                                  ok
 C/void_cast.c                            ok
 C/whiles.c                               ok
 ack/ack_conv.c                           ok
@@ -542,8 +542,8 @@ ack/test.c                               ok
 ack/test1.c                              ok
 ack/test2.c                              ok
 backend/RegallocBug.c                    ok
-backend/alloca.c                         compile: SIGABRT
-backend/allocacall.c                     compile: SIGABRT
+backend/alloca.c                         ok
+backend/allocacall.c                     ok
 backend/am_explode.c                     ok
 backend/am_possibilities.c               ok
 backend/am_test.c                        ok
@@ -701,7 +701,7 @@ langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
 langshootout/n-body.c                    compile: SIGABRT
-langshootout/nsieve-bits.c               compile: SIGABRT
+langshootout/nsieve-bits.c               ok
 langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
 langshootout/recursive.c                 ok
@@ -711,13 +711,13 @@ llvm/2003-05-21-BitfieldHandling.c       ok
 llvm/2003-05-21-UnionBitfields.c         ok
 llvm/2003-05-21-UnionTest.c              ok
 llvm/2003-05-22-LocalTypeTest.c          ok
-llvm/2003-05-22-VarSizeArray.c           compile: SIGABRT
+llvm/2003-05-22-VarSizeArray.c           ok
 llvm/2003-05-23-TransparentUnion.c       ok
 llvm/2003-06-16-InvalidInitializer.c     ok
 llvm/2003-06-16-VolatileError.c          ok
 llvm/2003-10-12-GlobalVarInitializers.c  ok
 llvm/2004-02-03-AggregateCopy.c          ok
-llvm/2004-08-12-InlinerAndAllocas.c      compile: SIGABRT
+llvm/2004-08-12-InlinerAndAllocas.c      ok
 llvm/2005-05-06-LongLongSignedShift.c    ok
 llvm/ConstructorDestructorAttributes.c   ok
 llvm/DuffsDevice.c                       ok
@@ -788,7 +788,7 @@ opt/alias_compounds.c                    execute: output mismatch
 opt/alias_escapes.c                      ok
 opt/alias_noescape.c                     ok
 opt/alias_pointer.c                      ok
-opt/alloca.c                             compile: SIGABRT
+opt/alloca.c                             ok
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
 opt/array_type.c                         ok
@@ -919,7 +919,7 @@ opt/fehler055.c                          ok
 opt/fehler056.c                          ok
 opt/fehler057.c                          ok
 opt/fehler058.c                          ok
-opt/fehler059.c                          compile: SIGABRT
+opt/fehler059.c                          ok
 opt/fehler060.c                          ok
 opt/fehler061.c                          ok
 opt/fehler062.c                          ok
@@ -1014,7 +1014,7 @@ opt/fehler157.c                          ok
 opt/fehler158.c                          ok
 opt/fehler159.c                          ok
 opt/fehler160.c                          ok
-opt/fehler161.c                          compile: SIGABRT
+opt/fehler161.c                          ok
 opt/fehler162.c                          ok
 opt/fehler163.c                          execute: output mismatch
 opt/fehler164.c                          ok
@@ -1306,9 +1306,9 @@ opt/vadd_store.c                         ok
 opt/valist.c                             compile: SIGABRT
 opt/valist2.c                            compile: SIGABRT
 opt/vandrunen.c                          ok
-opt/vararray.c                           compile: SIGABRT
+opt/vararray.c                           ok
 opt/variadic_longlong.c                  compile: SIGABRT
-opt/vla.c                                compile: SIGABRT
+opt/vla.c                                ok
 opt/volatile.c                           ok
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
