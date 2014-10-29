@@ -1130,7 +1130,7 @@ opt/fehler274.c                          ok
 opt/fehler275.c                          ok
 opt/fehler276.c                          ok
 opt/fehler277.c                          compile: SIGABRT
-opt/fehler278.c                          compile: SIGABRT
+opt/fehler278.c                          ok
 opt/fehler279.c                          ok
 opt/fehler280.c                          ok
 opt/fehler_gt_0.c                        ok
