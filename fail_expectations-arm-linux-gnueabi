@@ -1134,7 +1134,7 @@ opt/fehler273.c                          ok
 opt/fehler274.c                          ok
 opt/fehler275.c                          compile: SIGABRT
 opt/fehler276.c                          ok
-opt/fehler277.c                          compile: SIGABRT
+opt/fehler277.c                          ok
 opt/fehler278.c                          ok
 opt/fehler279.c                          ok
 opt/fehler280.c                          ok
