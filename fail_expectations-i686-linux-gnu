@@ -1121,7 +1121,7 @@ opt/fehler265.c                          ok
 opt/fehler266.c                          ok
 opt/fehler267.c                          ok
 opt/fehler268.c                          ok
-opt/fehler269.c                          compile: SIGABRT
+opt/fehler269.c                          ok
 opt/fehler270.c                          compile: SIGABRT
 opt/fehler271.c                          ok
 opt/fehler272.c                          ok
