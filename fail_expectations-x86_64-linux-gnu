@@ -864,7 +864,7 @@ opt/fak.c                                ok
 opt/fastcall.c                           ok
 opt/fbench.c                             compile: SIGABRT
 opt/fcall.c                              ok
-opt/fcmp.c                               compile: SIGABRT
+opt/fcmp.c                               ok
 opt/fe_bug.c                             ok
 opt/fehler001.c                          ok
 opt/fehler002.c                          ok
