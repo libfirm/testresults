@@ -302,6 +302,7 @@ C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
 C/should_fail/bitfield.c                 ok
+C/should_fail/block_extern_init.c        compile: missed error
 C/should_fail/brace1.c                   ok
 C/should_fail/brace2.c                   ok
 C/should_fail/call1.c                    ok
@@ -1460,7 +1461,7 @@ x86code/asm_test7.c                      ok
 x86code/asm_test8.c                      ok
 x86code/asm_test9.c                      ok
 x86code/asmq3.c                          ok
-x86code/below_stack.c                    execute: returncode not zero but 1
+x86code/below_stack.c                    ok
 x86code/bf_init.c                        ok
 x86code/bf_localinit.c                   ok
 x86code/bittest.c                        ok
