@@ -1460,6 +1460,7 @@ x86code/asm_test7.c                      ok
 x86code/asm_test8.c                      ok
 x86code/asm_test9.c                      ok
 x86code/asmq3.c                          ok
+x86code/below_stack.c                    execute: returncode not zero but 1
 x86code/bf_init.c                        ok
 x86code/bf_localinit.c                   ok
 x86code/bittest.c                        ok
