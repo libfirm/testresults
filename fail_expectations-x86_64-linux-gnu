@@ -600,8 +600,8 @@ backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
 backend/inconsistent_outs.c              ok
-backend/initializer_bug.c                ok
-backend/ldouble_memperm.c                execute: output mismatch
+backend/initializer_bug.c                compile: SIGABRT
+backend/ldouble_memperm.c                compile: SIGABRT
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
@@ -829,7 +829,7 @@ opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      ok
-opt/compilerhang3.c                      ok
+opt/compilerhang3.c                      compile: SIGABRT
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
@@ -962,7 +962,7 @@ opt/fehler097.c                          ok
 opt/fehler098.c                          ok
 opt/fehler099.c                          ok
 opt/fehler100.c                          ok
-opt/fehler101.c                          execute: output mismatch
+opt/fehler101.c                          compile: SIGABRT
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
 opt/fehler105.c                          ok
@@ -992,7 +992,7 @@ opt/fehler129.c                          ok
 opt/fehler130.c                          ok
 opt/fehler135.c                          ok
 opt/fehler136.c                          ok
-opt/fehler137.c                          execute: output mismatch
+opt/fehler137.c                          compile: SIGABRT
 opt/fehler138.c                          ok
 opt/fehler139.c                          ok
 opt/fehler140.c                          ok
@@ -1142,7 +1142,7 @@ opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
 opt/fib_iter.c                           ok
 opt/fisttp.c                             ok
-opt/float_if.c                           execute: output mismatch
+opt/float_if.c                           compile: SIGABRT
 opt/func_arg.c                           ok
 opt/funcana_nowrite.c                    ok
 opt/gap.c                                ok
