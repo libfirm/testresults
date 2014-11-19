@@ -146,12 +146,12 @@ C/gnu99/binary_const.c                   ok
 C/gnu99/builtin_expect.c                 ok
 C/gnu99/builtins_libc.c                  ok
 C/gnu99/cdecl.c                          ok
-C/gnu99/combo_load_mode.c                compile: SIGSEGV
+C/gnu99/combo_load_mode.c                compile: SIGABRT
 C/gnu99/complex_conjugate.c              ok
 C/gnu99/complex_int.c                    ok
 C/gnu99/complex_misc.c                   ok
 C/gnu99/complex_uint.c                   ok
-C/gnu99/computed_goto.c                  compile: SIGSEGV
+C/gnu99/computed_goto.c                  compile: SIGABRT
 C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error038.c                    ok
 C/gnu99/cp_error064.c                    ok
@@ -163,7 +163,7 @@ C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
 C/gnu99/extension_in_for_init.c          ok
 C/gnu99/flex_array_init.c                compile: SIGABRT
-C/gnu99/ijmp.c                           compile: SIGSEGV
+C/gnu99/ijmp.c                           compile: SIGABRT
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
 C/gnu99/inlineextern.c                   ok
@@ -193,8 +193,8 @@ C/gnu99/typeof.c                         ok
 C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     compile: 2 compile errors
 C/gnu99/unused_label.c                   ok
-C/gnu99/vlabel2.c                        compile: SIGSEGV
-C/gnu99/vlabel3.c                        compile: SIGSEGV
+C/gnu99/vlabel2.c                        compile: SIGABRT
+C/gnu99/vlabel3.c                        compile: SIGABRT
 C/gnu99/void_pointer_arithmetic.c        ok
 C/hexfloat.c                             ok
 C/hugeval.c                              ok
