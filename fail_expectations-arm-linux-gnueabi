@@ -115,6 +115,7 @@ C/doublewide.c                           ok
 C/dynamic_initializers.c                 ok
 C/empty.c                                ok
 C/enum.c                                 ok
+C/escapes.c                              ok
 C/flexarray.c                            ok
 C/flexarray2.c                           ok
 C/floatcmp.c                             compile: assembler error
@@ -526,6 +527,7 @@ C/structs2.c                             ok
 C/suffixes.c                             ok
 C/switch.c                               ok
 C/tarval_sign_error.c                    ok
+C/trigraphs.c                            ok
 C/union_init.c                           ok
 C/universal_character.c                  ok
 C/unkept_loop.c                          ok
