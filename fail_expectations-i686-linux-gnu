@@ -229,6 +229,7 @@ C/nowarn/builtin_addr.c                  ok
 C/nowarn/compare.c                       ok
 C/nowarn/compatible.c                    ok
 C/nowarn/defined.c                       ok
+C/nowarn/enumbitfield.c                  ok
 C/nowarn/fooredirect.c                   ok
 C/nowarn/init_self.c                     ok
 C/nowarn/initializer0.c                  ok
