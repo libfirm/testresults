@@ -68,7 +68,6 @@ C/cp_error034.c                          ok
 C/cp_error035.c                          ok
 C/cp_error036.c                          ok
 C/cp_error037.c                          ok
-C/cp_error041.c                          ok
 C/cp_error042.c                          ok
 C/cp_error043.c                          ok
 C/cp_error044.c                          ok
@@ -155,6 +154,7 @@ C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  ok
 C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error038.c                    ok
+C/gnu99/cp_error041.c                    ok
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
@@ -468,7 +468,7 @@ C/should_warn/composite1.c               compile: missed warnings
 C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/enum_conversion.c          ok
-C/should_warn/enumbitfield.c             compile: missed warnings
+C/should_warn/enumbitfield.c             ok
 C/should_warn/extern_alias.c             ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
