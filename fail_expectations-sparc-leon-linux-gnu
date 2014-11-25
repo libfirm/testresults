@@ -602,6 +602,7 @@ backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
+backend/ia32_shl.c                       ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                compile: SIGABRT
 backend/ldouble_memperm.c                compile: SIGABRT
