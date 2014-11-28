@@ -167,6 +167,7 @@ C/gnu99/flex_array_init.c                compile: SIGABRT
 C/gnu99/ijmp.c                           compile: SIGABRT
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
+C/gnu99/init1.c                          ok
 C/gnu99/inlineextern.c                   ok
 C/gnu99/l1.c                             ok
 C/gnu99/local_label.c                    ok
@@ -203,7 +204,6 @@ C/if.c                                   ok
 C/implicit.c                             ok
 C/implicit2.c                            ok
 C/incompleteextern.c                     ok
-C/init1.c                                ok
 C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
