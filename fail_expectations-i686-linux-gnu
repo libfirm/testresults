@@ -1450,7 +1450,7 @@ preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
-x86code/asm_test.c                       compile: SIGABRT
+x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
@@ -1488,7 +1488,7 @@ x86code/fehler133.c                      ok
 x86code/fehler134.c                      ok
 x86code/fehler135.c                      ok
 x86code/fehler136.c                      ok
-x86code/float_asm.c                      compile: SIGABRT
+x86code/float_asm.c                      ok
 x86code/float_fld.c                      asm: !check 'fld.*%st' failed
 x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
