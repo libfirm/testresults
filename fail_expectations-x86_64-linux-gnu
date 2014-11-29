@@ -1021,7 +1021,7 @@ opt/fehler159.c                          ok
 opt/fehler160.c                          ok
 opt/fehler161.c                          ok
 opt/fehler162.c                          ok
-opt/fehler163.c                          execute: output mismatch
+opt/fehler163.c                          ok
 opt/fehler164.c                          ok
 opt/fehler165.c                          ok
 opt/fehler166.c                          ok
