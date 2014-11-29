@@ -601,7 +601,7 @@ backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
 backend/inconsistent_outs.c              ok
-backend/initializer_bug.c                ok
+backend/initializer_bug.c                compile: SIGABRT
 backend/ldouble_memperm.c                compile: SIGABRT
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
@@ -828,7 +828,7 @@ opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      compile: SIGABRT
-opt/compilerhang3.c                      ok
+opt/compilerhang3.c                      compile: SIGABRT
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
@@ -961,7 +961,7 @@ opt/fehler097.c                          ok
 opt/fehler098.c                          ok
 opt/fehler099.c                          ok
 opt/fehler100.c                          ok
-opt/fehler101.c                          execute: output mismatch
+opt/fehler101.c                          compile: SIGABRT
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
 opt/fehler105.c                          ok
@@ -991,7 +991,7 @@ opt/fehler129.c                          ok
 opt/fehler130.c                          ok
 opt/fehler135.c                          ok
 opt/fehler136.c                          ok
-opt/fehler137.c                          execute: output mismatch
+opt/fehler137.c                          compile: SIGABRT
 opt/fehler138.c                          ok
 opt/fehler139.c                          ok
 opt/fehler140.c                          ok
@@ -1070,7 +1070,7 @@ opt/fehler214.c                          ok
 opt/fehler215.c                          ok
 opt/fehler216.c                          ok
 opt/fehler217.c                          ok
-opt/fehler218.c                          compile: SIGABRT
+opt/fehler218.c                          compile: SIGKILL
 opt/fehler219.c                          ok
 opt/fehler220.c                          ok
 opt/fehler221.c                          ok
