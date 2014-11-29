@@ -68,7 +68,6 @@ C/cp_error034.c                          ok
 C/cp_error035.c                          compile: SIGABRT
 C/cp_error036.c                          ok
 C/cp_error037.c                          ok
-C/cp_error041.c                          ok
 C/cp_error042.c                          ok
 C/cp_error043.c                          ok
 C/cp_error044.c                          ok
@@ -155,6 +154,7 @@ C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  compile: SIGABRT
 C/gnu99/construct_destruct.c             execute: output mismatch
 C/gnu99/cp_error038.c                    ok
+C/gnu99/cp_error041.c                    ok
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
@@ -167,6 +167,7 @@ C/gnu99/flex_array_init.c                compile: SIGABRT
 C/gnu99/ijmp.c                           compile: SIGABRT
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
+C/gnu99/init1.c                          ok
 C/gnu99/inlineextern.c                   ok
 C/gnu99/l1.c                             ok
 C/gnu99/local_label.c                    ok
@@ -203,7 +204,6 @@ C/if.c                                   ok
 C/implicit.c                             ok
 C/implicit2.c                            ok
 C/incompleteextern.c                     ok
-C/init1.c                                ok
 C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
@@ -468,7 +468,7 @@ C/should_warn/composite1.c               compile: missed warnings
 C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/enum_conversion.c          ok
-C/should_warn/enumbitfield.c             compile: missed warnings
+C/should_warn/enumbitfield.c             ok
 C/should_warn/extern_alias.c             ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
@@ -607,6 +607,7 @@ backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
+backend/ia32_shl.c                       ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
