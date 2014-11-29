@@ -68,7 +68,6 @@ C/cp_error034.c                          ok
 C/cp_error035.c                          ok
 C/cp_error036.c                          ok
 C/cp_error037.c                          ok
-C/cp_error041.c                          ok
 C/cp_error042.c                          ok
 C/cp_error043.c                          ok
 C/cp_error044.c                          ok
@@ -115,6 +114,7 @@ C/doublewide.c                           ok
 C/dynamic_initializers.c                 ok
 C/empty.c                                ok
 C/enum.c                                 ok
+C/escapes.c                              ok
 C/flexarray.c                            ok
 C/flexarray2.c                           ok
 C/floatcmp.c                             ok
@@ -154,6 +154,7 @@ C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  ok
 C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error038.c                    ok
+C/gnu99/cp_error041.c                    ok
 C/gnu99/cp_error064.c                    ok
 C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
@@ -166,6 +167,7 @@ C/gnu99/flex_array_init.c                compile: SIGABRT
 C/gnu99/ijmp.c                           ok
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
+C/gnu99/init1.c                          ok
 C/gnu99/inlineextern.c                   ok
 C/gnu99/l1.c                             ok
 C/gnu99/local_label.c                    ok
@@ -202,7 +204,6 @@ C/if.c                                   ok
 C/implicit.c                             ok
 C/implicit2.c                            ok
 C/incompleteextern.c                     ok
-C/init1.c                                ok
 C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
@@ -228,6 +229,7 @@ C/nowarn/builtin_addr.c                  ok
 C/nowarn/compare.c                       ok
 C/nowarn/compatible.c                    ok
 C/nowarn/defined.c                       ok
+C/nowarn/enumbitfield.c                  ok
 C/nowarn/fooredirect.c                   ok
 C/nowarn/init_self.c                     ok
 C/nowarn/initializer0.c                  ok
@@ -302,6 +304,7 @@ C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
 C/should_fail/bitfield.c                 ok
+C/should_fail/block_extern_init.c        compile: missed error
 C/should_fail/brace1.c                   ok
 C/should_fail/brace2.c                   ok
 C/should_fail/call1.c                    ok
@@ -465,7 +468,7 @@ C/should_warn/composite1.c               compile: missed warnings
 C/should_warn/cp_error025.c              compile: missed warnings
 C/should_warn/div_by_zero.c              ok
 C/should_warn/enum_conversion.c          ok
-C/should_warn/enumbitfield.c             compile: missed warnings
+C/should_warn/enumbitfield.c             ok
 C/should_warn/extern_alias.c             ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
@@ -525,6 +528,7 @@ C/structs2.c                             ok
 C/suffixes.c                             ok
 C/switch.c                               ok
 C/tarval_sign_error.c                    ok
+C/trigraphs.c                            ok
 C/union_init.c                           ok
 C/universal_character.c                  ok
 C/unkept_loop.c                          ok
@@ -598,6 +602,7 @@ backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
+backend/ia32_shl.c                       ok
 backend/inconsistent_outs.c              ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                ok
@@ -620,6 +625,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
+backend/scheduled.c                      compile: SIGABRT
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
@@ -814,7 +820,7 @@ opt/cfoptbug.c                           ok
 opt/cmp.c                                ok
 opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
-opt/combo10.c                            compile: SIGSEGV
+opt/combo10.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
@@ -968,7 +974,7 @@ opt/fehler106.c                          ok
 opt/fehler107.c                          ok
 opt/fehler108.c                          ok
 opt/fehler109.c                          ok
-opt/fehler110.c                          execute: output mismatch
+opt/fehler110.c                          ok
 opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
@@ -1120,10 +1126,21 @@ opt/fehler265.c                          ok
 opt/fehler266.c                          ok
 opt/fehler267.c                          ok
 opt/fehler268.c                          ok
-opt/fehler269.c                          compile: SIGABRT
-opt/fehler270.c                          compile: SIGABRT
-opt/fehler271.c                          execute: returncode not zero but 42
+opt/fehler269.c                          ok
+opt/fehler270.c                          ok
+opt/fehler271.c                          ok
 opt/fehler272.c                          ok
+opt/fehler273.c                          ok
+opt/fehler274.c                          ok
+opt/fehler275.c                          ok
+opt/fehler276.c                          ok
+opt/fehler277.c                          ok
+opt/fehler278.c                          ok
+opt/fehler279.c                          ok
+opt/fehler280.c                          ok
+opt/fehler281.c                          ok
+opt/fehler282.c                          ok
+opt/fehler283.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1131,6 +1148,7 @@ opt/fib_iter.c                           ok
 opt/fisttp.c                             ok
 opt/float_if.c                           ok
 opt/func_arg.c                           ok
+opt/funcana_nowrite.c                    ok
 opt/gap.c                                ok
 opt/gcd.c                                ok
 opt/gcd_bench.c                          ok
@@ -1200,6 +1218,7 @@ opt/loadstore3.c                         ok
 opt/loadstore4.c                         ok
 opt/loadstore5.c                         ok
 opt/loadstore6.c                         ok
+opt/loadstore7.c                         compile: SIGKILL
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1431,7 +1450,7 @@ preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
-x86code/asm_test.c                       compile: SIGABRT
+x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
@@ -1446,6 +1465,7 @@ x86code/asm_test7.c                      ok
 x86code/asm_test8.c                      ok
 x86code/asm_test9.c                      ok
 x86code/asmq3.c                          ok
+x86code/below_stack.c                    ok
 x86code/bf_init.c                        ok
 x86code/bf_localinit.c                   ok
 x86code/bittest.c                        ok
@@ -1468,18 +1488,18 @@ x86code/fehler133.c                      ok
 x86code/fehler134.c                      ok
 x86code/fehler135.c                      ok
 x86code/fehler136.c                      ok
-x86code/float_asm.c                      compile: SIGABRT
+x86code/float_asm.c                      ok
 x86code/float_fld.c                      asm: !check 'fld.*%st' failed
 x86code/float_rounding0.c                ok
 x86code/float_rounding1.c                ok
 x86code/float_rounding2.c                ok
 x86code/flt2int.c                        ok
-x86code/funcana_nowrite.c                ok
 x86code/funcana_nowrite2.c               ok
 x86code/funcana_pure.c                   ok
 x86code/imm32.c                          ok
 x86code/incmem.c                         ok
 x86code/lea.c                            ok
+x86code/loadafterload.c                  ok
 x86code/modopt.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
