@@ -190,7 +190,7 @@ C/gnu99/stmtexpr.c                       compile: 1 compile errors
 C/gnu99/strangeattr.c                    ok
 C/gnu99/structalign.c                    execute: output mismatch
 C/gnu99/system_header_typedef.c          ok
-C/gnu99/tcctest.c                        compile: 8 compile errors
+C/gnu99/tcctest.c                        compile: 1 compile errors
 C/gnu99/transparent_union.c              ok
 C/gnu99/transparent_union3.c             ok
 C/gnu99/typeof.c                         ok
@@ -1477,7 +1477,7 @@ x86code/common.c                         ok
 x86code/cp_error022.c                    ok
 x86code/cp_error040.c                    ok
 x86code/doz.c                            ok
-x86code/early_clobber.c                  compile: 1 compile errors
+x86code/early_clobber.c                  ok
 x86code/fehler020.c                      ok
 x86code/fehler041.c                      ok
 x86code/fehler043.c                      ok
