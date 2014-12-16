@@ -293,6 +293,8 @@ C/should_fail/array9.c                   ok
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
+C/should_fail/assign_const.c             compile: missed error
+C/should_fail/assign_function.c          compile: missed error
 C/should_fail/bad_alias.c                ok
 C/should_fail/bad_alias2.c               ok
 C/should_fail/bad_alias3.c               ok
@@ -323,6 +325,7 @@ C/should_fail/compoundlit1.c             ok
 C/should_fail/conflicting_types.c        ok
 C/should_fail/const.c                    ok
 C/should_fail/const2.c                   ok
+C/should_fail/const_incdec.c             compile: missed error
 C/should_fail/cp_error002.c              ok
 C/should_fail/cp_error003.c              ok
 C/should_fail/cp_error054.c              ok
