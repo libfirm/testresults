@@ -248,7 +248,7 @@ C/nowarn/scanf_width_s.c                 ok
 C/nowarn/sign_compare.c                  ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
-C/nowarn/write_only11.c                  compile: 1 compile errors
+C/nowarn/write_only11.c                  ok
 C/nowarn/write_only12.c                  ok
 C/nowarn/write_only13.c                  ok
 C/nowarn/write_only14.c                  ok
@@ -257,7 +257,7 @@ C/nowarn/write_only16.c                  ok
 C/nowarn/write_only17.c                  ok
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
-C/nowarn/write_only9.c                   compile: 2 compile errors
+C/nowarn/write_only9.c                   ok
 C/null_pointer_constants.c               ok
 C/number2.c                              ok
 C/number3.c                              ok
@@ -802,7 +802,7 @@ opt/alloca.c                             ok
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
 opt/array_type.c                         ok
-opt/asmargs.c                            compile: SIGABRT
+opt/asmargs.c                            ok
 opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
