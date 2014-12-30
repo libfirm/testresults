@@ -146,7 +146,7 @@ C/gnu99/attributes5.c                    ok
 C/gnu99/basic_complex.c                  ok
 C/gnu99/binary_const.c                   ok
 C/gnu99/builtin_expect.c                 ok
-C/gnu99/builtin_nan.c                    execute: SIGABRT
+C/gnu99/builtin_nan.c                    ok
 C/gnu99/builtins_libc.c                  ok
 C/gnu99/cdecl.c                          ok
 C/gnu99/combo_load_mode.c                compile: SIGABRT
