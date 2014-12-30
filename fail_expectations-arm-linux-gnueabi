@@ -844,7 +844,7 @@ opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      compile: SIGABRT
-opt/compilerhang3.c                      compile: verify warning
+opt/compilerhang3.c                      compile: SIGABRT
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/cond.c                               ok
