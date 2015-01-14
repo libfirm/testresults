@@ -1148,6 +1148,7 @@ opt/fehler281.c                          ok
 opt/fehler282.c                          ok
 opt/fehler283.c                          ok
 opt/fehler284.c                          ok
+opt/fehler285.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
