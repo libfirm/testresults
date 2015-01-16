@@ -479,7 +479,7 @@ C/should_warn/extern_alias.c             ok
 C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
 C/should_warn/initializer1.c             ok
-C/should_warn/initializer2.c             compile: returncode not zero but 1
+C/should_warn/initializer2.c             ok
 C/should_warn/initializer8.c             ok
 C/should_warn/invalid_bytesequence.c     compile: reported 0 warnings instead of 1
 C/should_warn/main0.c                    ok
