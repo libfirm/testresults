@@ -595,6 +595,7 @@ backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
+backend/destam_flags.c                   compile: SIGABRT
 backend/double_memperm.c                 ok
 backend/extern_sret.c                    ok
 backend/fabsf1.c                         ok
