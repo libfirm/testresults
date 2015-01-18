@@ -849,6 +849,7 @@ opt/compilerhang2.c                      compile: SIGABRT
 opt/compilerhang3.c                      compile: SIGABRT
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
+opt/complement.c                         ok
 opt/cond.c                               ok
 opt/confirm.c                            ok
 opt/const.c                              ok
