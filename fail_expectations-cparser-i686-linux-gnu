@@ -844,7 +844,7 @@ opt/compilerhang2.c                      ok
 opt/compilerhang3.c                      ok
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
-opt/complement.c                         asm: !check 'BAD' failed
+opt/complement.c                         ok
 opt/cond.c                               ok
 opt/confirm.c                            ok
 opt/const.c                              ok
@@ -1150,7 +1150,7 @@ opt/fehler280.c                          ok
 opt/fehler281.c                          ok
 opt/fehler282.c                          ok
 opt/fehler283.c                          ok
-opt/fehler284.c                          compile: SIGABRT
+opt/fehler284.c                          ok
 opt/fehler285.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
@@ -1526,4 +1526,4 @@ x86code/shiftd.c                         ok
 x86code/struct.c                         ok
 x86code/struct_alignment.c               ok
 x86code/test16.c                         asm: check 'testw .0x2A2A, _?x' failed
-x86code/x87sim.c                         execute: returncode not zero but 1
+x86code/x87sim.c                         ok
