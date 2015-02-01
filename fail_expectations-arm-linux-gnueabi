@@ -1261,7 +1261,7 @@ opt/multidim-array.c                     ok
 opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
-opt/nan_conv.c                           execute: output mismatch
+opt/nan_conv.c                           ok
 opt/nans.c                               ok
 opt/nested_loops.c                       ok
 opt/nested_loops2.c                      ok
