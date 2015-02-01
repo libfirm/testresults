@@ -38,6 +38,7 @@ C/constexpr5.c                           ok
 C/constexpr6.c                           ok
 C/constexpr7.c                           ok
 C/constexpr8.c                           ok
+C/constexpr9.c                           ok
 C/cp_error001.c                          ok
 C/cp_error004.c                          ok
 C/cp_error005.c                          ok
