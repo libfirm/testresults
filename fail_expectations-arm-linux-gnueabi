@@ -1162,6 +1162,7 @@ opt/fehler283.c                          compile: SIGABRT
 opt/fehler284.c                          ok
 opt/fehler285.c                          ok
 opt/fehler286.c                          compile: linker error
+opt/fehler287.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
