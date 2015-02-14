@@ -1476,7 +1476,7 @@ preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
-x86code/asm_immediate.c                  compile: SIGABRT
+x86code/asm_immediate.c                  ok
 x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
@@ -1484,7 +1484,7 @@ x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
 x86code/asm_test15.c                     execute: output mismatch
-x86code/asm_test16.c                     compile: SIGABRT
+x86code/asm_test16.c                     ok
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
