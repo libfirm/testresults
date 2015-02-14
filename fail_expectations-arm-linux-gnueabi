@@ -1292,6 +1292,8 @@ opt/reassoc2.c                           ok
 opt/reassoc3.c                           ok
 opt/reassoc4.c                           ok
 opt/reassoc5.c                           ok
+opt/reassoc6.c                           ok
+opt/reassoc7.c                           ok
 opt/rotate.c                             execute: output mismatch
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
