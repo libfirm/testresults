@@ -1292,6 +1292,7 @@ opt/reassoc007.c                         ok
 opt/reassoc008.c                         ok
 opt/reassoc009.c                         ok
 opt/reassoc010.c                         ok
+opt/reassoc011.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             compile: SIGABRT
 opt/setjump.c                            compile: SIGABRT
