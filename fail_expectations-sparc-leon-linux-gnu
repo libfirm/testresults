@@ -598,6 +598,7 @@ backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/destam_flags.c                   ok
+backend/destam_flags2.c                  ok
 backend/double_memperm.c                 ok
 backend/extern_sret.c                    ok
 backend/fabsf1.c                         ok
@@ -1159,6 +1160,11 @@ opt/fehler285.c                          ok
 opt/fehler286.c                          ok
 opt/fehler287.c                          ok
 opt/fehler288.c                          ok
+opt/fehler289.c                          ok
+opt/fehler290.c                          ok
+opt/fehler291.c                          ok
+opt/fehler292.c                          ok
+opt/fehler293.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1293,6 +1299,11 @@ opt/reassoc008.c                         ok
 opt/reassoc009.c                         ok
 opt/reassoc010.c                         ok
 opt/reassoc011.c                         ok
+opt/reassoc012.c                         ok
+opt/reassoc013.c                         ok
+opt/reassoc014.c                         ok
+opt/reassoc015.c                         ok
+opt/reassoc016.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
