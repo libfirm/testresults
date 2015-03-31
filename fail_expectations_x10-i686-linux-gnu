@@ -86,6 +86,7 @@ If4.x10                                  ok
 ImplementsAny.x10                        ok
 InstanceOfComparable.x10                 ok
 InterfaceCall.x10                        ok
+InterfaceLookup.x10                      run: SIGABRT
 IterableTest.x10                         ok
 LazyAnd.x10                              ok
 LazyOr.x10                               ok
