@@ -1165,6 +1165,7 @@ opt/fehler290.c                          ok
 opt/fehler291.c                          execute: returncode not zero but 1
 opt/fehler292.c                          execute: returncode not zero but 1
 opt/fehler293.c                          ok
+opt/fehler294.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
