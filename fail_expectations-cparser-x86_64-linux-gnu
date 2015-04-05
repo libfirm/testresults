@@ -833,7 +833,7 @@ opt/cmp.c                                ok
 opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo10.c                            ok
-opt/combo11.c                            compile: SIGABRT
+opt/combo11.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
@@ -1158,9 +1158,9 @@ opt/fehler283.c                          compile: SIGABRT
 opt/fehler284.c                          ok
 opt/fehler285.c                          ok
 opt/fehler286.c                          ok
-opt/fehler287.c                          execute: returncode not zero but 1
-opt/fehler288.c                          compile: SIGABRT
-opt/fehler289.c                          execute: returncode not zero but -127
+opt/fehler287.c                          ok
+opt/fehler288.c                          ok
+opt/fehler289.c                          ok
 opt/fehler290.c                          ok
 opt/fehler291.c                          ok
 opt/fehler292.c                          ok
@@ -1267,7 +1267,7 @@ opt/multidim-array.c                     ok
 opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
-opt/nan_conv.c                           execute: output mismatch
+opt/nan_conv.c                           ok
 opt/nans.c                               ok
 opt/nested_loops.c                       ok
 opt/nested_loops2.c                      ok
