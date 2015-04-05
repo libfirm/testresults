@@ -833,7 +833,7 @@ opt/cmp.c                                ok
 opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo10.c                            ok
-opt/combo11.c                            compile: SIGABRT
+opt/combo11.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
@@ -1157,13 +1157,13 @@ opt/fehler282.c                          ok
 opt/fehler283.c                          ok
 opt/fehler284.c                          ok
 opt/fehler285.c                          execute: returncode not zero but 1
-opt/fehler286.c                          compile: SIGABRT
-opt/fehler287.c                          execute: returncode not zero but 1
-opt/fehler288.c                          compile: SIGABRT
-opt/fehler289.c                          execute: returncode not zero but -127
+opt/fehler286.c                          ok
+opt/fehler287.c                          ok
+opt/fehler288.c                          ok
+opt/fehler289.c                          ok
 opt/fehler290.c                          ok
-opt/fehler291.c                          execute: returncode not zero but 1
-opt/fehler292.c                          execute: returncode not zero but 1
+opt/fehler291.c                          ok
+opt/fehler292.c                          ok
 opt/fehler293.c                          ok
 opt/fehler294.c                          ok
 opt/fehler295.c                          ok
@@ -1267,7 +1267,7 @@ opt/multidim-array.c                     ok
 opt/mux.c                                ok
 opt/muxcmps.c                            ok
 opt/muxopts.c                            ok
-opt/nan_conv.c                           execute: output mismatch
+opt/nan_conv.c                           ok
 opt/nans.c                               ok
 opt/nested_loops.c                       ok
 opt/nested_loops2.c                      ok
@@ -1494,7 +1494,7 @@ preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
-x86code/asm_immediate.c                  compile: SIGABRT
+x86code/asm_immediate.c                  ok
 x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
@@ -1502,7 +1502,7 @@ x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
 x86code/asm_test15.c                     execute: output mismatch
-x86code/asm_test16.c                     compile: SIGABRT
+x86code/asm_test16.c                     ok
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
