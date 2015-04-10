@@ -1169,6 +1169,7 @@ opt/fehler294.c                          ok
 opt/fehler295.c                          ok
 opt/fehler296.c                          ok
 opt/fehler297.c                          compile: SIGABRT
+opt/fehler298.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
