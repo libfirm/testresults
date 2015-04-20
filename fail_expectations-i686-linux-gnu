@@ -615,6 +615,7 @@ backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
 backend/ia32_shl.c                       ok
 backend/inconsistent_outs.c              ok
+backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                ok
 backend/longfunc.c                       ok
@@ -1524,6 +1525,7 @@ x86code/cfopt.c                          ok
 x86code/common.c                         ok
 x86code/cp_error022.c                    ok
 x86code/cp_error040.c                    ok
+x86code/destam_shift.c                   asm: check[1] 'shrb' failed
 x86code/doz.c                            ok
 x86code/early_clobber.c                  ok
 x86code/fehler020.c                      ok
