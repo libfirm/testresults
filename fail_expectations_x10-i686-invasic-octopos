@@ -134,6 +134,7 @@ SimpleTest2.x10                          ok
 SimpleTest3.x10                          ok
 StackTest.x10                            ok
 StaticFields.x10                         ok
+StaticFields2.x10                        run: output mismatch
 StaticInnerClass.x10                     ok
 StaticNonConstTest1.x10                  ok
 StaticNonConstTest2.x10                  ok
