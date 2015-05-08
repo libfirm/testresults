@@ -1264,7 +1264,7 @@ opt/loopspilling.c                       ok
 opt/lrot.c                               ok
 opt/max.c                                ok
 opt/memperm_stress.c                     compile: SIGABRT
-opt/minus_zero.c                         execute: SIGABRT
+opt/minus_zero.c                         ok
 opt/mismatch.c                           ok
 opt/mod10.c                              ok
 opt/most_complex_conv.c                  compile: SIGABRT
