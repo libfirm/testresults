@@ -249,6 +249,7 @@ C/nowarn/scanf_suppress.c                ok
 C/nowarn/scanf_width_c.c                 ok
 C/nowarn/scanf_width_s.c                 ok
 C/nowarn/sign_compare.c                  ok
+C/nowarn/voidret.c                       ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
 C/nowarn/write_only11.c                  ok
@@ -526,6 +527,17 @@ C/should_warn/write_only4.c              ok
 C/should_warn/write_only6.c              ok
 C/should_warn/write_only8.c              ok
 C/should_warn/write_strings.c            ok
+C/should_warn_pedantic/complex_complement.c compile: missed warnings
+C/should_warn_pedantic/double_typedef.c  compile: returncode not zero but 1
+C/should_warn_pedantic/gnuimagext.c      compile: missed warnings
+C/should_warn_pedantic/gnuimagext2.c     compile: missed warnings
+C/should_warn_pedantic/pointerarith.c    compile: missed warnings
+C/should_warn_pedantic/pointerarith2.c   compile: missed warnings
+C/should_warn_pedantic/pointerarith3.c   compile: missed warnings
+C/should_warn_pedantic/pointerarith4.c   compile: missed warnings
+C/should_warn_pedantic/pointerarith5.c   compile: missed warnings
+C/should_warn_pedantic/sizeof_function.c compile: missed warnings
+C/should_warn_pedantic/voidret.c         ok
 C/sideeffects.c                          ok
 C/static_assert.c                        ok
 C/static_assert2.c                       ok
