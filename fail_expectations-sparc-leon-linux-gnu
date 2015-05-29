@@ -252,7 +252,7 @@ C/nowarn/sign_compare.c                  ok
 C/nowarn/voidret.c                       ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
-C/nowarn/write_only11.c                  compile: 1 compile errors
+C/nowarn/write_only11.c                  ok
 C/nowarn/write_only12.c                  ok
 C/nowarn/write_only13.c                  ok
 C/nowarn/write_only14.c                  ok
