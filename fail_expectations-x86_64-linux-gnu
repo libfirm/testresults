@@ -582,7 +582,7 @@ backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
 backend/amd64_modeb.c                    ok
 backend/amd64_sign_extend.c              ok
-backend/amd64_source_am.c                compile: SIGABRT
+backend/amd64_source_am.c                ok
 backend/amd64_sub.c                      ok
 backend/amd64_umod.c                     ok
 backend/amd64_umod2.c                    ok
