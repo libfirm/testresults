@@ -731,12 +731,12 @@ gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
-langshootout/n-body.c                    compile: SIGABRT
+langshootout/n-body.c                    ok
 langshootout/nsieve-bits.c               ok
 langshootout/nsieve.c                    ok
-langshootout/partial-sums.c              compile: SIGABRT
+langshootout/partial-sums.c              ok
 langshootout/recursive.c                 ok
-langshootout/spectral-norm.c             compile: SIGABRT
+langshootout/spectral-norm.c             ok
 llvm/2003-05-14-initialize-string.c      ok
 llvm/2003-05-21-BitfieldHandling.c       ok
 llvm/2003-05-21-UnionBitfields.c         ok
@@ -895,7 +895,7 @@ opt/enum.c                               ok
 opt/fabs.c                               ok
 opt/fak.c                                ok
 opt/fastcall.c                           ok
-opt/fbench.c                             compile: SIGABRT
+opt/fbench.c                             ok
 opt/fcall.c                              ok
 opt/fcmp.c                               ok
 opt/fe_bug.c                             ok
@@ -1325,7 +1325,7 @@ opt/reassoc014.c                         ok
 opt/reassoc015.c                         ok
 opt/reassoc016.c                         ok
 opt/rotate.c                             ok
-opt/rtsopt.c                             compile: SIGABRT
+opt/rtsopt.c                             ok
 opt/setjump.c                            compile: SIGABRT
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
