@@ -1339,7 +1339,7 @@ opt/reassoc027.c                         ok
 opt/reassoc028.c                         ok
 opt/reassoc029.c                         ok
 opt/reassoc030.c                         ok
-opt/reassoc031.c                         compile: SIGABRT
+opt/reassoc031.c                         ok
 opt/reassoc032.c                         ok
 opt/reassoc033.c                         ok
 opt/reassoc034.c                         ok
