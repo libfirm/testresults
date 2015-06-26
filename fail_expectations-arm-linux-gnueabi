@@ -576,10 +576,10 @@ backend/alloca.c                         compile: SIGABRT
 backend/allocacall.c                     compile: SIGABRT
 backend/am_explode.c                     ok
 backend/am_possibilities.c               ok
-backend/am_test.c                        compile: SIGABRT
+backend/am_test.c                        ok
 backend/am_test2.c                       ok
 backend/am_test3.c                       ok
-backend/am_test4.c                       compile: SIGABRT
+backend/am_test4.c                       ok
 backend/am_test5.c                       ok
 backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
@@ -646,7 +646,7 @@ backend/lower_call4.c                    ok
 backend/lower_copyb.c                    ok
 backend/memperm.c                        compile: SIGABRT
 backend/minus64.c                        ok
-backend/optest.c                         compile: SIGABRT
+backend/optest.c                         ok
 backend/optest_float.c                   ok
 backend/optest_longlong.c                ok
 backend/paramaddr.c                      ok
@@ -1337,7 +1337,7 @@ opt/reassoc020.c                         ok
 opt/reassoc021.c                         ok
 opt/reassoc022.c                         ok
 opt/reassoc023.c                         ok
-opt/reassoc024.c                         compile: SIGABRT
+opt/reassoc024.c                         ok
 opt/reassoc025.c                         ok
 opt/reassoc026.c                         ok
 opt/reassoc027.c                         ok
@@ -1352,7 +1352,7 @@ opt/rotate.c                             execute: output mismatch
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
 opt/shiftamount.c                        ok
-opt/shiftconst.c                         compile: SIGABRT
+opt/shiftconst.c                         ok
 opt/should_be_same.c                     ok
 opt/simd1-i.c                            ok
 opt/simd1.c                              ok
