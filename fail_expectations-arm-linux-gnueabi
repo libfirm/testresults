@@ -615,6 +615,7 @@ backend/builtin_popcountll.c             compile: assembler error
 backend/chordal.c                        ok
 backend/cmovs.c                          compile: assembler error
 backend/conv_float_unsigned.c            compile: linker error
+backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/double_memperm.c                 compile: SIGABRT
@@ -1329,6 +1330,24 @@ opt/reassoc013.c                         ok
 opt/reassoc014.c                         ok
 opt/reassoc015.c                         ok
 opt/reassoc016.c                         ok
+opt/reassoc017.c                         ok
+opt/reassoc018.c                         ok
+opt/reassoc019.c                         ok
+opt/reassoc020.c                         ok
+opt/reassoc021.c                         ok
+opt/reassoc022.c                         ok
+opt/reassoc023.c                         ok
+opt/reassoc024.c                         compile: SIGABRT
+opt/reassoc025.c                         ok
+opt/reassoc026.c                         ok
+opt/reassoc027.c                         ok
+opt/reassoc028.c                         ok
+opt/reassoc029.c                         ok
+opt/reassoc030.c                         ok
+opt/reassoc031.c                         compile: SIGABRT
+opt/reassoc032.c                         ok
+opt/reassoc033.c                         ok
+opt/reassoc034.c                         ok
 opt/rotate.c                             execute: output mismatch
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
