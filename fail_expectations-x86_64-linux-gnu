@@ -154,7 +154,7 @@ C/gnu99/cdecl.c                          ok
 C/gnu99/combo_load_mode.c                ok
 C/gnu99/complex_conjugate.c              ok
 C/gnu99/complex_int.c                    ok
-C/gnu99/complex_misc.c                   compile: SIGABRT
+C/gnu99/complex_misc.c                   ok
 C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  ok
 C/gnu99/construct_destruct.c             ok
@@ -829,9 +829,9 @@ opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
-opt/bitcast_dw.c                         compile: SIGABRT
-opt/bitcast_f2i.c                        compile: SIGABRT
-opt/bitcast_i2f.c                        compile: SIGABRT
+opt/bitcast_dw.c                         ok
+opt/bitcast_f2i.c                        ok
+opt/bitcast_i2f.c                        ok
 opt/bitfield.c                           ok
 opt/bittest.c                            ok
 opt/bittest2.c                           ok
@@ -1240,7 +1240,7 @@ opt/inline23.c                           compile: SIGABRT
 opt/inline24.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
-opt/invsqrt.c                            compile: SIGABRT
+opt/invsqrt.c                            ok
 opt/ioet.c                               ok
 opt/jumpthreading.c                      ok
 opt/jumpthreading2.c                     ok
@@ -1339,7 +1339,7 @@ opt/reassoc027.c                         ok
 opt/reassoc028.c                         ok
 opt/reassoc029.c                         ok
 opt/reassoc030.c                         ok
-opt/reassoc031.c                         compile: SIGABRT
+opt/reassoc031.c                         ok
 opt/reassoc032.c                         ok
 opt/reassoc033.c                         ok
 opt/reassoc034.c                         ok
