@@ -154,7 +154,7 @@ C/gnu99/cdecl.c                          ok
 C/gnu99/combo_load_mode.c                ok
 C/gnu99/complex_conjugate.c              ok
 C/gnu99/complex_int.c                    ok
-C/gnu99/complex_misc.c                   compile: SIGABRT
+C/gnu99/complex_misc.c                   ok
 C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  ok
 C/gnu99/construct_destruct.c             ok
@@ -582,7 +582,7 @@ backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
 backend/amd64_modeb.c                    ok
 backend/amd64_sign_extend.c              ok
-backend/amd64_source_am.c                compile: SIGABRT
+backend/amd64_source_am.c                ok
 backend/amd64_sub.c                      ok
 backend/amd64_umod.c                     ok
 backend/amd64_umod2.c                    ok
@@ -732,12 +732,12 @@ gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
-langshootout/n-body.c                    compile: SIGABRT
+langshootout/n-body.c                    ok
 langshootout/nsieve-bits.c               ok
 langshootout/nsieve.c                    ok
-langshootout/partial-sums.c              compile: SIGABRT
+langshootout/partial-sums.c              ok
 langshootout/recursive.c                 ok
-langshootout/spectral-norm.c             compile: SIGABRT
+langshootout/spectral-norm.c             ok
 llvm/2003-05-14-initialize-string.c      ok
 llvm/2003-05-21-BitfieldHandling.c       ok
 llvm/2003-05-21-UnionBitfields.c         ok
@@ -829,9 +829,9 @@ opt/backendcallorder.c                   ok
 opt/backendcallorder2.c                  ok
 opt/bad.c                                ok
 opt/bf_constfold.c                       ok
-opt/bitcast_dw.c                         compile: SIGABRT
-opt/bitcast_f2i.c                        compile: SIGABRT
-opt/bitcast_i2f.c                        compile: SIGABRT
+opt/bitcast_dw.c                         ok
+opt/bitcast_f2i.c                        ok
+opt/bitcast_i2f.c                        ok
 opt/bitfield.c                           ok
 opt/bittest.c                            ok
 opt/bittest2.c                           ok
@@ -897,7 +897,7 @@ opt/enum.c                               ok
 opt/fabs.c                               ok
 opt/fak.c                                ok
 opt/fastcall.c                           ok
-opt/fbench.c                             compile: SIGABRT
+opt/fbench.c                             ok
 opt/fcall.c                              ok
 opt/fcmp.c                               ok
 opt/fe_bug.c                             ok
@@ -1241,7 +1241,7 @@ opt/inline23.c                           compile: SIGABRT
 opt/inline24.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
-opt/invsqrt.c                            compile: SIGABRT
+opt/invsqrt.c                            ok
 opt/ioet.c                               ok
 opt/jumpthreading.c                      ok
 opt/jumpthreading2.c                     ok
@@ -1345,7 +1345,7 @@ opt/reassoc032.c                         ok
 opt/reassoc033.c                         ok
 opt/reassoc034.c                         ok
 opt/rotate.c                             ok
-opt/rtsopt.c                             compile: SIGABRT
+opt/rtsopt.c                             ok
 opt/setjump.c                            compile: SIGABRT
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
