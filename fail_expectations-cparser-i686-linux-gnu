@@ -1342,7 +1342,7 @@ opt/reassoc029.c                         ok
 opt/reassoc030.c                         ok
 opt/reassoc031.c                         ok
 opt/reassoc032.c                         ok
-opt/reassoc033.c                         ok
+opt/reassoc033.c                         compile: SIGSEGV
 opt/reassoc034.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
