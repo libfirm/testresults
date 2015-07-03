@@ -1344,6 +1344,7 @@ opt/reassoc031.c                         ok
 opt/reassoc032.c                         ok
 opt/reassoc033.c                         compile: SIGSEGV
 opt/reassoc034.c                         ok
+opt/reassoc035.c                         execute: returncode not zero but 1
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
