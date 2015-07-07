@@ -22,6 +22,7 @@ AtExpressionTest.x10                     ok
 AtStructTest.x10                         ok
 AtomicAtomicTest.x10                     ok
 AtomicFunctionTest.x10                   ok
+AtomicReferenceTest.x10                  compile: returncode not zero but 1
 AtomicTest.x10                           ok
 Bitops.x10                               ok
 BoolBoxing.x10                           ok
