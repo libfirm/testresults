@@ -680,6 +680,7 @@ backend/sparc_segfault.c                 ok
 backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
 backend/spill_cost.c                     ok
+backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
