@@ -1,4 +1,5 @@
 AbstractCallBug.x10                      ok
+AbstractCallBug2.x10                     run: SIGABRT
 AbstractGenericMethod.x10                compile: returncode not zero but 1
 ActivityLocalCounter.x10                 ok
 AnonymousClass.x10                       ok
@@ -22,6 +23,8 @@ AtExpressionTest.x10                     ok
 AtStructTest.x10                         ok
 AtomicAtomicTest.x10                     ok
 AtomicFunctionTest.x10                   ok
+AtomicLongTest.x10                       compile: returncode not zero but 1
+AtomicReferenceTest.x10                  compile: returncode not zero but 1
 AtomicTest.x10                           ok
 Bitops.x10                               ok
 BoolBoxing.x10                           ok
