@@ -1351,7 +1351,7 @@ opt/reassoc031.c                         ok
 opt/reassoc032.c                         ok
 opt/reassoc033.c                         ok
 opt/reassoc034.c                         ok
-opt/reassoc035.c                         execute: returncode not zero but 1
+opt/reassoc035.c                         ok
 opt/reassoc036.c                         ok
 opt/reassoc037.c                         ok
 opt/rotate.c                             execute: output mismatch
