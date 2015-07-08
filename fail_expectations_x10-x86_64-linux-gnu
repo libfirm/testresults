@@ -23,8 +23,8 @@ AtExpressionTest.x10                     ok
 AtStructTest.x10                         ok
 AtomicAtomicTest.x10                     ok
 AtomicFunctionTest.x10                   ok
-AtomicLongTest.x10                       compile: returncode not zero but 1
-AtomicReferenceTest.x10                  compile: returncode not zero but 1
+AtomicLongTest.x10                       ok
+AtomicReferenceTest.x10                  ok
 AtomicTest.x10                           ok
 Bitops.x10                               ok
 BoolBoxing.x10                           ok
