@@ -28,6 +28,8 @@ git commit -m "buildbot update ${buildername} ${buildnumber}"
 
 # publish changes
 while ! git push origin master -u; do
+	echo "Out-of-date: " $(git describe --always --tags)
 	git fetch origin
 	git rebase origin/master -s recursive -X theirs
+	echo "Updated to: " $(git describe --always --tags)
 done
