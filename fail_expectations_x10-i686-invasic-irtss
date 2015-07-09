@@ -1,4 +1,5 @@
 AbstractCallBug.x10                      ok
+AbstractCallBug2.x10                     run: SIGABRT
 AbstractGenericMethod.x10                compile: returncode not zero but 1
 ActivityLocalCounter.x10                 ok
 AnonymousClass.x10                       ok
@@ -15,12 +16,15 @@ AtArrayListTest.x10                      ok
 AtArrayTest.x10                          ok
 AtArrayTest2.x10                         ok
 AtAsyncAtomicTest.x10                    ok
+AtAsyncTest.x10                          ok
 AtClass2Test.x10                         ok
 AtClass3Test.x10                         ok
 AtExpressionTest.x10                     ok
 AtStructTest.x10                         ok
 AtomicAtomicTest.x10                     ok
 AtomicFunctionTest.x10                   ok
+AtomicLongTest.x10                       ok
+AtomicReferenceTest.x10                  ok
 AtomicTest.x10                           ok
 Bitops.x10                               ok
 BoolBoxing.x10                           ok
@@ -86,6 +90,7 @@ If4.x10                                  ok
 ImplementsAny.x10                        ok
 InstanceOfComparable.x10                 ok
 InterfaceCall.x10                        ok
+InterfaceLookup.x10                      run: SIGABRT
 IterableTest.x10                         ok
 LazyAnd.x10                              ok
 LazyOr.x10                               ok
@@ -132,6 +137,7 @@ SimpleTest2.x10                          ok
 SimpleTest3.x10                          ok
 StackTest.x10                            ok
 StaticFields.x10                         ok
+StaticFields2.x10                        ok
 StaticInnerClass.x10                     ok
 StaticNonConstTest1.x10                  ok
 StaticNonConstTest2.x10                  ok
@@ -173,5 +179,5 @@ agent/ReinvadeCheck.x10                  ok
 agent/ReinvadeDistArrayTest.x10          ok
 agent/ReinvadePlaceLocalHandleTest.x10   ok
 agent/SFCMatMul.x10                      run: SIGABRT
-agent/SkinDetect.x10                     run: output mismatch
+agent/SkinDetect.x10                     ok
 agent/Update.x10                         ok
