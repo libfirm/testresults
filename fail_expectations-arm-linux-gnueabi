@@ -2,10 +2,6 @@ C++/should_fail/bad_retypedef.cc         compile: missed error
 C++/should_fail/bad_retypedef2.cc        compile: missed error
 C++/should_fail/bad_retypedef_sys.cc     compile: missed error
 C/LongLong.c                             ok
-C/MS/debugbreak.c                        compile: SIGABRT
-C/MS/inout.c                             compile: SIGABRT
-C/MS/noop.c                              ok
-C/MS/ud2.c                               compile: SIGABRT
 C/abi_null_mode_proj.c                   ok
 C/absolute_include.c                     ok
 C/abstract_declarator.c                  ok
@@ -41,6 +37,7 @@ C/constexpr4.c                           ok
 C/constexpr5.c                           ok
 C/constexpr6.c                           ok
 C/constexpr7.c                           ok
+C/constexpr8.c                           ok
 C/constexpr9.c                           ok
 C/cp_error001.c                          ok
 C/cp_error004.c                          ok
@@ -64,6 +61,7 @@ C/cp_error023.c                          ok
 C/cp_error024.c                          ok
 C/cp_error026.c                          execute: output mismatch
 C/cp_error027.c                          ok
+C/cp_error028.c                          ok
 C/cp_error029.c                          ok
 C/cp_error031.c                          ok
 C/cp_error032.c                          ok
@@ -158,9 +156,7 @@ C/gnu99/complex_int.c                    ok
 C/gnu99/complex_misc.c                   ok
 C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  compile: SIGABRT
-C/gnu99/constexpr8.c                     ok
 C/gnu99/construct_destruct.c             execute: output mismatch
-C/gnu99/cp_error028.c                    ok
 C/gnu99/cp_error038.c                    ok
 C/gnu99/cp_error041.c                    ok
 C/gnu99/cp_error064.c                    ok
@@ -182,7 +178,6 @@ C/gnu99/local_label.c                    ok
 C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
-C/gnu99/null_pointer_constants.c         ok
 C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/packed.c                         ok
@@ -266,6 +261,7 @@ C/nowarn/write_only17.c                  ok
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   compile: 2 compile errors
+C/null_pointer_constants.c               ok
 C/number2.c                              ok
 C/number3.c                              ok
 C/number_after_line_directive.c          ok
