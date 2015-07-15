@@ -1,183 +1,170 @@
-AbstractCallBug.x10                      compile: No such file or directory
-AbstractCallBug2.x10                     compile: No such file or directory
-AbstractGenericMethod.x10                compile: No such file or directory
-ActivityLocalCounter.x10                 compile: No such file or directory
-AnonymousClass.x10                       compile: No such file or directory
-ArrayBenchmark.x10                       compile: No such file or directory
-ArrayListTest.x10                        compile: No such file or directory
-ArrayListTest2.x10                       compile: No such file or directory
-ArrayTest.x10                            compile: No such file or directory
-Assert.x10                               compile: No such file or directory
-Async0.x10                               compile: No such file or directory
-Async1.x10                               compile: No such file or directory
-AsyncAtTest.x10                          compile: No such file or directory
-AsyncVarTest.x10                         compile: No such file or directory
-AtArrayListTest.x10                      compile: No such file or directory
-AtArrayTest.x10                          compile: No such file or directory
-AtArrayTest2.x10                         compile: No such file or directory
-AtAsyncAtomicTest.x10                    compile: No such file or directory
-AtAsyncTest.x10                          compile: No such file or directory
-AtClass2Test.x10                         compile: No such file or directory
-AtClass3Test.x10                         compile: No such file or directory
-AtExpressionTest.x10                     compile: No such file or directory
-AtStructTest.x10                         compile: No such file or directory
-AtomicAtomicTest.x10                     compile: No such file or directory
-AtomicFunctionTest.x10                   compile: No such file or directory
-AtomicLongTest.x10                       compile: No such file or directory
-AtomicReferenceTest.x10                  compile: No such file or directory
-AtomicTest.x10                           compile: No such file or directory
-Bitops.x10                               compile: No such file or directory
-BoolBoxing.x10                           compile: No such file or directory
-BoolFields.x10                           compile: No such file or directory
-BoxTest.x10                              compile: No such file or directory
-CPeanoOrder.x10                          compile: No such file or directory
-Cast1.x10                                compile: No such file or directory
-Cast2.x10                                compile: No such file or directory
-Cast3.x10                                compile: No such file or directory
-CellTest.x10                             compile: No such file or directory
-CharSwitch.x10                           compile: No such file or directory
-Class.x10                                compile: No such file or directory
-Class2.x10                               compile: No such file or directory
-ClosureField.x10                         compile: No such file or directory
-ClosureLocal.x10                         compile: No such file or directory
-ClosureTest.x10                          compile: No such file or directory
-CompareTest.x10                          compile: No such file or directory
-ConcurrentAtTest.x10                     compile: No such file or directory
-ConcurrentAtTest2.x10                    compile: No such file or directory
-ConcurrentAtTest3.x10                    compile: No such file or directory
-Conditional.x10                          compile: No such file or directory
-ConstrainedTypes.x10                     compile: No such file or directory
-DDispatch.x10                            compile: No such file or directory
-DesugarerTest.x10                        compile: No such file or directory
-DistArrayTest.x10                        compile: No such file or directory
-Dynamic.x10                              compile: No such file or directory
-DynamicInnerClass.x10                    compile: No such file or directory
-Fibonacci.x10                            compile: No such file or directory
-Fields.x10                               compile: No such file or directory
-FileTest.x10                             compile: No such file or directory
-FinishStateStress.x10                    compile: No such file or directory
-FunTest.x10                              compile: No such file or directory
-FutureTest.x10                           compile: No such file or directory
-GIMCSerializationTest.x10                compile: No such file or directory
-GenericBase.x10                          compile: No such file or directory
-GenericCall.x10                          compile: No such file or directory
-GenericCallTwoLevels.x10                 compile: No such file or directory
-GenericClass.x10                         compile: No such file or directory
-GenericClass2.x10                        compile: No such file or directory
-GenericClosure.x10                       compile: No such file or directory
-GenericConstructor.x10                   compile: No such file or directory
-GenericField.x10                         compile: No such file or directory
-GenericIdentity.x10                      compile: No such file or directory
-GenericOverride.x10                      compile: No such file or directory
-GenericParamShadowing.x10                compile: No such file or directory
-GenericStaticMethodsTest.x10             compile: No such file or directory
-GenericsTest1.x10                        compile: No such file or directory
-GetSizeTest.x10                          compile: No such file or directory
-GlobalRefTest.x10                        compile: No such file or directory
-GrowableIMCTest.x10                      compile: No such file or directory
-GuardClosure.x10                         compile: No such file or directory
-HashMapBug.x10                           compile: No such file or directory
-HashMapTest.x10                          compile: No such file or directory
-HashSetTest.x10                          compile: No such file or directory
-HelloWorld.x10                           compile: No such file or directory
-ICoreTest.x10                            compile: No such file or directory
-IMCSerializationTest.x10                 compile: No such file or directory
-IMCSerializationTest2.x10                compile: No such file or directory
-If.x10                                   compile: No such file or directory
-If2.x10                                  compile: No such file or directory
-If3.x10                                  compile: No such file or directory
-If4.x10                                  compile: No such file or directory
-ImplementsAny.x10                        compile: No such file or directory
-InstanceOfComparable.x10                 compile: No such file or directory
-InterfaceCall.x10                        compile: No such file or directory
-InterfaceLookup.x10                      compile: No such file or directory
-IterableTest.x10                         compile: No such file or directory
-LazyAnd.x10                              compile: No such file or directory
-LazyOr.x10                               compile: No such file or directory
-LocalClass.x10                           compile: No such file or directory
-Loop.x10                                 compile: No such file or directory
-Loop2.x10                                compile: No such file or directory
-Loop3.x10                                compile: No such file or directory
-NQueens.x10                              compile: No such file or directory
-NQueensDist.x10                          compile: No such file or directory
-NQueensPar.x10                           compile: No such file or directory
-NestedTypeParams.x10                     compile: No such file or directory
-NullUnbox.x10                            compile: No such file or directory
-Operators.x10                            compile: No such file or directory
-OutEdges.x10                             compile: No such file or directory
-Overrides.x10                            compile: No such file or directory
-PairTest.x10                             compile: No such file or directory
-PiParallel1.x10                          compile: No such file or directory
-PlaceLocalHandleTest.x10                 compile: No such file or directory
-PlaceTest.x10                            compile: No such file or directory
-PrimitiveTypename.x10                    compile: No such file or directory
-PrimitivesBoxing.x10                     compile: No such file or directory
-Print.x10                                compile: No such file or directory
-Print2.x10                               compile: No such file or directory
-RandomTest.x10                           compile: No such file or directory
-RecursiveAsyncTest.x10                   compile: No such file or directory
-RegionTest.x10                           compile: No such file or directory
-ReturnInAtomic.x10                       compile: No such file or directory
-Reverse.x10                              compile: No such file or directory
-SelfRefField.x10                         compile: No such file or directory
-Serialization.x10                        compile: No such file or directory
-Serialization2.x10                       compile: No such file or directory
-Simple.x10                               compile: No such file or directory
-Simple0.x10                              compile: No such file or directory
-Simple1.x10                              compile: No such file or directory
-Simple2.x10                              compile: No such file or directory
-Simple3.x10                              compile: No such file or directory
-Simple4.x10                              compile: No such file or directory
-Simple5.x10                              compile: No such file or directory
-SimpleClosure.x10                        compile: No such file or directory
-SimpleStruct.x10                         compile: No such file or directory
-SimpleStruct2.x10                        compile: No such file or directory
-SimpleTest.x10                           compile: No such file or directory
-SimpleTest2.x10                          compile: No such file or directory
-SimpleTest3.x10                          compile: No such file or directory
-StackTest.x10                            compile: No such file or directory
-StaticFields.x10                         compile: No such file or directory
-StaticFields2.x10                        compile: No such file or directory
-StaticInnerClass.x10                     compile: No such file or directory
-StaticNonConstTest1.x10                  compile: No such file or directory
-StaticNonConstTest2.x10                  compile: No such file or directory
-StaticNonConstTest3.x10                  compile: No such file or directory
-StaticNonConstTest4.x10                  compile: No such file or directory
-StaticNonConstTest5.x10                  compile: No such file or directory
-StringBuilderTest.x10                    compile: No such file or directory
-StringConcat.x10                         compile: No such file or directory
-StringEquals.x10                         compile: No such file or directory
-StringIndex.x10                          compile: No such file or directory
-StringInstanceOf.x10                     compile: No such file or directory
-StringInterfaceCall.x10                  compile: No such file or directory
-StringOps.x10                            compile: No such file or directory
-Struct.x10                               compile: No such file or directory
-StructArgs.x10                           compile: No such file or directory
-StructStdMethods.x10                     compile: No such file or directory
-Structs.x10                              compile: No such file or directory
-SubtypeTest.x10                          compile: No such file or directory
-SuperTest.x10                            compile: No such file or directory
-Switch.x10                               compile: No such file or directory
-Switch2.x10                              compile: No such file or directory
-TestObject.x10                           compile: No such file or directory
-This.x10                                 compile: No such file or directory
-TryCatchFinally.x10                      compile: No such file or directory
-TryFinallyBreakContinue.x10              compile: No such file or directory
-TryFinallyReturn.x10                     compile: No such file or directory
-TypeNames.x10                            compile: No such file or directory
-WhenTest.x10                             compile: No such file or directory
-X10CPPCrash.x10                          compile: No such file or directory
-ZeroTest.x10                             compile: No such file or directory
-agent/Fehler001.x10                      compile: No such file or directory
-agent/HelloAgent.x10                     compile: No such file or directory
-agent/Integrate.x10                      compile: No such file or directory
-agent/InvadeTest.x10                     compile: No such file or directory
-agent/MapReduce.x10                      compile: No such file or directory
-agent/Multiple.x10                       compile: No such file or directory
-agent/PEDistTest.x10                     compile: No such file or directory
-agent/ReinvadeCheck.x10                  compile: No such file or directory
-agent/ReinvadeDistArrayTest.x10          compile: No such file or directory
-agent/ReinvadePlaceLocalHandleTest.x10   compile: No such file or directory
-agent/SFCMatMul.x10                      compile: No such file or directory
-agent/SkinDetect.x10                     compile: No such file or directory
-agent/Update.x10                         compile: No such file or directory
+AbstractCallBug.x10                      ok
+AbstractCallBug2.x10                     compile: returncode not zero but 1
+AbstractGenericMethod.x10                compile: returncode not zero but 1
+ActivityLocalCounter.x10                 ok
+AnonymousClass.x10                       compile: returncode not zero but 1
+ArrayBenchmark.x10                       ok
+ArrayListTest.x10                        compile: returncode not zero but 1
+ArrayListTest2.x10                       ok
+ArrayTest.x10                            ok
+Assert.x10                               ok
+Async0.x10                               ok
+Async1.x10                               ok
+AsyncAtTest.x10                          ok
+AsyncVarTest.x10                         ok
+AtArrayListTest.x10                      ok
+AtArrayTest.x10                          ok
+AtArrayTest2.x10                         ok
+AtAsyncAtomicTest.x10                    ok
+AtAsyncTest.x10                          ok
+AtClass2Test.x10                         ok
+AtClass3Test.x10                         ok
+AtExpressionTest.x10                     ok
+AtStructTest.x10                         ok
+AtomicAtomicTest.x10                     ok
+AtomicFunctionTest.x10                   ok
+AtomicLongTest.x10                       ok
+AtomicReferenceTest.x10                  ok
+AtomicTest.x10                           ok
+Bitops.x10                               ok
+BoolBoxing.x10                           compile: returncode not zero but 1
+BoolFields.x10                           compile: returncode not zero but 1
+BoxTest.x10                              ok
+CPeanoOrder.x10                          compile: returncode not zero but 1
+Cast1.x10                                ok
+Cast2.x10                                compile: returncode not zero but 1
+Cast3.x10                                ok
+CellTest.x10                             ok
+CharSwitch.x10                           ok
+Class.x10                                compile: returncode not zero but 1
+Class2.x10                               compile: returncode not zero but 1
+ClosureField.x10                         compile: returncode not zero but 1
+ClosureLocal.x10                         compile: returncode not zero but 1
+ClosureTest.x10                          ok
+CompareTest.x10                          compile: returncode not zero but 1
+ConcurrentAtTest.x10                     ok
+ConcurrentAtTest2.x10                    compile: returncode not zero but 1
+ConcurrentAtTest3.x10                    ok
+Conditional.x10                          compile: returncode not zero but 1
+ConstrainedTypes.x10                     compile: returncode not zero but 1
+DDispatch.x10                            compile: returncode not zero but 1
+DesugarerTest.x10                        ok
+DistArrayTest.x10                        ok
+Dynamic.x10                              compile: returncode not zero but 1
+DynamicInnerClass.x10                    compile: returncode not zero but 1
+Fibonacci.x10                            compile: returncode not zero but 1
+Fields.x10                               compile: returncode not zero but 1
+FileTest.x10                             run: output mismatch
+FinishStateStress.x10                    compile: returncode not zero but 1
+FunTest.x10                              compile: returncode not zero but 1
+FutureTest.x10                           ok
+GIMCSerializationTest.x10                compile: returncode not zero but 1
+GenericBase.x10                          compile: returncode not zero but 1
+GenericCall.x10                          compile: returncode not zero but 1
+GenericCallTwoLevels.x10                 compile: returncode not zero but 1
+GenericClass.x10                         compile: returncode not zero but 1
+GenericClass2.x10                        compile: returncode not zero but 1
+GenericClosure.x10                       compile: returncode not zero but 1
+GenericConstructor.x10                   compile: returncode not zero but 1
+GenericField.x10                         compile: returncode not zero but 1
+GenericIdentity.x10                      compile: returncode not zero but 1
+GenericOverride.x10                      compile: returncode not zero but 1
+GenericParamShadowing.x10                compile: returncode not zero but 1
+GenericStaticMethodsTest.x10             compile: returncode not zero but 1
+GenericsTest1.x10                        compile: returncode not zero but 1
+GetSizeTest.x10                          compile: returncode not zero but 1
+GlobalRefTest.x10                        compile: returncode not zero but 1
+GrowableIMCTest.x10                      compile: returncode not zero but 1
+GuardClosure.x10                         ok
+HashMapBug.x10                           ok
+HashMapTest.x10                          ok
+HashSetTest.x10                          ok
+HelloWorld.x10                           ok
+ICoreTest.x10                            compile: returncode not zero but 1
+IMCSerializationTest.x10                 ok
+IMCSerializationTest2.x10                ok
+If.x10                                   compile: returncode not zero but 1
+If2.x10                                  compile: returncode not zero but 1
+If3.x10                                  compile: returncode not zero but 1
+If4.x10                                  compile: returncode not zero but 1
+ImplementsAny.x10                        compile: returncode not zero but 1
+InstanceOfComparable.x10                 compile: returncode not zero but 1
+InterfaceCall.x10                        compile: returncode not zero but 1
+InterfaceLookup.x10                      ok
+IterableTest.x10                         ok
+LazyAnd.x10                              compile: returncode not zero but 1
+LazyOr.x10                               compile: returncode not zero but 1
+LocalClass.x10                           compile: returncode not zero but 1
+Loop.x10                                 compile: returncode not zero but 1
+Loop2.x10                                compile: returncode not zero but 1
+Loop3.x10                                compile: returncode not zero but 1
+NQueens.x10                              ok
+NQueensDist.x10                          compile: returncode not zero but 1
+NQueensPar.x10                           ok
+NestedTypeParams.x10                     compile: returncode not zero but 1
+NullUnbox.x10                            compile: returncode not zero but 1
+Operators.x10                            ok
+OutEdges.x10                             compile: returncode not zero but 1
+Overrides.x10                            ok
+PairTest.x10                             ok
+PiParallel1.x10                          ok
+PlaceLocalHandleTest.x10                 ok
+PlaceTest.x10                            ok
+PrimitiveTypename.x10                    compile: returncode not zero but 1
+PrimitivesBoxing.x10                     compile: returncode not zero but 1
+Print.x10                                compile: returncode not zero but 1
+Print2.x10                               ok
+RandomTest.x10                           ok
+RecursiveAsyncTest.x10                   ok
+RegionTest.x10                           ok
+ReturnInAtomic.x10                       ok
+Reverse.x10                              compile: returncode not zero but 1
+SelfRefField.x10                         ok
+Serialization.x10                        ok
+Serialization2.x10                       ok
+Simple.x10                               ok
+Simple0.x10                              compile: returncode not zero but 1
+Simple1.x10                              compile: returncode not zero but 1
+Simple2.x10                              compile: returncode not zero but 1
+Simple3.x10                              compile: returncode not zero but 1
+Simple4.x10                              compile: returncode not zero but 1
+Simple5.x10                              compile: returncode not zero but 1
+SimpleClosure.x10                        compile: returncode not zero but 1
+SimpleStruct.x10                         compile: returncode not zero but 1
+SimpleStruct2.x10                        compile: returncode not zero but 1
+SimpleTest.x10                           compile: returncode not zero but 1
+SimpleTest2.x10                          compile: returncode not zero but 1
+SimpleTest3.x10                          compile: returncode not zero but 1
+StackTest.x10                            compile: returncode not zero but 1
+StaticFields.x10                         compile: returncode not zero but 1
+StaticFields2.x10                        ok
+StaticInnerClass.x10                     compile: returncode not zero but 1
+StaticNonConstTest1.x10                  compile: returncode not zero but 1
+StaticNonConstTest2.x10                  compile: returncode not zero but 1
+StaticNonConstTest3.x10                  compile: returncode not zero but 1
+StaticNonConstTest4.x10                  compile: returncode not zero but 1
+StaticNonConstTest5.x10                  compile: returncode not zero but 1
+StringBuilderTest.x10                    compile: returncode not zero but 1
+StringConcat.x10                         ok
+StringEquals.x10                         compile: returncode not zero but 1
+StringIndex.x10                          run: output mismatch
+StringInstanceOf.x10                     compile: returncode not zero but 1
+StringInterfaceCall.x10                  compile: returncode not zero but 1
+StringOps.x10                            compile: returncode not zero but 1
+Struct.x10                               compile: returncode not zero but 1
+StructArgs.x10                           compile: returncode not zero but 1
+StructStdMethods.x10                     compile: returncode not zero but 1
+Structs.x10                              ok
+SubtypeTest.x10                          compile: returncode not zero but 1
+SuperTest.x10                            compile: returncode not zero but 1
+Switch.x10                               compile: returncode not zero but 1
+Switch2.x10                              compile: returncode not zero but 1
+TestObject.x10                           compile: returncode not zero but 1
+This.x10                                 ok
+TryCatchFinally.x10                      compile: returncode not zero but 1
+TryFinallyBreakContinue.x10              run: output mismatch
+TryFinallyReturn.x10                     compile: returncode not zero but 1
+TypeNames.x10                            compile: returncode not zero but 1
+WhenTest.x10                             ok
+X10CPPCrash.x10                          ok
+ZeroTest.x10                             run: output mismatch
