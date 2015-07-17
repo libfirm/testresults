@@ -307,7 +307,7 @@ C/should_fail/bad_alias6.c               ok
 C/should_fail/bad_alias7.c               ok
 C/should_fail/bad_alias8.c               ok
 C/should_fail/bad_alias9.c               ok
-C/should_fail/badarraytype.c             compile: reported 2 errors instead of 1
+C/should_fail/badarraytype.c             ok
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
 C/should_fail/bitfield.c                 ok
