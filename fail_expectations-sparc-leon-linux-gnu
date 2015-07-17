@@ -293,8 +293,8 @@ C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   ok
 C/should_fail/array9.c                   ok
-C/should_fail/asm.c                      ok
-C/should_fail/asm2.c                     ok
+C/should_fail/asm.c                      compile: reported different errors
+C/should_fail/asm2.c                     compile: reported different errors
 C/should_fail/asm3.c                     ok
 C/should_fail/assign_const.c             compile: missed error
 C/should_fail/assign_function.c          compile: missed error
@@ -362,7 +362,7 @@ C/should_fail/incompatible11.c           ok
 C/should_fail/incompatible2.c            ok
 C/should_fail/incompatible3.c            ok
 C/should_fail/incompatible4.c            ok
-C/should_fail/incompatible5.c            ok
+C/should_fail/incompatible5.c            compile: reported different errors
 C/should_fail/incompatible6.c            ok
 C/should_fail/incompatible7.c            ok
 C/should_fail/incompatible8.c            ok
@@ -378,7 +378,7 @@ C/should_fail/init2.c                    ok
 C/should_fail/init3.c                    ok
 C/should_fail/init4.c                    ok
 C/should_fail/init5.c                    ok
-C/should_fail/init8.c                    ok
+C/should_fail/init8.c                    compile: reported different errors
 C/should_fail/initializer2.c             compile: reported 2 errors instead of 1
 C/should_fail/initializer3.c             ok
 C/should_fail/initializer4.c             ok
