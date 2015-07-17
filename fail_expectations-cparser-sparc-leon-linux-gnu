@@ -299,7 +299,7 @@ C/should_fail/bad_alias6.c               ok
 C/should_fail/bad_alias7.c               ok
 C/should_fail/bad_alias8.c               ok
 C/should_fail/bad_alias9.c               ok
-C/should_fail/badarraytype.c             ok
+C/should_fail/badarraytype.c             compile: reported 2 errors instead of 1
 C/should_fail/baderr0.c                  ok
 C/should_fail/badparam.c                 ok
 C/should_fail/bitfield.c                 ok
@@ -322,7 +322,7 @@ C/should_fail/const2.c                   ok
 C/should_fail/cp_error002.c              ok
 C/should_fail/cp_error003.c              ok
 C/should_fail/cp_error054.c              ok
-C/should_fail/cp_error066.c              ok
+C/should_fail/cp_error066.c              compile: reported 2 errors instead of 1
 C/should_fail/cp_error066a.c             ok
 C/should_fail/cp_error080.c              compile: SIGABRT
 C/should_fail/cpponly.c                  ok
@@ -368,7 +368,7 @@ C/should_fail/init3.c                    ok
 C/should_fail/init4.c                    ok
 C/should_fail/init5.c                    ok
 C/should_fail/init8.c                    ok
-C/should_fail/initializer2.c             ok
+C/should_fail/initializer2.c             compile: reported 2 errors instead of 1
 C/should_fail/initializer3.c             ok
 C/should_fail/initializer4.c             ok
 C/should_fail/initializer5.c             ok
