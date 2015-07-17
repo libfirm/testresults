@@ -47,7 +47,7 @@ ConcurrentAtTest2.x10                    ok
 ConcurrentAtTest3.x10                    run: SIGKILL
 Conditional.x10                          compile: returncode not zero but 1
 ConstrainedTypes.x10                     compile: returncode not zero but 1
-DDispatch.x10                            compile: returncode not zero but 1
+DDispatch.x10                            run: output mismatch
 DesugarerTest.x10                        ok
 DistArrayTest.x10                        ok
 Dynamic.x10                              ok
@@ -150,12 +150,12 @@ StringEquals.x10                         compile: returncode not zero but 1
 StringIndex.x10                          run: output mismatch
 StringInstanceOf.x10                     compile: returncode not zero but 1
 StringInterfaceCall.x10                  compile: returncode not zero but 1
-StringOps.x10                            compile: returncode not zero but 1
+StringOps.x10                            run: output mismatch
 Struct.x10                               compile: returncode not zero but 1
 StructArgs.x10                           compile: returncode not zero but 1
 StructStdMethods.x10                     compile: returncode not zero but 1
 Structs.x10                              ok
-SubtypeTest.x10                          compile: returncode not zero but 1
+SubtypeTest.x10                          run: output mismatch
 SuperTest.x10                            compile: returncode not zero but 1
 Switch.x10                               compile: returncode not zero but 1
 Switch2.x10                              compile: returncode not zero but 1
