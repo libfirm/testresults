@@ -379,7 +379,7 @@ C/should_fail/init3.c                    ok
 C/should_fail/init4.c                    ok
 C/should_fail/init5.c                    ok
 C/should_fail/init8.c                    compile: reported different errors
-C/should_fail/initializer2.c             compile: reported 2 errors instead of 1
+C/should_fail/initializer2.c             ok
 C/should_fail/initializer3.c             ok
 C/should_fail/initializer4.c             ok
 C/should_fail/initializer5.c             ok
