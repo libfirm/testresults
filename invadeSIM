@@ -25,7 +25,7 @@ AtomicAtomicTest.x10                     run: SIGKILL
 AtomicFunctionTest.x10                   ok
 AtomicLongTest.x10                       ok
 AtomicReferenceTest.x10                  ok
-AtomicTest.x10                           ok
+AtomicTest.x10                           run: SIGKILL
 Bitops.x10                               ok
 BoolBoxing.x10                           compile: returncode not zero but 1
 BoolFields.x10                           compile: returncode not zero but 1
