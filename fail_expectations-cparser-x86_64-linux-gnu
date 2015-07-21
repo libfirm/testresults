@@ -622,6 +622,7 @@ backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            ok
+backend/frame_entity.c                   ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
