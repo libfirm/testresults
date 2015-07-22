@@ -43,7 +43,7 @@ C/cp_error004.c                          ok
 C/cp_error005.c                          ok
 C/cp_error006.c                          ok
 C/cp_error007.c                          ok
-C/cp_error008.c                          compile: SIGABRT
+C/cp_error008.c                          ok
 C/cp_error009.c                          ok
 C/cp_error010.c                          ok
 C/cp_error011.c                          ok
@@ -249,6 +249,7 @@ C/nowarn/scanf_suppress.c                ok
 C/nowarn/scanf_width_c.c                 ok
 C/nowarn/scanf_width_s.c                 ok
 C/nowarn/sign_compare.c                  ok
+C/nowarn/unused.c                        ok
 C/nowarn/voidret.c                       ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
@@ -627,6 +628,7 @@ backend/fehler_mux_am.c                  ok
 backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            compile: linker error
+backend/frame_entity.c                   compile: linker error
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
@@ -894,7 +896,7 @@ opt/doms_segfault2.c                     ok
 opt/dowhile.c                            ok
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
-opt/dwlower2.c                           compile: SIGABRT
+opt/dwlower2.c                           ok
 opt/dwlower3.c                           ok
 opt/endless.c                            ok
 opt/endless1.c                           ok
@@ -1011,7 +1013,7 @@ opt/fehler107.c                          compile: linker error
 opt/fehler108.c                          ok
 opt/fehler109.c                          compile: SIGABRT
 opt/fehler110.c                          ok
-opt/fehler112.c                          compile: SIGABRT
+opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
 opt/fehler115.c                          compile: SIGABRT
@@ -1274,7 +1276,7 @@ opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
-opt/longlong.c                           compile: SIGABRT
+opt/longlong.c                           ok
 opt/loop_without_phi.c                   ok
 opt/loopana.c                            ok
 opt/loopspilling.c                       ok
