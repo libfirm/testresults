@@ -177,6 +177,7 @@ agent/InvadeTest.x10                     ok
 agent/InvasiveQuickSort.x10              run: SIGABRT
 agent/Malleable.x10                      compile: returncode not zero but 1
 agent/MapReduce.x10                      run: output mismatch
+agent/Multigrid.x10                      run: output mismatch
 agent/Multiple.x10                       ok
 agent/PEDistTest.x10                     ok
 agent/Recur.x10                          ok
