@@ -249,7 +249,7 @@ C/nowarn/scanf_suppress.c                ok
 C/nowarn/scanf_width_c.c                 ok
 C/nowarn/scanf_width_s.c                 ok
 C/nowarn/sign_compare.c                  ok
-C/nowarn/unused.c                        compile: produced invalid warning
+C/nowarn/unused.c                        ok
 C/nowarn/voidret.c                       ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
