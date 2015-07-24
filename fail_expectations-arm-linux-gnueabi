@@ -735,6 +735,7 @@ gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
+gcc/pr43784_2.c                          execute: returncode not zero but 32
 gcc/strct-varg-1.c                       execute: returncode not zero but 2
 gcc/va-arg-12.c                          execute: returncode not zero but 1
 langshootout/bintree.c                   ok
@@ -1196,6 +1197,7 @@ opt/fehler297.c                          ok
 opt/fehler298.c                          ok
 opt/fehler299.c                          ok
 opt/fehler300.c                          ok
+opt/fehler301.c                          execute: SIGFPE
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1356,6 +1358,7 @@ opt/reassoc034.c                         ok
 opt/reassoc035.c                         ok
 opt/reassoc036.c                         ok
 opt/reassoc037.c                         ok
+opt/reassoc038.c                         ok
 opt/rotate.c                             execute: output mismatch
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
