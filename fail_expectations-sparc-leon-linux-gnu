@@ -730,7 +730,7 @@ gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
-gcc/pr43784_2.c                          execute: returncode not zero but 32
+gcc/pr43784_2.c                          ok
 gcc/strct-varg-1.c                       execute: returncode not zero but 2
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
