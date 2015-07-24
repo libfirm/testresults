@@ -191,7 +191,7 @@ C/gnu99/redirect_nowarn.c                ok
 C/gnu99/sizeof_function.c                ok
 C/gnu99/stmtexpr.c                       compile: 1 compile errors
 C/gnu99/strangeattr.c                    ok
-C/gnu99/structalign.c                    execute: output mismatch
+C/gnu99/structalign.c                    ok
 C/gnu99/system_header_typedef.c          ok
 C/gnu99/tcctest.c                        compile: 1 compile errors
 C/gnu99/transparent_union.c              ok
