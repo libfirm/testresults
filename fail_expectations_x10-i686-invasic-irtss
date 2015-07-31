@@ -180,10 +180,11 @@ agent/MapReduce.x10                      run: output mismatch
 agent/Multigrid.x10                      run: output mismatch
 agent/Multiple.x10                       ok
 agent/PEDistTest.x10                     ok
+agent/PlaceCheck.x10                     ok
 agent/Recur.x10                          ok
 agent/ReinvadeCheck.x10                  ok
 agent/ReinvadeDistArrayTest.x10          ok
 agent/ReinvadePlaceLocalHandleTest.x10   ok
-agent/SFCMatMul.x10                      run: SIGABRT
+agent/SFCMatMul.x10                      ok
 agent/SkinDetect.x10                     ok
 agent/Update.x10                         ok
