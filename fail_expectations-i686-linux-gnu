@@ -616,6 +616,7 @@ backend/convconv.c                       ok
 backend/destam_flags.c                   compile: SIGABRT
 backend/destam_flags2.c                  compile: SIGABRT
 backend/double_memperm.c                 ok
+backend/duplicate_proj.c                 compile: SIGABRT
 backend/extern_sret.c                    ok
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
