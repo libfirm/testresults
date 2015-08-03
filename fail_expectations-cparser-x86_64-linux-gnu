@@ -616,6 +616,7 @@ backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/double_memperm.c                 ok
+backend/duplicate_proj.c                 ok
 backend/extern_sret.c                    execute: output mismatch
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
