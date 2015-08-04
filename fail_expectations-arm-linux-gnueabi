@@ -105,6 +105,7 @@ C/cp_error078.c                          ok
 C/cp_error079.c                          ok
 C/cp_error080.c                          ok
 C/cp_error081.c                          ok
+C/cp_error082.c                          compile: SIGABRT
 C/csmith1.c                              ok
 C/csmith2.c                              ok
 C/declarator_special.c                   ok
@@ -620,6 +621,7 @@ backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/double_memperm.c                 compile: SIGABRT
+backend/duplicate_proj.c                 ok
 backend/extern_sret.c                    ok
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
@@ -629,6 +631,7 @@ backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            compile: linker error
 backend/frame_entity.c                   compile: linker error
+backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
@@ -636,6 +639,7 @@ backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
 backend/ia32_shl.c                       ok
 backend/inconsistent_outs.c              ok
+backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
@@ -1171,7 +1175,7 @@ opt/fehler271.c                          ok
 opt/fehler272.c                          ok
 opt/fehler273.c                          ok
 opt/fehler274.c                          ok
-opt/fehler275.c                          compile: SIGABRT
+opt/fehler275.c                          ok
 opt/fehler276.c                          ok
 opt/fehler277.c                          ok
 opt/fehler278.c                          ok
