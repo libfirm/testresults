@@ -98,6 +98,7 @@ LocalClass.x10                           ok
 Loop.x10                                 ok
 Loop2.x10                                ok
 Loop3.x10                                ok
+MinimalIntegrate.x10                     compile: returncode not zero but 1
 NQueens.x10                              ok
 NQueensDist.x10                          ok
 NQueensPar.x10                           ok
