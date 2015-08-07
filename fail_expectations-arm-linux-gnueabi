@@ -1254,6 +1254,7 @@ opt/inline21.c                           ok
 opt/inline22.c                           ok
 opt/inline23.c                           ok
 opt/inline24.c                           ok
+opt/inline25.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
