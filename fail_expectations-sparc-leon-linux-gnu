@@ -1418,6 +1418,7 @@ opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
 preproctest/builtins.c                   ok
 preproctest/concat.c                     ok
+preproctest/concat2.c                    preprocess: SIGSEGV
 preproctest/concatbug.c                  ok
 preproctest/define_keyword.c             ok
 preproctest/defined_defined.c            ok
