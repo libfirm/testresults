@@ -19,12 +19,19 @@ fi
 git remote rm origin || true
 git remote add origin /ben/local/GIT/public/firm-testresults
 
+# construct commit message
+TCM="tmp_commit_message.txt"
+echo "buildbot update ${buildername} ${buildnumber}" >${TCM}
+echo "" >>${TCM}
+echo "See: http://buildbot.info.uni-karlsruhe.de/builders/${buildername// /%20}/builds/${buildnumber}" >>${TCM}
+
 # locally commit changes
 cp "${new_expectations}" "${file}"
 git add "${file}"
 git config user.email "firm@ipd.info.uni-karlsruhe.de"
 git config user.name "buildbot"
-git commit -m "buildbot update ${buildername} ${buildnumber}"
+git commit --file=${TCM}
+rm ${TCM}
 
 # publish changes
 while ! git push origin master -u; do
