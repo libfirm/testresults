@@ -220,7 +220,7 @@ C/input_iso8859_1.c                      ok
 C/input_iso8859_15.c                     ok
 C/input_utf8.c                           ok
 C/int_promote.c                          ok
-C/kr.c                                   compile: SIGABRT
+C/kr.c                                   ok
 C/kr2.c                                  ok
 C/kr4.c                                  ok
 C/kr6.c                                  ok
@@ -645,8 +645,8 @@ backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
 backend/longfunc.c                       compile: assembler error
 backend/longlongptr.c                    ok
-backend/lower_call.c                     compile: SIGABRT
-backend/lower_call2.c                    compile: SIGABRT
+backend/lower_call.c                     ok
+backend/lower_call2.c                    ok
 backend/lower_call3.c                    ok
 backend/lower_call4.c                    ok
 backend/lower_copyb.c                    ok
@@ -693,7 +693,7 @@ backend/stackarray.c                     ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        compile: SIGABRT
 backend/transform_loop.c                 ok
-backend/udiv.c                           compile: SIGABRT
+backend/udiv.c                           ok
 backend/udiv2.c                          ok
 backend/vastruct.c                       ok
 cparser/should_fail/badinput.cmd         ok
@@ -770,7 +770,7 @@ llvm/PR491.c                             ok
 llvm/PR640.c                             execute: returncode not zero but 1
 llvm/badidx.c                            ok
 llvm/bigstack.c                          compile: SIGABRT
-llvm/callargs.c                          compile: SIGABRT
+llvm/callargs.c                          execute: SIGSEGV
 llvm/casts.c                             compile: SIGABRT
 llvm/matrixTranspose.c                   compile: SIGABRT
 llvm/pointer_arithmetic.c                ok
@@ -962,7 +962,7 @@ opt/fehler050.c                          ok
 opt/fehler051.c                          compile: SIGABRT
 opt/fehler052.c                          execute: output mismatch
 opt/fehler053.c                          ok
-opt/fehler054.c                          compile: SIGABRT
+opt/fehler054.c                          ok
 opt/fehler055.c                          ok
 opt/fehler056.c                          ok
 opt/fehler057.c                          ok
@@ -1016,12 +1016,12 @@ opt/fehler105.c                          ok
 opt/fehler106.c                          compile: SIGABRT
 opt/fehler107.c                          compile: linker error
 opt/fehler108.c                          ok
-opt/fehler109.c                          compile: SIGABRT
+opt/fehler109.c                          ok
 opt/fehler110.c                          ok
 opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
-opt/fehler115.c                          compile: SIGABRT
+opt/fehler115.c                          compile: linker error
 opt/fehler116.c                          ok
 opt/fehler117.c                          compile: linker error
 opt/fehler118.c                          ok
@@ -1088,7 +1088,7 @@ opt/fehler183.c                          ok
 opt/fehler184.c                          ok
 opt/fehler186.c                          ok
 opt/fehler187.c                          ok
-opt/fehler188.c                          compile: SIGABRT
+opt/fehler188.c                          ok
 opt/fehler189.c                          ok
 opt/fehler190.c                          ok
 opt/fehler191.c                          ok
