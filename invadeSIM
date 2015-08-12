@@ -170,7 +170,7 @@ WhenTest.x10                             ok
 X10CPPCrash.x10                          ok
 ZeroTest.x10                             run: output mismatch
 agent/AntragHistogram.x10                run: output mismatch
-agent/Blocking.x10                       compile: returncode not zero but 1
+agent/Blocking.x10                       run: output mismatch
 agent/Fehler001.x10                      run: output mismatch
 agent/HelloAgent.x10                     run: output mismatch
 agent/Integrate.x10                      compile: returncode not zero but 1
@@ -182,7 +182,7 @@ agent/Multigrid.x10                      compile: returncode not zero but 1
 agent/Multiple.x10                       run: output mismatch
 agent/PEDistTest.x10                     run: output mismatch
 agent/PlaceCheck.x10                     compile: returncode not zero but 1
-agent/Recur.x10                          compile: returncode not zero but 1
+agent/Recur.x10                          run: output mismatch
 agent/ReinvadeCheck.x10                  run: output mismatch
 agent/ReinvadeDistArrayTest.x10          run: output mismatch
 agent/ReinvadePlaceLocalHandleTest.x10   run: output mismatch
