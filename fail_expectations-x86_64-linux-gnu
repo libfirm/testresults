@@ -58,7 +58,7 @@ C/cp_error020.c                          ok
 C/cp_error021.c                          ok
 C/cp_error023.c                          ok
 C/cp_error024.c                          ok
-C/cp_error026.c                          compile: SIGABRT
+C/cp_error026.c                          ok
 C/cp_error027.c                          ok
 C/cp_error029.c                          ok
 C/cp_error031.c                          ok
@@ -555,7 +555,7 @@ C/trigraphs.c                            ok
 C/union_init.c                           ok
 C/universal_character.c                  ok
 C/unkept_loop.c                          ok
-C/varargs.c                              compile: SIGABRT
+C/varargs.c                              ok
 C/vla.c                                  ok
 C/void_cast.c                            ok
 C/whiles.c                               ok
@@ -690,7 +690,7 @@ backend/tls_ptr.c                        execute: SIGSEGV
 backend/transform_loop.c                 ok
 backend/udiv.c                           ok
 backend/udiv2.c                          ok
-backend/vastruct.c                       compile: SIGABRT
+backend/vastruct.c                       ok
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
@@ -723,7 +723,7 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/920908-1.c                           compile: SIGABRT
+gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
@@ -735,8 +735,8 @@ gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
 gcc/pr43784_2.c                          ok
-gcc/strct-varg-1.c                       compile: SIGABRT
-gcc/va-arg-12.c                          compile: SIGABRT
+gcc/strct-varg-1.c                       ok
+gcc/va-arg-12.c                          ok
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
@@ -762,10 +762,10 @@ llvm/2005-05-06-LongLongSignedShift.c    ok
 llvm/ConstructorDestructorAttributes.c   ok
 llvm/DuffsDevice.c                       ok
 llvm/PR491.c                             ok
-llvm/PR640.c                             compile: SIGABRT
+llvm/PR640.c                             ok
 llvm/badidx.c                            ok
 llvm/bigstack.c                          ok
-llvm/callargs.c                          compile: SIGABRT
+llvm/callargs.c                          ok
 llvm/casts.c                             ok
 llvm/matrixTranspose.c                   ok
 llvm/pointer_arithmetic.c                ok
@@ -935,7 +935,7 @@ opt/fehler024.c                          ok
 opt/fehler025.c                          ok
 opt/fehler026.c                          ok
 opt/fehler027.c                          ok
-opt/fehler028.c                          compile: SIGABRT
+opt/fehler028.c                          ok
 opt/fehler029.c                          ok
 opt/fehler030.c                          ok
 opt/fehler031.c                          ok
@@ -955,7 +955,7 @@ opt/fehler048.c                          ok
 opt/fehler049.c                          ok
 opt/fehler050.c                          ok
 opt/fehler051.c                          ok
-opt/fehler052.c                          compile: SIGABRT
+opt/fehler052.c                          ok
 opt/fehler053.c                          ok
 opt/fehler054.c                          ok
 opt/fehler055.c                          ok
@@ -1247,9 +1247,9 @@ opt/inline2.c                            ok
 opt/inline20.c                           ok
 opt/inline21.c                           ok
 opt/inline22.c                           ok
-opt/inline23.c                           compile: SIGABRT
+opt/inline23.c                           ok
 opt/inline24.c                           ok
-opt/inline25.c                           compile: SIGABRT
+opt/inline25.c                           ok
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
@@ -1408,11 +1408,11 @@ opt/unknown_combo2.c                     ok
 opt/unreachable_block.c                  ok
 opt/use_uninit_ptr.c                     ok
 opt/vadd_store.c                         ok
-opt/valist.c                             compile: SIGABRT
-opt/valist2.c                            compile: SIGABRT
+opt/valist.c                             ok
+opt/valist2.c                            ok
 opt/vandrunen.c                          ok
 opt/vararray.c                           ok
-opt/variadic_longlong.c                  compile: SIGABRT
+opt/variadic_longlong.c                  ok
 opt/vla.c                                ok
 opt/volatile.c                           ok
 opt/while-printf.c                       ok
