@@ -58,7 +58,7 @@ C/cp_error020.c                          ok
 C/cp_error021.c                          ok
 C/cp_error023.c                          ok
 C/cp_error024.c                          ok
-C/cp_error026.c                          execute: output mismatch
+C/cp_error026.c                          compile: 1 compile errors
 C/cp_error027.c                          ok
 C/cp_error029.c                          ok
 C/cp_error031.c                          ok
@@ -194,7 +194,7 @@ C/gnu99/stmtexpr.c                       compile: 1 compile errors
 C/gnu99/strangeattr.c                    ok
 C/gnu99/structalign.c                    ok
 C/gnu99/system_header_typedef.c          ok
-C/gnu99/tcctest.c                        compile: 1 compile errors
+C/gnu99/tcctest.c                        compile: 5 compile errors
 C/gnu99/transparent_union.c              ok
 C/gnu99/transparent_union3.c             ok
 C/gnu99/typeof.c                         ok
@@ -221,7 +221,7 @@ C/input_iso8859_15.c                     ok
 C/input_utf8.c                           ok
 C/int_promote.c                          ok
 C/kr.c                                   ok
-C/kr2.c                                  ok
+C/kr2.c                                  compile: 1 compile errors
 C/kr4.c                                  ok
 C/kr6.c                                  ok
 C/kr8.c                                  ok
@@ -260,7 +260,7 @@ C/nowarn/write_only13.c                  ok
 C/nowarn/write_only14.c                  ok
 C/nowarn/write_only15.c                  ok
 C/nowarn/write_only16.c                  ok
-C/nowarn/write_only17.c                  ok
+C/nowarn/write_only17.c                  compile: 4 compile errors
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
 C/nowarn/write_only9.c                   compile: 2 compile errors
@@ -555,7 +555,8 @@ C/trigraphs.c                            ok
 C/union_init.c                           ok
 C/universal_character.c                  ok
 C/unkept_loop.c                          ok
-C/varargs.c                              execute: output mismatch
+C/varargs.c                              compile: 2 compile errors
+C/varargs2.c                             compile: 2 compile errors
 C/vla.c                                  compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
@@ -695,7 +696,7 @@ backend/tls_ptr.c                        compile: SIGABRT
 backend/transform_loop.c                 ok
 backend/udiv.c                           ok
 backend/udiv2.c                          ok
-backend/vastruct.c                       ok
+backend/vastruct.c                       compile: 2 compile errors
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
@@ -728,7 +729,7 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/920908-1.c                           execute: returncode not zero but 1
+gcc/920908-1.c                           compile: 3 compile errors
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
@@ -740,8 +741,8 @@ gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
 gcc/pr43784_2.c                          ok
-gcc/strct-varg-1.c                       execute: returncode not zero but 2
-gcc/va-arg-12.c                          execute: returncode not zero but 1
+gcc/strct-varg-1.c                       compile: 4 compile errors
+gcc/va-arg-12.c                          compile: 4 compile errors
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     compile: SIGABRT
@@ -767,10 +768,10 @@ llvm/2005-05-06-LongLongSignedShift.c    ok
 llvm/ConstructorDestructorAttributes.c   execute: output mismatch
 llvm/DuffsDevice.c                       ok
 llvm/PR491.c                             ok
-llvm/PR640.c                             execute: returncode not zero but 1
+llvm/PR640.c                             compile: 10 compile errors
 llvm/badidx.c                            ok
 llvm/bigstack.c                          compile: SIGABRT
-llvm/callargs.c                          execute: SIGSEGV
+llvm/callargs.c                          compile: 15 compile errors
 llvm/casts.c                             compile: SIGABRT
 llvm/matrixTranspose.c                   compile: SIGABRT
 llvm/pointer_arithmetic.c                ok
@@ -940,7 +941,7 @@ opt/fehler024.c                          ok
 opt/fehler025.c                          ok
 opt/fehler026.c                          ok
 opt/fehler027.c                          ok
-opt/fehler028.c                          execute: output mismatch
+opt/fehler028.c                          compile: 1 compile errors
 opt/fehler029.c                          ok
 opt/fehler030.c                          ok
 opt/fehler031.c                          ok
@@ -960,7 +961,7 @@ opt/fehler048.c                          ok
 opt/fehler049.c                          ok
 opt/fehler050.c                          ok
 opt/fehler051.c                          compile: SIGABRT
-opt/fehler052.c                          execute: output mismatch
+opt/fehler052.c                          compile: 2 compile errors
 opt/fehler053.c                          ok
 opt/fehler054.c                          ok
 opt/fehler055.c                          ok
@@ -1252,9 +1253,9 @@ opt/inline2.c                            ok
 opt/inline20.c                           ok
 opt/inline21.c                           ok
 opt/inline22.c                           ok
-opt/inline23.c                           ok
+opt/inline23.c                           compile: 1 compile errors
 opt/inline24.c                           ok
-opt/inline25.c                           ok
+opt/inline25.c                           compile: 1 compile errors
 opt/inline_infinite_loop.c               ok
 opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
@@ -1413,11 +1414,11 @@ opt/unknown_combo2.c                     ok
 opt/unreachable_block.c                  ok
 opt/use_uninit_ptr.c                     ok
 opt/vadd_store.c                         ok
-opt/valist.c                             execute: output mismatch
-opt/valist2.c                            execute: output mismatch
+opt/valist.c                             compile: 2 compile errors
+opt/valist2.c                            compile: 2 compile errors
 opt/vandrunen.c                          ok
 opt/vararray.c                           compile: SIGABRT
-opt/variadic_longlong.c                  execute: output mismatch
+opt/variadic_longlong.c                  compile: 2 compile errors
 opt/vla.c                                compile: SIGABRT
 opt/volatile.c                           ok
 opt/while-printf.c                       ok
