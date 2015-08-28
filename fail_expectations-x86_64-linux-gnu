@@ -587,6 +587,7 @@ backend/amd64_modeb.c                    ok
 backend/amd64_sign_extend.c              ok
 backend/amd64_source_am.c                ok
 backend/amd64_sub.c                      ok
+backend/amd64_sub2.c                     ok
 backend/amd64_umod.c                     ok
 backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
