@@ -661,7 +661,7 @@ backend/prefetch.c                       ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      compile: SIGABRT
 backend/setcc.c                          ok
-backend/setjmp.c                         compile: SIGABRT
+backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift.c                          ok
 backend/shift64.c                        ok
@@ -1363,7 +1363,7 @@ opt/reassoc037.c                         ok
 opt/reassoc038.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
-opt/setjump.c                            compile: SIGABRT
+opt/setjump.c                            ok
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
 opt/should_be_same.c                     ok
