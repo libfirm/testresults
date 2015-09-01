@@ -882,6 +882,7 @@ opt/const.c                              ok
 opt/const_load.c                         ok
 opt/conv.c                               ok
 opt/conv_orgie.c                         ok
+opt/convconv.c                           ok
 opt/convfloat.c                          ok
 opt/convs.c                              ok
 opt/convtest.c                           ok
@@ -1361,6 +1362,7 @@ opt/reassoc035.c                         ok
 opt/reassoc036.c                         ok
 opt/reassoc037.c                         ok
 opt/reassoc038.c                         ok
+opt/reassoc039.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
