@@ -1200,6 +1200,7 @@ opt/fehler298.c                          ok
 opt/fehler299.c                          ok
 opt/fehler300.c                          ok
 opt/fehler301.c                          execute: SIGFPE
+opt/fehler302.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
