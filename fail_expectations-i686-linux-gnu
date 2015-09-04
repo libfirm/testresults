@@ -1183,7 +1183,7 @@ opt/fehler281.c                          ok
 opt/fehler282.c                          ok
 opt/fehler283.c                          ok
 opt/fehler284.c                          ok
-opt/fehler285.c                          execute: returncode not zero but 1
+opt/fehler285.c                          ok
 opt/fehler286.c                          ok
 opt/fehler287.c                          ok
 opt/fehler288.c                          ok
