@@ -587,7 +587,7 @@ backend/amd64_modeb.c                    ok
 backend/amd64_sign_extend.c              ok
 backend/amd64_source_am.c                ok
 backend/amd64_sub.c                      ok
-backend/amd64_sub2.c                     execute: returncode not zero but 1
+backend/amd64_sub2.c                     ok
 backend/amd64_umod.c                     ok
 backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
@@ -661,7 +661,7 @@ backend/prefetch.c                       ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      compile: SIGABRT
 backend/setcc.c                          ok
-backend/setjmp.c                         compile: SIGABRT
+backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift.c                          ok
 backend/shift64.c                        ok
@@ -882,7 +882,7 @@ opt/const.c                              ok
 opt/const_load.c                         ok
 opt/conv.c                               ok
 opt/conv_orgie.c                         ok
-opt/convconv.c                           compile: SIGABRT
+opt/convconv.c                           ok
 opt/convfloat.c                          ok
 opt/convs.c                              ok
 opt/convtest.c                           ok
@@ -1200,7 +1200,7 @@ opt/fehler298.c                          ok
 opt/fehler299.c                          ok
 opt/fehler300.c                          ok
 opt/fehler301.c                          execute: SIGFPE
-opt/fehler302.c                          compile: SIGABRT
+opt/fehler302.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1363,10 +1363,10 @@ opt/reassoc035.c                         ok
 opt/reassoc036.c                         ok
 opt/reassoc037.c                         ok
 opt/reassoc038.c                         ok
-opt/reassoc039.c                         compile: SIGABRT
+opt/reassoc039.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
-opt/setjump.c                            compile: SIGABRT
+opt/setjump.c                            ok
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
 opt/should_be_same.c                     ok
