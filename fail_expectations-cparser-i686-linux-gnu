@@ -1202,6 +1202,7 @@ opt/fehler299.c                          ok
 opt/fehler300.c                          ok
 opt/fehler301.c                          execute: SIGFPE
 opt/fehler302.c                          ok
+opt/fehler303.c                          execute: returncode not zero but -126
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
