@@ -27,6 +27,7 @@ C/compoundlit3.c                         ok
 C/compoundlit4.c                         ok
 C/compoundlit5.c                         ok
 C/compoundlit6.c                         ok
+C/compoundlit6b.c                        execute: SIGSEGV
 C/compoundlit_lhs.c                      ok
 C/const2.c                               ok
 C/constarraytd.c                         ok
