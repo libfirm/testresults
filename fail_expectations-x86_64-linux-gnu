@@ -661,7 +661,7 @@ backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      compile: SIGABRT
-backend/scheduled2.c                     compile: SIGABRT
+backend/scheduled2.c                     ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
@@ -1554,6 +1554,7 @@ preproctest/t9.c                         ok
 preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
+x86_64code/cas.c                         ok
 x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
 x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
 x86_64code/lea2.c                        asm: check 'leaq\s+_?arr.*\+12\(%.*,%.*,4\), %rax' failed
