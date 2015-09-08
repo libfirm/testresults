@@ -661,6 +661,7 @@ backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      compile: SIGABRT
+backend/scheduled2.c                     compile: SIGABRT
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
