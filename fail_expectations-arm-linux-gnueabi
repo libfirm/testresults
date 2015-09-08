@@ -666,6 +666,7 @@ backend/prefalloc.c                      compile: linker error
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      ok
+backend/scheduled2.c                     ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
