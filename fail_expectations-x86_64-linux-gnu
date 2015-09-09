@@ -660,7 +660,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/scheduled.c                      compile: SIGABRT
+backend/scheduled.c                      ok
 backend/scheduled2.c                     ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
