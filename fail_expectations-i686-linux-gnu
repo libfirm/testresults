@@ -618,6 +618,7 @@ backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
 backend/destam_flags.c                   compile: SIGABRT
 backend/destam_flags2.c                  ok
+backend/div_pinned.c                     execute: SIGFPE
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 compile: SIGABRT
 backend/extern_sret.c                    ok
