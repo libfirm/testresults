@@ -72,7 +72,6 @@ GenericOverride.x10                      ok
 GenericParamShadowing.x10                ok
 GenericStaticMethodsTest.x10             ok
 GenericsTest1.x10                        ok
-GetSizeTest.x10                          ok
 GlobalRefTest.x10                        ok
 GrowableIMCTest.x10                      ok
 GuardClosure.x10                         ok
