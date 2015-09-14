@@ -618,6 +618,7 @@ backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
+backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
 backend/extern_sret.c                    ok
@@ -679,6 +680,7 @@ backend/sparc_div.c                      ok
 backend/sparc_finish.c                   ok
 backend/sparc_immediates.c               ok
 backend/sparc_keep.c                     ok
+backend/sparc_mode.c                     compile: SIGABRT
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
 backend/sparc_segfault.c                 ok
