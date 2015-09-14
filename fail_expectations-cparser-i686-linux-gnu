@@ -630,7 +630,7 @@ backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            ok
 backend/frame_entity.c                   ok
-backend/ia32_conv.c                      execute: returncode not zero but 42
+backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_remat.c                     ok
@@ -661,7 +661,7 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/scheduled.c                      compile: SIGABRT
+backend/scheduled.c                      ok
 backend/scheduled2.c                     ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
@@ -1205,7 +1205,7 @@ opt/fehler299.c                          ok
 opt/fehler300.c                          ok
 opt/fehler301.c                          execute: SIGFPE
 opt/fehler302.c                          ok
-opt/fehler303.c                          execute: returncode not zero but -126
+opt/fehler303.c                          ok
 opt/fehler304.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
