@@ -597,19 +597,19 @@ backend/arm_immediate.c                  ok
 backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
 backend/builtin_bswap64.c                ok
-backend/builtin_clz.c                    compile: linker error
+backend/builtin_clz.c                    ok
 backend/builtin_clzl.c                   ok
 backend/builtin_clzll.c                  ok
-backend/builtin_ctz.c                    compile: linker error
+backend/builtin_ctz.c                    ok
 backend/builtin_ctzl.c                   ok
 backend/builtin_ctzll.c                  ok
-backend/builtin_ffs.c                    compile: linker error
+backend/builtin_ffs.c                    ok
 backend/builtin_ffsl.c                   ok
 backend/builtin_ffsll.c                  ok
-backend/builtin_parity.c                 compile: linker error
+backend/builtin_parity.c                 ok
 backend/builtin_parityl.c                ok
 backend/builtin_parityll.c               ok
-backend/builtin_popcount.c               compile: linker error
+backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
@@ -661,8 +661,8 @@ backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
 backend/register_pressure.c              ok
-backend/scheduled.c                      compile: SIGABRT
-backend/scheduled2.c                     compile: SIGABRT
+backend/scheduled.c                      ok
+backend/scheduled2.c                     ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
@@ -1556,7 +1556,7 @@ preproctest/t9.c                         ok
 preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
-x86_64code/cas.c                         compile: SIGABRT
+x86_64code/cas.c                         ok
 x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
 x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
 x86_64code/lea2.c                        asm: check 'leaq\s+_?arr.*\+12\(%.*,%.*,4\), %rax' failed
