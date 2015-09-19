@@ -616,7 +616,7 @@ backend/chordal.c                        ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
-backend/destam_flags.c                   compile: SIGABRT
+backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/div_pinned.c                     execute: SIGFPE
 backend/double_memperm.c                 ok
@@ -1206,7 +1206,7 @@ opt/fehler300.c                          ok
 opt/fehler301.c                          execute: SIGFPE
 opt/fehler302.c                          ok
 opt/fehler303.c                          ok
-opt/fehler304.c                          compile: SIGABRT
+opt/fehler304.c                          ok
 opt/fehler305.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
