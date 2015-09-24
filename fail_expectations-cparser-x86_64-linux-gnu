@@ -112,6 +112,7 @@ C/csmith2.c                              ok
 C/declarator_special.c                   ok
 C/designators.c                          ok
 C/designators2.c                         ok
+C/designators3.c                         compile: 2 compile errors
 C/digraphs.c                             ok
 C/doublewide.c                           ok
 C/dynamic_initializers.c                 ok
@@ -1557,6 +1558,7 @@ preproctest/t9.c                         ok
 preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
+x86_64code/asm_test.c                    ok
 x86_64code/cas.c                         ok
 x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
 x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
