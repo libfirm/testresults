@@ -182,6 +182,7 @@ agent/Multigrid.x10                      compile: returncode not zero but 1
 agent/Multiple.x10                       run: output mismatch
 agent/PEDistTest.x10                     ok
 agent/PlaceCheck.x10                     ok
+agent/PlaceGap.x10                       compile: returncode not zero but 1
 agent/Recur.x10                          run: output mismatch
 agent/ReinvadeCheck.x10                  run: output mismatch
 agent/ReinvadeDistArrayTest.x10          run: output mismatch
