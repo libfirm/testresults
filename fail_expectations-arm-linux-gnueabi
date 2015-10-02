@@ -559,6 +559,7 @@ C/universal_character.c                  ok
 C/unkept_loop.c                          ok
 C/varargs.c                              compile: 2 compile errors
 C/varargs2.c                             compile: 2 compile errors
+C/varargs3.c                             compile: 6 compile errors
 C/vla.c                                  compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
