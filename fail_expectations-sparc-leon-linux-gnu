@@ -559,6 +559,7 @@ C/universal_character.c                  ok
 C/unkept_loop.c                          ok
 C/varargs.c                              ok
 C/varargs2.c                             ok
+C/varargs3.c                             compile: SIGABRT
 C/vla.c                                  ok
 C/void_cast.c                            ok
 C/whiles.c                               ok
