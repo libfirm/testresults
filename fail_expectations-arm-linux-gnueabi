@@ -759,6 +759,9 @@ langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
 langshootout/recursive.c                 compile: SIGABRT
 langshootout/spectral-norm.c             compile: SIGABRT
+lit/common.c                             run0: returncode not zero but 1
+lit/init.c                               run0: returncode not zero but 1
+lit/tls.c                                run0: returncode not zero but 1
 llvm/2003-05-14-initialize-string.c      ok
 llvm/2003-05-21-BitfieldHandling.c       ok
 llvm/2003-05-21-UnionBitfields.c         ok
