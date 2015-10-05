@@ -27,7 +27,7 @@ C/compoundlit3.c                         ok
 C/compoundlit4.c                         ok
 C/compoundlit5.c                         ok
 C/compoundlit6.c                         ok
-C/compoundlit6b.c                        execute: SIGSEGV
+C/compoundlit6b.c                        ok
 C/compoundlit_lhs.c                      ok
 C/const2.c                               ok
 C/constarraytd.c                         ok
@@ -759,10 +759,12 @@ langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
 langshootout/recursive.c                 compile: SIGABRT
 langshootout/spectral-norm.c             compile: SIGABRT
-lit/common.c                             run0: returncode not zero but 1
-lit/init.c                               run0: returncode not zero but 1
-lit/tls.c                                run0: returncode not zero but 1
-lit/tls2.c                               run0: returncode not zero but 1
+lit/common.c                             ok
+lit/init.c                               ok
+lit/relro.c                              ok
+lit/tls.c                                ok
+lit/tls2.c                               ok
+lit/visibility.c                         ok
 llvm/2003-05-14-initialize-string.c      ok
 llvm/2003-05-21-BitfieldHandling.c       ok
 llvm/2003-05-21-UnionBitfields.c         ok
