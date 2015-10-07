@@ -1216,7 +1216,7 @@ opt/fehler297.c                          ok
 opt/fehler298.c                          ok
 opt/fehler299.c                          ok
 opt/fehler300.c                          ok
-opt/fehler301.c                          execute: SIGFPE
+opt/fehler301.c                          ok
 opt/fehler302.c                          ok
 opt/fehler303.c                          ok
 opt/fehler304.c                          ok
