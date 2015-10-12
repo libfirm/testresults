@@ -174,7 +174,7 @@ agent/CurrentClaimBug.x10                compile: returncode not zero but 1
 agent/Fehler001.x10                      run: output mismatch
 agent/HelloAgent.x10                     run: output mismatch
 agent/Integrate.x10                      compile: returncode not zero but 1
-agent/InvadeTest.x10                     compile: returncode not zero but 1
+agent/InvadeTest.x10                     run: output mismatch
 agent/InvasiveQuickSort.x10              run: SIGKILL
 agent/Malleable.x10                      compile: returncode not zero but 1
 agent/MapReduce.x10                      run: output mismatch
