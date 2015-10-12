@@ -187,7 +187,7 @@ agent/Recur.x10                          ok
 agent/ReinvadeCheck.x10                  ok
 agent/ReinvadeDistArrayTest.x10          ok
 agent/ReinvadePlaceLocalHandleTest.x10   ok
-agent/ReinvadeSchedule.x10               compile: returncode not zero but 1
+agent/ReinvadeSchedule.x10               run: SIGABRT
 agent/SFCMatMul.x10                      ok
 agent/SkinDetect.x10                     ok
 agent/TileSharingTest.x10                run: SIGABRT
