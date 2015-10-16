@@ -146,7 +146,7 @@ C/gnu99/binary_const.c                   ok
 C/gnu99/builtin_expect.c                 ok
 C/gnu99/builtins_libc.c                  ok
 C/gnu99/cdecl.c                          ok
-C/gnu99/combo_load_mode.c                compile: SIGSEGV
+C/gnu99/combo_load_mode.c                compile: SIGABRT
 C/gnu99/complex_conjugate.c              ok
 C/gnu99/complex_int.c                    ok
 C/gnu99/complex_misc.c                   ok
