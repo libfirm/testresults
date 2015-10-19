@@ -533,6 +533,7 @@ C/should_warn/write_only8.c              ok
 C/should_warn/write_strings.c            ok
 C/should_warn_pedantic/complex_complement.c compile: missed warnings
 C/should_warn_pedantic/double_typedef.c  compile: returncode not zero but 1
+C/should_warn_pedantic/flexarrayinit.c   compile: SIGABRT
 C/should_warn_pedantic/gnuimagext.c      compile: missed warnings
 C/should_warn_pedantic/gnuimagext2.c     compile: missed warnings
 C/should_warn_pedantic/pointerarith.c    compile: missed warnings
