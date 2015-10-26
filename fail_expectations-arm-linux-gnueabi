@@ -763,6 +763,8 @@ langshootout/spectral-norm.c             compile: SIGABRT
 lit/common.c                             ok
 lit/init.c                               ok
 lit/relro.c                              ok
+lit/target.c                             ok
+lit/target_override.c                    ok
 lit/tls.c                                ok
 lit/tls2.c                               ok
 lit/visibility.c                         ok
