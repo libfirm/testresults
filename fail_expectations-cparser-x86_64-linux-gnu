@@ -184,6 +184,7 @@ C/gnu99/multichar.c                      ok
 C/gnu99/null_pointer_constants.c         ok
 C/gnu99/nullarray.c                      compile: SIGABRT
 C/gnu99/omitted_cond.c                   ok
+C/gnu99/omitted_cond2.c                  compile: SIGSEGV
 C/gnu99/packed.c                         ok
 C/gnu99/packed_bf.c                      ok
 C/gnu99/pointerarith.c                   ok
