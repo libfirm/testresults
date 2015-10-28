@@ -191,6 +191,7 @@ agent/ReinvadePlaceLocalHandleTest.x10   ok
 agent/ReinvadeSchedule.x10               run: SIGABRT
 agent/SFCMatMul.x10                      ok
 agent/SkinDetect.x10                     ok
+agent/SlotFail.x10                       run: SIGABRT
 agent/TileSharingTest.x10                run: SIGABRT
 agent/TileTest.x10                       ok
 agent/Update.x10                         ok
