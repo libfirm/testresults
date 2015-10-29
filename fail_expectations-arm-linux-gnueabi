@@ -428,6 +428,7 @@ C/should_fail/offsetof2.c                ok
 C/should_fail/osmesa.cpp.c               ok
 C/should_fail/paramerror.c               ok
 C/should_fail/paramredef.c               ok
+C/should_fail/paramredef2.c              compile: reported 0 errors instead of 2
 C/should_fail/paramstorageclass.c        ok
 C/should_fail/randprog1.c                ok
 C/should_fail/recursive_struct.c         ok
