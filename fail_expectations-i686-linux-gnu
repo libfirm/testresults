@@ -1227,6 +1227,7 @@ opt/fehler307.c                          ok
 opt/fehler308.c                          compile: SIGABRT
 opt/fehler309.c                          ok
 opt/fehler310.c                          compile: SIGABRT
+opt/fehler311.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
