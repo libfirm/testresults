@@ -1224,7 +1224,7 @@ opt/fehler304.c                          ok
 opt/fehler305.c                          ok
 opt/fehler306.c                          ok
 opt/fehler307.c                          ok
-opt/fehler308.c                          compile: SIGABRT
+opt/fehler308.c                          ok
 opt/fehler309.c                          ok
 opt/fehler310.c                          compile: SIGABRT
 opt/fehler311.c                          ok
