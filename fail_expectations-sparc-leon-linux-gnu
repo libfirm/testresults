@@ -1228,7 +1228,7 @@ opt/fehler308.c                          ok
 opt/fehler309.c                          ok
 opt/fehler310.c                          compile: SIGABRT
 opt/fehler311.c                          ok
-opt/fehler312.c                          compile: SIGABRT
+opt/fehler312.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
