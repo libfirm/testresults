@@ -174,6 +174,7 @@ agent/CurrentClaimBug.x10                run: SIGABRT
 agent/Fehler001.x10                      ok
 agent/HelloAgent.x10                     ok
 agent/Integrate.x10                      ok
+agent/Integrate2.x10                     ok
 agent/InvadeTest.x10                     ok
 agent/InvasiveQuickSort.x10              run: SIGABRT
 agent/Malleable.x10                      compile: returncode not zero but 1
