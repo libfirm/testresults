@@ -350,6 +350,7 @@ C/should_fail/decl_in_switch.c           ok
 C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
+C/should_fail/declspec.c                 compile: SIGSEGV
 C/should_fail/empty_char.c               ok
 C/should_fail/enum_forward.c             ok
 C/should_fail/error_directive.c          ok
