@@ -765,6 +765,7 @@ langshootout/recursive.c                 ok
 langshootout/spectral-norm.c             ok
 lit/common.c                             ok
 lit/init.c                               ok
+lit/inline.c                             ok
 lit/relro.c                              ok
 lit/target.c                             ok
 lit/target_override.c                    ok
