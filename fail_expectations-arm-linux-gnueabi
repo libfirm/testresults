@@ -137,7 +137,7 @@ C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     ok
 C/gnu99/anonstruct2.c                    ok
 C/gnu99/anonstruct3.c                    ok
-C/gnu99/arr0.c                           execute: returncode not zero but 1
+C/gnu99/arr0.c                           ok
 C/gnu99/asmname.c                        ok
 C/gnu99/attribute_after_bitfield.c       ok
 C/gnu99/attribute_empty.c                ok
