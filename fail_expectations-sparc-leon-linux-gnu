@@ -603,6 +603,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
+backend/basicspill.c                     compile: SIGABRT
 backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
 backend/builtin_bswap64.c                ok
@@ -652,6 +653,8 @@ backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
 backend/initializer_bug.c                compile: SIGABRT
 backend/ldouble_memperm.c                compile: SIGABRT
+backend/long_double_arith.c              compile: SIGABRT
+backend/long_double_conv.c               compile: SIGABRT
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
