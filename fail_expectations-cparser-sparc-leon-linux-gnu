@@ -701,6 +701,7 @@ backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
 backend/sparc_stackframe.c               compile: SIGABRT
 backend/spill_cost.c                     ok
+backend/spill_phi.c                      compile: SIGABRT
 backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
