@@ -628,7 +628,7 @@ backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
-backend/destam_flags3.c                  compile: SIGABRT
+backend/destam_flags3.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
