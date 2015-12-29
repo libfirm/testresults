@@ -630,10 +630,10 @@ backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
-backend/destam_flags3.c                  compile: SIGABRT
+backend/destam_flags3.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
-backend/duplicate_proj.c                 compile: SIGABRT
+backend/duplicate_proj.c                 ok
 backend/extern_sret.c                    ok
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
@@ -1603,7 +1603,7 @@ x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
 x86code/asm_test15.c                     execute: output mismatch
 x86code/asm_test16.c                     ok
-x86code/asm_test17.c                     compile: SIGABRT
+x86code/asm_test17.c                     ok
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
