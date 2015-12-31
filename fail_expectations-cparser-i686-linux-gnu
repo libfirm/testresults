@@ -17,7 +17,7 @@ C/bool2.c                                ok
 C/bool3.c                                ok
 C/bool4.c                                ok
 C/boolbitfield.c                         ok
-C/cmdline_macro.c                        compile: 1 compile errors
+C/cmdline_macro.c                        ok
 C/complex_arithmetic.c                   ok
 C/complex_misc.c                         ok
 C/composite_type0.c                      ok
