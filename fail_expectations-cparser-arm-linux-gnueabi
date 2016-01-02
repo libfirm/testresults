@@ -661,7 +661,7 @@ backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
 backend/long_double_arith.c              ok
-backend/long_double_conv.c               execute: output mismatch
+backend/long_double_conv.c               compile: linker error
 backend/longfunc.c                       compile: assembler error
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
