@@ -657,7 +657,7 @@ backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                ok
 backend/long_double_arith.c              ok
-backend/long_double_conv.c               execute: output mismatch
+backend/long_double_conv.c               ok
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
