@@ -656,8 +656,8 @@ backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
-backend/long_double_arith.c              compile: assembler error
-backend/long_double_conv.c               compile: SIGABRT
+backend/long_double_arith.c              execute: SIGSEGV
+backend/long_double_conv.c               ok
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
