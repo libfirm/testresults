@@ -17,6 +17,7 @@ C/bool2.c                                ok
 C/bool3.c                                ok
 C/bool4.c                                ok
 C/boolbitfield.c                         ok
+C/cmdline_macro.c                        ok
 C/complex_arithmetic.c                   ok
 C/complex_misc.c                         ok
 C/composite_type0.c                      ok
@@ -451,6 +452,7 @@ C/should_fail/scope_while_cond.c         ok
 C/should_fail/segfault1.c                ok
 C/should_fail/segfault2.c                ok
 C/should_fail/segfault4.c                ok
+C/should_fail/sizeof_error.c             ok
 C/should_fail/static_assert.c            ok
 C/should_fail/static_assert_syntax.c     ok
 C/should_fail/static_assert_syntax2.c    ok
@@ -641,6 +643,7 @@ backend/flags.c                          ok
 backend/floatset.c                       ok
 backend/fpu.c                            ok
 backend/frame_entity.c                   ok
+backend/i2f.c                            ok
 backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
@@ -654,7 +657,7 @@ backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
 backend/long_double_arith.c              execute: SIGSEGV
-backend/long_double_conv.c               compile: SIGABRT
+backend/long_double_conv.c               ok
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
 backend/lower_call.c                     ok
@@ -701,6 +704,7 @@ backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
 backend/sparc_stackframe.c               ok
 backend/spill_cost.c                     ok
+backend/spill_phi.c                      ok
 backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
@@ -736,6 +740,7 @@ cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
 cparser/should_work/pipe.cmd             ok
 cparser/should_work/preprocas.cmd        ok
+cparser/should_work/print_multi.cmd      cmd_should_work: returncode not zero but 1
 cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
