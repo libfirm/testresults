@@ -17,7 +17,7 @@ C/bool2.c                                ok
 C/bool3.c                                ok
 C/bool4.c                                ok
 C/boolbitfield.c                         ok
-C/cmdline_macro.c                        compile: 1 compile errors
+C/cmdline_macro.c                        ok
 C/complex_arithmetic.c                   ok
 C/complex_misc.c                         ok
 C/composite_type0.c                      ok
@@ -605,7 +605,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
-backend/basicspill.c                     execute: SIGABRT
+backend/basicspill.c                     ok
 backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
 backend/builtin_bswap64.c                ok
@@ -740,6 +740,7 @@ cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
 cparser/should_work/pipe.cmd             ok
 cparser/should_work/preprocas.cmd        ok
+cparser/should_work/print_multi.cmd      cmd_should_work: returncode not zero but 1
 cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
