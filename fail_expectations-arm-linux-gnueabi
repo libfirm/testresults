@@ -745,7 +745,7 @@ cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
 cparser/should_work/pipe.cmd             ok
 cparser/should_work/preprocas.cmd        ok
-cparser/should_work/print_multi.cmd      cmd_should_work: returncode not zero but 1
+cparser/should_work/print_multi.cmd      ok
 cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
