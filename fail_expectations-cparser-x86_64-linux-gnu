@@ -882,6 +882,7 @@ opt/bitwise.c                            ok
 opt/blocks.c                             ok
 opt/boolopt.c                            ok
 opt/boolopt2.c                           ok
+opt/boolopt3.c                           compile: SIGABRT
 opt/boolopts.c                           ok
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
@@ -1595,6 +1596,7 @@ preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86_64code/asm_test.c                    ok
+x86_64code/asm_test2.c                   execute: output mismatch
 x86_64code/cas.c                         ok
 x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
 x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
