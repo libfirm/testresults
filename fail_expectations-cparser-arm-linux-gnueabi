@@ -888,7 +888,7 @@ opt/bitwise.c                            ok
 opt/blocks.c                             ok
 opt/boolopt.c                            ok
 opt/boolopt2.c                           ok
-opt/boolopt3.c                           compile: SIGABRT
+opt/boolopt3.c                           ok
 opt/boolopts.c                           compile: assembler error
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
@@ -1251,7 +1251,7 @@ opt/fehler309.c                          ok
 opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
-opt/fehler314.c                          compile: SIGKILL
+opt/fehler314.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
