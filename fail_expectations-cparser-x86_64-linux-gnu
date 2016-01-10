@@ -109,7 +109,7 @@ C/cp_error080.c                          ok
 C/cp_error081.c                          ok
 C/cp_error082.c                          compile: SIGABRT
 C/cp_error083.c                          ok
-C/cp_error084.c                          compile: SIGABRT
+C/cp_error084.c                          ok
 C/csmith1.c                              ok
 C/csmith2.c                              ok
 C/declarator_special.c                   ok
@@ -658,7 +658,7 @@ backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
 backend/ldouble_memperm.c                compile: SIGABRT
-backend/long_double_arith.c              execute: SIGSEGV
+backend/long_double_arith.c              ok
 backend/long_double_conv.c               ok
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
@@ -883,7 +883,7 @@ opt/bitwise.c                            ok
 opt/blocks.c                             ok
 opt/boolopt.c                            ok
 opt/boolopt2.c                           ok
-opt/boolopt3.c                           compile: SIGABRT
+opt/boolopt3.c                           ok
 opt/boolopts.c                           ok
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
@@ -1246,7 +1246,7 @@ opt/fehler309.c                          ok
 opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
-opt/fehler314.c                          compile: SIGKILL
+opt/fehler314.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1598,7 +1598,7 @@ preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86_64code/asm_test.c                    ok
-x86_64code/asm_test2.c                   execute: output mismatch
+x86_64code/asm_test2.c                   ok
 x86_64code/cas.c                         ok
 x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
 x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
