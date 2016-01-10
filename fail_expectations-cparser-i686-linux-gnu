@@ -626,7 +626,7 @@ backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
-backend/chordal2.c                       compile: SIGABRT
+backend/chordal2.c                       ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
@@ -1246,7 +1246,7 @@ opt/fehler309.c                          ok
 opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
-opt/fehler314.c                          compile: SIGKILL
+opt/fehler314.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
