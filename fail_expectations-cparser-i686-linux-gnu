@@ -1639,7 +1639,6 @@ x86code/fehler044.c                      ok
 x86code/fehler046.c                      ok
 x86code/fehler104.c                      ok
 x86code/fehler111.c                      ok
-x86code/fehler132.c                      ok
 x86code/fehler133.c                      ok
 x86code/fehler134.c                      ok
 x86code/fehler135.c                      ok
