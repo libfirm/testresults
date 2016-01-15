@@ -627,10 +627,10 @@ backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/chordal2.c                       ok
+backend/chordal3.c                       ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
-backend/copymin.c                        ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/destam_flags3.c                  ok
