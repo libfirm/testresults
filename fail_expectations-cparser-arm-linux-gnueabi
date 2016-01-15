@@ -632,10 +632,10 @@ backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             compile: assembler error
 backend/chordal.c                        ok
 backend/chordal2.c                       ok
+backend/chordal3.c                       ok
 backend/cmovs.c                          compile: assembler error
 backend/conv_float_unsigned.c            compile: linker error
 backend/convconv.c                       ok
-backend/copymin.c                        ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/destam_flags3.c                  ok
