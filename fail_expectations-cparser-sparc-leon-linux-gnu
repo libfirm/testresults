@@ -627,10 +627,10 @@ backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/chordal2.c                       ok
+backend/chordal3.c                       ok
 backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            ok
 backend/convconv.c                       ok
-backend/copymin.c                        ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/destam_flags3.c                  ok
@@ -751,6 +751,7 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
+gcc/920908-1.c                           compile: SIGABRT
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
