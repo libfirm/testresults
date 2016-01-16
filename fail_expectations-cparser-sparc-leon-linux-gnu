@@ -5,7 +5,7 @@ C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/absolute_include.c                     compile: 4 compile errors
 C/abstract_declarator.c                  ok
-C/addr_string_literal.c                  ok
+C/addr_string_literal.c                  compile: 1 compile errors
 C/anon_entity.c                          ok
 C/array.c                                ok
 C/bitfield.c                             ok
