@@ -1646,6 +1646,7 @@ x86code/fehler133.c                      ok
 x86code/fehler134.c                      ok
 x86code/fehler135.c                      ok
 x86code/fehler136.c                      ok
+x86code/fehler315.c                      compile: SIGSEGV
 x86code/float_asm.c                      ok
 x86code/float_fld.c                      asm: !check 'fld.*%st' failed
 x86code/float_rounding0.c                ok
