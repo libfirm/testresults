@@ -1528,6 +1528,8 @@ preproctest/no_expansion3.c              ok
 preproctest/no_keywords.c                ok
 preproctest/pp_error0.c                  ok
 preproctest/pp_error1.c                  ok
+preproctest/pp_error2.c                  preprocess: output mismatch
+preproctest/pp_error3.c                  preprocess: SIGABRT
 preproctest/ppexprs.c                    ok
 preproctest/recursive_defs.c             ok
 preproctest/redef.c                      ok
