@@ -189,7 +189,7 @@ C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
 C/gnu99/null_pointer_constants.c         ok
-C/gnu99/nullarray.c                      compile: SIGABRT
+C/gnu99/nullarray.c                      ok
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/omitted_cond2.c                  ok
 C/gnu99/omitted_cond3.c                  ok
@@ -1523,6 +1523,8 @@ preproctest/no_expansion3.c              ok
 preproctest/no_keywords.c                ok
 preproctest/pp_error0.c                  ok
 preproctest/pp_error1.c                  ok
+preproctest/pp_error2.c                  preprocess: output mismatch
+preproctest/pp_error3.c                  preprocess: SIGABRT
 preproctest/ppexprs.c                    ok
 preproctest/recursive_defs.c             ok
 preproctest/redef.c                      ok
