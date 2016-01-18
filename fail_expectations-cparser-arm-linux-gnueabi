@@ -726,6 +726,7 @@ backend/transform_loop.c                 ok
 backend/udiv.c                           ok
 backend/udiv2.c                          ok
 backend/vastruct.c                       compile: 2 compile errors
+cparser/lit/no_tls.c                     run0: returncode not zero but 1
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
@@ -1257,7 +1258,7 @@ opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
 opt/fehler314.c                          ok
-opt/fehler315.c                          compile: SIGABRT
+opt/fehler315.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
