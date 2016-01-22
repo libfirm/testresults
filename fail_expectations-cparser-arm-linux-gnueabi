@@ -722,6 +722,7 @@ backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
+backend/subregister.c                    ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        compile: 2 compile errors
 backend/transform_loop.c                 ok
