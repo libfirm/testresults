@@ -1254,6 +1254,7 @@ opt/fehler309.c                          ok
 opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
+opt/fehler313.c                          compile: SIGABRT
 opt/fehler314.c                          ok
 opt/fehler315.c                          ok
 opt/fehler_gt_0.c                        ok
@@ -1545,6 +1546,7 @@ preproctest/should_fail/bad_def.c        ok
 preproctest/should_fail/call.c           ok
 preproctest/should_fail/call2.c          ok
 preproctest/should_fail/call3.c          ok
+preproctest/should_fail/call4.c          preprocess: SIGABRT
 preproctest/should_fail/define_defined.c ok
 preproctest/should_fail/defined.c        ok
 preproctest/should_fail/defined1.c       ok
