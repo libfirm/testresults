@@ -228,6 +228,7 @@ C/init7.c                                ok
 C/init8.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
+C/inline.c                               compile: linker error
 C/input_iso8859_1.c                      ok
 C/input_iso8859_15.c                     ok
 C/input_utf8.c                           ok
