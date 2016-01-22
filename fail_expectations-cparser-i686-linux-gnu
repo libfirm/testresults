@@ -717,6 +717,7 @@ backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
+backend/subregister.c                    compile: SIGABRT
 backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
 backend/transform_loop.c                 ok
