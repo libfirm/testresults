@@ -744,7 +744,7 @@ cparser/should_fail/nonexistent1.cmd     ok
 cparser/should_fail/nonexistent2.cmd     ok
 cparser/should_fail/nonexistent3.cmd     ok
 cparser/should_fail/nonexistent4.cmd     ok
-cparser/should_fail/nospaceleft.cmd      cmd_should_fail: returncode zero
+cparser/should_fail/writefail.cmd        cmd_should_fail: returncode zero
 cparser/should_warn/badopt4.cmd          ok
 cparser/should_warn/unused.cmd           ok
 cparser/should_warn/unused2.cmd          ok
