@@ -754,7 +754,7 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/920908-1.c                           compile: SIGABRT
+gcc/920908-1.c                           execute: returncode not zero but 1
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
