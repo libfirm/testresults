@@ -230,7 +230,7 @@ C/init8.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
 C/inline.c                               ok
-C/inline2.c                              asm: check 'do_not_optimize_me_away' failed
+C/inline2.c                              ok
 C/input_iso8859_1.c                      ok
 C/input_iso8859_15.c                     ok
 C/input_utf8.c                           ok
