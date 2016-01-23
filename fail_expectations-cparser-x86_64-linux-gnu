@@ -217,6 +217,7 @@ C/gnu99/vlabel2.c                        ok
 C/gnu99/vlabel3.c                        ok
 C/gnu99/void_pointer_arithmetic.c        ok
 C/hexfloat.c                             ok
+C/hol88.c                                compile: 1 compile errors
 C/hugeval.c                              ok
 C/if.c                                   ok
 C/implicit.c                             ok
