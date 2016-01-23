@@ -142,6 +142,7 @@ C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     ok
 C/gnu99/anonstruct2.c                    ok
 C/gnu99/anonstruct3.c                    ok
+C/gnu99/anonstruct4.c                    compile: 3 compile errors
 C/gnu99/arr0.c                           ok
 C/gnu99/asmname.c                        ok
 C/gnu99/attribute_after_bitfield.c       ok
@@ -189,7 +190,7 @@ C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
 C/gnu99/null_pointer_constants.c         ok
-C/gnu99/nullarray.c                      compile: SIGABRT
+C/gnu99/nullarray.c                      ok
 C/gnu99/omitted_cond.c                   ok
 C/gnu99/omitted_cond2.c                  ok
 C/gnu99/omitted_cond3.c                  ok
@@ -216,6 +217,7 @@ C/gnu99/vlabel2.c                        compile: SIGABRT
 C/gnu99/vlabel3.c                        compile: SIGABRT
 C/gnu99/void_pointer_arithmetic.c        ok
 C/hexfloat.c                             ok
+C/hol88.c                                compile: 1 compile errors
 C/hugeval.c                              ok
 C/if.c                                   ok
 C/implicit.c                             ok
@@ -227,6 +229,8 @@ C/init7.c                                ok
 C/init8.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
+C/inline.c                               ok
+C/inline2.c                              ok
 C/input_iso8859_1.c                      ok
 C/input_iso8859_15.c                     ok
 C/input_utf8.c                           ok
@@ -357,8 +361,9 @@ C/should_fail/decl_in_switch.c           ok
 C/should_fail/decl_in_then.c             ok
 C/should_fail/decl_in_while.c            ok
 C/should_fail/decl_without_name.c        ok
-C/should_fail/declspec.c                 compile: SIGSEGV
+C/should_fail/declspec.c                 ok
 C/should_fail/empty_char.c               ok
+C/should_fail/enum.c                     ok
 C/should_fail/enum_forward.c             ok
 C/should_fail/error_directive.c          ok
 C/should_fail/f.c                        ok
@@ -576,6 +581,7 @@ C/varargs3.c                             compile: SIGABRT
 C/vla.c                                  ok
 C/void_cast.c                            ok
 C/whiles.c                               ok
+C/xaos-formulas.c                        compile: SIGABRT
 ack/ack_conv.c                           ok
 ack/decl.c                               ok
 ack/init.c                               ok
@@ -708,19 +714,21 @@ backend/sparc_restorepeepholes.c         ok
 backend/sparc_segfault.c                 ok
 backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
-backend/sparc_stackframe.c               compile: SIGABRT
+backend/sparc_stackframe.c               ok
 backend/spill_cost.c                     ok
 backend/spill_phi.c                      compile: SIGABRT
 backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
+backend/subregister.c                    ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
 backend/transform_loop.c                 ok
 backend/udiv.c                           ok
 backend/udiv2.c                          ok
-backend/vastruct.c                       compile: SIGABRT
+backend/vastruct.c                       ok
+cparser/lit/no_tls.c                     run0: returncode not zero but 1
 cparser/should_fail/badinput.cmd         ok
 cparser/should_fail/badinput2.cmd        ok
 cparser/should_fail/badopt.cmd           ok
@@ -734,6 +742,7 @@ cparser/should_fail/nonexistent1.cmd     ok
 cparser/should_fail/nonexistent2.cmd     ok
 cparser/should_fail/nonexistent3.cmd     ok
 cparser/should_fail/nonexistent4.cmd     ok
+cparser/should_fail/writefail.cmd        cmd_should_fail: returncode zero
 cparser/should_warn/badopt4.cmd          ok
 cparser/should_warn/unused.cmd           ok
 cparser/should_warn/unused2.cmd          ok
@@ -1251,6 +1260,7 @@ opt/fehler309.c                          ok
 opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
+opt/fehler313.c                          compile: SIGABRT
 opt/fehler314.c                          ok
 opt/fehler315.c                          ok
 opt/fehler_gt_0.c                        ok
@@ -1521,6 +1531,9 @@ preproctest/no_expansion3.c              ok
 preproctest/no_keywords.c                ok
 preproctest/pp_error0.c                  ok
 preproctest/pp_error1.c                  ok
+preproctest/pp_error2.c                  ok
+preproctest/pp_error3.c                  ok
+preproctest/pp_error4.c                  preprocess: output mismatch
 preproctest/ppexprs.c                    ok
 preproctest/recursive_defs.c             ok
 preproctest/redef.c                      ok
@@ -1539,6 +1552,7 @@ preproctest/should_fail/bad_def.c        ok
 preproctest/should_fail/call.c           ok
 preproctest/should_fail/call2.c          ok
 preproctest/should_fail/call3.c          ok
+preproctest/should_fail/call4.c          preprocess: SIGABRT
 preproctest/should_fail/define_defined.c ok
 preproctest/should_fail/defined.c        ok
 preproctest/should_fail/defined1.c       ok
