@@ -581,6 +581,7 @@ C/varargs3.c                             compile: SIGABRT
 C/vla.c                                  ok
 C/void_cast.c                            ok
 C/whiles.c                               ok
+C/xaos-formulas.c                        compile: SIGABRT
 ack/ack_conv.c                           ok
 ack/decl.c                               ok
 ack/init.c                               ok
