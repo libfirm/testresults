@@ -1263,6 +1263,9 @@ opt/fehler312.c                          ok
 opt/fehler313.c                          compile: SIGABRT
 opt/fehler314.c                          ok
 opt/fehler315.c                          ok
+opt/fehler316.c                          ok
+opt/fehler317.c                          compile: SIGABRT
+opt/fehler318.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1342,6 +1345,7 @@ opt/loadstore4.c                         ok
 opt/loadstore5.c                         ok
 opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
+opt/loadstore8.c                         execute: returncode not zero but 42
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
