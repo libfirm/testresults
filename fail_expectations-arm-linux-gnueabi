@@ -648,6 +648,7 @@ backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/destam_flags3.c                  ok
+backend/destam_flags4.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 compile: SIGABRT
 backend/duplicate_proj.c                 ok
