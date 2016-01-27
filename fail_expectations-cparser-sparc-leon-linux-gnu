@@ -1348,6 +1348,7 @@ opt/loadstore5.c                         ok
 opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
 opt/loadstore8.c                         execute: returncode not zero but 42
+opt/loadstore9.c                         execute: returncode not zero but 42
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
