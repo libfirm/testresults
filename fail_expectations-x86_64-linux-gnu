@@ -643,6 +643,7 @@ backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/destam_flags3.c                  ok
+backend/destam_flags4.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
@@ -717,6 +718,7 @@ backend/sparc_shr2.c                     ok
 backend/sparc_stackframe.c               ok
 backend/spill_cost.c                     ok
 backend/spill_phi.c                      ok
+backend/spill_phi2.c                     ok
 backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
@@ -1263,6 +1265,9 @@ opt/fehler312.c                          ok
 opt/fehler313.c                          compile: SIGABRT
 opt/fehler314.c                          ok
 opt/fehler315.c                          ok
+opt/fehler316.c                          ok
+opt/fehler317.c                          compile: SIGABRT
+opt/fehler318.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1342,6 +1347,8 @@ opt/loadstore4.c                         ok
 opt/loadstore5.c                         ok
 opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
+opt/loadstore8.c                         ok
+opt/loadstore9.c                         execute: returncode not zero but 42
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1617,6 +1624,7 @@ preproctest/t9.c                         ok
 preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
+x86_64code/asm_mod_c.c                   ok
 x86_64code/asm_test.c                    ok
 x86_64code/asm_test2.c                   ok
 x86_64code/cas.c                         ok
