@@ -35,6 +35,7 @@ Cast1.x10                                ok
 Cast2.x10                                ok
 Cast3.x10                                ok
 Cast4.x10                                ok
+Cast5.x10                                compile: SIGABRT
 CellTest.x10                             ok
 CharSwitch.x10                           ok
 Class.x10                                ok
