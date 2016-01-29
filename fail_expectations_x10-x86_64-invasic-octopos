@@ -34,6 +34,8 @@ CPeanoOrder.x10                          ok
 Cast1.x10                                ok
 Cast2.x10                                ok
 Cast3.x10                                ok
+Cast4.x10                                ok
+Cast5.x10                                compile: SIGABRT
 CellTest.x10                             ok
 CharSwitch.x10                           ok
 Class.x10                                ok
@@ -90,6 +92,7 @@ ImplementsAny.x10                        ok
 InstanceOfComparable.x10                 ok
 InterfaceCall.x10                        ok
 InterfaceLookup.x10                      run: output mismatch
+InterfaceLookup3.x10                     run: output mismatch
 IterableTest.x10                         ok
 LazyAnd.x10                              ok
 LazyOr.x10                               ok
