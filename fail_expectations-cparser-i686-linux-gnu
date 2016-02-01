@@ -643,7 +643,7 @@ backend/convconv.c                       ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
 backend/destam_flags3.c                  ok
-backend/destam_flags4.c                  compile: SIGABRT
+backend/destam_flags4.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
@@ -1347,8 +1347,8 @@ opt/loadstore4.c                         ok
 opt/loadstore5.c                         ok
 opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
-opt/loadstore8.c                         execute: returncode not zero but 42
-opt/loadstore9.c                         execute: returncode not zero but 42
+opt/loadstore8.c                         ok
+opt/loadstore9.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1627,7 +1627,7 @@ preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
 x86code/asm_immediate.c                  ok
-x86code/asm_mod_c.c                      compile: 1 compile errors
+x86code/asm_mod_c.c                      ok
 x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
 x86code/asm_test11.c                     ok
