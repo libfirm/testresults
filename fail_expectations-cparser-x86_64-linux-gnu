@@ -1348,7 +1348,7 @@ opt/loadstore5.c                         ok
 opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
 opt/loadstore8.c                         ok
-opt/loadstore9.c                         execute: returncode not zero but 42
+opt/loadstore9.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           ok
@@ -1624,7 +1624,7 @@ preproctest/t9.c                         ok
 preproctest/vaargs_gcc.c                 ok
 preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
-x86_64code/asm_mod_c.c                   compile: 1 compile errors
+x86_64code/asm_mod_c.c                   ok
 x86_64code/asm_test.c                    ok
 x86_64code/asm_test2.c                   ok
 x86_64code/cas.c                         ok
