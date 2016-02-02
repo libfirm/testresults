@@ -419,6 +419,7 @@ C/should_fail/kr4.c                      ok
 C/should_fail/kr5.c                      ok
 C/should_fail/kr7.c                      ok
 C/should_fail/label.c                    ok
+C/should_fail/label_address_outside_func.c compile: SIGABRT
 C/should_fail/large_array.c              compile: missed error
 C/should_fail/lvalue.c                   ok
 C/should_fail/missing.c                  ok
