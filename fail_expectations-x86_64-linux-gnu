@@ -300,6 +300,9 @@ C/segfault5.c                            ok
 C/segfault6.c                            ok
 C/segfault7.c                            ok
 C/should_fail/adr_reg.c                  ok
+C/should_fail/afl000.c                   ok
+C/should_fail/afl001.c                   ok
+C/should_fail/afl002.c                   compile: SIGABRT
 C/should_fail/anonunion.c                compile: missed error
 C/should_fail/arr_idx_float.c            ok
 C/should_fail/array0.c                   ok
