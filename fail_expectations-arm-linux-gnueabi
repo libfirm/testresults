@@ -306,6 +306,7 @@ C/should_fail/afl002.c                   ok
 C/should_fail/afl003.c                   ok
 C/should_fail/afl004.c                   ok
 C/should_fail/afl005.c                   ok
+C/should_fail/afl006.c                   compile: SIGABRT
 C/should_fail/anonunion.c                compile: missed error
 C/should_fail/arr_idx_float.c            ok
 C/should_fail/array0.c                   ok
@@ -540,6 +541,7 @@ C/should_warn/return_with_void.c         ok
 C/should_warn/scanf_formats.c            ok
 C/should_warn/scanf_width_c.c            ok
 C/should_warn/scanf_width_s.c            ok
+C/should_warn/shift_negative.c           compile: SIGABRT
 C/should_warn/sign_compare.c             ok
 C/should_warn/static_array_size1.c       compile: reported 0 warnings instead of 1
 C/should_warn/static_array_size2.c       compile: reported 0 warnings instead of 1
