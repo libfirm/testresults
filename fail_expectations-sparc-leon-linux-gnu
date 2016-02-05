@@ -499,7 +499,7 @@ C/should_fail/unspec_params.c            ok
 C/should_fail/voidarray.c                ok
 C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
-C/should_warn/afl007.c                   compile: reported 2 warnings instead of 1
+C/should_warn/afl007.c                   ok
 C/should_warn/builtin_addr.c             ok
 C/should_warn/cast_qual.c                ok
 C/should_warn/compare.c                  ok
