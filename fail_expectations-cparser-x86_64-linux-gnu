@@ -307,6 +307,7 @@ C/should_fail/afl003.c                   ok
 C/should_fail/afl004.c                   ok
 C/should_fail/afl005.c                   ok
 C/should_fail/afl006.c                   ok
+C/should_fail/afl008.c                   ok
 C/should_fail/anonunion.c                compile: missed error
 C/should_fail/arr_idx_float.c            ok
 C/should_fail/array0.c                   ok
@@ -444,7 +445,6 @@ C/should_fail/noconst.c                  ok
 C/should_fail/nofloat.c                  ok
 C/should_fail/nofloat2.c                 ok
 C/should_fail/noname1.c                  ok
-C/should_fail/noname2.c                  compile: SIGSEGV
 C/should_fail/number.c                   ok
 C/should_fail/offsetof.c                 ok
 C/should_fail/offsetof2.c                ok
