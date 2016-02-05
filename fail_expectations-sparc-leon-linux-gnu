@@ -308,6 +308,7 @@ C/should_fail/afl004.c                   ok
 C/should_fail/afl005.c                   ok
 C/should_fail/afl006.c                   ok
 C/should_fail/afl008.c                   ok
+C/should_fail/afl009.c                   ok
 C/should_fail/anonunion.c                compile: missed error
 C/should_fail/arr_idx_float.c            ok
 C/should_fail/array0.c                   ok
