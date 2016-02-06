@@ -504,7 +504,7 @@ C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
 C/should_warn/afl007.c                   ok
 C/should_warn/backslash_at_eof.c         compile: reported 0 warnings instead of 1
-C/should_warn/builtin_addr.c             compile: ok (but no reference file)
+C/should_warn/builtin_addr.c             ok
 C/should_warn/cast_qual.c                ok
 C/should_warn/compare.c                  compile: ok (but no reference file)
 C/should_warn/compare2.c                 compile: ok (but no reference file)
