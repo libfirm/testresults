@@ -503,11 +503,11 @@ C/should_fail/voidarray.c                ok
 C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
 C/should_warn/afl007.c                   ok
-C/should_warn/backslash_at_eof.c         compile: reported different warnings
+C/should_warn/backslash_at_eof.c         ok
 C/should_warn/builtin_addr.c             ok
 C/should_warn/cast_qual.c                ok
-C/should_warn/compare.c                  compile: ok (but no reference file)
-C/should_warn/compare2.c                 compile: ok (but no reference file)
+C/should_warn/compare.c                  ok
+C/should_warn/compare2.c                 ok
 C/should_warn/compare3.c                 ok
 C/should_warn/composite0.c               ok
 C/should_warn/composite1.c               compile: missed warnings
@@ -520,21 +520,21 @@ C/should_warn/implicit_int.c             ok
 C/should_warn/init_self.c                ok
 C/should_warn/initializer1.c             ok
 C/should_warn/initializer2.c             ok
-C/should_warn/initializer8.c             compile: ok (but no reference file)
+C/should_warn/initializer8.c             ok
 C/should_warn/invalid_bytesequence.c     ok
 C/should_warn/main0.c                    ok
 C/should_warn/main1.c                    ok
 C/should_warn/main2.c                    ok
 C/should_warn/main3.c                    ok
 C/should_warn/missing_return.c           ok
-C/should_warn/nested_comment.c           compile: ok (but no reference file)
+C/should_warn/nested_comment.c           ok
 C/should_warn/never_read1.c              ok
 C/should_warn/notabinassign0.c           ok
 C/should_warn/notabinassign1.c           ok
 C/should_warn/padded.c                   ok
 C/should_warn/paramscope.c               compile: missed warnings
 C/should_warn/printf2.c                  ok
-C/should_warn/printf3.c                  compile: ok (but no reference file)
+C/should_warn/printf3.c                  ok
 C/should_warn/printf_formats.c           ok
 C/should_warn/printf_int_for_short.c     ok
 C/should_warn/printf_zero_precision.c    ok
@@ -558,7 +558,7 @@ C/should_warn/unused_param.c             ok
 C/should_warn/wprintf_formats.c          ok
 C/should_warn/write_only11.c             ok
 C/should_warn/write_only12.c             ok
-C/should_warn/write_only14.c             compile: ok (but no reference file)
+C/should_warn/write_only14.c             ok
 C/should_warn/write_only2.c              ok
 C/should_warn/write_only3.c              ok
 C/should_warn/write_only4.c              ok
