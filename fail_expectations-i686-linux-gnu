@@ -472,7 +472,7 @@ C/should_fail/scope_switch_cond.c        ok
 C/should_fail/scope_while_body.c         ok
 C/should_fail/scope_while_cond.c         ok
 C/should_fail/segfault1.c                compile: ok (but no reference file)
-C/should_fail/segfault2.c                compile: ok (but no reference file)
+C/should_fail/segfault2.c                ok
 C/should_fail/segfault4.c                compile: ok (but no reference file)
 C/should_fail/sizeof_error.c             ok
 C/should_fail/static_assert.c            ok
@@ -494,10 +494,10 @@ C/should_fail/transparent_union2.c       compile: missed error
 C/should_fail/typedef_enum.c             ok
 C/should_fail/typedef_in_expr.c          ok
 C/should_fail/typedef_init.c             ok
-C/should_fail/unclosed_string.c          compile: ok (but no reference file)
+C/should_fail/unclosed_string.c          ok
 C/should_fail/union.c                    ok
-C/should_fail/universal_character.c      compile: ok (but no reference file)
-C/should_fail/universal_character2.c     compile: ok (but no reference file)
+C/should_fail/universal_character.c      ok
+C/should_fail/universal_character2.c     ok
 C/should_fail/unspec_params.c            compile: ok (but no reference file)
 C/should_fail/voidarray.c                ok
 C/should_fail/weird_label.c              compile: missed error
