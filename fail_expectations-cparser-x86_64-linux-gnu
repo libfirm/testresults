@@ -1,6 +1,6 @@
-C++/should_fail/bad_retypedef.cc         compile: ok (but no reference file)
-C++/should_fail/bad_retypedef2.cc        compile: ok (but no reference file)
-C++/should_fail/bad_retypedef_sys.cc     compile: ok (but no reference file)
+C++/should_fail/bad_retypedef.cc         ok
+C++/should_fail/bad_retypedef2.cc        ok
+C++/should_fail/bad_retypedef_sys.cc     ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/absolute_include.c                     ok
@@ -423,7 +423,7 @@ C/should_fail/intconst3.c                ok
 C/should_fail/intconst4.c                ok
 C/should_fail/intconst5.c                ok
 C/should_fail/intconst6.c                ok
-C/should_fail/invalid.c                  compile: ok (but no reference file)
+C/should_fail/invalid.c                  ok
 C/should_fail/kr1.c                      ok
 C/should_fail/kr2.c                      ok
 C/should_fail/kr3.c                      ok
@@ -440,7 +440,7 @@ C/should_fail/multidef2.c                ok
 C/should_fail/multidef3.c                ok
 C/should_fail/multidef4.c                ok
 C/should_fail/multidef5.c                ok
-C/should_fail/multifield.c               compile: ok (but no reference file)
+C/should_fail/multifield.c               ok
 C/should_fail/multiple_types.c           ok
 C/should_fail/multiple_types2.c          ok
 C/should_fail/multiple_types3.c          ok
@@ -498,7 +498,7 @@ C/should_fail/unclosed_string.c          ok
 C/should_fail/union.c                    ok
 C/should_fail/universal_character.c      ok
 C/should_fail/universal_character2.c     ok
-C/should_fail/unspec_params.c            compile: ok (but no reference file)
+C/should_fail/unspec_params.c            ok
 C/should_fail/voidarray.c                ok
 C/should_fail/weird_label.c              compile: missed error
 C/should_fail/wrongtype.c                ok
@@ -1583,8 +1583,8 @@ preproctest/should_fail/defined1.c       preprocess: ok (but no reference file)
 preproctest/should_fail/defined2.c       preprocess: ok (but no reference file)
 preproctest/should_fail/defined3.c       preprocess: ok (but no reference file)
 preproctest/should_fail/double_define_arg.c ok
-preproctest/should_fail/halfcall.c       preprocess: ok (but no reference file)
-preproctest/should_fail/halfcall2.c      preprocess: ok (but no reference file)
+preproctest/should_fail/halfcall.c       ok
+preproctest/should_fail/halfcall2.c      ok
 preproctest/should_fail/ifdef_empty.c    ok
 preproctest/should_fail/ifdef_plus.c     ok
 preproctest/should_fail/ifndef_empty.c   ok
@@ -1592,7 +1592,7 @@ preproctest/should_fail/ifndef_minus.c   ok
 preproctest/should_fail/include_def3.c   ok
 preproctest/should_fail/include_nonexistant.c ok
 preproctest/should_fail/include_nonexistant2.c ok
-preproctest/should_fail/no_concat.c      preprocess: ok (but no reference file)
+preproctest/should_fail/no_concat.c      ok
 preproctest/should_fail/no_hash_param.c  ok
 preproctest/should_fail/no_hash_param1.c ok
 preproctest/should_fail/random_garbage.c preprocess: ok (but no reference file)
@@ -1602,19 +1602,19 @@ preproctest/should_fail/unbalanced2.c    ok
 preproctest/should_fail/unbalanced3.c    ok
 preproctest/should_fail/unbalanced4.c    ok
 preproctest/should_fail/undef_defined.c  ok
-preproctest/should_warn/define_in_call.c preprocess: ok (but no reference file)
-preproctest/should_warn/if_in_param.c    preprocess: ok (but no reference file)
-preproctest/should_warn/include_in_call.c preprocess: ok (but no reference file)
-preproctest/should_warn/missing_end.c    preprocess: ok (but no reference file)
-preproctest/should_warn/missing_end2.c   preprocess: ok (but no reference file)
-preproctest/should_warn/nospace.c        preprocess: ok (but no reference file)
-preproctest/should_warn/redef.c          preprocess: ok (but no reference file)
-preproctest/should_warn/redef2.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef3.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef4.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef5.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef6.c         preprocess: ok (but no reference file)
-preproctest/should_warn/vaarg.c          preprocess: ok (but no reference file)
+preproctest/should_warn/define_in_call.c ok
+preproctest/should_warn/if_in_param.c    ok
+preproctest/should_warn/include_in_call.c ok
+preproctest/should_warn/missing_end.c    ok
+preproctest/should_warn/missing_end2.c   ok
+preproctest/should_warn/nospace.c        ok
+preproctest/should_warn/redef.c          ok
+preproctest/should_warn/redef2.c         ok
+preproctest/should_warn/redef3.c         ok
+preproctest/should_warn/redef4.c         ok
+preproctest/should_warn/redef5.c         ok
+preproctest/should_warn/redef6.c         ok
+preproctest/should_warn/vaarg.c          ok
 preproctest/simple.c                     ok
 preproctest/simpleconcat.c               ok
 preproctest/simpledef.c                  ok
