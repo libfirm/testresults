@@ -1588,8 +1588,8 @@ preproctest/should_fail/defined1.c       preprocess: ok (but no reference file)
 preproctest/should_fail/defined2.c       preprocess: ok (but no reference file)
 preproctest/should_fail/defined3.c       preprocess: ok (but no reference file)
 preproctest/should_fail/double_define_arg.c ok
-preproctest/should_fail/halfcall.c       preprocess: ok (but no reference file)
-preproctest/should_fail/halfcall2.c      preprocess: ok (but no reference file)
+preproctest/should_fail/halfcall.c       ok
+preproctest/should_fail/halfcall2.c      ok
 preproctest/should_fail/ifdef_empty.c    ok
 preproctest/should_fail/ifdef_plus.c     ok
 preproctest/should_fail/ifndef_empty.c   ok
@@ -1597,7 +1597,7 @@ preproctest/should_fail/ifndef_minus.c   ok
 preproctest/should_fail/include_def3.c   ok
 preproctest/should_fail/include_nonexistant.c ok
 preproctest/should_fail/include_nonexistant2.c ok
-preproctest/should_fail/no_concat.c      preprocess: ok (but no reference file)
+preproctest/should_fail/no_concat.c      ok
 preproctest/should_fail/no_hash_param.c  ok
 preproctest/should_fail/no_hash_param1.c ok
 preproctest/should_fail/random_garbage.c preprocess: ok (but no reference file)
@@ -1607,19 +1607,19 @@ preproctest/should_fail/unbalanced2.c    ok
 preproctest/should_fail/unbalanced3.c    ok
 preproctest/should_fail/unbalanced4.c    ok
 preproctest/should_fail/undef_defined.c  ok
-preproctest/should_warn/define_in_call.c preprocess: ok (but no reference file)
-preproctest/should_warn/if_in_param.c    preprocess: ok (but no reference file)
-preproctest/should_warn/include_in_call.c preprocess: ok (but no reference file)
-preproctest/should_warn/missing_end.c    preprocess: ok (but no reference file)
-preproctest/should_warn/missing_end2.c   preprocess: ok (but no reference file)
-preproctest/should_warn/nospace.c        preprocess: ok (but no reference file)
-preproctest/should_warn/redef.c          preprocess: ok (but no reference file)
-preproctest/should_warn/redef2.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef3.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef4.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef5.c         preprocess: ok (but no reference file)
-preproctest/should_warn/redef6.c         preprocess: ok (but no reference file)
-preproctest/should_warn/vaarg.c          preprocess: ok (but no reference file)
+preproctest/should_warn/define_in_call.c ok
+preproctest/should_warn/if_in_param.c    ok
+preproctest/should_warn/include_in_call.c ok
+preproctest/should_warn/missing_end.c    ok
+preproctest/should_warn/missing_end2.c   ok
+preproctest/should_warn/nospace.c        ok
+preproctest/should_warn/redef.c          ok
+preproctest/should_warn/redef2.c         ok
+preproctest/should_warn/redef3.c         ok
+preproctest/should_warn/redef4.c         ok
+preproctest/should_warn/redef5.c         ok
+preproctest/should_warn/redef6.c         ok
+preproctest/should_warn/vaarg.c          ok
 preproctest/simple.c                     ok
 preproctest/simpleconcat.c               ok
 preproctest/simpledef.c                  ok
