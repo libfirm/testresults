@@ -1561,47 +1561,47 @@ preproctest/pp_error4.c                  preprocess: output mismatch
 preproctest/ppexprs.c                    ok
 preproctest/recursive_defs.c             ok
 preproctest/redef.c                      ok
-preproctest/should_fail/bad_concat.c     preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat10.c   preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat11.c   preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat2.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat3.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat4.c    preprocess: ok (but no reference file)
+preproctest/should_fail/bad_concat.c     ok
+preproctest/should_fail/bad_concat10.c   ok
+preproctest/should_fail/bad_concat11.c   ok
+preproctest/should_fail/bad_concat2.c    ok
+preproctest/should_fail/bad_concat3.c    ok
+preproctest/should_fail/bad_concat4.c    ok
 preproctest/should_fail/bad_concat5.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat6.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat7.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat8.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_concat9.c    preprocess: ok (but no reference file)
-preproctest/should_fail/bad_def.c        preprocess: ok (but no reference file)
-preproctest/should_fail/call.c           preprocess: ok (but no reference file)
-preproctest/should_fail/call2.c          preprocess: ok (but no reference file)
-preproctest/should_fail/call3.c          preprocess: ok (but no reference file)
+preproctest/should_fail/bad_concat6.c    ok
+preproctest/should_fail/bad_concat7.c    ok
+preproctest/should_fail/bad_concat8.c    ok
+preproctest/should_fail/bad_concat9.c    ok
+preproctest/should_fail/bad_def.c        ok
+preproctest/should_fail/call.c           ok
+preproctest/should_fail/call2.c          ok
+preproctest/should_fail/call3.c          ok
 preproctest/should_fail/call4.c          preprocess: SIGABRT
-preproctest/should_fail/define_defined.c preprocess: ok (but no reference file)
+preproctest/should_fail/define_defined.c ok
 preproctest/should_fail/defined.c        preprocess: ok (but no reference file)
 preproctest/should_fail/defined1.c       preprocess: ok (but no reference file)
 preproctest/should_fail/defined2.c       preprocess: ok (but no reference file)
 preproctest/should_fail/defined3.c       preprocess: ok (but no reference file)
-preproctest/should_fail/double_define_arg.c preprocess: ok (but no reference file)
+preproctest/should_fail/double_define_arg.c ok
 preproctest/should_fail/halfcall.c       preprocess: ok (but no reference file)
 preproctest/should_fail/halfcall2.c      preprocess: ok (but no reference file)
-preproctest/should_fail/ifdef_empty.c    preprocess: ok (but no reference file)
-preproctest/should_fail/ifdef_plus.c     preprocess: ok (but no reference file)
-preproctest/should_fail/ifndef_empty.c   preprocess: ok (but no reference file)
-preproctest/should_fail/ifndef_minus.c   preprocess: ok (but no reference file)
-preproctest/should_fail/include_def3.c   preprocess: ok (but no reference file)
-preproctest/should_fail/include_nonexistant.c preprocess: ok (but no reference file)
-preproctest/should_fail/include_nonexistant2.c preprocess: ok (but no reference file)
+preproctest/should_fail/ifdef_empty.c    ok
+preproctest/should_fail/ifdef_plus.c     ok
+preproctest/should_fail/ifndef_empty.c   ok
+preproctest/should_fail/ifndef_minus.c   ok
+preproctest/should_fail/include_def3.c   ok
+preproctest/should_fail/include_nonexistant.c ok
+preproctest/should_fail/include_nonexistant2.c ok
 preproctest/should_fail/no_concat.c      preprocess: ok (but no reference file)
-preproctest/should_fail/no_hash_param.c  preprocess: ok (but no reference file)
-preproctest/should_fail/no_hash_param1.c preprocess: ok (but no reference file)
+preproctest/should_fail/no_hash_param.c  ok
+preproctest/should_fail/no_hash_param1.c ok
 preproctest/should_fail/random_garbage.c preprocess: ok (but no reference file)
-preproctest/should_fail/toomanyargs.c    preprocess: ok (but no reference file)
-preproctest/should_fail/unbalanced.c     preprocess: ok (but no reference file)
-preproctest/should_fail/unbalanced2.c    preprocess: ok (but no reference file)
-preproctest/should_fail/unbalanced3.c    preprocess: ok (but no reference file)
-preproctest/should_fail/unbalanced4.c    preprocess: ok (but no reference file)
-preproctest/should_fail/undef_defined.c  preprocess: ok (but no reference file)
+preproctest/should_fail/toomanyargs.c    ok
+preproctest/should_fail/unbalanced.c     ok
+preproctest/should_fail/unbalanced2.c    ok
+preproctest/should_fail/unbalanced3.c    ok
+preproctest/should_fail/unbalanced4.c    ok
+preproctest/should_fail/undef_defined.c  ok
 preproctest/should_warn/define_in_call.c preprocess: ok (but no reference file)
 preproctest/should_warn/if_in_param.c    preprocess: ok (but no reference file)
 preproctest/should_warn/include_in_call.c preprocess: ok (but no reference file)
