@@ -928,6 +928,7 @@ opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo10.c                            ok
 opt/combo11.c                            ok
+opt/combo12.c                            compile: SIGABRT
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
