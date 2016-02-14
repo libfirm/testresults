@@ -1280,7 +1280,7 @@ opt/fehler309.c                          ok
 opt/fehler310.c                          ok
 opt/fehler311.c                          ok
 opt/fehler312.c                          ok
-opt/fehler313.c                          compile: SIGABRT
+opt/fehler313.c                          ok
 opt/fehler314.c                          ok
 opt/fehler315.c                          ok
 opt/fehler316.c                          ok
