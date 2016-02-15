@@ -637,6 +637,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
+backend/asm_clobber_prefix.c             compile: 2 compile errors
 backend/basicspill.c                     ok
 backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
