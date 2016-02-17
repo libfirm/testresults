@@ -918,6 +918,7 @@ opt/blocks.c                             ok
 opt/boolopt.c                            ok
 opt/boolopt2.c                           ok
 opt/boolopt3.c                           ok
+opt/boolopt4.c                           ok
 opt/boolopts.c                           ok
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
