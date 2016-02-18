@@ -1460,6 +1460,7 @@ opt/reassoc037.c                         ok
 opt/reassoc038.c                         ok
 opt/reassoc039.c                         ok
 opt/reassoc040.c                         compile: SIGABRT
+opt/reassoc041.c                         ok
 opt/rotate.c                             execute: output mismatch
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
