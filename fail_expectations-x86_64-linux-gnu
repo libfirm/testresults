@@ -1653,6 +1653,6 @@ x86_64code/asm_mod_c.c                   ok
 x86_64code/asm_test.c                    ok
 x86_64code/asm_test2.c                   ok
 x86_64code/cas.c                         ok
-x86_64code/imm32.c                       asm: check 'leal\s+-1\(' failed
+x86_64code/imm32.c                       ok
 x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
 x86_64code/lea2.c                        asm: check 'leaq\s+_?arr.*\+12\(%.*,%.*,4\), %rax' failed
