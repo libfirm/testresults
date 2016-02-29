@@ -742,7 +742,7 @@ backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
-backend/subregister.c                    compile: SIGABRT
+backend/subregister.c                    ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
 backend/transform_loop.c                 ok
@@ -919,7 +919,7 @@ opt/blocks.c                             ok
 opt/boolopt.c                            ok
 opt/boolopt2.c                           ok
 opt/boolopt3.c                           ok
-opt/boolopt4.c                           compile: SIGABRT
+opt/boolopt4.c                           ok
 opt/boolopts.c                           ok
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
@@ -1288,8 +1288,8 @@ opt/fehler314.c                          ok
 opt/fehler315.c                          ok
 opt/fehler316.c                          ok
 opt/fehler317.c                          compile: SIGABRT
-opt/fehler318.c                          compile: SIGABRT
-opt/fehler319.c                          compile: SIGABRT
+opt/fehler318.c                          ok
+opt/fehler319.c                          ok
 opt/fehler320.c                          compile: SIGABRT
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
