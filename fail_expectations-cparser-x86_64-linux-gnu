@@ -703,6 +703,7 @@ backend/optest_float.c                   ok
 backend/optest_longlong.c                ok
 backend/paramaddr.c                      ok
 backend/paramaddrsf.c                    ok
+backend/pbqp.c                           ok
 backend/peephole.c                       ok
 backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
