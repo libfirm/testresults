@@ -50,6 +50,7 @@ ConcurrentAtTest3.x10                    ok
 Conditional.x10                          ok
 ConstrainedTypes.x10                     ok
 DDispatch.x10                            ok
+DelegatingConstructor.x10                ok
 DesugarerTest.x10                        ok
 DistArrayTest.x10                        ok
 Dynamic.x10                              ok
