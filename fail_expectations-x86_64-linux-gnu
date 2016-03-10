@@ -492,6 +492,7 @@ C/should_fail/t.c                        compile: missed error
 C/should_fail/too_big_number.c           ok
 C/should_fail/transparent_union2.c       compile: missed error
 C/should_fail/typedef_enum.c             ok
+C/should_fail/typedef_fundef.c           compile: SIGABRT
 C/should_fail/typedef_in_expr.c          ok
 C/should_fail/typedef_init.c             ok
 C/should_fail/unclosed_string.c          ok
