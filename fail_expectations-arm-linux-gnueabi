@@ -392,7 +392,7 @@ C/should_fail/incompatible0.c            ok
 C/should_fail/incompatible1.c            ok
 C/should_fail/incompatible10.c           compile: ok (but no reference file)
 C/should_fail/incompatible11.c           compile: ok (but no reference file)
-C/should_fail/incompatible12.c           compile: reported 0 errors instead of 2
+C/should_fail/incompatible12.c           ok
 C/should_fail/incompatible2.c            compile: ok (but no reference file)
 C/should_fail/incompatible3.c            ok
 C/should_fail/incompatible4.c            ok
@@ -434,6 +434,8 @@ C/should_fail/kr5.c                      ok
 C/should_fail/kr7.c                      ok
 C/should_fail/label.c                    ok
 C/should_fail/large_array.c              compile: missed error
+C/should_fail/large_array2.c             compile: SIGABRT
+C/should_fail/large_array3.c             compile: SIGABRT
 C/should_fail/lvalue.c                   ok
 C/should_fail/missing.c                  ok
 C/should_fail/multidef0.c                compile: missed error
