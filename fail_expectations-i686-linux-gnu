@@ -387,7 +387,7 @@ C/should_fail/forscope.c                 ok
 C/should_fail/funcassign.c               ok
 C/should_fail/function_return.c          ok
 C/should_fail/goto_identifier_scope.c    compile: missed error
-C/should_fail/incarray.c                 compile: reported 0 errors instead of 1
+C/should_fail/incarray.c                 ok
 C/should_fail/incompatible0.c            ok
 C/should_fail/incompatible1.c            ok
 C/should_fail/incompatible10.c           compile: ok (but no reference file)
