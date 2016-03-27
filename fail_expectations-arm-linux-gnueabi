@@ -823,6 +823,7 @@ lit/init.c                               ok
 lit/inline.c                             ok
 lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
+lit/return_address.c                     run0: returncode not zero but 1
 lit/target.c                             ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
