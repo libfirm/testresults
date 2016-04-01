@@ -434,8 +434,8 @@ C/should_fail/kr5.c                      ok
 C/should_fail/kr7.c                      ok
 C/should_fail/label.c                    ok
 C/should_fail/large_array.c              compile: missed error
-C/should_fail/large_array2.c             compile: reported different errors
-C/should_fail/large_array3.c             compile: reported 0 errors instead of 1
+C/should_fail/large_array2.c             ok
+C/should_fail/large_array3.c             ok
 C/should_fail/lvalue.c                   ok
 C/should_fail/missing.c                  ok
 C/should_fail/multidef0.c                compile: missed error
@@ -818,6 +818,7 @@ lit/init.c                               ok
 lit/inline.c                             ok
 lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
+lit/return_address.c                     run0: returncode not zero but 1
 lit/target.c                             ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
