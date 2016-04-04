@@ -820,6 +820,7 @@ lit/inline.c                             ok
 lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
 lit/return_address.c                     ok
+lit/rol_ror.c                            ok
 lit/target.c                             ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
@@ -1722,7 +1723,6 @@ x86code/modopt.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
 x86code/relation_false.c                 ok
-x86code/rol_ror.c                        ok
 x86code/setmem.c                         ok
 x86code/shift64.c                        ok
 x86code/shiftd.c                         ok
