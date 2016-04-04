@@ -820,6 +820,7 @@ lit/inline.c                             ok
 lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
 lit/return_address.c                     ok
+lit/rol_ror.c                            ok
 lit/target.c                             ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
