@@ -813,6 +813,7 @@ langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              ok
 langshootout/recursive.c                 ok
 langshootout/spectral-norm.c             ok
+lit/cfi.c                                run1: returncode not zero but 1
 lit/common.c                             ok
 lit/init.c                               ok
 lit/inline.c                             ok
