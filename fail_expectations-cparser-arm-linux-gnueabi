@@ -818,6 +818,7 @@ langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
 langshootout/recursive.c                 compile: SIGABRT
 langshootout/spectral-norm.c             compile: SIGABRT
+lit/cfi.c                                run1: returncode not zero but 1
 lit/common.c                             ok
 lit/init.c                               ok
 lit/inline.c                             ok
