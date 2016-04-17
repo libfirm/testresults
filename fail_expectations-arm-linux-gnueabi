@@ -652,16 +652,16 @@ backend/builtin_clzl.c                   ok
 backend/builtin_clzll.c                  compile: SIGABRT
 backend/builtin_ctz.c                    ok
 backend/builtin_ctzl.c                   ok
-backend/builtin_ctzll.c                  compile: assembler error
+backend/builtin_ctzll.c                  ok
 backend/builtin_ffs.c                    ok
 backend/builtin_ffsl.c                   ok
-backend/builtin_ffsll.c                  compile: assembler error
+backend/builtin_ffsll.c                  ok
 backend/builtin_parity.c                 ok
 backend/builtin_parityl.c                ok
-backend/builtin_parityll.c               compile: assembler error
+backend/builtin_parityll.c               ok
 backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
-backend/builtin_popcountll.c             compile: assembler error
+backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/chordal2.c                       ok
 backend/chordal3.c                       ok
