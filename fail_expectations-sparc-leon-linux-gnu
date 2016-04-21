@@ -437,6 +437,7 @@ C/should_fail/large_array.c              compile: missed error
 C/should_fail/large_array2.c             ok
 C/should_fail/large_array3.c             ok
 C/should_fail/lvalue.c                   ok
+C/should_fail/macro_errloc.c             compile: reported different errors
 C/should_fail/missing.c                  ok
 C/should_fail/multidef0.c                compile: missed error
 C/should_fail/multidef1.c                ok
