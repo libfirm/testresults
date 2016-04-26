@@ -653,20 +653,20 @@ backend/builtin_clzl.c                   ok
 backend/builtin_clzll.c                  compile: SIGABRT
 backend/builtin_ctz.c                    ok
 backend/builtin_ctzl.c                   ok
-backend/builtin_ctzll.c                  compile: assembler error
+backend/builtin_ctzll.c                  ok
 backend/builtin_ffs.c                    ok
 backend/builtin_ffsl.c                   ok
-backend/builtin_ffsll.c                  compile: assembler error
+backend/builtin_ffsll.c                  ok
 backend/builtin_parity.c                 ok
 backend/builtin_parityl.c                ok
-backend/builtin_parityll.c               compile: assembler error
+backend/builtin_parityll.c               ok
 backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
-backend/builtin_popcountll.c             compile: assembler error
+backend/builtin_popcountll.c             ok
 backend/chordal.c                        ok
 backend/chordal2.c                       ok
 backend/chordal3.c                       ok
-backend/cmovs.c                          compile: assembler error
+backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            compile: linker error
 backend/convconv.c                       ok
 backend/destam_flags.c                   ok
@@ -820,14 +820,14 @@ langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
 langshootout/recursive.c                 compile: SIGABRT
 langshootout/spectral-norm.c             compile: SIGABRT
-lit/cfi.c                                run1: returncode not zero but 1
+lit/cfi.c                                ok
 lit/common.c                             ok
 lit/init.c                               ok
 lit/inline.c                             ok
 lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
-lit/return_address.c                     run0: returncode not zero but 1
-lit/rol_ror.c                            run0: returncode not zero but 1
+lit/return_address.c                     ok
+lit/rol_ror.c                            ok
 lit/target.c                             ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
