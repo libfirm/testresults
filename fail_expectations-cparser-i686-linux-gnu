@@ -722,7 +722,7 @@ backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift.c                          ok
-backend/shift2.c                         compile: SIGABRT
+backend/shift2.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
 backend/sparc_bad_delayslot.c            ok
@@ -815,14 +815,14 @@ langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              ok
 langshootout/recursive.c                 ok
 langshootout/spectral-norm.c             ok
-lit/cfi.c                                run1: returncode not zero but 1
+lit/cfi.c                                ok
 lit/common.c                             ok
 lit/init.c                               ok
 lit/inline.c                             ok
 lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
-lit/return_address.c                     run0: returncode not zero but 1
-lit/rol_ror.c                            run0: returncode not zero but 1
+lit/return_address.c                     ok
+lit/rol_ror.c                            ok
 lit/target.c                             ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
@@ -1323,9 +1323,9 @@ opt/gzip_error.c                         ok
 opt/iabs.c                               ok
 opt/if.c                                 ok
 opt/ifconv.c                             ok
-opt/ifconv10.c                           compile: SIGABRT
+opt/ifconv10.c                           ok
 opt/ifconv11.c                           ok
-opt/ifconv12.c                           execute: returncode not zero but 1
+opt/ifconv12.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
