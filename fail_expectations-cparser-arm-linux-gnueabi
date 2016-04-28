@@ -260,6 +260,7 @@ C/nowarn/initializer1.c                  ok
 C/nowarn/main.c                          ok
 C/nowarn/noreturn.c                      ok
 C/nowarn/printf.c                        ok
+C/nowarn/printf_bitfield.c               compile: produced invalid warning
 C/nowarn/printf_unsigned_short.c         ok
 C/nowarn/redirect.c                      ok
 C/nowarn/redundant_decl.c                ok
@@ -267,6 +268,7 @@ C/nowarn/scanf_suppress.c                ok
 C/nowarn/scanf_width_c.c                 ok
 C/nowarn/scanf_width_s.c                 ok
 C/nowarn/sign_compare.c                  ok
+C/nowarn/switch_enum.c                   compile: produced invalid warning
 C/nowarn/unused.c                        ok
 C/nowarn/voidret.c                       ok
 C/nowarn/write_only1.c                   ok
