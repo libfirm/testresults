@@ -260,7 +260,7 @@ C/nowarn/initializer1.c                  ok
 C/nowarn/main.c                          ok
 C/nowarn/noreturn.c                      ok
 C/nowarn/printf.c                        ok
-C/nowarn/printf_bitfield.c               compile: produced invalid warning
+C/nowarn/printf_bitfield.c               ok
 C/nowarn/printf_unsigned_short.c         ok
 C/nowarn/redirect.c                      ok
 C/nowarn/redundant_decl.c                ok
