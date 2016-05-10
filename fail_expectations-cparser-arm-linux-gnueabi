@@ -1432,6 +1432,7 @@ opt/place.c                              ok
 opt/postinc.c                            ok
 opt/pr37102.c                            ok
 opt/proc_cloning001.c                    compile: SIGABRT
+opt/proc_cloning002.c                    ok
 opt/psi_test.c                           ok
 opt/ptr_to_int.c                         ok
 opt/queens-handoptimized.c               ok
