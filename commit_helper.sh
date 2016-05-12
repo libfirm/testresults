@@ -8,6 +8,7 @@ new_expectations="$1"
 file="$2"
 buildername="$3"
 buildnumber="$4"
+changeset="$5"
 
 # check if push is necessary
 if diff "${new_expectations}" "${file}" >& /dev/null; then
@@ -22,6 +23,9 @@ git remote add origin /ben/local/GIT/public/firm-testresults
 # construct commit message
 TCM="tmp_commit_message.txt"
 echo "buildbot update ${buildername} ${buildnumber}" >${TCM}
+echo "" >>${TCM}
+echo "Revisions used:" >>${TCM}
+echo "$changeset" | sed -e "s/;/\n/g" -e "s/=/ = /g" >>${TCM}
 echo "" >>${TCM}
 echo "See: http://buildbot.info.uni-karlsruhe.de/builders/${buildername// /%20}/builds/${buildnumber}" >>${TCM}
 
