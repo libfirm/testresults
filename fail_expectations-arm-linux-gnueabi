@@ -1434,7 +1434,9 @@ opt/pr37102.c                            ok
 opt/proc_cloning001.c                    ok
 opt/proc_cloning002.c                    compile: SIGABRT
 opt/proc_cloning003.c                    ok
+opt/proc_cloning004.c                    compile: SIGABRT
 opt/proc_cloning005.c                    compile: SIGABRT
+opt/proc_cloning006.c                    compile: SIGABRT
 opt/psi_test.c                           ok
 opt/ptr_to_int.c                         ok
 opt/queens-handoptimized.c               ok
