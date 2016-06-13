@@ -696,6 +696,7 @@ backend/inconsistent_outs.c              ok
 backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
 backend/initializer_bug.c                ok
+backend/ld2ull.c                         execute: output mismatch
 backend/ldouble_memperm.c                compile: SIGABRT
 backend/long_double_arith.c              ok
 backend/long_double_conv.c               ok
