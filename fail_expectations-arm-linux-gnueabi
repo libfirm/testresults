@@ -680,6 +680,7 @@ backend/div_pinned.c                     ok
 backend/double_memperm.c                 compile: SIGABRT
 backend/duplicate_proj.c                 ok
 backend/extern_sret.c                    ok
+backend/f2ull.c                          compile: linker error
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
 backend/fdiv.c                           compile: linker error
