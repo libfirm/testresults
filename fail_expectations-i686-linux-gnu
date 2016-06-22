@@ -709,7 +709,7 @@ backend/lower_call4.c                    ok
 backend/lower_copyb.c                    ok
 backend/memperm.c                        ok
 backend/minus64.c                        ok
-backend/mux_long_double.c                execute: output mismatch
+backend/mux_long_double.c                ok
 backend/optest.c                         ok
 backend/optest_float.c                   ok
 backend/optest_longlong.c                ok
