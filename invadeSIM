@@ -195,6 +195,7 @@ agent/ReinvadeDistArrayTest.x10          run: output mismatch
 agent/ReinvadePlaceLocalHandleTest.x10   run: output mismatch
 agent/ReinvadeSchedule.x10               compile: returncode not zero but 1
 agent/SFCMatMul.x10                      run: output mismatch
+agent/SSCA1Test.x10                      compile: returncode not zero but 1
 agent/SkinDetect.x10                     run: output mismatch
 agent/SlotFail.x10                       compile: returncode not zero but 1
 agent/TileSharingTest.x10                compile: returncode not zero but 1
