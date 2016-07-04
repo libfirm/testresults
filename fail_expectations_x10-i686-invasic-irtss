@@ -196,7 +196,7 @@ agent/ReinvadeDistArrayTest.x10          ok
 agent/ReinvadePlaceLocalHandleTest.x10   ok
 agent/ReinvadeSchedule.x10               run: SIGABRT
 agent/SFCMatMul.x10                      ok
-agent/SSCA1Test.x10                      run: output mismatch
+agent/SSCA1Test.x10                      ok
 agent/SkinDetect.x10                     ok
 agent/SlotFail.x10                       run: SIGABRT
 agent/TileSharingTest.x10                ok
