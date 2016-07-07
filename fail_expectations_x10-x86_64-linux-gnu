@@ -105,6 +105,7 @@ MinimalIntegrate.x10                     ok
 NQueens.x10                              ok
 NQueensDist.x10                          ok
 NQueensPar.x10                           ok
+NameTest.x10                             ok
 NestedTypeParams.x10                     ok
 NullUnbox.x10                            ok
 Operators.x10                            ok
