@@ -692,6 +692,7 @@ backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
 backend/ia32_shl.c                       ok
+backend/immediate.c                      ok
 backend/inconsistent_outs.c              ok
 backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
