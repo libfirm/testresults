@@ -1547,6 +1547,7 @@ opt/vararray.c                           compile: SIGABRT
 opt/variadic_longlong.c                  compile: 2 compile errors
 opt/vla.c                                compile: SIGABRT
 opt/volatile.c                           ok
+opt/volatile2.c                          asm: check 'global' failed
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
 preproctest/builtins.c                   ok
