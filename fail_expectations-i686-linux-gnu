@@ -1542,7 +1542,7 @@ opt/vararray.c                           ok
 opt/variadic_longlong.c                  ok
 opt/vla.c                                ok
 opt/volatile.c                           ok
-opt/volatile2.c                          asm: check 'global' failed
+opt/volatile2.c                          ok
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
 preproctest/builtins.c                   ok
