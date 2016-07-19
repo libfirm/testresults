@@ -688,6 +688,7 @@ backend/i2f.c                            ok
 backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
+backend/ia32_mode_t2.c                   ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
