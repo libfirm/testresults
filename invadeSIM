@@ -105,6 +105,7 @@ MinimalIntegrate.x10                     compile: returncode not zero but 1
 NQueens.x10                              ok
 NQueensDist.x10                          ok
 NQueensPar.x10                           ok
+NameTest.x10                             ok
 NestedTypeParams.x10                     ok
 NullUnbox.x10                            ok
 Operators.x10                            ok
@@ -184,6 +185,7 @@ agent/MalleableTest.x10                  run: output mismatch
 agent/MapReduce.x10                      run: output mismatch
 agent/Multigrid.x10                      compile: returncode not zero but 1
 agent/MultigridCombat.x10                compile: returncode not zero but 1
+agent/MultigridNonInvasive.x10           compile: returncode not zero but 1
 agent/MultigridVsIntegrate.x10           compile: returncode not zero but 1
 agent/Multiple.x10                       run: output mismatch
 agent/PEDistTest.x10                     ok
