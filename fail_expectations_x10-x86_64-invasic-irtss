@@ -5,12 +5,12 @@ ActivityLocalCounter.x10                 ok
 AnonymousClass.x10                       ok
 ArrayBenchmark.x10                       ok
 ArrayListTest.x10                        ok
-ArrayListTest2.x10                       run: output mismatch
-ArrayTest.x10                            run: output mismatch
+ArrayListTest2.x10                       ok
+ArrayTest.x10                            ok
 Assert.x10                               ok
 Async0.x10                               compile: returncode not zero but 1
-Async1.x10                               run: output mismatch
-AsyncAtTest.x10                          run: output mismatch
+Async1.x10                               ok
+AsyncAtTest.x10                          ok
 AsyncVarTest.x10                         compile: returncode not zero but 1
 AtArrayListTest.x10                      ok
 AtArrayTest.x10                          ok
@@ -20,8 +20,8 @@ AtAsyncTest.x10                          ok
 AtClass2Test.x10                         ok
 AtClass3Test.x10                         ok
 AtExpressionTest.x10                     ok
-AtStructTest.x10                         run: output mismatch
-AtomicAtomicTest.x10                     run: output mismatch
+AtStructTest.x10                         ok
+AtomicAtomicTest.x10                     ok
 AtomicFunctionTest.x10                   ok
 AtomicLongTest.x10                       ok
 AtomicReferenceTest.x10                  ok
@@ -34,6 +34,8 @@ CPeanoOrder.x10                          ok
 Cast1.x10                                ok
 Cast2.x10                                ok
 Cast3.x10                                ok
+Cast4.x10                                ok
+Cast5.x10                                compile: SIGABRT
 CellTest.x10                             ok
 CharSwitch.x10                           ok
 Class.x10                                ok
@@ -47,10 +49,11 @@ ConcurrentAtTest2.x10                    ok
 ConcurrentAtTest3.x10                    ok
 Conditional.x10                          ok
 ConstrainedTypes.x10                     ok
-DDispatch.x10                            run: output mismatch
-DesugarerTest.x10                        run: output mismatch
-DistArrayTest.x10                        run: output mismatch
-Dynamic.x10                              run: output mismatch
+DDispatch.x10                            ok
+DelegatingConstructor.x10                ok
+DesugarerTest.x10                        ok
+DistArrayTest.x10                        ok
+Dynamic.x10                              ok
 DynamicInnerClass.x10                    ok
 Fibonacci.x10                            ok
 Fields.x10                               ok
@@ -65,8 +68,8 @@ GenericCallTwoLevels.x10                 ok
 GenericClass.x10                         ok
 GenericClass2.x10                        ok
 GenericClosure.x10                       ok
-GenericConstructor.x10                   run: output mismatch
-GenericField.x10                         run: output mismatch
+GenericConstructor.x10                   ok
+GenericField.x10                         ok
 GenericIdentity.x10                      ok
 GenericOverride.x10                      ok
 GenericParamShadowing.x10                ok
@@ -76,11 +79,11 @@ GlobalRefTest.x10                        ok
 GrowableIMCTest.x10                      ok
 GuardClosure.x10                         ok
 HashMapBug.x10                           ok
-HashMapTest.x10                          run: output mismatch
+HashMapTest.x10                          ok
 HashSetTest.x10                          ok
 HelloWorld.x10                           ok
 ICoreTest.x10                            ok
-IMCSerializationTest.x10                 run: output mismatch
+IMCSerializationTest.x10                 ok
 IMCSerializationTest2.x10                ok
 If.x10                                   ok
 If2.x10                                  ok
@@ -90,6 +93,7 @@ ImplementsAny.x10                        ok
 InstanceOfComparable.x10                 ok
 InterfaceCall.x10                        ok
 InterfaceLookup.x10                      run: output mismatch
+InterfaceLookup3.x10                     run: output mismatch
 IterableTest.x10                         ok
 LazyAnd.x10                              ok
 LazyOr.x10                               ok
@@ -101,6 +105,7 @@ MinimalIntegrate.x10                     ok
 NQueens.x10                              ok
 NQueensDist.x10                          ok
 NQueensPar.x10                           ok
+NameTest.x10                             ok
 NestedTypeParams.x10                     ok
 NullUnbox.x10                            ok
 Operators.x10                            ok
@@ -140,14 +145,14 @@ StaticFields.x10                         ok
 StaticFields2.x10                        ok
 StaticInnerClass.x10                     ok
 StaticNonConstTest1.x10                  ok
-StaticNonConstTest2.x10                  run: output mismatch
+StaticNonConstTest2.x10                  ok
 StaticNonConstTest3.x10                  ok
 StaticNonConstTest4.x10                  ok
 StaticNonConstTest5.x10                  ok
 StringBuilderTest.x10                    ok
 StringConcat.x10                         ok
 StringEquals.x10                         ok
-StringIndex.x10                          run: output mismatch
+StringIndex.x10                          ok
 StringInstanceOf.x10                     ok
 StringInterfaceCall.x10                  ok
 StringOps.x10                            ok
@@ -171,29 +176,31 @@ ZeroTest.x10                             ok
 agent/AntragHistogram.x10                compile: returncode not zero but 1
 agent/Blocking.x10                       ok
 agent/CurrentClaimBug.x10                ok
-agent/Fehler001.x10                      compile: returncode not zero but 1
-agent/HelloAgent.x10                     compile: returncode not zero but 1
-agent/Integrate.x10                      compile: returncode not zero but 1
-agent/Integrate2.x10                     compile: returncode not zero but 1
-agent/InvadeTest.x10                     compile: returncode not zero but 1
+agent/HelloAgent.x10                     ok
+agent/Integrate.x10                      ok
+agent/Integrate2.x10                     ok
+agent/InvadeTest.x10                     ok
 agent/InvasiveQuickSort.x10              run: output mismatch
-agent/Malleable.x10                      compile: returncode not zero but 1
-agent/MapReduce.x10                      compile: returncode not zero but 1
+agent/MalleableTest.x10                  compile: returncode not zero but 1
+agent/MapReduce.x10                      ok
 agent/Multigrid.x10                      run: output mismatch
 agent/MultigridCombat.x10                run: output mismatch
-agent/Multiple.x10                       compile: returncode not zero but 1
-agent/PEDistTest.x10                     compile: returncode not zero but 1
-agent/PlaceCheck.x10                     compile: returncode not zero but 1
-agent/PlaceGap.x10                       compile: returncode not zero but 1
-agent/Recur.x10                          compile: returncode not zero but 1
-agent/ReinvadeCheck.x10                  compile: returncode not zero but 1
-agent/ReinvadeDistArrayTest.x10          compile: returncode not zero but 1
-agent/ReinvadePlaceLocalHandleTest.x10   compile: returncode not zero but 1
+agent/MultigridNonInvasive.x10           ok
+agent/MultigridVsIntegrate.x10           run: output mismatch
+agent/Multiple.x10                       ok
+agent/PEDistTest.x10                     ok
+agent/PlaceCheck.x10                     ok
+agent/PlaceGap.x10                       ok
+agent/Recur.x10                          ok
+agent/ReinvadeCheck.x10                  ok
+agent/ReinvadeDistArrayTest.x10          ok
+agent/ReinvadePlaceLocalHandleTest.x10   ok
 agent/ReinvadeSchedule.x10               run: output mismatch
-agent/SFCMatMul.x10                      compile: returncode not zero but 1
+agent/SFCMatMul.x10                      ok
+agent/SSCA1Test.x10                      ok
 agent/SkinDetect.x10                     run: output mismatch
 agent/SlotFail.x10                       run: output mismatch
 agent/TileSharingTest.x10                ok
 agent/TileTest.x10                       ok
-agent/UTS.x10                            run: output mismatch
+agent/UTS.x10                            ok
 agent/Update.x10                         ok
