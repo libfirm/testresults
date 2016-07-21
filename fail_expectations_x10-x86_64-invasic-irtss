@@ -176,11 +176,11 @@ agent/HelloAgent.x10                     compile: returncode not zero but 1
 agent/Integrate.x10                      compile: returncode not zero but 1
 agent/Integrate2.x10                     compile: returncode not zero but 1
 agent/InvadeTest.x10                     compile: returncode not zero but 1
-agent/InvasiveQuickSort.x10              compile: returncode not zero but 1
+agent/InvasiveQuickSort.x10              run: output mismatch
 agent/Malleable.x10                      compile: returncode not zero but 1
 agent/MapReduce.x10                      compile: returncode not zero but 1
-agent/Multigrid.x10                      compile: returncode not zero but 1
-agent/MultigridCombat.x10                compile: returncode not zero but 1
+agent/Multigrid.x10                      run: output mismatch
+agent/MultigridCombat.x10                run: output mismatch
 agent/Multiple.x10                       compile: returncode not zero but 1
 agent/PEDistTest.x10                     compile: returncode not zero but 1
 agent/PlaceCheck.x10                     compile: returncode not zero but 1
@@ -189,7 +189,7 @@ agent/Recur.x10                          compile: returncode not zero but 1
 agent/ReinvadeCheck.x10                  compile: returncode not zero but 1
 agent/ReinvadeDistArrayTest.x10          compile: returncode not zero but 1
 agent/ReinvadePlaceLocalHandleTest.x10   compile: returncode not zero but 1
-agent/ReinvadeSchedule.x10               compile: returncode not zero but 1
+agent/ReinvadeSchedule.x10               run: output mismatch
 agent/SFCMatMul.x10                      compile: returncode not zero but 1
 agent/SkinDetect.x10                     run: output mismatch
 agent/SlotFail.x10                       run: output mismatch
