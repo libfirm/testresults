@@ -185,6 +185,7 @@ agent/MalleableTest.x10                  compile: returncode not zero but 1
 agent/MapReduce.x10                      ok
 agent/Multigrid.x10                      ok
 agent/MultigridCombat.x10                ok
+agent/MultigridNonInvasive.x10           ok
 agent/MultigridVsIntegrate.x10           ok
 agent/Multiple.x10                       ok
 agent/PEDistTest.x10                     ok
