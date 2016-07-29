@@ -204,6 +204,7 @@ C/gnu99/redirect.c                       ok
 C/gnu99/redirect_nowarn.c                ok
 C/gnu99/should_warn/empty_stmtexpr.c     compile: reported 2 warnings instead of 1
 C/gnu99/sizeof_function.c                ok
+C/gnu99/stmt_expr_goto.c                 ok
 C/gnu99/stmtexpr.c                       compile: 1 compile errors
 C/gnu99/strangeattr.c                    ok
 C/gnu99/structalign.c                    ok
@@ -693,6 +694,7 @@ backend/i2f.c                            compile: SIGABRT
 backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
+backend/ia32_mode_t2.c                   ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
@@ -713,7 +715,7 @@ backend/lower_call2.c                    ok
 backend/lower_call3.c                    ok
 backend/lower_call4.c                    ok
 backend/lower_copyb.c                    ok
-backend/memperm.c                        compile: SIGABRT
+backend/memperm.c                        ok
 backend/minus64.c                        ok
 backend/mux_long_double.c                ok
 backend/optest.c                         ok
@@ -1314,6 +1316,7 @@ opt/fehler317.c                          compile: SIGABRT
 opt/fehler318.c                          ok
 opt/fehler319.c                          ok
 opt/fehler320.c                          ok
+opt/fehler321.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1547,7 +1550,7 @@ opt/vararray.c                           compile: SIGABRT
 opt/variadic_longlong.c                  compile: 2 compile errors
 opt/vla.c                                compile: SIGABRT
 opt/volatile.c                           ok
-opt/volatile2.c                          asm: check 'global' failed
+opt/volatile2.c                          ok
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
 preproctest/builtins.c                   ok
