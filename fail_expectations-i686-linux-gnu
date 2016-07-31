@@ -212,6 +212,7 @@ C/gnu99/system_header_typedef.c          ok
 C/gnu99/tcctest.c                        compile: 1 compile errors
 C/gnu99/transparent_union.c              ok
 C/gnu99/transparent_union3.c             ok
+C/gnu99/transparent_union4.c             compile: 2 compile errors
 C/gnu99/typeof.c                         ok
 C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     compile: 2 compile errors
@@ -690,6 +691,7 @@ backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_mode_t2.c                   ok
+backend/ia32_mode_t3.c                   compile: SIGABRT
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
