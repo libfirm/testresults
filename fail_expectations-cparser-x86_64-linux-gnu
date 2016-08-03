@@ -196,6 +196,7 @@ C/gnu99/omitted_cond.c                   ok
 C/gnu99/omitted_cond2.c                  ok
 C/gnu99/omitted_cond3.c                  ok
 C/gnu99/packed.c                         ok
+C/gnu99/packed2.c                        ok
 C/gnu99/packed_bf.c                      ok
 C/gnu99/pointerarith.c                   ok
 C/gnu99/pretty_function.c                ok
