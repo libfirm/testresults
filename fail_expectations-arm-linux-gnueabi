@@ -167,7 +167,7 @@ C/gnu99/complex_misc.c                   ok
 C/gnu99/complex_uint.c                   ok
 C/gnu99/computed_goto.c                  compile: SIGABRT
 C/gnu99/constexpr8.c                     ok
-C/gnu99/construct_destruct.c             execute: output mismatch
+C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error028.c                    ok
 C/gnu99/cp_error038.c                    ok
 C/gnu99/cp_error041.c                    ok
@@ -196,6 +196,7 @@ C/gnu99/omitted_cond.c                   ok
 C/gnu99/omitted_cond2.c                  ok
 C/gnu99/omitted_cond3.c                  ok
 C/gnu99/packed.c                         ok
+C/gnu99/packed2.c                        ok
 C/gnu99/packed_bf.c                      ok
 C/gnu99/pointerarith.c                   ok
 C/gnu99/pretty_function.c                ok
@@ -212,6 +213,7 @@ C/gnu99/system_header_typedef.c          ok
 C/gnu99/tcctest.c                        compile: 5 compile errors
 C/gnu99/transparent_union.c              ok
 C/gnu99/transparent_union3.c             ok
+C/gnu99/transparent_union4.c             compile: 2 compile errors
 C/gnu99/typeof.c                         ok
 C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     compile: 2 compile errors
@@ -695,6 +697,7 @@ backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_mode_t2.c                   ok
+backend/ia32_mode_t3.c                   ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
@@ -741,8 +744,8 @@ backend/shift64.c                        ok
 backend/sign_bit.c                       ok
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
-backend/sparc_chordal.c                  compile: SIGABRT
-backend/sparc_chordal2.c                 compile: SIGABRT
+backend/sparc_chordal.c                  ok
+backend/sparc_chordal2.c                 ok
 backend/sparc_cmp.c                      ok
 backend/sparc_cmp2.c                     ok
 backend/sparc_cmp3.c                     ok
@@ -855,7 +858,7 @@ llvm/2003-10-12-GlobalVarInitializers.c  ok
 llvm/2004-02-03-AggregateCopy.c          ok
 llvm/2004-08-12-InlinerAndAllocas.c      compile: SIGABRT
 llvm/2005-05-06-LongLongSignedShift.c    ok
-llvm/ConstructorDestructorAttributes.c   execute: output mismatch
+llvm/ConstructorDestructorAttributes.c   ok
 llvm/DuffsDevice.c                       ok
 llvm/PR491.c                             ok
 llvm/PR640.c                             compile: 10 compile errors
@@ -969,7 +972,7 @@ opt/combo_comm.c                         ok
 opt/combo_paper.c                        ok
 opt/comboattrs.c                         ok
 opt/compilerhang2.c                      compile: SIGABRT
-opt/compilerhang3.c                      compile: SIGABRT
+opt/compilerhang3.c                      ok
 opt/compilerhang4.c                      ok
 opt/compilerhang5.c                      ok
 opt/complement.c                         ok
