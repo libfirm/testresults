@@ -1313,7 +1313,7 @@ opt/fehler317.c                          compile: SIGABRT
 opt/fehler318.c                          ok
 opt/fehler319.c                          ok
 opt/fehler320.c                          compile: SIGABRT
-opt/fehler321.c                          compile: SIGABRT
+opt/fehler321.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1547,7 +1547,7 @@ opt/vararray.c                           ok
 opt/variadic_longlong.c                  ok
 opt/vla.c                                ok
 opt/volatile.c                           ok
-opt/volatile2.c                          asm: check 'global' failed
+opt/volatile2.c                          ok
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
 preproctest/builtins.c                   ok
