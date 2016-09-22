@@ -58,7 +58,7 @@ DynamicInnerClass.x10                    ok
 Fibonacci.x10                            ok
 Fields.x10                               ok
 FileTest.x10                             ok
-FinishStateStress.x10                    run: SIGABRT
+FinishStateStress.x10                    ok
 FunTest.x10                              run: SIGABRT
 FutureTest.x10                           ok
 GIMCSerializationTest.x10                ok
