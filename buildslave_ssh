@@ -1,0 +1,2 @@
+#!/bin/sh
+exec ssh -i "/data1/firm/buildslave/buildslave_sshkey" -o "StrictHostKeyChecking no" "$@"

@@ -10,6 +10,8 @@ buildername="$3"
 buildnumber="$4"
 changeset="$5"
 
+export GIT_SSH=./buildslave_ssh
+
 # check if push is necessary
 if diff "${new_expectations}" "${file}" >& /dev/null; then
 	echo "No differences"
@@ -18,7 +20,7 @@ fi
 
 # ensure 'origin' remote is set
 git remote rm origin || true
-git remote add origin /ben/local/GIT/public/firm-testresults
+git remote add origin git@github.com:libfirm/testresults.git
 
 # construct commit message
 TCM="tmp_commit_message.txt"
