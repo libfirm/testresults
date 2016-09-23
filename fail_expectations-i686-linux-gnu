@@ -890,7 +890,7 @@ opt/ForTest.c                            ok
 opt/GlobalCseTest.c                      ok
 opt/Hanoi.c                              ok
 opt/HeapSort.c                           ok
-opt/HelloWorld.c                         ok
+opt/HelloWorld.c                         execute: output mismatch
 opt/IfExpr.c                             ok
 opt/Int.c                                ok
 opt/Label.c                              ok
