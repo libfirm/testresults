@@ -817,7 +817,7 @@ gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
 gcc/pr43784_2.c                          ok
 gcc/strct-varg-1.c                       execute: returncode not zero but 2
-gcc/va-arg-12.c                          compile: SIGABRT
+gcc/va-arg-12.c                          ok
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
