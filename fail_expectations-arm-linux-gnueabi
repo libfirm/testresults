@@ -826,7 +826,7 @@ gcc/va-arg-12.c                          compile: 4 compile errors
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     compile: SIGABRT
-langshootout/n-body.c                    compile: assembler error
+langshootout/n-body.c                    ok
 langshootout/nsieve-bits.c               compile: SIGABRT
 langshootout/nsieve.c                    ok
 langshootout/partial-sums.c              compile: SIGABRT
