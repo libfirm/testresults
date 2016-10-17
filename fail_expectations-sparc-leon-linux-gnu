@@ -299,7 +299,6 @@ C/pragmatic/shift.c                      ok
 C/pragmatic/struct.c                     ok
 C/pragmatic/toomuchparams.c              ok
 C/precedence.c                           ok
-C/scanf.c                                ok
 C/segfault4.c                            ok
 C/segfault5.c                            ok
 C/segfault6.c                            ok
@@ -554,6 +553,7 @@ C/should_warn/prototype2.c               ok
 C/should_warn/redundant_decl.c           ok
 C/should_warn/ref_local.c                ok
 C/should_warn/return_with_void.c         ok
+C/should_warn/scanf.c                    ok
 C/should_warn/scanf_formats.c            ok
 C/should_warn/scanf_width_c.c            ok
 C/should_warn/scanf_width_s.c            ok
