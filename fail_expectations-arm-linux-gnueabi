@@ -731,6 +731,7 @@ backend/peephole.c                       ok
 backend/pic_const.c                      ok
 backend/prefalloc.c                      compile: linker error
 backend/prefetch.c                       ok
+backend/preinc.c                         ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      ok
 backend/scheduled2.c                     ok
