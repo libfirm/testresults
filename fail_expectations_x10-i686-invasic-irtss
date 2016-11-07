@@ -176,7 +176,7 @@ ZeroTest.x10                             ok
 agent/AntragHistogram.x10                compile: returncode not zero but 1
 agent/Blocking.x10                       ok
 agent/CurrentClaimBug.x10                ok
-agent/HelloAgent.x10                     run: SIGABRT
+agent/HelloAgent.x10                     ok
 agent/Integrate.x10                      ok
 agent/Integrate2.x10                     ok
 agent/Integrate3.x10                     ok
@@ -204,4 +204,4 @@ agent/SlotFail.x10                       run: SIGABRT
 agent/TileSharingTest.x10                ok
 agent/TileTest.x10                       ok
 agent/UTS.x10                            ok
-agent/Update.x10                         run: SIGABRT
+agent/Update.x10                         ok
