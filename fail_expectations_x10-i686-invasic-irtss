@@ -205,3 +205,4 @@ agent/TileSharingTest.x10                ok
 agent/TileTest.x10                       ok
 agent/UTS.x10                            ok
 agent/Update.x10                         ok
+agent/WikiActorTest.x10                  compile: returncode not zero but 1
