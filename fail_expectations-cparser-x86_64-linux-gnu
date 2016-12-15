@@ -677,6 +677,7 @@ backend/destam_flags4.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
+backend/duplicate_proj2.c                ok
 backend/extern_sret.c                    execute: output mismatch
 backend/f2ull.c                          ok
 backend/fabsf1.c                         ok
