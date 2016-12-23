@@ -677,7 +677,7 @@ backend/destam_flags4.c                  ok
 backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
-backend/duplicate_proj2.c                compile: SIGABRT
+backend/duplicate_proj2.c                ok
 backend/extern_sret.c                    ok
 backend/f2ull.c                          ok
 backend/fabsf1.c                         ok
@@ -731,8 +731,8 @@ backend/preinc.c                         ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      ok
 backend/scheduled2.c                     ok
-backend/scheduled3.c                     compile: SIGABRT
-backend/scheduled4.c                     compile: SIGABRT
+backend/scheduled3.c                     ok
+backend/scheduled4.c                     ok
 backend/setcc.c                          ok
 backend/setjmp.c                         ok
 backend/setmem.c                         ok
@@ -1318,7 +1318,7 @@ opt/fehler318.c                          ok
 opt/fehler319.c                          ok
 opt/fehler320.c                          compile: SIGABRT
 opt/fehler321.c                          ok
-opt/fehler322.c                          compile: SIGSEGV
+opt/fehler322.c                          ok
 opt/fehler323.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
