@@ -1318,7 +1318,8 @@ opt/fehler318.c                          ok
 opt/fehler319.c                          ok
 opt/fehler320.c                          compile: SIGABRT
 opt/fehler321.c                          ok
-opt/fehler322.c                          compile: SIGSEGV
+opt/fehler322.c                          ok
+opt/fehler323.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
@@ -1694,5 +1695,5 @@ x86_64code/asm_test.c                    ok
 x86_64code/asm_test2.c                   ok
 x86_64code/cas.c                         ok
 x86_64code/imm32.c                       ok
-x86_64code/lea.c                         asm: check 'leaq\s+_?arr.*\+12\(.*,%.*,4\), %rax' failed
+x86_64code/lea.c                         ok
 x86_64code/lea2.c                        asm: check 'leaq\s+_?arr.*\+12\(%.*,%.*,4\), %rax' failed
