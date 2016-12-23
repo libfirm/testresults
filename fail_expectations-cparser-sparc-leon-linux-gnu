@@ -160,12 +160,12 @@ C/gnu99/builtin_expect.c                 ok
 C/gnu99/builtin_nan.c                    ok
 C/gnu99/builtins_libc.c                  ok
 C/gnu99/cdecl.c                          ok
-C/gnu99/combo_load_mode.c                compile: SIGABRT
+C/gnu99/combo_load_mode.c                ok
 C/gnu99/complex_conjugate.c              ok
 C/gnu99/complex_int.c                    ok
 C/gnu99/complex_misc.c                   ok
 C/gnu99/complex_uint.c                   ok
-C/gnu99/computed_goto.c                  compile: SIGABRT
+C/gnu99/computed_goto.c                  ok
 C/gnu99/constexpr8.c                     ok
 C/gnu99/construct_destruct.c             ok
 C/gnu99/cp_error028.c                    ok
@@ -180,7 +180,7 @@ C/gnu99/escape.c                         ok
 C/gnu99/extension_in_compound.c          ok
 C/gnu99/extension_in_for_init.c          ok
 C/gnu99/flex_array_init.c                compile: SIGABRT
-C/gnu99/ijmp.c                           compile: SIGABRT
+C/gnu99/ijmp.c                           ok
 C/gnu99/incomplete_array.c               ok
 C/gnu99/incomplete_enum.c                ok
 C/gnu99/init1.c                          ok
@@ -218,8 +218,8 @@ C/gnu99/typeof.c                         ok
 C/gnu99/typeprop_funcs.c                 ok
 C/gnu99/union_cast.c                     compile: 2 compile errors
 C/gnu99/unused_label.c                   ok
-C/gnu99/vlabel2.c                        compile: SIGABRT
-C/gnu99/vlabel3.c                        compile: SIGABRT
+C/gnu99/vlabel2.c                        ok
+C/gnu99/vlabel3.c                        ok
 C/gnu99/void_pointer_arithmetic.c        ok
 C/hexfloat.c                             ok
 C/hol88.c                                ok
@@ -807,7 +807,7 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/920908-1.c                           execute: returncode not zero but 1
+gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
@@ -819,8 +819,8 @@ gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
 gcc/pr43784_2.c                          ok
-gcc/strct-varg-1.c                       execute: returncode not zero but 2
-gcc/va-arg-12.c                          compile: SIGABRT
+gcc/strct-varg-1.c                       ok
+gcc/va-arg-12.c                          ok
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     ok
