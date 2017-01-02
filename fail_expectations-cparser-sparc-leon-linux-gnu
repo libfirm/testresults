@@ -327,8 +327,8 @@ C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   compile: ok (but no reference file)
 C/should_fail/array9.c                   ok
-C/should_fail/asm.c                      compile: reported different errors
-C/should_fail/asm2.c                     compile: reported different errors
+C/should_fail/asm.c                      ok
+C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
 C/should_fail/assign_const.c             compile: missed error
 C/should_fail/assign_function.c          compile: missed error
