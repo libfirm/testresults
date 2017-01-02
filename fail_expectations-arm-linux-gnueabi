@@ -276,7 +276,7 @@ C/nowarn/unused.c                        ok
 C/nowarn/voidret.c                       ok
 C/nowarn/write_only1.c                   ok
 C/nowarn/write_only10.c                  ok
-C/nowarn/write_only11.c                  compile: 1 compile errors
+C/nowarn/write_only11.c                  ok
 C/nowarn/write_only12.c                  ok
 C/nowarn/write_only13.c                  ok
 C/nowarn/write_only14.c                  ok
@@ -285,7 +285,7 @@ C/nowarn/write_only16.c                  ok
 C/nowarn/write_only17.c                  compile: 4 compile errors
 C/nowarn/write_only5.c                   ok
 C/nowarn/write_only7.c                   ok
-C/nowarn/write_only9.c                   compile: 2 compile errors
+C/nowarn/write_only9.c                   ok
 C/number2.c                              ok
 C/number3.c                              ok
 C/number_after_line_directive.c          ok
@@ -327,8 +327,8 @@ C/should_fail/array6.c                   compile: missed error
 C/should_fail/array7.c                   compile: missed error
 C/should_fail/array8.c                   compile: ok (but no reference file)
 C/should_fail/array9.c                   ok
-C/should_fail/asm.c                      compile: reported 6 errors instead of 2
-C/should_fail/asm2.c                     compile: reported 3 errors instead of 2
+C/should_fail/asm.c                      ok
+C/should_fail/asm2.c                     ok
 C/should_fail/asm3.c                     ok
 C/should_fail/assign_const.c             compile: missed error
 C/should_fail/assign_function.c          compile: missed error
@@ -934,7 +934,7 @@ opt/alloca.c                             compile: SIGABRT
 opt/andtest.c                            ok
 opt/arr_init.c                           ok
 opt/array_type.c                         ok
-opt/asmargs.c                            compile: SIGABRT
+opt/asmargs.c                            ok
 opt/backendcallorder.c                   compile: SIGABRT
 opt/backendcallorder2.c                  compile: SIGABRT
 opt/bad.c                                ok
