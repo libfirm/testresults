@@ -1378,6 +1378,7 @@ opt/inline_struct.c                      ok
 opt/invsqrt.c                            ok
 opt/ioet.c                               ok
 opt/jumpthreading.c                      ok
+opt/jumpthreading10.c                    compile: SIGKILL
 opt/jumpthreading2.c                     ok
 opt/jumpthreading3.c                     ok
 opt/jumpthreading4.c                     ok
