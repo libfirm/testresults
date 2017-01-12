@@ -1,7 +1,7 @@
 C++/should_fail/bad_retypedef.cc         compile: reported 0 errors instead of 2
 C++/should_fail/bad_retypedef2.cc        compile: reported 0 errors instead of 2
 C++/should_fail/bad_retypedef_sys.cc     compile: reported 0 errors instead of 2
-C/LongLong.c                             execute: output mismatch
+C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/absolute_include.c                     ok
 C/abstract_declarator.c                  ok
@@ -98,7 +98,7 @@ C/cp_error068.c                          ok
 C/cp_error069.c                          ok
 C/cp_error070.c                          ok
 C/cp_error071.c                          ok
-C/cp_error072.c                          execute: output mismatch
+C/cp_error072.c                          ok
 C/cp_error073.c                          ok
 C/cp_error074.c                          compile: SIGABRT
 C/cp_error075.c                          ok
@@ -738,7 +738,7 @@ backend/setjmp.c                         ok
 backend/setmem.c                         ok
 backend/shift.c                          compile: SIGABRT
 backend/shift2.c                         compile: SIGABRT
-backend/shift64.c                        execute: output mismatch
+backend/shift64.c                        ok
 backend/sign_bit.c                       compile: SIGABRT
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
@@ -766,7 +766,7 @@ backend/srettaken.c                      compile: SIGSEGV
 backend/stack.c                          compile: SIGSEGV
 backend/stackarray.c                     compile: assembler error
 backend/subregister.c                    compile: SIGABRT
-backend/taken64.c                        execute: output mismatch
+backend/taken64.c                        ok
 backend/tls_ptr.c                        compile: 2 compile errors
 backend/transform_loop.c                 ok
 backend/udiv.c                           compile: SIGSEGV
@@ -937,7 +937,7 @@ opt/bf_constfold.c                       compile: SIGABRT
 opt/bitcast_dw.c                         compile: SIGSEGV
 opt/bitcast_f2i.c                        compile: SIGABRT
 opt/bitcast_i2f.c                        compile: SIGABRT
-opt/bitfield.c                           execute: returncode not zero but 42
+opt/bitfield.c                           ok
 opt/bittest.c                            ok
 opt/bittest2.c                           ok
 opt/bitwise.c                            ok
@@ -1050,14 +1050,14 @@ opt/fehler038.c                          ok
 opt/fehler039.c                          ok
 opt/fehler040.c                          compile: SIGABRT
 opt/fehler042.c                          compile: SIGABRT
-opt/fehler045.c                          execute: output mismatch
+opt/fehler045.c                          ok
 opt/fehler047.c                          ok
 opt/fehler048.c                          ok
 opt/fehler049.c                          ok
 opt/fehler050.c                          compile: SIGABRT
 opt/fehler051.c                          compile: SIGABRT
 opt/fehler052.c                          compile: 2 compile errors
-opt/fehler053.c                          execute: output mismatch
+opt/fehler053.c                          ok
 opt/fehler054.c                          ok
 opt/fehler055.c                          ok
 opt/fehler056.c                          ok
@@ -1094,7 +1094,7 @@ opt/fehler086.c                          ok
 opt/fehler087.c                          compile: SIGABRT
 opt/fehler088.c                          ok
 opt/fehler089.c                          compile: SIGSEGV
-opt/fehler090.c                          execute: output mismatch
+opt/fehler090.c                          ok
 opt/fehler091.c                          compile: SIGABRT
 opt/fehler092.c                          ok
 opt/fehler093.c                          ok
@@ -1103,7 +1103,7 @@ opt/fehler095.c                          ok
 opt/fehler096.c                          ok
 opt/fehler097.c                          ok
 opt/fehler098.c                          ok
-opt/fehler099.c                          execute: output mismatch
+opt/fehler099.c                          ok
 opt/fehler100.c                          ok
 opt/fehler101.c                          compile: SIGABRT
 opt/fehler102.c                          compile: SIGABRT
@@ -1115,7 +1115,7 @@ opt/fehler108.c                          ok
 opt/fehler109.c                          ok
 opt/fehler110.c                          compile: SIGSEGV
 opt/fehler112.c                          ok
-opt/fehler113.c                          execute: output mismatch
+opt/fehler113.c                          ok
 opt/fehler114.c                          ok
 opt/fehler115.c                          compile: SIGABRT
 opt/fehler116.c                          ok
@@ -1184,7 +1184,7 @@ opt/fehler183.c                          ok
 opt/fehler184.c                          compile: SIGABRT
 opt/fehler186.c                          ok
 opt/fehler187.c                          ok
-opt/fehler188.c                          execute: output mismatch
+opt/fehler188.c                          ok
 opt/fehler189.c                          ok
 opt/fehler190.c                          compile: SIGABRT
 opt/fehler191.c                          ok
@@ -1220,7 +1220,7 @@ opt/fehler220.c                          compile: SIGSEGV
 opt/fehler221.c                          compile: SIGSEGV
 opt/fehler222.c                          ok
 opt/fehler223.c                          ok
-opt/fehler224.c                          execute: returncode not zero but -127
+opt/fehler224.c                          ok
 opt/fehler225.c                          ok
 opt/fehler226.c                          ok
 opt/fehler227.c                          ok
@@ -1255,7 +1255,7 @@ opt/fehler255.c                          ok
 opt/fehler256.c                          ok
 opt/fehler257.c                          ok
 opt/fehler258.c                          ok
-opt/fehler259.c                          execute: returncode not zero but -127
+opt/fehler259.c                          ok
 opt/fehler260.c                          ok
 opt/fehler261.c                          compile: SIGABRT
 opt/fehler262.c                          ok
@@ -1307,7 +1307,7 @@ opt/fehler307.c                          ok
 opt/fehler308.c                          ok
 opt/fehler309.c                          ok
 opt/fehler310.c                          compile: SIGABRT
-opt/fehler311.c                          execute: returncode not zero but 1
+opt/fehler311.c                          ok
 opt/fehler312.c                          ok
 opt/fehler313.c                          ok
 opt/fehler314.c                          compile: SIGABRT
@@ -1393,7 +1393,7 @@ opt/ldst.c                               ok
 opt/ll.c                                 compile: SIGSEGV
 opt/ll_call.c                            compile: SIGSEGV
 opt/load_memout_necessary.c              ok
-opt/loadstore.c                          execute: output mismatch
+opt/loadstore.c                          ok
 opt/loadstore2.c                         ok
 opt/loadstore3.c                         compile: SIGABRT
 opt/loadstore4.c                         compile: SIGABRT
@@ -1408,7 +1408,7 @@ opt/longlong.c                           compile: SIGSEGV
 opt/loop_without_phi.c                   ok
 opt/loopana.c                            ok
 opt/loopspilling.c                       ok
-opt/lrot.c                               execute: output mismatch
+opt/lrot.c                               ok
 opt/max.c                                compile: SIGABRT
 opt/memperm_stress.c                     compile: SIGABRT
 opt/minus_zero.c                         compile: SIGABRT
@@ -1502,7 +1502,7 @@ opt/rotate.c                             ok
 opt/rtsopt.c                             compile: SIGABRT
 opt/setjump.c                            ok
 opt/shiftamount.c                        ok
-opt/shiftconst.c                         execute: output mismatch
+opt/shiftconst.c                         ok
 opt/should_be_same.c                     compile: SIGSEGV
 opt/simd1-i.c                            compile: assembler error
 opt/simd1.c                              ok
