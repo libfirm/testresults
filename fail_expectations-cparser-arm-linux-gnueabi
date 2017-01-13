@@ -1326,6 +1326,7 @@ opt/fehler320.c                          ok
 opt/fehler321.c                          ok
 opt/fehler322.c                          ok
 opt/fehler323.c                          ok
+opt/fehler324.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
