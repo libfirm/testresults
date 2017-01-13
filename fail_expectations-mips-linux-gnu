@@ -695,9 +695,9 @@ backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_mode_t2.c                   ok
 backend/ia32_mode_t3.c                   ok
-backend/ia32_remat.c                     compile: SIGABRT
+backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
-backend/ia32_scheduled2.c                compile: SIGABRT
+backend/ia32_scheduled2.c                ok
 backend/ia32_shl.c                       ok
 backend/immediate.c                      ok
 backend/inconsistent_outs.c              compile: SIGABRT
@@ -729,7 +729,7 @@ backend/pic_const.c                      compile: SIGABRT
 backend/prefalloc.c                      compile: SIGABRT
 backend/prefetch.c                       compile: SIGABRT
 backend/preinc.c                         compile: SIGABRT
-backend/register_pressure.c              compile: SIGABRT
+backend/register_pressure.c              ok
 backend/scheduled.c                      ok
 backend/scheduled2.c                     ok
 backend/scheduled3.c                     ok
@@ -998,7 +998,7 @@ opt/doms_segfault2.c                     ok
 opt/dowhile.c                            compile: SIGABRT
 opt/duffs.c                              ok
 opt/dwlower.c                            ok
-opt/dwlower2.c                           compile: SIGABRT
+opt/dwlower2.c                           ok
 opt/dwlower3.c                           ok
 opt/endless.c                            ok
 opt/endless1.c                           ok
@@ -1137,7 +1137,7 @@ opt/fehler130.c                          ok
 opt/fehler135.c                          ok
 opt/fehler136.c                          ok
 opt/fehler137.c                          compile: SIGABRT
-opt/fehler138.c                          compile: SIGABRT
+opt/fehler138.c                          ok
 opt/fehler139.c                          ok
 opt/fehler140.c                          ok
 opt/fehler141.c                          ok
@@ -1504,7 +1504,7 @@ opt/rtsopt.c                             compile: SIGABRT
 opt/setjump.c                            ok
 opt/shiftamount.c                        ok
 opt/shiftconst.c                         ok
-opt/should_be_same.c                     compile: SIGABRT
+opt/should_be_same.c                     ok
 opt/simd1-i.c                            compile: assembler error
 opt/simd1.c                              ok
 opt/simd2.c                              compile: assembler error
