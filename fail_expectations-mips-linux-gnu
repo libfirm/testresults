@@ -172,7 +172,7 @@ C/gnu99/cp_error028.c                    ok
 C/gnu99/cp_error038.c                    ok
 C/gnu99/cp_error041.c                    ok
 C/gnu99/cp_error064.c                    ok
-C/gnu99/cp_error077.c                    execute: SIGSEGV
+C/gnu99/cp_error077.c                    ok
 C/gnu99/cp_error078.c                    ok
 C/gnu99/cp_error080.c                    ok
 C/gnu99/emptystruct.c                    ok
@@ -187,7 +187,7 @@ C/gnu99/init1.c                          ok
 C/gnu99/inlineextern.c                   ok
 C/gnu99/l1.c                             ok
 C/gnu99/local_label.c                    ok
-C/gnu99/longlong_bf.c                    compile: SIGSEGV
+C/gnu99/longlong_bf.c                    ok
 C/gnu99/mode_attrib.c                    ok
 C/gnu99/multichar.c                      ok
 C/gnu99/null_pointer_constants.c         ok
@@ -646,7 +646,7 @@ backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
 backend/asm_clobber_prefix.c             compile: SIGSEGV
 backend/basicspill.c                     compile: SIGABRT
-backend/belady.c                         compile: SIGSEGV
+backend/belady.c                         ok
 backend/builtin_bswap32.c                compile: SIGABRT
 backend/builtin_bswap64.c                compile: SIGABRT
 backend/builtin_clz.c                    compile: SIGABRT
@@ -770,7 +770,7 @@ backend/subregister.c                    compile: SIGABRT
 backend/taken64.c                        ok
 backend/tls_ptr.c                        compile: 2 compile errors
 backend/transform_loop.c                 ok
-backend/udiv.c                           compile: SIGSEGV
+backend/udiv.c                           ok
 backend/udiv2.c                          ok
 backend/vastruct.c                       compile: 2 compile errors
 cparser/lit/no_tls.c                     ok
@@ -918,7 +918,7 @@ opt/While.c                              ok
 opt/XXEndless.c                          ok
 opt/abs.c                                compile: SIGABRT
 opt/adam_putt.c                          ok
-opt/add64.c                              compile: SIGSEGV
+opt/add64.c                              ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
 opt/alias_classify.c                     compile: 1 compile errors
@@ -1035,7 +1035,7 @@ opt/fehler022.c                          ok
 opt/fehler023.c                          compile: SIGABRT
 opt/fehler024.c                          compile: SIGABRT
 opt/fehler025.c                          ok
-opt/fehler026.c                          compile: SIGABRT
+opt/fehler026.c                          ok
 opt/fehler027.c                          ok
 opt/fehler028.c                          compile: 1 compile errors
 opt/fehler029.c                          compile: SIGABRT
@@ -1094,7 +1094,7 @@ opt/fehler085.c                          compile: SIGABRT
 opt/fehler086.c                          ok
 opt/fehler087.c                          compile: SIGABRT
 opt/fehler088.c                          ok
-opt/fehler089.c                          compile: SIGSEGV
+opt/fehler089.c                          ok
 opt/fehler090.c                          ok
 opt/fehler091.c                          compile: SIGABRT
 opt/fehler092.c                          ok
@@ -1124,7 +1124,7 @@ opt/fehler117.c                          compile: SIGABRT
 opt/fehler118.c                          compile: SIGABRT
 opt/fehler119.c                          ok
 opt/fehler120.c                          compile: SIGABRT
-opt/fehler121.c                          compile: SIGABRT
+opt/fehler121.c                          ok
 opt/fehler122.c                          ok
 opt/fehler123.c                          ok
 opt/fehler124.c                          compile: SIGABRT
@@ -1138,7 +1138,7 @@ opt/fehler135.c                          ok
 opt/fehler136.c                          ok
 opt/fehler137.c                          compile: SIGABRT
 opt/fehler138.c                          compile: SIGABRT
-opt/fehler139.c                          compile: SIGABRT
+opt/fehler139.c                          ok
 opt/fehler140.c                          ok
 opt/fehler141.c                          ok
 opt/fehler142.c                          compile: SIGABRT
@@ -1187,7 +1187,7 @@ opt/fehler186.c                          ok
 opt/fehler187.c                          ok
 opt/fehler188.c                          ok
 opt/fehler189.c                          ok
-opt/fehler190.c                          compile: SIGABRT
+opt/fehler190.c                          ok
 opt/fehler191.c                          ok
 opt/fehler192.c                          compile: SIGABRT
 opt/fehler193.c                          compile: SIGABRT
@@ -1522,10 +1522,10 @@ opt/structcall2.c                        compile: SIGSEGV
 opt/structcall3.c                        compile: SIGSEGV
 opt/structcopy.c                         compile: SIGABRT
 opt/structtest.c                         ok
-opt/switch.c                             compile: SIGABRT
+opt/switch.c                             ok
 opt/switch_ll.c                          compile: SIGABRT
-opt/switch_test.c                        execute: SIGSEGV
-opt/switch_test2.c                       compile: SIGABRT
+opt/switch_test.c                        ok
+opt/switch_test2.c                       ok
 opt/tailrec.c                            ok
 opt/tailrec2.c                           ok
 opt/test1.c                              ok
@@ -1543,7 +1543,7 @@ opt/types2.c                             compile: SIGABRT
 opt/types3.c                             ok
 opt/unary.c                              ok
 opt/union_init.c                         ok
-opt/unknown_combo.c                      execute: SIGSEGV
+opt/unknown_combo.c                      ok
 opt/unknown_combo2.c                     ok
 opt/unreachable_block.c                  ok
 opt/use_uninit_ptr.c                     ok
