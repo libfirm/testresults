@@ -709,7 +709,7 @@ backend/ldouble_memperm.c                compile: SIGABRT
 backend/long_double_arith.c              compile: SIGABRT
 backend/long_double_conv.c               compile: SIGABRT
 backend/longfunc.c                       ok
-backend/longlongptr.c                    execute: SIGSEGV
+backend/longlongptr.c                    ok
 backend/lower_call.c                     compile: SIGSEGV
 backend/lower_call2.c                    compile: SIGSEGV
 backend/lower_call3.c                    compile: SIGSEGV
