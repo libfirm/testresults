@@ -1521,7 +1521,7 @@ opt/struct.c                             ok
 opt/structcall.c                         ok
 opt/structcall2.c                        compile: SIGABRT
 opt/structcall3.c                        compile: SIGABRT
-opt/structcopy.c                         compile: SIGABRT
+opt/structcopy.c                         compile: assembler error
 opt/structtest.c                         ok
 opt/switch.c                             ok
 opt/switch_ll.c                          compile: SIGABRT
