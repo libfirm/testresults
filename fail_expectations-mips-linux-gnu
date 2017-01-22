@@ -1073,7 +1073,7 @@ opt/fehler063.c                          ok
 opt/fehler064.c                          ok
 opt/fehler065.c                          compile: SIGABRT
 opt/fehler066.c                          compile: SIGABRT
-opt/fehler067.c                          compile: SIGABRT
+opt/fehler067.c                          compile: assembler error
 opt/fehler068.c                          compile: SIGABRT
 opt/fehler069.c                          compile: SIGABRT
 opt/fehler070.c                          ok
