@@ -923,7 +923,7 @@ opt/add64.c                              ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
 opt/alias_classify.c                     compile: 1 compile errors
-opt/alias_compounds.c                    compile: SIGABRT
+opt/alias_compounds.c                    execute: output mismatch
 opt/alias_escapes.c                      compile: SIGABRT
 opt/alias_noescape.c                     compile: 1 compile errors
 opt/alias_pointer.c                      compile: 1 compile errors
