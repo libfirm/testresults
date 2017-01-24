@@ -206,7 +206,7 @@ C/gnu99/redirect_nowarn.c                ok
 C/gnu99/should_warn/empty_stmtexpr.c     compile: reported 2 warnings instead of 1
 C/gnu99/sizeof_function.c                ok
 C/gnu99/stmt_expr_goto.c                 ok
-C/gnu99/stmtexpr.c                       compile: 1 compile errors
+C/gnu99/stmtexpr.c                       ok
 C/gnu99/strangeattr.c                    ok
 C/gnu99/structalign.c                    ok
 C/gnu99/system_header_typedef.c          ok
