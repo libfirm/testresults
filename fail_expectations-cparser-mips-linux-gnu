@@ -206,7 +206,7 @@ C/gnu99/redirect_nowarn.c                ok
 C/gnu99/should_warn/empty_stmtexpr.c     compile: reported 2 warnings instead of 1
 C/gnu99/sizeof_function.c                ok
 C/gnu99/stmt_expr_goto.c                 ok
-C/gnu99/stmtexpr.c                       compile: 1 compile errors
+C/gnu99/stmtexpr.c                       ok
 C/gnu99/strangeattr.c                    ok
 C/gnu99/structalign.c                    ok
 C/gnu99/system_header_typedef.c          ok
@@ -714,6 +714,7 @@ backend/lower_call.c                     compile: SIGSEGV
 backend/lower_call2.c                    compile: SIGSEGV
 backend/lower_call3.c                    compile: SIGSEGV
 backend/lower_call4.c                    compile: SIGSEGV
+backend/lower_call5.c                    compile: SIGSEGV
 backend/lower_copyb.c                    compile: SIGABRT
 backend/memperm.c                        compile: SIGABRT
 backend/minus64.c                        ok
