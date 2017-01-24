@@ -647,23 +647,23 @@ backend/arm_immediate.c                  ok
 backend/asm_clobber_prefix.c             compile: SIGSEGV
 backend/basicspill.c                     compile: SIGABRT
 backend/belady.c                         ok
-backend/builtin_bswap32.c                compile: SIGABRT
-backend/builtin_bswap64.c                compile: SIGABRT
-backend/builtin_clz.c                    compile: SIGABRT
-backend/builtin_clzl.c                   compile: SIGABRT
-backend/builtin_clzll.c                  compile: SIGABRT
-backend/builtin_ctz.c                    compile: SIGABRT
-backend/builtin_ctzl.c                   compile: SIGABRT
-backend/builtin_ctzll.c                  compile: SIGABRT
-backend/builtin_ffs.c                    compile: SIGABRT
-backend/builtin_ffsl.c                   compile: SIGABRT
-backend/builtin_ffsll.c                  compile: SIGABRT
-backend/builtin_parity.c                 compile: SIGABRT
-backend/builtin_parityl.c                compile: SIGABRT
-backend/builtin_parityll.c               compile: SIGABRT
-backend/builtin_popcount.c               compile: SIGABRT
-backend/builtin_popcountl.c              compile: SIGABRT
-backend/builtin_popcountll.c             compile: SIGABRT
+backend/builtin_bswap32.c                ok
+backend/builtin_bswap64.c                ok
+backend/builtin_clz.c                    ok
+backend/builtin_clzl.c                   ok
+backend/builtin_clzll.c                  ok
+backend/builtin_ctz.c                    ok
+backend/builtin_ctzl.c                   ok
+backend/builtin_ctzll.c                  ok
+backend/builtin_ffs.c                    ok
+backend/builtin_ffsl.c                   ok
+backend/builtin_ffsll.c                  ok
+backend/builtin_parity.c                 ok
+backend/builtin_parityl.c                ok
+backend/builtin_parityll.c               ok
+backend/builtin_popcount.c               ok
+backend/builtin_popcountl.c              ok
+backend/builtin_popcountll.c             ok
 backend/chordal.c                        compile: SIGABRT
 backend/chordal2.c                       ok
 backend/chordal3.c                       ok
@@ -728,7 +728,7 @@ backend/pbqp.c                           ok
 backend/peephole.c                       ok
 backend/pic_const.c                      compile: SIGABRT
 backend/prefalloc.c                      compile: SIGABRT
-backend/prefetch.c                       compile: SIGABRT
+backend/prefetch.c                       ok
 backend/preinc.c                         ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      ok
