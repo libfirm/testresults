@@ -624,7 +624,7 @@ backend/alloca.c                         compile: SIGABRT
 backend/allocacall.c                     compile: SIGABRT
 backend/am_explode.c                     ok
 backend/am_possibilities.c               ok
-backend/am_test.c                        compile: SIGABRT
+backend/am_test.c                        ok
 backend/am_test2.c                       ok
 backend/am_test3.c                       ok
 backend/am_test4.c                       ok
@@ -917,7 +917,7 @@ opt/Test.c                               ok
 opt/Thilo.c                              ok
 opt/While.c                              ok
 opt/XXEndless.c                          ok
-opt/abs.c                                compile: SIGABRT
+opt/abs.c                                ok
 opt/adam_putt.c                          ok
 opt/add64.c                              ok
 opt/addn.c                               ok
@@ -948,7 +948,7 @@ opt/boolopt.c                            ok
 opt/boolopt2.c                           ok
 opt/boolopt3.c                           ok
 opt/boolopt4.c                           ok
-opt/boolopts.c                           compile: SIGABRT
+opt/boolopts.c                           ok
 opt/boolsimplify.c                       ok
 opt/bttest.c                             ok
 opt/callref.c                            ok
@@ -980,7 +980,7 @@ opt/cond.c                               ok
 opt/confirm.c                            ok
 opt/const.c                              ok
 opt/const_load.c                         ok
-opt/conv.c                               compile: SIGABRT
+opt/conv.c                               ok
 opt/conv_orgie.c                         compile: SIGABRT
 opt/convconv.c                           compile: SIGABRT
 opt/convfloat.c                          compile: SIGABRT
@@ -1405,7 +1405,7 @@ opt/loadstore6.c                         ok
 opt/loadstore7.c                         compile: SIGKILL
 opt/loadstore8.c                         ok
 opt/loadstore9.c                         ok
-opt/localopts.c                          compile: SIGABRT
+opt/localopts.c                          ok
 opt/localopts2.c                         ok
 opt/longlong.c                           compile: SIGABRT
 opt/loop_without_phi.c                   ok
