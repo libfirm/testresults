@@ -715,6 +715,7 @@ backend/lower_call2.c                    compile: SIGSEGV
 backend/lower_call3.c                    compile: SIGSEGV
 backend/lower_call4.c                    compile: SIGSEGV
 backend/lower_call5.c                    compile: SIGSEGV
+backend/lower_call6.c                    compile: SIGSEGV
 backend/lower_copyb.c                    compile: SIGABRT
 backend/memperm.c                        compile: SIGABRT
 backend/minus64.c                        ok
