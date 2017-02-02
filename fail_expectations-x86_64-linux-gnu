@@ -1426,6 +1426,7 @@ opt/mulconst.c                           ok
 opt/multidim-array.c                     ok
 opt/mux.c                                ok
 opt/muxcmps.c                            ok
+opt/muxir.c                              compile: SIGABRT
 opt/muxopts.c                            ok
 opt/nan_conv.c                           ok
 opt/nans.c                               ok
