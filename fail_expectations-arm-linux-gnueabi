@@ -846,7 +846,14 @@ lit/pic_x86_64.c                         ok
 lit/relro.c                              ok
 lit/return_address.c                     ok
 lit/rol_ror.c                            ok
-lit/target.c                             ok
+lit/target-i686-apple-darwin.c           ok
+lit/target-i686-linux-gnu.c              ok
+lit/target-i686-pc-mingw32.c             ok
+lit/target-sparc-leon-linux-gnu.c        ok
+lit/target-x86_64-apple-darwin.c         ok
+lit/target-x86_64-linux-gnu.c            ok
+lit/target-x86_64-pc-mingw32.c           ok
+lit/target_align.c                       ok
 lit/target_override.c                    ok
 lit/tls.c                                ok
 lit/tls2.c                               ok
