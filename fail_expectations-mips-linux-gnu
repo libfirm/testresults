@@ -1117,7 +1117,7 @@ opt/fehler099.c                          ok
 opt/fehler100.c                          ok
 opt/fehler101.c                          compile: SIGABRT
 opt/fehler102.c                          ok
-opt/fehler103.c                          compile: SIGABRT
+opt/fehler103.c                          ok
 opt/fehler105.c                          ok
 opt/fehler106.c                          compile: SIGABRT
 opt/fehler107.c                          compile: SIGABRT
@@ -1347,7 +1347,7 @@ opt/gcse_no_end.c                        ok
 opt/git_error.c                          ok
 opt/global_null_test.c                   ok
 opt/globalrefs.c                         ok
-opt/gnu_def.c                            compile: SIGABRT
+opt/gnu_def.c                            ok
 opt/gzip_error.c                         ok
 opt/iabs.c                               ok
 opt/if.c                                 ok
