@@ -1169,7 +1169,7 @@ opt/fehler152.c                          ok
 opt/fehler153.c                          ok
 opt/fehler154.c                          ok
 opt/fehler155.c                          ok
-opt/fehler157.c                          compile: SIGABRT
+opt/fehler157.c                          ok
 opt/fehler158.c                          ok
 opt/fehler159.c                          ok
 opt/fehler160.c                          ok
