@@ -191,6 +191,7 @@ agent/MultigridNonInvasive.x10           ok
 agent/Multiple.x10                       ok
 agent/PEDistTest.x10                     ok
 agent/PlaceCheck.x10                     ok
+agent/PlaceCheck2.x10                    ok
 agent/PlaceGap.x10                       ok
 agent/Recur.x10                          ok
 agent/ReinvadeCheck.x10                  ok
