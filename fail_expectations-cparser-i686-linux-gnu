@@ -1716,6 +1716,7 @@ x86code/asm_test14.c                     ok
 x86code/asm_test15.c                     execute: output mismatch
 x86code/asm_test16.c                     ok
 x86code/asm_test17.c                     ok
+x86code/asm_test18.c                     compile: SIGABRT
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
