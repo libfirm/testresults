@@ -720,6 +720,7 @@ backend/lower_copyb.c                    ok
 backend/memperm.c                        ok
 backend/minus64.c                        ok
 backend/mux_long_double.c                ok
+backend/norotate.c                       ok
 backend/optest.c                         ok
 backend/optest_float.c                   ok
 backend/optest_longlong.c                ok
