@@ -1332,7 +1332,7 @@ opt/fehler321.c                          ok
 opt/fehler322.c                          ok
 opt/fehler323.c                          ok
 opt/fehler324.c                          execute: returncode not zero but -127
-opt/fehler325.c                          ok
+opt/fehler325.c                          execute: returncode not zero but 1
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
