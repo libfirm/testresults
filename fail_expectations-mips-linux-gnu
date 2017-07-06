@@ -1333,7 +1333,7 @@ opt/fehler322.c                          ok
 opt/fehler323.c                          ok
 opt/fehler324.c                          ok
 opt/fehler325.c                          compile: SIGABRT
-opt/fehler326.c                          compile: SIGKILL
+opt/fehler326.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                compile: SIGABRT
