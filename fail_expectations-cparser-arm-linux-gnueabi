@@ -1170,7 +1170,7 @@ opt/fehler152.c                          ok
 opt/fehler153.c                          ok
 opt/fehler154.c                          ok
 opt/fehler155.c                          ok
-opt/fehler157.c                          compile: SIGABRT
+opt/fehler157.c                          ok
 opt/fehler158.c                          ok
 opt/fehler159.c                          ok
 opt/fehler160.c                          ok
@@ -1338,7 +1338,7 @@ opt/fehler322.c                          ok
 opt/fehler323.c                          ok
 opt/fehler324.c                          ok
 opt/fehler325.c                          ok
-opt/fehler326.c                          compile: SIGKILL
+opt/fehler326.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
 opt/fib.c                                ok
