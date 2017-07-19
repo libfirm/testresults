@@ -731,7 +731,7 @@ backend/peephole.c                       ok
 backend/pic_const.c                      ok
 backend/prefalloc.c                      ok
 backend/prefetch.c                       ok
-backend/prefetch2.c                      compile: SIGABRT
+backend/prefetch2.c                      ok
 backend/preinc.c                         ok
 backend/register_pressure.c              ok
 backend/scheduled.c                      ok
