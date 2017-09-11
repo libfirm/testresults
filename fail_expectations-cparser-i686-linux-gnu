@@ -1770,6 +1770,7 @@ x86code/ia32_fistll.c                    ok
 x86code/imm32.c                          ok
 x86code/incmem.c                         ok
 x86code/lea.c                            ok
+x86code/lea2.c                           asm: check 'leal\s+_?a.*\(%.*,%.*,4\), %eax' failed
 x86code/loadafterload.c                  ok
 x86code/modopt.c                         ok
 x86code/mux.c                            ok
