@@ -746,6 +746,8 @@ backend/shift.c                          ok
 backend/shift2.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
+backend/smallstruct.c                    asm: check 'shrq\s+' failed
+backend/smallstruct2.c                   asm: check 'call c' failed
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
 backend/sparc_chordal.c                  compile: SIGABRT
