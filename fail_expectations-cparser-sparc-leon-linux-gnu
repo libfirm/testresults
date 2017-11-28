@@ -632,6 +632,7 @@ backend/am_test5.c                       ok
 backend/am_test6.c                       ok
 backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
+backend/amd64_cconv1.c                   ok
 backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
 backend/amd64_modeb.c                    ok
@@ -748,6 +749,7 @@ backend/shift64.c                        ok
 backend/sign_bit.c                       ok
 backend/smallstruct.c                    asm: check 'shrq\s+' failed
 backend/smallstruct2.c                   ok
+backend/smallstruct3.c                   ok
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
 backend/sparc_chordal.c                  compile: SIGABRT
