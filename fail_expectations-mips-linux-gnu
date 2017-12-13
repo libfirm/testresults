@@ -747,8 +747,6 @@ backend/shift.c                          ok
 backend/shift2.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
-backend/smallstruct.c                    asm: check 'shrq\s+' failed
-backend/smallstruct2.c                   asm: check 'call c' failed
 backend/smallstruct3.c                   compile: SIGABRT
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
@@ -998,6 +996,7 @@ opt/const_load.c                         ok
 opt/conv.c                               ok
 opt/conv_orgie.c                         compile: SIGABRT
 opt/convconv.c                           compile: SIGABRT
+opt/convendless.c                        compile: SIGKILL
 opt/convfloat.c                          compile: SIGABRT
 opt/convs.c                              compile: SIGABRT
 opt/convtest.c                           compile: SIGABRT
