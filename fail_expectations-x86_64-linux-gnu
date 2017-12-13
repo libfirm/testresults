@@ -747,8 +747,6 @@ backend/shift.c                          ok
 backend/shift2.c                         ok
 backend/shift64.c                        ok
 backend/sign_bit.c                       ok
-backend/smallstruct.c                    asm: check 'shrq\s+' failed
-backend/smallstruct2.c                   ok
 backend/smallstruct3.c                   ok
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
@@ -998,6 +996,7 @@ opt/const_load.c                         ok
 opt/conv.c                               ok
 opt/conv_orgie.c                         ok
 opt/convconv.c                           ok
+opt/convendless.c                        compile: SIGKILL
 opt/convfloat.c                          ok
 opt/convs.c                              ok
 opt/convtest.c                           ok
@@ -1719,3 +1718,5 @@ x86_64code/cas.c                         ok
 x86_64code/imm32.c                       ok
 x86_64code/lea.c                         ok
 x86_64code/lea2.c                        asm: check 'leaq\s+_?arr.*\+12\(%.*,%.*,4\), %rax' failed
+x86_64code/smallstruct.c                 asm: check 'shrq\s+' failed
+x86_64code/smallstruct2.c                ok
