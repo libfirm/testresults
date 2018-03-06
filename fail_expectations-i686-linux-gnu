@@ -1781,6 +1781,7 @@ x86code/loadafterload.c                  ok
 x86code/modopt.c                         ok
 x86code/mux.c                            ok
 x86code/pgdetzcode64.c                   ok
+x86code/reassoc001.c                     asm: check[10] 'ia32_' failed
 x86code/relation_false.c                 ok
 x86code/setmem.c                         ok
 x86code/shift64.c                        ok
