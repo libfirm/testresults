@@ -53,6 +53,7 @@ DDispatch.x10                            ok
 DelegatingConstructor.x10                ok
 DesugarerTest.x10                        ok
 DistArrayTest.x10                        ok
+DoubleInstanceBug.x10                    ok
 Dynamic.x10                              ok
 DynamicInnerClass.x10                    ok
 Fibonacci.x10                            ok
