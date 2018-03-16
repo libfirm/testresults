@@ -675,6 +675,7 @@ backend/cmovs.c                          ok
 backend/conv_float_unsigned.c            compile: SIGABRT
 backend/convconv.c                       ok
 backend/convconv2.c                      ok
+backend/delayslot.c                      ok
 backend/destam.c                         ok
 backend/destam_flags.c                   ok
 backend/destam_flags2.c                  ok
