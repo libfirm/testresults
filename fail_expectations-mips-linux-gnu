@@ -1096,7 +1096,7 @@ opt/fehler068.c                          compile: SIGABRT
 opt/fehler069.c                          ok
 opt/fehler070.c                          ok
 opt/fehler071.c                          ok
-opt/fehler072.c                          compile: SIGABRT
+opt/fehler072.c                          ok
 opt/fehler073.c                          compile: SIGABRT
 opt/fehler074.c                          compile: SIGABRT
 opt/fehler075.c                          compile: SIGABRT
@@ -1174,7 +1174,7 @@ opt/fehler152.c                          ok
 opt/fehler153.c                          ok
 opt/fehler154.c                          ok
 opt/fehler155.c                          ok
-opt/fehler157.c                          compile: SIGABRT
+opt/fehler157.c                          ok
 opt/fehler158.c                          ok
 opt/fehler159.c                          ok
 opt/fehler160.c                          ok
@@ -1188,7 +1188,7 @@ opt/fehler167.c                          ok
 opt/fehler168.c                          ok
 opt/fehler169.c                          ok
 opt/fehler170.c                          compile: SIGABRT
-opt/fehler171.c                          compile: SIGABRT
+opt/fehler171.c                          ok
 opt/fehler172.c                          ok
 opt/fehler173.c                          compile: SIGABRT
 opt/fehler174.c                          compile: SIGABRT
@@ -1210,7 +1210,7 @@ opt/fehler190.c                          ok
 opt/fehler191.c                          ok
 opt/fehler192.c                          ok
 opt/fehler193.c                          ok
-opt/fehler194.c                          compile: SIGABRT
+opt/fehler194.c                          ok
 opt/fehler195.c                          ok
 opt/fehler196.c                          ok
 opt/fehler197.c                          ok
@@ -1292,7 +1292,7 @@ opt/fehler272.c                          ok
 opt/fehler273.c                          ok
 opt/fehler274.c                          ok
 opt/fehler275.c                          ok
-opt/fehler276.c                          compile: SIGABRT
+opt/fehler276.c                          ok
 opt/fehler277.c                          ok
 opt/fehler278.c                          ok
 opt/fehler279.c                          ok
@@ -1341,7 +1341,7 @@ opt/fehler321.c                          ok
 opt/fehler322.c                          ok
 opt/fehler323.c                          ok
 opt/fehler324.c                          ok
-opt/fehler325.c                          compile: SIGABRT
+opt/fehler325.c                          ok
 opt/fehler326.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
@@ -1414,7 +1414,7 @@ opt/kahansum.c                           compile: SIGABRT
 opt/labs.c                               compile: SIGABRT
 opt/ldst.c                               ok
 opt/ll.c                                 compile: SIGABRT
-opt/ll_call.c                            compile: SIGABRT
+opt/ll_call.c                            ok
 opt/load_memout_necessary.c              ok
 opt/loadstore.c                          ok
 opt/loadstore2.c                         ok
@@ -1439,8 +1439,8 @@ opt/mismatch.c                           ok
 opt/mod10.c                              ok
 opt/most_complex_conv.c                  compile: SIGABRT
 opt/mul.c                                ok
-opt/mul2n.c                              compile: SIGABRT
-opt/mul32x32.c                           compile: SIGABRT
+opt/mul2n.c                              ok
+opt/mul32x32.c                           ok
 opt/mulconst.c                           ok
 opt/multidim-array.c                     ok
 opt/mux.c                                ok
