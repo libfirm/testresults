@@ -1586,6 +1586,10 @@ opt/volatile.c                           ok
 opt/volatile2.c                          ok
 opt/while-printf.c                       ok
 opt/wrong_cmp.c                          ok
+preproctest/bug0.c                       preprocess: 1 compile errors
+preproctest/bug1.c                       preprocess: SIGSEGV
+preproctest/bug2.c                       preprocess: output mismatch
+preproctest/bug3.c                       preprocess: SIGABRT
 preproctest/builtins.c                   ok
 preproctest/concat.c                     ok
 preproctest/concat2.c                    ok
