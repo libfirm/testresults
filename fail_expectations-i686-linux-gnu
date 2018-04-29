@@ -1723,7 +1723,7 @@ preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
 x86code/asm_immediate.c                  ok
-x86code/asm_memop_clobber.c              execute: SIGSEGV
+x86code/asm_memop_clobber.c              ok
 x86code/asm_mod_c.c                      ok
 x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
