@@ -476,6 +476,7 @@ C/should_fail/scope_if_cond.c            ok
 C/should_fail/scope_if_else.c            ok
 C/should_fail/scope_if_then.c            ok
 C/should_fail/scope_if_then_else.c       compile: missed error
+C/should_fail/scope_parameter_list.c     compile: reported 0 errors instead of 2
 C/should_fail/scope_switch_body.c        ok
 C/should_fail/scope_switch_cond.c        ok
 C/should_fail/scope_while_body.c         ok
