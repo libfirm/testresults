@@ -329,7 +329,7 @@ C/should_fail/array8.c                   compile: ok (but no reference file)
 C/should_fail/array9.c                   ok
 C/should_fail/asm.c                      ok
 C/should_fail/asm2.c                     ok
-C/should_fail/asm3.c                     compile: SIGSEGV
+C/should_fail/asm3.c                     ok
 C/should_fail/assign_const.c             compile: missed error
 C/should_fail/assign_function.c          compile: missed error
 C/should_fail/bad_alias.c                ok
@@ -476,6 +476,7 @@ C/should_fail/scope_if_cond.c            ok
 C/should_fail/scope_if_else.c            ok
 C/should_fail/scope_if_then.c            ok
 C/should_fail/scope_if_then_else.c       compile: missed error
+C/should_fail/scope_parameter_list.c     compile: reported 0 errors instead of 2
 C/should_fail/scope_switch_body.c        ok
 C/should_fail/scope_switch_cond.c        ok
 C/should_fail/scope_while_body.c         ok
@@ -646,7 +647,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
-backend/asm_clobber_prefix.c             compile: SIGSEGV
+backend/asm_clobber_prefix.c             ok
 backend/asm_matching.constraint.c        execute: returncode not zero but 1
 backend/basicspill.c                     compile: SIGABRT
 backend/belady.c                         ok
