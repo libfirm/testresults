@@ -647,7 +647,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
-backend/asm_clobber_prefix.c             compile: 2 compile errors
+backend/asm_clobber_prefix.c             ok
 backend/asm_matching.constraint.c        ok
 backend/basicspill.c                     ok
 backend/belady.c                         ok
@@ -1522,8 +1522,8 @@ opt/reassoc036.c                         ok
 opt/reassoc037.c                         ok
 opt/reassoc038.c                         ok
 opt/reassoc039.c                         ok
-opt/reassoc040.c                         compile: SIGABRT
-opt/reassoc041.c                         compile: SIGABRT
+opt/reassoc040.c                         ok
+opt/reassoc041.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
 opt/setjump.c                            ok
@@ -1724,7 +1724,7 @@ preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
 x86code/asm_immediate.c                  ok
-x86code/asm_memop_clobber.c              execute: SIGSEGV
+x86code/asm_memop_clobber.c              ok
 x86code/asm_mod_c.c                      ok
 x86code/asm_test.c                       ok
 x86code/asm_test10.c                     compile: SIGABRT
@@ -1732,11 +1732,11 @@ x86code/asm_test11.c                     ok
 x86code/asm_test12.c                     ok
 x86code/asm_test13.c                     ok
 x86code/asm_test14.c                     ok
-x86code/asm_test15.c                     execute: output mismatch
+x86code/asm_test15.c                     ok
 x86code/asm_test16.c                     ok
 x86code/asm_test17.c                     ok
 x86code/asm_test18.c                     compile: SIGABRT
-x86code/asm_test19.c                     compile: SIGABRT
+x86code/asm_test19.c                     ok
 x86code/asm_test2.c                      ok
 x86code/asm_test3.c                      ok
 x86code/asm_test4.c                      ok
