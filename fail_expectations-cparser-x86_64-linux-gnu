@@ -647,7 +647,7 @@ backend/amd64_umod2.c                    ok
 backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
-backend/asm_clobber_prefix.c             compile: 2 compile errors
+backend/asm_clobber_prefix.c             ok
 backend/asm_matching.constraint.c        ok
 backend/basicspill.c                     ok
 backend/belady.c                         ok
@@ -687,7 +687,7 @@ backend/div_pinned.c                     ok
 backend/double_memperm.c                 ok
 backend/duplicate_proj.c                 ok
 backend/duplicate_proj2.c                ok
-backend/extern_sret.c                    execute: output mismatch
+backend/extern_sret.c                    ok
 backend/f2ull.c                          ok
 backend/fabsf1.c                         ok
 backend/fabsf2.c                         ok
@@ -1522,7 +1522,7 @@ opt/reassoc036.c                         ok
 opt/reassoc037.c                         ok
 opt/reassoc038.c                         ok
 opt/reassoc039.c                         ok
-opt/reassoc040.c                         compile: SIGABRT
+opt/reassoc040.c                         ok
 opt/reassoc041.c                         ok
 opt/rotate.c                             ok
 opt/rtsopt.c                             ok
@@ -1728,5 +1728,5 @@ x86_64code/cas.c                         ok
 x86_64code/imm32.c                       ok
 x86_64code/lea.c                         ok
 x86_64code/lea2.c                        asm: check 'leaq\s+_?arr.*\+12\(%.*,%.*,4\), %rax' failed
-x86_64code/smallstruct.c                 asm: check 'shrq\s+' failed
+x86_64code/smallstruct.c                 ok
 x86_64code/smallstruct2.c                ok
