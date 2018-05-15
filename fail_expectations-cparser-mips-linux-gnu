@@ -648,6 +648,7 @@ backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
 backend/asm_clobber_prefix.c             ok
+backend/asm_live_through_matching.c      execute: returncode not zero but 1
 backend/asm_matching.constraint.c        execute: returncode not zero but 1
 backend/basicspill.c                     compile: SIGABRT
 backend/belady.c                         ok
