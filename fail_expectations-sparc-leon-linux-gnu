@@ -940,6 +940,7 @@ opt/XXEndless.c                          ok
 opt/abs.c                                ok
 opt/adam_putt.c                          ok
 opt/add64.c                              ok
+opt/add_consts.c                         ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
 opt/alias_classify.c                     ok
