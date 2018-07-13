@@ -1645,6 +1645,7 @@ preproctest/pp_error2.c                  ok
 preproctest/pp_error3.c                  ok
 preproctest/pp_error4.c                  preprocess: output mismatch
 preproctest/pp_error5.c                  preprocess: SIGABRT
+preproctest/pp_error6.c                  ok
 preproctest/ppexprs.c                    ok
 preproctest/recursive_defs.c             ok
 preproctest/redef.c                      ok
