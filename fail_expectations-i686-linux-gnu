@@ -1727,6 +1727,7 @@ preproctest/vaargs_gcc2.c                ok
 preproctest/vaargs_gcc3.c                ok
 x86code/apfel.c                          ok
 x86code/apfel_readable.c                 ok
+x86code/asm_early_clobber.c              compile: SIGABRT
 x86code/asm_immediate.c                  ok
 x86code/asm_memop_clobber.c              ok
 x86code/asm_mod_c.c                      ok
