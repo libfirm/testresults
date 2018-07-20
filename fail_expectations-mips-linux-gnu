@@ -254,6 +254,7 @@ C/noconst.c                              ok
 C/nowarn/builtin_addr.c                  ok
 C/nowarn/compare.c                       ok
 C/nowarn/compatible.c                    ok
+C/nowarn/compoundassign.c                ok
 C/nowarn/defined.c                       ok
 C/nowarn/enumbitfield.c                  ok
 C/nowarn/fooredirect.c                   ok
