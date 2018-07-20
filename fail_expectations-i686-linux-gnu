@@ -254,7 +254,7 @@ C/noconst.c                              ok
 C/nowarn/builtin_addr.c                  ok
 C/nowarn/compare.c                       ok
 C/nowarn/compatible.c                    ok
-C/nowarn/compoundassign.c                compile: produced invalid warning
+C/nowarn/compoundassign.c                ok
 C/nowarn/defined.c                       ok
 C/nowarn/enumbitfield.c                  ok
 C/nowarn/fooredirect.c                   ok
@@ -1764,6 +1764,7 @@ x86code/cp_error040.c                    ok
 x86code/destam_shift.c                   asm: check[1] 'shrb' failed
 x86code/doz.c                            ok
 x86code/early_clobber.c                  ok
+x86code/early_clobber1.c                 ok
 x86code/fehler020.c                      ok
 x86code/fehler041.c                      ok
 x86code/fehler043.c                      ok
