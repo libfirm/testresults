@@ -1765,7 +1765,7 @@ x86code/destam_shift.c                   asm: check[1] 'shrb' failed
 x86code/doz.c                            ok
 x86code/early_clobber.c                  ok
 x86code/early_clobber1.c                 ok
-x86code/early_clobber2.c                 compile: SIGABRT
+x86code/early_clobber2.c                 ok
 x86code/fehler020.c                      ok
 x86code/fehler041.c                      ok
 x86code/fehler043.c                      ok
