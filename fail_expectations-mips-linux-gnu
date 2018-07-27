@@ -649,7 +649,7 @@ backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
 backend/asm_clobber_prefix.c             ok
-backend/asm_live_through_matching.c      compile: SIGABRT
+backend/asm_live_through_matching.c      ok
 backend/asm_matching.constraint.c        ok
 backend/basicspill.c                     compile: SIGABRT
 backend/belady.c                         ok
