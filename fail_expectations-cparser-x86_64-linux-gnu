@@ -649,9 +649,9 @@ backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      ok
 backend/arm_immediate.c                  ok
 backend/asm_clobber_prefix.c             ok
-backend/asm_live_through_matching.c      compile: SIGABRT
+backend/asm_live_through_matching.c      ok
 backend/asm_matching.constraint.c        ok
-backend/asm_melt_copykeep.c              compile: SIGABRT
+backend/asm_melt_copykeep.c              ok
 backend/basicspill.c                     ok
 backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
@@ -942,7 +942,7 @@ opt/XXEndless.c                          ok
 opt/abs.c                                ok
 opt/adam_putt.c                          ok
 opt/add64.c                              ok
-opt/add_consts.c                         execute: returncode not zero but 1
+opt/add_consts.c                         ok
 opt/addn.c                               ok
 opt/addr_test.c                          ok
 opt/alias_classify.c                     compile: 1 compile errors
