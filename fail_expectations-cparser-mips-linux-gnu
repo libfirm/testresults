@@ -649,9 +649,9 @@ backend/amd64_umod3.c                    ok
 backend/arm_cconv.c                      compile: SIGABRT
 backend/arm_immediate.c                  ok
 backend/asm_clobber_prefix.c             ok
-backend/asm_live_through_matching.c      compile: SIGABRT
+backend/asm_live_through_matching.c      ok
 backend/asm_matching.constraint.c        ok
-backend/asm_melt_copykeep.c              compile: SIGABRT
+backend/asm_melt_copykeep.c              ok
 backend/basicspill.c                     compile: SIGABRT
 backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
@@ -673,7 +673,7 @@ backend/builtin_parityll.c               ok
 backend/builtin_popcount.c               ok
 backend/builtin_popcountl.c              ok
 backend/builtin_popcountll.c             ok
-backend/chordal.c                        compile: SIGABRT
+backend/chordal.c                        ok
 backend/chordal2.c                       ok
 backend/chordal3.c                       ok
 backend/cmovs.c                          ok
@@ -825,7 +825,7 @@ gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
 gcc/920908-1.c                           compile: 3 compile errors
-gcc/930111-1.c                           compile: SIGABRT
+gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
 gcc/pr22379.c                            ok
@@ -879,7 +879,7 @@ llvm/2003-06-16-VolatileError.c          ok
 llvm/2003-10-12-GlobalVarInitializers.c  compile: SIGABRT
 llvm/2004-02-03-AggregateCopy.c          ok
 llvm/2004-08-12-InlinerAndAllocas.c      compile: SIGABRT
-llvm/2005-05-06-LongLongSignedShift.c    compile: SIGABRT
+llvm/2005-05-06-LongLongSignedShift.c    ok
 llvm/ConstructorDestructorAttributes.c   ok
 llvm/DuffsDevice.c                       ok
 llvm/PR491.c                             ok
@@ -1231,7 +1231,7 @@ opt/fehler205.c                          ok
 opt/fehler206.c                          ok
 opt/fehler207.c                          compile: SIGABRT
 opt/fehler208.c                          ok
-opt/fehler209.c                          compile: SIGABRT
+opt/fehler209.c                          ok
 opt/fehler210.c                          ok
 opt/fehler211.c                          ok
 opt/fehler212.c                          ok
@@ -1410,7 +1410,7 @@ opt/jumpthreading.c                      ok
 opt/jumpthreading10.c                    compile: SIGKILL
 opt/jumpthreading2.c                     ok
 opt/jumpthreading3.c                     ok
-opt/jumpthreading4.c                     compile: SIGABRT
+opt/jumpthreading4.c                     ok
 opt/jumpthreading5.c                     ok
 opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
@@ -1433,7 +1433,7 @@ opt/loadstore8.c                         ok
 opt/loadstore9.c                         ok
 opt/localopts.c                          ok
 opt/localopts2.c                         ok
-opt/longlong.c                           compile: SIGABRT
+opt/longlong.c                           ok
 opt/loop_without_phi.c                   ok
 opt/loopana.c                            ok
 opt/loopspilling.c                       ok
@@ -1552,7 +1552,7 @@ opt/structcall3.c                        compile: SIGABRT
 opt/structcopy.c                         compile: assembler error
 opt/structtest.c                         ok
 opt/switch.c                             ok
-opt/switch_ll.c                          compile: SIGABRT
+opt/switch_ll.c                          ok
 opt/switch_test.c                        ok
 opt/switch_test2.c                       ok
 opt/tailrec.c                            ok
