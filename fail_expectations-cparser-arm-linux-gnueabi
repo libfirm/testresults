@@ -1378,6 +1378,7 @@ opt/ifconv.c                             ok
 opt/ifconv10.c                           ok
 opt/ifconv11.c                           ok
 opt/ifconv12.c                           ok
+opt/ifconv13.c                           ok
 opt/ifconv2.c                            ok
 opt/ifconv3.c                            ok
 opt/ifconv4.c                            ok
