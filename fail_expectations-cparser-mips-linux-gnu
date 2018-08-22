@@ -1590,7 +1590,7 @@ opt/wrong_cmp.c                          ok
 preproctest/bug0.c                       preprocess: 1 compile errors
 preproctest/bug1.c                       preprocess: SIGSEGV
 preproctest/bug2.c                       preprocess: output mismatch
-preproctest/bug3.c                       preprocess: SIGABRT
+preproctest/bug3.c                       ok
 preproctest/builtins.c                   ok
 preproctest/concat.c                     ok
 preproctest/concat2.c                    ok
@@ -1641,7 +1641,7 @@ preproctest/pp_error1.c                  ok
 preproctest/pp_error2.c                  ok
 preproctest/pp_error3.c                  ok
 preproctest/pp_error4.c                  preprocess: output mismatch
-preproctest/pp_error5.c                  preprocess: SIGABRT
+preproctest/pp_error5.c                  ok
 preproctest/pp_error6.c                  ok
 preproctest/ppexprs.c                    ok
 preproctest/recursive_defs.c             ok
@@ -1661,7 +1661,7 @@ preproctest/should_fail/bad_def.c        ok
 preproctest/should_fail/call.c           ok
 preproctest/should_fail/call2.c          ok
 preproctest/should_fail/call3.c          ok
-preproctest/should_fail/call4.c          preprocess: SIGABRT
+preproctest/should_fail/call4.c          ok
 preproctest/should_fail/define_defined.c ok
 preproctest/should_fail/defined.c        preprocess: ok (but no reference file)
 preproctest/should_fail/defined1.c       preprocess: ok (but no reference file)
