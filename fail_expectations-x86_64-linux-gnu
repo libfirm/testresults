@@ -639,7 +639,7 @@ backend/amd64_immediate64.c              ok
 backend/amd64_mod.c                      ok
 backend/amd64_modeb.c                    ok
 backend/amd64_sign_extend.c              ok
-backend/amd64_sign_extend_float.c        execute: SIGABRT
+backend/amd64_sign_extend_float.c        ok
 backend/amd64_source_am.c                ok
 backend/amd64_sub.c                      ok
 backend/amd64_sub2.c                     ok
@@ -657,11 +657,11 @@ backend/belady.c                         ok
 backend/builtin_bswap32.c                ok
 backend/builtin_bswap64.c                ok
 backend/builtin_clz.c                    ok
-backend/builtin_clz2.c                   execute: output mismatch
+backend/builtin_clz2.c                   ok
 backend/builtin_clzl.c                   ok
 backend/builtin_clzll.c                  ok
 backend/builtin_ctz.c                    ok
-backend/builtin_ctz2.c                   execute: output mismatch
+backend/builtin_ctz2.c                   ok
 backend/builtin_ctzl.c                   ok
 backend/builtin_ctzll.c                  ok
 backend/builtin_ffs.c                    ok
