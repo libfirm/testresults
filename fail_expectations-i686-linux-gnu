@@ -631,7 +631,7 @@ backend/am_test2.c                       ok
 backend/am_test3.c                       ok
 backend/am_test4.c                       ok
 backend/am_test5.c                       ok
-backend/am_test6.c                       compile: SIGABRT
+backend/am_test6.c                       ok
 backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
 backend/amd64_cconv1.c                   ok
@@ -705,7 +705,7 @@ backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_mode_t2.c                   ok
-backend/ia32_mode_t3.c                   compile: SIGABRT
+backend/ia32_mode_t3.c                   ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
