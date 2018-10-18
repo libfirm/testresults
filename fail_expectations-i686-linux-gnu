@@ -982,7 +982,7 @@ opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo10.c                            ok
 opt/combo11.c                            ok
-opt/combo12.c                            compile: SIGABRT
+opt/combo12.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
@@ -1342,11 +1342,11 @@ opt/fehler316.c                          ok
 opt/fehler317.c                          compile: SIGABRT
 opt/fehler318.c                          ok
 opt/fehler319.c                          ok
-opt/fehler320.c                          compile: SIGABRT
+opt/fehler320.c                          ok
 opt/fehler321.c                          ok
 opt/fehler322.c                          ok
 opt/fehler323.c                          ok
-opt/fehler324.c                          execute: returncode not zero but -127
+opt/fehler324.c                          ok
 opt/fehler325.c                          ok
 opt/fehler326.c                          ok
 opt/fehler_gt_0.c                        ok
