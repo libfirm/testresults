@@ -664,7 +664,7 @@ backend/builtin_bswap64.c                ok
 backend/builtin_clz.c                    ok
 backend/builtin_clz2.c                   ok
 backend/builtin_clzl.c                   ok
-backend/builtin_clzll.c                  compile: SIGABRT
+backend/builtin_clzll.c                  ok
 backend/builtin_ctz.c                    ok
 backend/builtin_ctz2.c                   ok
 backend/builtin_ctzl.c                   ok
