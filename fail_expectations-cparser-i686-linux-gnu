@@ -631,7 +631,7 @@ backend/am_test2.c                       ok
 backend/am_test3.c                       ok
 backend/am_test4.c                       ok
 backend/am_test5.c                       ok
-backend/am_test6.c                       compile: SIGABRT
+backend/am_test6.c                       ok
 backend/am_test_float.c                  ok
 backend/am_test_float2.c                 ok
 backend/amd64_cconv1.c                   ok
@@ -705,7 +705,7 @@ backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_mode_t2.c                   ok
-backend/ia32_mode_t3.c                   compile: SIGABRT
+backend/ia32_mode_t3.c                   ok
 backend/ia32_remat.c                     ok
 backend/ia32_scheduled.c                 ok
 backend/ia32_scheduled2.c                ok
@@ -982,7 +982,7 @@ opt/cmp2.c                               ok
 opt/cmp_cse.c                            ok
 opt/combo10.c                            ok
 opt/combo11.c                            ok
-opt/combo12.c                            compile: SIGABRT
+opt/combo12.c                            ok
 opt/combo2.c                             ok
 opt/combo3.c                             ok
 opt/combo4.c                             ok
@@ -1342,11 +1342,11 @@ opt/fehler316.c                          ok
 opt/fehler317.c                          compile: SIGABRT
 opt/fehler318.c                          ok
 opt/fehler319.c                          ok
-opt/fehler320.c                          compile: SIGABRT
+opt/fehler320.c                          ok
 opt/fehler321.c                          ok
 opt/fehler322.c                          ok
 opt/fehler323.c                          ok
-opt/fehler324.c                          execute: returncode not zero but -127
+opt/fehler324.c                          ok
 opt/fehler325.c                          ok
 opt/fehler326.c                          ok
 opt/fehler_gt_0.c                        ok
