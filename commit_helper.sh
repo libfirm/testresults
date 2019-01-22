@@ -36,7 +36,7 @@ cp "${new_expectations}" "${file}"
 git add "${file}"
 git config user.email "firm@ipd.info.uni-karlsruhe.de"
 git config user.name "buildbot"
-git commit --file=${TCM}
+git commit --file=${TCM} || exit 0
 rm ${TCM}
 
 # publish changes
