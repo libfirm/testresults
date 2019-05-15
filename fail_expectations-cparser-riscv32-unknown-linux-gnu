@@ -808,16 +808,16 @@ cparser/should_warn/badopt4.cmd          ok
 cparser/should_warn/unused.cmd           ok
 cparser/should_warn/unused2.cmd          ok
 cparser/should_warn/unused3.cmd          ok
-cparser/should_work/ansi.cmd             cmd_should_work: returncode not zero but 1
+cparser/should_work/ansi.cmd             ok
 cparser/should_work/c89.cmd              ok
 cparser/should_work/help.cmd             ok
 cparser/should_work/helpall.cmd          ok
 cparser/should_work/mode_precedence.cmd  ok
 cparser/should_work/os.cmd               ok
-cparser/should_work/pipe.cmd             cmd_should_work: returncode not zero but 1
+cparser/should_work/pipe.cmd             ok
 cparser/should_work/preprocas.cmd        ok
 cparser/should_work/print_multi.cmd      ok
-cparser/should_work/samenames.cmd        cmd_should_work: returncode not zero but 1
+cparser/should_work/samenames.cmd        ok
 cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
