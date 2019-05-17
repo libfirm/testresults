@@ -1,6 +1,6 @@
-C++/should_fail/bad_retypedef.cc         compile: reported 0 errors instead of 2
-C++/should_fail/bad_retypedef2.cc        compile: reported 0 errors instead of 2
-C++/should_fail/bad_retypedef_sys.cc     compile: reported 0 errors instead of 2
+C++/should_fail/bad_retypedef.cc         ok
+C++/should_fail/bad_retypedef2.cc        ok
+C++/should_fail/bad_retypedef_sys.cc     ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
 C/absolute_include.c                     ok
