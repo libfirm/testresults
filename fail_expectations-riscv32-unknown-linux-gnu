@@ -46,7 +46,7 @@ C/cp_error004.c                          ok
 C/cp_error005.c                          ok
 C/cp_error006.c                          ok
 C/cp_error007.c                          ok
-C/cp_error008.c                          compile: SIGABRT
+C/cp_error008.c                          ok
 C/cp_error009.c                          ok
 C/cp_error010.c                          ok
 C/cp_error011.c                          ok
@@ -732,7 +732,7 @@ backend/memperm.c                        ok
 backend/minus64.c                        ok
 backend/mux_long_double.c                compile: SIGABRT
 backend/norotate.c                       ok
-backend/optest.c                         compile: SIGABRT
+backend/optest.c                         ok
 backend/optest_float.c                   compile: SIGABRT
 backend/optest_longlong.c                compile: SIGABRT
 backend/paramaddr.c                      ok
@@ -1003,7 +1003,7 @@ opt/cond.c                               ok
 opt/confirm.c                            ok
 opt/const.c                              ok
 opt/const_load.c                         ok
-opt/conv.c                               compile: SIGABRT
+opt/conv.c                               ok
 opt/conv_orgie.c                         compile: SIGABRT
 opt/convconv.c                           compile: SIGABRT
 opt/convendless.c                        compile: SIGKILL
@@ -1099,7 +1099,7 @@ opt/fehler065.c                          compile: SIGABRT
 opt/fehler066.c                          compile: SIGABRT
 opt/fehler067.c                          ok
 opt/fehler068.c                          compile: SIGABRT
-opt/fehler069.c                          compile: SIGABRT
+opt/fehler069.c                          ok
 opt/fehler070.c                          ok
 opt/fehler071.c                          ok
 opt/fehler072.c                          ok
@@ -1120,8 +1120,8 @@ opt/fehler086.c                          ok
 opt/fehler087.c                          compile: SIGABRT
 opt/fehler088.c                          ok
 opt/fehler089.c                          ok
-opt/fehler090.c                          compile: SIGABRT
-opt/fehler091.c                          compile: SIGABRT
+opt/fehler090.c                          ok
+opt/fehler091.c                          ok
 opt/fehler092.c                          ok
 opt/fehler093.c                          ok
 opt/fehler094.c                          compile: SIGABRT
@@ -1140,7 +1140,7 @@ opt/fehler107.c                          compile: SIGABRT
 opt/fehler108.c                          ok
 opt/fehler109.c                          ok
 opt/fehler110.c                          compile: SIGABRT
-opt/fehler112.c                          compile: SIGABRT
+opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
 opt/fehler115.c                          compile: SIGABRT
@@ -1321,7 +1321,7 @@ opt/fehler295.c                          ok
 opt/fehler296.c                          ok
 opt/fehler297.c                          ok
 opt/fehler298.c                          ok
-opt/fehler299.c                          compile: SIGABRT
+opt/fehler299.c                          ok
 opt/fehler300.c                          ok
 opt/fehler301.c                          ok
 opt/fehler302.c                          ok
@@ -1413,7 +1413,7 @@ opt/jumpthreading2.c                     ok
 opt/jumpthreading3.c                     ok
 opt/jumpthreading4.c                     ok
 opt/jumpthreading5.c                     ok
-opt/jumpthreading6.c                     compile: SIGABRT
+opt/jumpthreading6.c                     ok
 opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
 opt/jumpthreading9.c                     ok
@@ -1461,7 +1461,7 @@ opt/nested_loops2.c                      ok
 opt/ns.c                                 ok
 opt/nulladd.c                            ok
 opt/nullnode.c                           ok
-opt/occult.c                             compile: SIGABRT
+opt/occult.c                             ok
 opt/occult2.c                            ok
 opt/occult3.c                            ok
 opt/pad_return.c                         ok
@@ -1575,7 +1575,7 @@ opt/unary.c                              ok
 opt/union_init.c                         ok
 opt/unknown_combo.c                      ok
 opt/unknown_combo2.c                     ok
-opt/unreachable_block.c                  compile: SIGABRT
+opt/unreachable_block.c                  ok
 opt/use_uninit_ptr.c                     ok
 opt/vadd_store.c                         ok
 opt/valist.c                             compile: 2 compile errors
