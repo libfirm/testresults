@@ -109,7 +109,7 @@ C/cp_error079.c                          ok
 C/cp_error080.c                          ok
 C/cp_error081.c                          ok
 C/cp_error082.c                          compile: SIGABRT
-C/cp_error083.c                          compile: SIGABRT
+C/cp_error083.c                          ok
 C/cp_error084.c                          ok
 C/cp_error085.c                          ok
 C/cp_error086.c                          ok
@@ -120,9 +120,9 @@ C/declarator_special.c                   ok
 C/designators.c                          ok
 C/designators2.c                         ok
 C/designators3.c                         ok
-C/digraphs.c                             compile: SIGABRT
+C/digraphs.c                             ok
 C/doublewide.c                           ok
-C/dynamic_initializers.c                 compile: SIGABRT
+C/dynamic_initializers.c                 ok
 C/empty.c                                ok
 C/enum.c                                 ok
 C/escapes.c                              ok
@@ -601,7 +601,7 @@ C/structs2.c                             ok
 C/suffixes.c                             ok
 C/switch.c                               ok
 C/tarval_sign_error.c                    ok
-C/trigraphs.c                            compile: SIGABRT
+C/trigraphs.c                            ok
 C/union_init.c                           ok
 C/universal_character.c                  ok
 C/unkept_loop.c                          ok
@@ -616,7 +616,7 @@ ack/ack_conv.c                           compile: SIGABRT
 ack/decl.c                               ok
 ack/init.c                               compile: SIGABRT
 ack/ops.c                                ok
-ack/str.c                                compile: SIGABRT
+ack/str.c                                ok
 ack/t7.c                                 ok
 ack/test.c                               compile: SIGABRT
 ack/test1.c                              compile: SIGABRT
@@ -701,7 +701,7 @@ backend/floatset.c                       compile: SIGABRT
 backend/fpu.c                            compile: SIGABRT
 backend/frame_entity.c                   compile: SIGABRT
 backend/i2f.c                            compile: SIGABRT
-backend/ia32_conv.c                      compile: SIGABRT
+backend/ia32_conv.c                      ok
 backend/ia32_heights.c                   ok
 backend/ia32_mode_t.c                    ok
 backend/ia32_mode_t2.c                   ok
@@ -712,7 +712,7 @@ backend/ia32_scheduled2.c                ok
 backend/ia32_shl.c                       ok
 backend/immediate.c                      ok
 backend/inconsistent_outs.c              ok
-backend/incsp_pop.c                      compile: SIGABRT
+backend/incsp_pop.c                      ok
 backend/init_conv.c                      ok
 backend/initializer_bug.c                compile: SIGABRT
 backend/ld2ull.c                         compile: SIGABRT
@@ -721,12 +721,12 @@ backend/long_double_arith.c              compile: SIGABRT
 backend/long_double_conv.c               compile: SIGABRT
 backend/longfunc.c                       ok
 backend/longlongptr.c                    ok
-backend/lower_call.c                     compile: SIGABRT
-backend/lower_call2.c                    compile: SIGABRT
-backend/lower_call3.c                    compile: SIGABRT
-backend/lower_call4.c                    compile: SIGABRT
-backend/lower_call5.c                    compile: SIGABRT
-backend/lower_call6.c                    compile: SIGABRT
+backend/lower_call.c                     ok
+backend/lower_call2.c                    ok
+backend/lower_call3.c                    ok
+backend/lower_call4.c                    ok
+backend/lower_call5.c                    ok
+backend/lower_call6.c                    ok
 backend/lower_copyb.c                    ok
 backend/memperm.c                        ok
 backend/minus64.c                        ok
@@ -771,16 +771,16 @@ backend/sparc_keep.c                     ok
 backend/sparc_mode.c                     ok
 backend/sparc_notconsts.c                ok
 backend/sparc_restorepeepholes.c         ok
-backend/sparc_segfault.c                 compile: SIGABRT
+backend/sparc_segfault.c                 ok
 backend/sparc_shr.c                      ok
 backend/sparc_shr2.c                     ok
-backend/sparc_stackframe.c               compile: SIGABRT
+backend/sparc_stackframe.c               ok
 backend/spill_cost.c                     ok
 backend/spill_phi.c                      ok
 backend/spill_phi2.c                     ok
 backend/spillslot.c                      ok
-backend/srettaken.c                      compile: SIGABRT
-backend/stack.c                          compile: SIGABRT
+backend/srettaken.c                      ok
+backend/stack.c                          ok
 backend/stackarray.c                     ok
 backend/subregister.c                    ok
 backend/taken64.c                        ok
@@ -822,19 +822,19 @@ cparser/should_work/version.cmd          ok
 gcc/20000914-1.c                         ok
 gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
-gcc/20020920-1.c                         compile: SIGABRT
+gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
 gcc/920908-1.c                           compile: 3 compile errors
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
 gcc/pr22379.c                            ok
-gcc/pr25860.c                            compile: SIGABRT
+gcc/pr25860.c                            ok
 gcc/pr36988.c                            ok
 gcc/pr37285.c                            ok
 gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
-gcc/pr43784.c                            compile: SIGABRT
+gcc/pr43784.c                            ok
 gcc/pr43784_2.c                          ok
 gcc/strct-varg-1.c                       compile: 4 compile errors
 gcc/va-arg-12.c                          compile: 4 compile errors
@@ -895,7 +895,7 @@ llvm/sumarray2d.c                        ok
 llvm/sumarraymalloc.c                    ok
 llvm/test_indvars.c                      compile: SIGABRT
 llvm/testtrace.c                         ok
-opt/20001212-1.c                         compile: SIGABRT
+opt/20001212-1.c                         ok
 opt/Args.c                               ok
 opt/Arrays.c                             ok
 opt/BinaryOpTest.c                       ok
@@ -947,7 +947,7 @@ opt/addn.c                               ok
 opt/addr_test.c                          ok
 opt/alias_classify.c                     compile: 1 compile errors
 opt/alias_compounds.c                    execute: output mismatch
-opt/alias_escapes.c                      compile: SIGABRT
+opt/alias_escapes.c                      ok
 opt/alias_noescape.c                     compile: 1 compile errors
 opt/alias_pointer.c                      compile: 1 compile errors
 opt/alloca.c                             ok
@@ -1044,7 +1044,7 @@ opt/fehler005.c                          ok
 opt/fehler006.c                          ok
 opt/fehler007.c                          ok
 opt/fehler008.c                          compile: SIGABRT
-opt/fehler009.c                          compile: SIGABRT
+opt/fehler009.c                          ok
 opt/fehler010.c                          ok
 opt/fehler011.c                          ok
 opt/fehler012.c                          ok
@@ -1067,7 +1067,7 @@ opt/fehler029.c                          compile: SIGABRT
 opt/fehler030.c                          ok
 opt/fehler031.c                          ok
 opt/fehler032.c                          ok
-opt/fehler033.c                          compile: SIGABRT
+opt/fehler033.c                          ok
 opt/fehler034.c                          ok
 opt/fehler035.c                          ok
 opt/fehler036.c                          compile: SIGABRT
@@ -1124,7 +1124,7 @@ opt/fehler090.c                          ok
 opt/fehler091.c                          ok
 opt/fehler092.c                          ok
 opt/fehler093.c                          ok
-opt/fehler094.c                          compile: SIGABRT
+opt/fehler094.c                          ok
 opt/fehler095.c                          ok
 opt/fehler096.c                          ok
 opt/fehler097.c                          ok
@@ -1134,12 +1134,12 @@ opt/fehler100.c                          ok
 opt/fehler101.c                          compile: SIGABRT
 opt/fehler102.c                          ok
 opt/fehler103.c                          ok
-opt/fehler105.c                          compile: SIGABRT
+opt/fehler105.c                          ok
 opt/fehler106.c                          compile: SIGABRT
 opt/fehler107.c                          compile: SIGABRT
 opt/fehler108.c                          ok
 opt/fehler109.c                          ok
-opt/fehler110.c                          compile: SIGABRT
+opt/fehler110.c                          ok
 opt/fehler112.c                          ok
 opt/fehler113.c                          ok
 opt/fehler114.c                          ok
@@ -1185,7 +1185,7 @@ opt/fehler158.c                          ok
 opt/fehler159.c                          ok
 opt/fehler160.c                          ok
 opt/fehler161.c                          ok
-opt/fehler162.c                          compile: SIGABRT
+opt/fehler162.c                          ok
 opt/fehler163.c                          compile: SIGABRT
 opt/fehler164.c                          ok
 opt/fehler165.c                          ok
@@ -1222,7 +1222,7 @@ opt/fehler196.c                          ok
 opt/fehler197.c                          ok
 opt/fehler198.c                          ok
 opt/fehler199.c                          ok
-opt/fehler200.c                          compile: SIGABRT
+opt/fehler200.c                          ok
 opt/fehler201.c                          ok
 opt/fehler202.c                          ok
 opt/fehler203.c                          ok
@@ -1232,18 +1232,18 @@ opt/fehler206.c                          ok
 opt/fehler207.c                          compile: SIGABRT
 opt/fehler208.c                          ok
 opt/fehler209.c                          ok
-opt/fehler210.c                          compile: SIGABRT
+opt/fehler210.c                          ok
 opt/fehler211.c                          ok
 opt/fehler212.c                          ok
 opt/fehler213.c                          ok
-opt/fehler214.c                          compile: SIGABRT
+opt/fehler214.c                          ok
 opt/fehler215.c                          ok
-opt/fehler216.c                          compile: SIGABRT
+opt/fehler216.c                          ok
 opt/fehler217.c                          ok
 opt/fehler218.c                          compile: SIGKILL
 opt/fehler219.c                          ok
-opt/fehler220.c                          compile: SIGABRT
-opt/fehler221.c                          compile: SIGABRT
+opt/fehler220.c                          ok
+opt/fehler221.c                          ok
 opt/fehler222.c                          ok
 opt/fehler223.c                          ok
 opt/fehler224.c                          ok
@@ -1351,7 +1351,7 @@ opt/fehler325.c                          ok
 opt/fehler326.c                          ok
 opt/fehler_gt_0.c                        ok
 opt/fehler_no_equality_0.c               ok
-opt/fib.c                                compile: SIGABRT
+opt/fib.c                                ok
 opt/fib_iter.c                           ok
 opt/fisttp.c                             compile: SIGABRT
 opt/float_if.c                           compile: SIGABRT
@@ -1384,11 +1384,11 @@ opt/ifconv8.c                            ok
 opt/ifconv9.c                            ok
 opt/implicit_call.c                      ok
 opt/init_unnamed_bitfield.c              ok
-opt/inline.c                             compile: SIGABRT
-opt/inline00.c                           compile: SIGABRT
-opt/inline01.c                           compile: SIGABRT
-opt/inline02.c                           compile: SIGABRT
-opt/inline03.c                           compile: SIGABRT
+opt/inline.c                             ok
+opt/inline00.c                           ok
+opt/inline01.c                           ok
+opt/inline02.c                           ok
+opt/inline03.c                           ok
 opt/inline10.c                           ok
 opt/inline11.c                           ok
 opt/inline12.c                           ok
@@ -1397,9 +1397,9 @@ opt/inline14.c                           ok
 opt/inline15.c                           ok
 opt/inline16.c                           ok
 opt/inline2.c                            ok
-opt/inline20.c                           compile: SIGABRT
-opt/inline21.c                           compile: SIGABRT
-opt/inline22.c                           compile: SIGABRT
+opt/inline20.c                           ok
+opt/inline21.c                           ok
+opt/inline22.c                           ok
 opt/inline23.c                           compile: 1 compile errors
 opt/inline24.c                           ok
 opt/inline25.c                           compile: 1 compile errors
@@ -1440,7 +1440,7 @@ opt/loopana.c                            ok
 opt/loopspilling.c                       ok
 opt/lrot.c                               ok
 opt/max.c                                ok
-opt/memperm_stress.c                     compile: SIGABRT
+opt/memperm_stress.c                     ok
 opt/minus_zero.c                         compile: SIGABRT
 opt/mismatch.c                           ok
 opt/mod10.c                              ok
@@ -1542,14 +1542,14 @@ opt/simple.c                             ok
 opt/slow_memperm.c                       ok
 opt/sparam.c                             ok
 opt/spills.c                             ok
-opt/sret.c                               compile: SIGABRT
+opt/sret.c                               ok
 opt/stmt_expr.c                          ok
 opt/store_bug.c                          ok
 opt/strenght_red.c                       ok
 opt/struct.c                             ok
 opt/structcall.c                         ok
-opt/structcall2.c                        compile: SIGABRT
-opt/structcall3.c                        compile: SIGABRT
+opt/structcall2.c                        ok
+opt/structcall3.c                        ok
 opt/structcopy.c                         ok
 opt/structtest.c                         ok
 opt/switch.c                             ok
