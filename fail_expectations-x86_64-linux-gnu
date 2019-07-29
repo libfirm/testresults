@@ -232,6 +232,7 @@ C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
 C/init8.c                                ok
+C/init9.c                                compile: 3 compile errors
 C/init_wide.c                            ok
 C/initializers.c                         ok
 C/inline.c                               ok
