@@ -143,7 +143,7 @@ C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     compile: SIGABRT
 C/gnu99/anonstruct2.c                    ok
 C/gnu99/anonstruct3.c                    ok
-C/gnu99/anonstruct4.c                    compile: 3 compile errors
+C/gnu99/anonstruct4.c                    ok
 C/gnu99/arr0.c                           ok
 C/gnu99/asmname.c                        ok
 C/gnu99/attribute_after_bitfield.c       ok
@@ -232,7 +232,7 @@ C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
 C/init8.c                                ok
-C/init9.c                                compile: 3 compile errors
+C/init9.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
 C/inline.c                               ok
