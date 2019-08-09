@@ -143,7 +143,7 @@ C/gnu99/alignof.c                        ok
 C/gnu99/anonstruct.c                     ok
 C/gnu99/anonstruct2.c                    ok
 C/gnu99/anonstruct3.c                    ok
-C/gnu99/anonstruct4.c                    compile: 6 compile errors
+C/gnu99/anonstruct4.c                    ok
 C/gnu99/arr0.c                           ok
 C/gnu99/asmname.c                        ok
 C/gnu99/attribute_after_bitfield.c       ok
@@ -232,7 +232,7 @@ C/init2.c                                ok
 C/init6.c                                ok
 C/init7.c                                ok
 C/init8.c                                ok
-C/init9.c                                compile: 3 compile errors
+C/init9.c                                ok
 C/init_wide.c                            ok
 C/initializers.c                         ok
 C/inline.c                               ok
@@ -1783,7 +1783,7 @@ x86code/fehler133.c                      ok
 x86code/fehler134.c                      ok
 x86code/fehler135.c                      ok
 x86code/fehler136.c                      ok
-x86code/float2int.c                      compile: SIGABRT
+x86code/float2int.c                      ok
 x86code/float_asm.c                      ok
 x86code/float_fld.c                      asm: !check 'fld.*%st' failed
 x86code/float_rounding0.c                ok
