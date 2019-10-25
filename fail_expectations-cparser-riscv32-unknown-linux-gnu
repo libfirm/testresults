@@ -746,6 +746,7 @@ backend/prefetch.c                       ok
 backend/prefetch2.c                      ok
 backend/preinc.c                         ok
 backend/register_pressure.c              ok
+backend/riscv32_variadic_cconv.c         compile: 1 compile errors
 backend/scheduled.c                      ok
 backend/scheduled2.c                     ok
 backend/scheduled3.c                     ok
