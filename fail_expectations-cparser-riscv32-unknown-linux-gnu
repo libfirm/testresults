@@ -784,6 +784,7 @@ backend/spillslot.c                      ok
 backend/srettaken.c                      compile: SIGABRT
 backend/stack.c                          compile: SIGABRT
 backend/stackarray.c                     ok
+backend/struct_vaargs.c                  compile: 12 compile errors
 backend/subregister.c                    ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        compile: 2 compile errors
