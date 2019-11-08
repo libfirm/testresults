@@ -3,7 +3,7 @@ C++/should_fail/bad_retypedef2.cc        ok
 C++/should_fail/bad_retypedef_sys.cc     ok
 C/LongLong.c                             ok
 C/abi_null_mode_proj.c                   ok
-C/absolute_include.c                     compile: 16 compile errors
+C/absolute_include.c                     compile: 15 compile errors
 C/abstract_declarator.c                  ok
 C/addr_string_literal.c                  ok
 C/anon_entity.c                          ok
