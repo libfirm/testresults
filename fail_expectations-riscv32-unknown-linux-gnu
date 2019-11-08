@@ -691,7 +691,7 @@ backend/div_pinned.c                     ok
 backend/double_memperm.c                 compile: SIGABRT
 backend/duplicate_proj.c                 ok
 backend/duplicate_proj2.c                ok
-backend/extern_sret.c                    execute: output mismatch
+backend/extern_sret.c                    ok
 backend/f2ull.c                          compile: SIGABRT
 backend/fabsf1.c                         compile: SIGABRT
 backend/fabsf2.c                         compile: SIGABRT
@@ -784,7 +784,7 @@ backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
-backend/struct_vaargs.c                  execute: returncode not zero but 2
+backend/struct_vaargs.c                  ok
 backend/subregister.c                    ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        compile: 2 compile errors
@@ -827,7 +827,7 @@ gcc/20010123-1.c                         ok
 gcc/20020129-1.c                         ok
 gcc/20020920-1.c                         ok
 gcc/20030305-1.c                         compile: SIGABRT
-gcc/920908-1.c                           execute: returncode not zero but 1
+gcc/920908-1.c                           ok
 gcc/930111-1.c                           ok
 gcc/991227-1.c                           ok
 gcc/pr21839.c                            ok
@@ -839,7 +839,7 @@ gcc/pr37433.c                            ok
 gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            ok
 gcc/pr43784_2.c                          ok
-gcc/strct-varg-1.c                       execute: returncode not zero but 2
+gcc/strct-varg-1.c                       ok
 gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
@@ -1582,7 +1582,7 @@ opt/unreachable_block.c                  ok
 opt/use_uninit_ptr.c                     ok
 opt/vadd_store.c                         ok
 opt/valist.c                             ok
-opt/valist2.c                            execute: output mismatch
+opt/valist2.c                            ok
 opt/vandrunen.c                          ok
 opt/vararray.c                           ok
 opt/variadic_longlong.c                  ok
