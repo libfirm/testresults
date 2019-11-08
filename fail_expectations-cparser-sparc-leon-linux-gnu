@@ -784,6 +784,7 @@ backend/spillslot.c                      ok
 backend/srettaken.c                      ok
 backend/stack.c                          ok
 backend/stackarray.c                     ok
+backend/struct_vaargs.c                  ok
 backend/subregister.c                    ok
 backend/taken64.c                        ok
 backend/tls_ptr.c                        ok
