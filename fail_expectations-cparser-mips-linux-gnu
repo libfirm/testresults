@@ -735,7 +735,7 @@ backend/mux_long_double.c                compile: SIGABRT
 backend/norotate.c                       ok
 backend/optest.c                         ok
 backend/optest_float.c                   compile: SIGABRT
-backend/optest_longlong.c                compile: SIGABRT
+backend/optest_longlong.c                ok
 backend/paramaddr.c                      ok
 backend/paramaddrsf.c                    compile: SIGABRT
 backend/pbqp.c                           ok
@@ -761,7 +761,7 @@ backend/sign_bit.c                       ok
 backend/smallstruct3.c                   compile: SIGABRT
 backend/sparc_bad_delayslot.c            ok
 backend/sparc_bitopcc.c                  ok
-backend/sparc_chordal.c                  compile: SIGABRT
+backend/sparc_chordal.c                  ok
 backend/sparc_chordal2.c                 ok
 backend/sparc_cmp.c                      ok
 backend/sparc_cmp2.c                     ok
@@ -960,7 +960,7 @@ opt/array_type.c                         ok
 opt/asmargs.c                            ok
 opt/backendcallorder.c                   compile: SIGABRT
 opt/backendcallorder2.c                  compile: SIGABRT
-opt/bad.c                                compile: SIGABRT
+opt/bad.c                                ok
 opt/bf_constfold.c                       ok
 opt/bitcast_dw.c                         compile: SIGABRT
 opt/bitcast_f2i.c                        compile: SIGABRT
@@ -1108,7 +1108,7 @@ opt/fehler071.c                          ok
 opt/fehler072.c                          ok
 opt/fehler073.c                          compile: SIGABRT
 opt/fehler074.c                          compile: SIGABRT
-opt/fehler075.c                          compile: SIGABRT
+opt/fehler075.c                          ok
 opt/fehler076.c                          compile: SIGABRT
 opt/fehler077.c                          ok
 opt/fehler078.c                          ok
@@ -1421,7 +1421,7 @@ opt/jumpthreading7.c                     ok
 opt/jumpthreading8.c                     ok
 opt/jumpthreading9.c                     ok
 opt/kahansum.c                           compile: SIGABRT
-opt/labs.c                               compile: SIGABRT
+opt/labs.c                               ok
 opt/ldst.c                               ok
 opt/ll.c                                 compile: SIGABRT
 opt/ll_call.c                            ok
