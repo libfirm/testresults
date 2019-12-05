@@ -608,7 +608,7 @@ C/universal_character.c                  ok
 C/unkept_loop.c                          ok
 C/varargs.c                              compile: 2 compile errors
 C/varargs2.c                             compile: 2 compile errors
-C/varargs3.c                             compile: 6 compile errors
+C/varargs3.c                             compile: SIGABRT
 C/vla.c                                  compile: SIGABRT
 C/void_cast.c                            ok
 C/whiles.c                               ok
@@ -840,7 +840,7 @@ gcc/pr39614-4.c                          ok
 gcc/pr43784.c                            compile: SIGABRT
 gcc/pr43784_2.c                          ok
 gcc/strct-varg-1.c                       compile: 4 compile errors
-gcc/va-arg-12.c                          compile: 4 compile errors
+gcc/va-arg-12.c                          compile: SIGABRT
 langshootout/bintree.c                   ok
 langshootout/fannkuch.c                  ok
 langshootout/fasta.c                     compile: SIGABRT
@@ -889,7 +889,7 @@ llvm/PR491.c                             ok
 llvm/PR640.c                             compile: 10 compile errors
 llvm/badidx.c                            ok
 llvm/bigstack.c                          compile: SIGABRT
-llvm/callargs.c                          compile: 15 compile errors
+llvm/callargs.c                          compile: SIGABRT
 llvm/casts.c                             compile: SIGABRT
 llvm/matrixTranspose.c                   compile: SIGABRT
 llvm/pointer_arithmetic.c                ok
@@ -1484,7 +1484,7 @@ opt/proc_cloning005.c                    ok
 opt/proc_cloning006.c                    ok
 opt/proc_cloning007.c                    ok
 opt/proc_cloning008.c                    compile: SIGABRT
-opt/proc_cloning009.c                    compile: 2 compile errors
+opt/proc_cloning009.c                    compile: SIGABRT
 opt/proc_cloning010.c                    compile: SIGABRT
 opt/psi_test.c                           compile: SIGABRT
 opt/ptr_to_int.c                         ok
