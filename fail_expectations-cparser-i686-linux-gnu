@@ -1013,6 +1013,7 @@ opt/convendless.c                        compile: SIGKILL
 opt/convfloat.c                          ok
 opt/convs.c                              ok
 opt/convtest.c                           ok
+opt/crc32.c                              ok
 opt/csetest.c                            ok
 opt/d.c                                  ok
 opt/dblstruct.c                          ok
