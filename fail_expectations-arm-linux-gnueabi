@@ -1018,6 +1018,7 @@ opt/convendless.c                        compile: SIGKILL
 opt/convfloat.c                          compile: linker error
 opt/convs.c                              ok
 opt/convtest.c                           compile: SIGABRT
+opt/crc32.c                              ok
 opt/csetest.c                            ok
 opt/d.c                                  ok
 opt/dblstruct.c                          ok
